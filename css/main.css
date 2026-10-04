@@ -125,9 +125,9 @@ body {
 }
 
 .gateway-emblem-img {
-  width: clamp(72px, 12vw, 110px);
-  height: clamp(72px, 12vw, 110px);
-  border-radius: 50%;
+  width: clamp(80px, 13vw, 115px);
+  height: clamp(80px, 13vw, 115px);
+  border-radius: 22%;
   border: 3px solid #ffd875;
   outline: 2px solid rgba(229, 169, 60, 0.45);
   outline-offset: 4px;
@@ -135,8 +135,8 @@ body {
     0 0 35px rgba(229, 169, 60, 0.65),
     0 0 75px rgba(247, 220, 111, 0.35),
     inset 0 0 12px rgba(0, 0, 0, 0.45);
-  background: radial-gradient(circle, #fbe3b4 0%, #d49838 100%);
-  padding: 3px;
+  background: #1a110a;
+  padding: 2px;
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
   animation: emblem-glow-pulse 3.5s infinite ease-in-out;
   cursor: pointer;
