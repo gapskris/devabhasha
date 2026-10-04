@@ -1,0 +1,1631 @@
+=== navigation.cxt (1629 segments) ===
+
+39VMpami
+pammÄ
+pammÄ
+*YEKt
+tSAC<
+tSAC5
+tSAC5
+tSACF
+tSACå
+tSACG
+tSACA
+tSAC:
+tSACÑ
+tSAC8
+tSAC>
+tSAC5
+tSAC:
+tSAC:
+tSACF
+tSACÄ
+tSACo
+tSAC>
+tSAC6
+tSACÌ
+tSAC)
+tSACÇ
+tSACL
+tSACc
+tSACK
+tSACK
+tSACd
+tSACd
+tSAC<
+tSAC:
+tSACf
+tSACM
+tSACe
+tSACM
+tSACK
+tSACM
+tSACd
+tSACd
+tSACc
+tSACN
+tSACN
+tSACf
+tSACd
+tSAC?
+tSACf
+tSAC9
+tSAC,
+tSAC¦
+tSACâ
+FCRDT
+ÿÿÿÿ*SACÈ
+xtcLø
+ÿÿÿÿfniCR
+manL¨
+rcsL¨
+rcsL¨
+rcsLÜ
+rcsLÌ
+rcsLÄ
+rcsLÀ
+rcsLD
+rcsL´
+rcsL¨
+rcsLÒ
+rcsLÒ
+rcsLô
+rcsL`
+rcsLÜ
+rcsLD
+rcsLê
+rcsLH
+rcsL4
+rcsLà
+rcsL®
+rcsL`
+rcsL`
+rcsL`
+rcsL`
+rcsLb
+rcsLL
+DEMXd
+DEMX÷
+DEMX½
+DEMXÈ
+DEMX¾
+DEMXÉ
+DEMXí
+DEMXd
+DEMXÕ
+DEMX²
+DEMXt
+DEMXª
+DEMXª
+DEMX\
+DEMX]
+DEMX7
+*YEKt
+DEMXÆ
+DEMXÅ
+DEMXÄ
+DEMXÂ
+DEMXÁ
+DEMX¹
+DEMX»
+DEMX¼
+DEMX½
+DEMX¾
+DEMX¿
+DEMXÀ
+DEMXÃ
+DEMXÌ
+DEMXË
+DEMXÊ
+DEMXÉ
+DEMXº
+DEMXÈ
+DEMXÍ
+FCRDT
+fniCR
+D:\sanskrit\devabhasha
+*SACÈ
+tSACf
+closebtxçàÐ
+lFlash Movie...
+ÿÿÿñÿÿÿñ
+flash
+ÈFLSH
+tSACd
+audioxçàÐ
+lFlash Movie...
+ÿÿÿïÿÿÿï
+flash
+ÈFLSH
+tSACM
+SKIPBTxçàÐ
+lFlash Movie...
+flash
+ÈFLSH
+tSACe
+back01xçàÐ
+lFlash Movie...
+ÿÿÿñÿÿÿâ
+flash
+ÈFLSH
+tSACM
+back02xçàÐ
+lFlash Movie...
+flash
+ÈFLSH
+tSACK
+nextxçàÐ
+lFlash Movie...
+flash
+ÈFLSH
+tSACM
+next01xçàÐ
+lFlash Movie...
+flash
+ÈFLSH
+tSACd
+main1xçàÐ
+lFlash Movie...
+ÿÿÿïÿÿþp
+flash
+ÈFLSH
+tSACd
+main2xçàÐ
+lFlash Movie...
+ÿÿÿïÿÿþp
+flash
+ÈFLSH
+tSACd
+main3xçàÐ
+lFlash Movie...
+ÿÿÿïÿÿþp
+flash
+ÈFLSH
+tSACd
+audioxçàÐ
+lFlash Movie...
+ÿÿÿïÿÿÿï
+flash
+ÈFLSH
+tSACK
+backxçàÐ
+lFlash Movie...
+flash
+ÈFLSH
+tSACK
+nextxçàÐ
+lFlash Movie...
+flash
+ÈFLSH
+tSACc
+stopxçàÐ
+lFlash Movie...
+ÿÿÿïÿÿÿï
+flash
+ÈFLSH
+tSACL
+videoxçàÐ
+lFlash Movie...
+flash
+ÈFLSH
+tSACf
+print01xçàÐ
+lFlash Movie...
+ÿÿÿñÿÿÿÄ
+flash
+ÈFLSH
+tSACf
+print02xçàÐ
+lFlash Movie...
+ÿÿÿñÿÿÿÄ
+flash
+ÈFLSH
+tSACN
+print03xçàÐ
+lFlash Movie...
+flash
+ÈFLSH
+tSACN
+print04xçàÐ
+lFlash Movie...
+flash
+ÈFLSH
+tSACc
+helpxçàÐ
+lFlash Movie...
+ÿÿÿïÿÿÿï
+flash
+ÈFLSH
+tSAC9
+printnav
+tSAC,
+tSAC¦
+mouseover[#myMarker: [#comment: "select the mouse over marker", #format: #string, #range: ["next", "page01", "page02", "page02a", "schlegel", "max", "bahar", "page3", "page3a", "taylor", "durant", "page4", "page4a", "aurobindo", "page5", "page5a", "frawley", "page6", "page6a", "raghu", "a1"], #default: "next"], #mymarker1: [#comment: "select the mouse over marker", #format: #string, #range: ["next", "page01", "page02", "page02a", "schlegel", "max", "bahar", "page3", "page3a", "taylor", "durant", "page4", "page4a", "aurobindo", "page5", "page5a", "frawley", "page6", "page6a", "raghu", "a1"], #default: "next"]]
+tSAC:
+subscribe
+tSAC>
+scollkeyevent
+tSAC<
+gobackvideo
+tSACÌ
+play x movie x marker[#myfile: [#comment: "hey Use logic, feel magic select the movie which U wann", #format: #string, #range: ["none", "help.dir", "help1.dir", "game.dir", "game1.dir", "testsystool.dir", "tt.dir"], #default: "none"], #file: [#comment: "write the movie which U wann", #format: #string, #default: ""], #myMarker: [#comment: " tyepe the marker name", #format: #string, #default: ""]]
+tSAC)
+play desired movie[#myfile: [#comment: "hey Use logic, feel magic select the movie which U wann", #format: #string, #range: ["none"], #default: "none"], #file: [#comment: "write the movie which U wann", #format: #string, #default: ""]]
+tSACÑ
+soundchanneloop and jump[#myMarker: [#comment: "hey bud select the marker name ", #format: #string, #range: ["next", "previous", "main", "avi", "maintext", "mainpage", "01", "02", "03", "04", "05", "06", "01travel", "o2travel", "03travel", "04travel", "05travel", "06travel"], #default: "next"], #channum: [#comment: "excuse me... select the channel no", #format: #integer, #range: [1, 2], #default: 1]]
+tSACÇ
+play x movie x frame[#myfile: [#comment: "hey Use logic, feel magic select the movie which U wann", #format: #string, #range: ["none", "help.dir", "help1.dir", "game.dir", "game1.dir", "testsystool.dir", "tt.dir"], #default: "none"], #file: [#comment: "write the movie which U wann", #format: #string, #default: ""], #myframe: [#comment: " tyepe the frame no", #format: #integer, #default: 1]]
+tSACF
+Hold on Current Frame
+lanchpdf[#myfile: [#comment: "hey Use logic, feel magic select the pdf which U wann", #format: #string, #range: ["none"], #default: "none"], #file: [#comment: "write the pdf which U wann", #format: #string, #default: ""]]
+tSACå
+Play Movie X[#myTargetMovie: [#comment: "Play which movie on exitFrame?
+(Include path if necessary).", #format: #string, #default: "Type the name of your movie here"]]
+tSACG
+Rollover Cursor Change
+tSACA
+soundchannelloop
+tSAC:
+soundstop
+tSACÄ
+avigeneral[#myMarker: [#comment: "hi this is prasad where U wann go after this AVI", #format: #string, #range: ["next", "loop", "previous", "c01", "c02", "c03", "03a", "03b", "03c", "03d", "c04", "04a", "04b", "04c", "04d", "04e", "04g", "04h", "04i", "c05", "c06", "06b", "06c", "06d", "06e", "c07", "c08", "c09", "c10", "c11", "c12", "c13", "13a", "13b", "13c", "13d"], #default: "next"]]
+tSAC8
+exitdir
+tSAC>
+hold on frame
+tSAC:
+scrolltop
+tSAC<
+directsound
+tSACF
+Jump to Marker Button
+tSACo
+swfgen[#myMarker: [#comment: "hi this is prasad where U wann go after this flash movie", #format: #string, #range: ["next", "loop", "previous", "open2", "open3", "open4", "open5", "menu", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "final", "final1", "final2"], #default: "next"]]
+tSAC6
+start
+tSAC:
+Go to URL
+tSAC5
+tSAC5
+tSAC5
+tSAC?
+playbackground
+tSACâ
+Vatsyayana
+xtcLø
+!ÿÿÿÿÿÿÿÿ
+¼ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+»ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+ÿÿrcsL¨
+9ÿÿÿÿ
+DirectSound
+rcsL¨
+9ÿÿÿÿ
+9ÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿ
+rcsLÜ
+9ÿÿÿÿ
+HOLD ON CURRENT FRAME
+Drop this behavior into the Script Channel of the Score or onto the Stage in order to keep the playback head in the current frame.
+PARAMETERS: None
+Frame behavior.
+Holds the playback head still.
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+9ÿÿÿÿ
+<R L D(
+pdfs\
+.\link\start.exe
+6hey Use logic, feel magic select the pdf which U wann
+write the pdf which U wann
+ÿÿÿÿÿÿÿÿÿÿ
+rcsLÌ
+9ÿÿÿÿ
+PLAY MOVIE X
+Drop this behavior onto a Sprite, the Stage or into the Script Channel of the Score to start a sequence and move the playback head to a given movie.
+oUse the 'Play Done' behavior to end the sequence and to tell the playback head to return to the current frame.
+PARAMETERS:
+* Play which movie on mouseUp?
+pIf the target movie is in the same folder as the current movie then you need only enter the name of the movie.
+fIf the movie is in a different folder, then enter the full or relative path name to the target movie.
+ASSOCIATED BEHAVIORS:
++ Play Frame X
++ Play Done
+2Use with graphic members or as a frame behavior.
+-Jumps the playback head to the given movie.
+`Acts on mouseUp or on exitFrame, depending on whether you drag it to a sprite or to the Stage.
+4Use the Play Done behavior to return to this frame.
+Play which movie on exitFrame?
+Play which movie on mouseUp?
+(Include path if necessary).
+!Type the name of your movie here
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+9ÿÿÿÿ
+7R0L(
+R L L
+uR(L(¡
+R L L
+uR(L(¡
+ROLLOVER CURSOR CHANGE
+BChanges the cursor when the mouse rolls over the current sprite.
+ÅChoose one of the pointers included with Director, or specify two 1-bit 16x16 pixel bitmap members: one to act as the pointer image, the other to define the transparent/opaque areas of the cursor.
+TIPS:
+yPlace a single pixel at the topRight and bottomLeft of the image itself to create what is in fact a 17x17 pixel bitmap.
+lThese extra pixels will not appear in the cursor (they will be clipped) but the mask will align with them.
+HThis ensures that the opaque area surrounds the cursor image correctly.
+>Set the regPoint of the image to define the cursor's hotspot.
+PARAMETERS:
+3* EITHER - Use one of Director's built-in cursors.
+#* OR - Use your own bitmap images.
+* Custom Image
+* Custom Mask
+#To use custom images, ensure that
+1 bit bitmap
+$ is selected as the type of cursor.
+Use with graphic members.
+8Modifies the cursor when the mouse rolls over a sprite.
+6You can use built-in or custom images for the cursor.
+Built-in cursor
+Cursor Member
+1 bit bitmap
+no mask
+no mask
+Cursor Member
+1 bit bitmap
+Built-in cursor
++CHOICE OF TYPE - Use which type of cursor?
+4CHOICE OF CURSOR   -               Built-in cursor:
+Use which cursor?
+-             Cursor member:
+-   1 bit bitmap (image)
+1 bit bitmap   (mask)
+ercsLÄ
+9ÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsLÀ
+9ÿÿÿÿ
+rcsLD
+9ÿÿÿÿ
+;R(L(
+8D`Dh
+DèR K
+L DðK
+R L L
+DirectSound
+previous
+<void>
+7Two or more markers in this movie have the same name.
+This could lead to
+<confusion if you use this behavior to go to a named marker.
+Duplicate marker(s) = ^0
+Author
+$BEHAVIOR ERROR: Frame ^0, Sprite ^1
+Behavior ^0
+$The chosen marker no longer exists.
+8Choose a valid marker in the Behavior Parmeters dialog.
+Current marker = ^0
+Author
+$BEHAVIOR ERROR: Frame ^0, Sprite ^1
+Behavior ^0
+1The chosen marker does not  have a unique name.
+A The playback head will jump to the first marker with this name:
+Duplicate marker name = ^0
+$BEHAVIOR ERROR: Frame ^0, Sprite ^1
+Behavior ^0
+/[#stack [...], #index: [...], #forward: [...]]
+Current value = ^0
+previous
+1hi this is prasad where U wann go after this AVI
+rÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+9ÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿ
+rcsL´
+9ÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+9ÿÿÿÿ
+devabhasha
+ÿÿÿÿÿÿÿÿÿÿ
+rcsL¨
+9ÿÿÿÿ
+rcsLÒ
+9ÿÿÿÿ
+GO TO URL
+vDrop this behavior onto a Sprite, the Stage or into the Script Channel of the Score to load the designated HTML Page.
+yIf you drop it onto a graphic member, the 'gotoNetPage' command is sent when the user clicks on the sprite (on mouseUp).
+If you drop it onto the Stage or the Script Channel of the Score, it will be sent when the playback head leaves the frame (on exitFrame).
+kWhen called from a Shockwave movie, this behavior replaces the current page displayed in the web browser.
+eWhen called from a projector or in authoring mode, it opens a browser to display the requested page.
+PARAMETERS:
+E* Destination URL - Enter the complete URL of the destination page.
+Include http://
+2Use with graphic members or as a frame behavior.
+kWhen called from a Shockwave movie, this behavior replaces the current page displayed in the web browser.
+fWhen called from a projector or in authoring mode, it opens a browser to display the requested page.
+_Acts on mouseUp or on exitFrame, depending on whether you drag it to a sprite or to the Stage.
+Destination URL
+http://www.macromedia.com
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsLÒ
+9ÿÿÿÿ
+;R(L(
+R L L
+JUMP TO MARKER BUTTON
+ZA click on the sprite makes the playback head jump to a chosen marker in the same movie.
+_You can choose between the previous marker, the next marker, or any named marker in the movie.
+If more than one marker has the same name as the chosen marker, the playback head will jump to the first marker with that name in the movie.
+If you need to use duplicate names, try adding a different number of spaces at the end of each, so that they appear the same but are in fact different.
+>This behavior is designed for use with the Jump Back Button.
+wYou can set it to record the frame number of the current marker so that the Jump Back Button can subsequently return.
+GNote: This feature relies on a global variable: gNavigationButtonList.
+PUse the Jump to Movie Button behavior to jump to a marker in a different movie.
+PERMITTED MEMBER TYPES:
+Graphic members
+PARAMETERS:
+* Jump to marker in this movie
+* 'Go to' or 'Play and return'?
+** Remember current marker for Back button
+Select Remember Current Marker for Back Button to ensure that the behavior 'remembers' which markers have already been visited.
+qUse the associated Jump Back Button behavior on a separate sprite to return to visited markers in reverse order.
+ASSOCIATED BEHAVIORS:
+* Jump to Movie button
+* Jump Back Button
+* Jump Forward Button
+5* Push Button (to alter rollover / mouseDown states)
+Use with graphic members.
+rWhen you drop this behavior on a sprite, you can choose which marker in the current movie to jump to on mouseUp.
+@You can also choose to jump to the next or the previous marker.
+^Use this behavior with the Jump Back Button to allow the user to return to visited sequences.
+previous
+Go to
+<void>
+7Two or more markers in this movie have the same name.
+This could lead to
+<confusion if you use this behavior to go to a named marker.
+Duplicate marker(s) = ^0
+Author
+$BEHAVIOR ERROR: Frame ^0, Sprite ^1
+Behavior ^0
+$The chosen marker no longer exists.
+8Choose a valid marker in the Behavior Parmeters dialog.
+Current marker = ^0
+Author
+$BEHAVIOR ERROR: Frame ^0, Sprite ^1
+Behavior ^0
+1The chosen marker does not  have a unique name.
+A The playback head will jump to the first marker with this name:
+Duplicate marker name = ^0
+$BEHAVIOR ERROR: Frame ^0, Sprite ^1
+Behavior ^0
+/[#stack [...], #index: [...], #forward: [...]]
+Current value = ^0
+previous
+On mouseUp, jump to marker
+Jump Mode
+Go to
+Play and Return
+Go to
+)Remember current marker for Back button?
+9ÿÿÿÿ
+;R(L(
+8DXD`
+DàR K
+L DèK
+R L L
+previous
+<void>
+7Two or more markers in this movie have the same name.
+This could lead to
+<confusion if you use this behavior to go to a named marker.
+Duplicate marker(s) = ^0
+Author
+$BEHAVIOR ERROR: Frame ^0, Sprite ^1
+Behavior ^0
+$The chosen marker no longer exists.
+8Choose a valid marker in the Behavior Parmeters dialog.
+Current marker = ^0
+Author
+$BEHAVIOR ERROR: Frame ^0, Sprite ^1
+Behavior ^0
+1The chosen marker does not  have a unique name.
+A The playback head will jump to the first marker with this name:
+Duplicate marker name = ^0
+$BEHAVIOR ERROR: Frame ^0, Sprite ^1
+Behavior ^0
+/[#stack [...], #index: [...], #forward: [...]]
+Current value = ^0
+previous
+9hi this is prasad where U wann go after this flash movie
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsLô
+9ÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿ
+rcsL`
+9ÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsLÜ
+9ÿÿÿÿ
+previous
+previous
+hey bud select the marker name
+#excuse me... select the channel no
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsLD
+9ÿÿÿÿ
+<R L D
+8hey Use logic, feel magic select the movie which U wann
+write the movie which U wann
+ÿÿÿÿÿÿÿÿÿÿ
+9ÿÿÿÿ
+<R L D
+8hey Use logic, feel magic select the movie which U wann
+write the movie which U wann
+tyepe the frame no
+ÿÿÿÿÿÿÿÿÿÿ
+rcsLê
+9ÿÿÿÿ
+<R L D0
+8hey Use logic, feel magic select the movie which U wann
+write the movie which U wann
+tyepe the marker name
+ÿÿÿÿÿÿÿÿÿÿ
+rcsLH
+9ÿÿÿÿ
+)http://www.mahazine.com/subscription.htm
+ÿÿÿÿÿÿÿÿÿÿ
+rcsL4
+9ÿÿÿÿ
+¤R L _
+DirectSound
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsLà
+9ÿÿÿÿ
+chapter 3
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsL®
+9ÿÿÿÿ
+print
+rcsL`
+9ÿÿÿÿ
+`2èÿÿrcsL`
+9ÿÿÿÿ
+`2èÿÿrcsL`
+9ÿÿÿÿ
+`2èÿÿrcsL`
+9ÿÿÿÿ
+`2èÿÿrcsLb
+9ÿÿÿÿ
+b2èÿÿ2èrcsLL
+9ÿÿÿÿ
+select the mouse over marker
+select the mouse over marker
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+manL¨
+beginSprite
+soundDevice
+mouseDown
+mouseUp
+mouseEnter
+mouseLeave
+endSprite
+movname
+movieName
+markno
+marker
+soundBusy
+sound
+cursor
+getBehaviorDescription
+getBehaviorTooltip
+exitFrame
+isOKToAttach
+return
+frame
+script
+aSpriteNum
+aSpriteType
+tisok
+Initialize
+CheckTimeOut
+substituteStrings
+ErrorAlert
+getPropertyDescriptionList
+nextMarker
+sprite
+currentSpriteNum
+myStartFrame
+startFrame
+myEndFrame
+endFrame
+symbolp
+myTimeOutFrame
+previous
+invalidChannel
+missingMarker
+endlessLoop
+myStartTicks
+ticks
+myTimeUnit
+myTimeOut
+myImmediateJump
+jumpToFrame
+thisSprite
+count
+getPropAt
+getAt
+offset
+getProp
+getPropRef
+delete
+childStringList
+parentString
+dummyString
+replacement
+lengthAdjust
+tempString
+position
+string
+runMode
+alert
+abort
+theError
+terror3
+terror2
+terror1
+behaviorName
+comment
+format
+integer
+range
+default
+labelList
+theFrame
+markerFrame
+theMarker
+markerCount
+labelString
+myTargetMovie
+theComment
+SetSpriteCursor
+GetCursorMembers
+GetCursorBitmaps
+mySprite
+mySavedCursor
+spriteNum
+voidp
+myCursorType
+myBuiltInCursor
+myCursorMember
+value
+number
+myCustomCursor
+myCustomMask
+append
+cursorList
+graphic
+duplicate
+addAt
+addProp
+member
+bitmap
+cursorMembers
+cursorMasksList
+cursorMembersList
+cursorTypes
+bitmapCursors
+propertyDescriptionList
+cursorBitmapsList
+theMember
+memberNumber
+theCastLib
+maxCastLib
+maxMember
+depth
+width
+height
+status
+duration
+movieTime
+myMovietime
+myDuration
+myMember
+scrollTop
+gotoNetPage
+myURL
+resolve
+GetMarkers
+myMarker
+getPos
+markerMissing
+runtime_DuplicateMarkers
+myReturn
+gNavigationButtonList
+stack
+forward
+index
+propList
+invalidGlobal
+findPos
+markerExists
+theMarkerList
+maxinteger
+movie
+myJumpMode
+targetIsNewMarker
+currentMarker
+symbol
+getPDL_DuplicateMarkers
+terror4
+markerlist
+boolean
+tlabellist
+markersList
+currentMember
+localMarkerList
+markerString
+duplicatesList
+_soundXtra
+frameCount
+setProp
+scrollname
+startMovie
+keyDown
+keyCode
+scrollByLine
+externalParamCount
+channum
+updateStage
+prepareFrame
+myfile
+getNthFileNameInFolder
+moviePath
+fileList
+myframe
+castLib
+fileName
+preloadMode
+GoBack
+getLast
+deleteAt
+stackCount
+theMovie
+markerToGoTo
+print
+mymarker1 lcc
+²DEMX
+M1iLZ
+Ë[6zî£×6n¹¬õÝ»­
+Ýs§kIs[&zÙMÖ
+sÍÙè±
+Ð*lÉ«
+à ¸h.
+Ë[6zî£×6n¹¬õÝ»­
+Ýs§kIs[&zÙMÖ
+sÍÙè±
+Ð*lÉ«
+M1iLZ
+Ë[&zî£×:v¹¬µÝ»­
+ÝsgkIs[6zÙÍÖ
+ÒÌâ\."ÒÔÂ
+gtó¶YÝ<ë
+àc¥iL
+DEMXd
+*Ê¶d¤
+ÚÚk{p
+&Rm¦J·g
+=IðÃ`i
+É6zSá
+ÉQ¶]ÒEH
+RñEXÀi
+ÉlógÃ
+2±ïºÿÇÖ
+ìhîÀq
+2±ïºÿÇÖ
+ìhîÀq
+2±ïºÿÇÖ
+ìhîÀq
+M!kw<
+¶ýÊî­½Å
+ªPR´Ü`øñ×
+àøñÔ¯³
+¹%Ù@Ô¹
+wî°0î
+·ì0þ"Ý á|
+M!kw<
+¶ýÊî­½Å
+ªPRµÜ`x><uÂk«/
+àx><u+ìànIvP5.cG
+à¸ßàIðþ"Õ¥­û
+M!kw<
+¶ýÊî­½Å
+ªPR´Ü`øñ×
+àøñÔ¯³
+¹%Ù@Ô¹
+wî°0î
+·ì0þ"Ý á|
+T@ÈPª
+áPö#8kÝ
+AÒí£\lÍ&
+uC&Vþ)ö
+¬êøßWÆíÆVÞ©9í:ª
+Wg@ì´nM6f7
+ªW4·ªq»N
+÷ÕÎ[qª
+T@ÈPÊ
+÷aÐt»häq³4
+É¦ÌÆã0ugWÉ
+êøÝ¸ÊÛÕ'=§UCªW4ÁÞ©Æí:WßW9mÆª
+T@ÈPÊ
+áPö#8kÝ
+AÒí£ÜlÍ&
+uC&Vþ)ö
+«³¡vZ7&
+_6ú¾7n2¶õIÏiÕPê
+´é_}\å·
+ÍKS)ja¿
+';_ls
+]uUíssÛ á
+µjö¹GmrrÖª®#Ç¾
+®QºêÕÇÞ-
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+îÄÞ¼O·
+x+üecßuY
+BÇ¾#Ýªã8s¼]2~Æ
+¶@&Né
+x+üecßuX#
+`¸×àP±ï
+÷j¢8¸#
+)ÿ_ä|
+p.ºK¯þ
+öÄÞ¼O·
+nªñ.4x+ìxàâ8
+â[µLhãû
+AÄc ­_dµ)
+p.ºK¯þ
+õ.*kÈ
+DEMX÷
+sr-Ég£
+ÍÈç£ê¬Àuj``
+ÕÞêëR¦í
+Q`*T=-8y±?ªËa
+g%tlÏÊ
+lM lFl¤jUÝ£n'ä\
+è'Âºàx/EÝhÐ%ÃQ`8?B
+Ü©6&P6#d
+&õ§ñ¢¶â
+DÈQ /
+U@(Þ®Û
+bØºÛ#]²¥©Sv
+¨³e;k=
+ÕÓuu©Sv
+vÄþ«-
+Ñ³?+§
+Rûéjª
+J»´mÄü
+Ü©6&P6#d
+&õ§ñ¢¶â
+DÈQ /
+6³Ùj?Û
+bØºÛ#]²¥©Sv
+¨³e8U7;2è¾
+Jßm5¡
+.~¶«-
+Ñ³?+§
+6'ÁBõ¶êëR¦í
+ÉMvDè×±
+ª£aÒFÀ(
+mäÛ`'É½iüh­¸
+åo!;6
+) m¶S¶³Ùj?Û
+bØºÛ#]²¥©Sv
+Ñy¸8VBèÒ!Ã\ô ¸
+EèæØE¡
+Eæ )Ñ|<*°k±B´pÔX
+<@+ËNâÈ@
+DEMX½
+DEMXÈ
+ÕQ2èn
+DEMX¾
+DEMXÉ
+DEMXí
+*Ê¶d¤
+ÚÚk{p
+&Rm¦J·g
+3DÌÀi
+ÉLÍS3@i
+';_ls
+]uUíssÛ á
+µjö¹GmrrÖª®#Ç¾
+®QºêÕÇÞ-
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+*Ê¶d¤
+ÚÚk{p
+&Rm¦J·g
+3DÌÀi
+ÉLÍS3@i
+';_ls
+]uUíssÛ á
+µjö¹GmrrÖª®#Ç¾
+®QºêÕÇÞ-
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+*Ê¶d¤
+ÚÚk{p
+&Rm¦J·g
+3DÌÀi
+ÉLÍS3@i
+';_ls
+]uUíssÛ á
+µjö¹GmrrÖª®#Ç¾
+®QºêÕÇÞ-
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+DEMXd
+*Ê¶d¤
+ÚÚk{p
+&Rm¦J·g
+=IðÃ`i
+É6zSá
+ÉQ¶]ÒEH
+RñEXÀi
+ÉlógÃ
+2±ïºÿÇÖ
+ìhîÀq
+2±ïºÿÇÖ
+ìhîÀq
+2±ïºÿÇÖ
+ìhîÀq
+M!kw<
+¶ýÊî­½Å
+ªPR´Ü`øñ×
+àøñÔ¯³
+¹%Ù@Ô¹
+wî°0î
+·ì0þ"Ý á|
+M!kw<
+¶ýÊî­½Å
+ªPRµÜ`x><uÂk«/
+àx><u+ìànIvP5.cG
+à¸ßàIðþ"Õ¥­û
+M!kw<
+¶ýÊî­½Å
+ªPR´Ü`øñ×
+àøñÔ¯³
+¹%Ù@Ô¹
+wî°0î
+·ì0þ"Ý á|
+T@ÈPª
+áPö#8kÝ
+AÒí£\lÍ&
+uC&Vþ)ö
+¬êøßWÆíÆVÞ©9í:ª
+Wg@ì´nM6f7
+ªW4·ªq»N
+÷ÕÎ[qª
+T@ÈPÊ
+÷aÐt»häq³4
+É¦ÌÆã0ugWÉ
+êøÝ¸ÊÛÕ'=§UCªW4ÁÞ©Æí:WßW9mÆª
+T@ÈPÊ
+áPö#8kÝ
+AÒí£ÜlÍ&
+uC&Vþ)ö
+«³¡vZ7&
+_6ú¾7n2¶õIÏiÕPê
+´é_}\å·
+ÍKS)ja¿
+';_ls
+]uUíssÛ á
+µjö¹GmrrÖª®#Ç¾
+®QºêÕÇÞ-
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+îÄÞ¼O·
+x+üecßuY
+BÇ¾#Ýªã8s¼]2~Æ
+¶@&Né
+x+üecßuX#
+`¸×àP±ï
+÷j¢8¸#
+)ÿ_ä|
+p.ºK¯þ
+öÄÞ¼O·
+nªñ.4x+ìxàâ8
+â[µLhãû
+AÄc ­_dµ)
+p.ºK¯þ
+õ.*kÈ
+DEMXÕ
+*Ê¶d¤
+ÚÚk{p
+&Rm¦J·g
+3DÌÀi
+ÉLÍS3@i
+DEMX²
+*Ê¶d¤
+ÚÚk{p
+&Rm¦J·g
+3DÌÀi
+ÉLÍS3@i
+*Ê¶d¤
+ÚÚk{p
+&Rm¦J·g
+2±ïºÿÇÖ
+ìhîÀq
+3DÌÀi
+ÉLÍS3@i
+2±ïºÿÇÖ
+ìhîÀq
+2±ïºÿÇÖ
+ìhîÀq
+DEMXt
+*Ê¶d¤
+ÚÚk{p
+&Rm¦J·g
+M!kw<
+¶ýÊî­½Å
+ªPR´Ü`øñ×
+àøñÔ¯³
+¹%Ù@Ô¹
+wî°0î
+·ì0þ"Ý á|
+3DÌÀi
+ÉLÍS3@i
+M!kw<
+¶ýÊî­½Å
+ªPRµÜ`x><uÂk«/
+àx><u+ìànIvP5.cG
+à¸ßàIðþ"Õ¥­û
+M!kw<
+¶ýÊî­½Å
+ªPR´Ü`øñ×
+àøñÔ¯³
+¹%Ù@Ô¹
+wî°0î
+·ì0þ"Ý á|
+DEMXª
+){Ncãà
+)Ï°¦>ÂY
+øër¯5
+)\¿'¹Ì:R½×
+b<°@N9$'ÎÔ×Hà
+;us5ÕÜè
+^ÚÚk[i
+îB±ý©Sf
+PÙ_Ô©
+=nA5ð½À
+MaQd<
+).ãÁnèÅÀ
+¦ÿÉOåÜZM
+ø^àFuóD
+-W×ÿf
+ki­­@&
+s)ü)xJË#ð
+Z#,ãpÀM:
+uu5ÕÐ
+'Q®e?
+!>v¦ºG
+[®YÆá
+Öê¬È×@
+NÝ\Íuw:
+|[Mñj
+B.ðB«
+:o &ô
+b(ëò¦o
+Ò]rtß@Mè
+óu7ÅÐ
+è)ùK$
+x!U¿ð©×á
+4|%Íð
+VÿÂ§_
+2tß@Mè
+óu7ÅÐ
+uùS7Â8
+i.¹:o &ô
+þt"çXzò
+Úý+Óª³z
+|]Mñt
+:Z~RÊ
+VÿÂ§_
+ºU´ÉVÍ
+E²\Ö©S
+[[Mmj
+'Q®e?
+§@.®¦ºº
+æSøRð
+çjk¤p
+§@.®¦ºº
+¨×233øÊ»Sp
+Ò6¸Êå¦VP
+§@.®¦ºº
+8Ùd¬²?
+2,ÈÈà
+®®ç@%
+vêæk«¹Ð
+µÆW,ãpÀM:
+uu5ÕÐ
+-ÖZUTÊk[i
+¡).d¤¦
+Ä/-ðØ{
+5kÒøyP
+òºÓ=:m³XEÚÀ¦áGv$yo
+i@6Èb\f
+à­wYÛ
+8.½Ô`
+É@6Èb\f`
+Ø»ÞôcîT7Êç;
+~[áÀâJü
+N»ËÓ¶
+ál¶!xdíÈvÍ
+"aÙ^Ü
+BankGothic Md BT
+INPRTÿ
+I[PÁ8Uè~
+){Ncãà
+)Ï°¦>ÂY
+²TÖÉ@
+½µ´Ö¶Ó
+qÉ!>v¦ºG
+[®TÛÐ`
+«Ù®ï@(¦
+çÃ¥o×vT¶-wÞO|5Îô9ëa,
+Ãï¢ÎÅ
+À£.×O
+m¨ßÒE;V
+DEMXª
+){Ncãà
+)Ï°¦>ÂY
+øër¯5
+)\¿'¹Ì:R½×
+b<°@N9$'ÎÔ×Hà
+;us5ÕÜè
+^ÚÚk[i
+îB±ý©Sf
+PÙ_Ô©
+=nA5ð½À
+MaQd<
+).ãÁnèÅÀ
+¦ÿÉOåÜZM
+ø^àFuóD
+-W×ÿf
+ki­­@&
+s)ü)xJË#ð
+Z#,ãpÀM:
+uu5ÕÐ
+'Q®e?
+!>v¦ºG
+[®YÆá
+Öê¬È×@
+NÝ\Íuw:
+|[Mñj
+B.ðB«
+:o &ô
+b(ëò¦o
+Ò]rtß@Mè
+óu7ÅÐ
+è)ùK$
+x!U¿ð©×á
+4|%Íð
+VÿÂ§_
+2tß@Mè
+óu7ÅÐ
+uùS7Â8
+i.¹:o &ô
+þt"çXzò
+Úý+Óª³z
+|]Mñt
+:Z~RÊ
+VÿÂ§_
+ºU´ÉVÍ
+E²\Ö©S
+[[Mmj
+'Q®e?
+§@.®¦ºº
+æSøRð
+çjk¤p
+§@.®¦ºº
+¨×233øÊ»Sp
+Ò6¸Êå¦VP
+§@.®¦ºº
+8Ùd¬²?
+2,ÈÈà
+®®ç@%
+vêæk«¹Ð
+µÆW,ãpÀM:
+uu5ÕÐ
+-ÖZUTÊk[i
+¡).d¤¦
+Ä/-ðØ{
+5kÒøyP
+òºÓ=:m³XEÚÀ¦áGv$yo
+i@6Èb\f
+à­wYÛ
+8.½Ô`
+É@6Èb\f`
+Ø»ÞôcîT7Êç;
+~[áÀâJü
+N»ËÓ¶
+ál¶!xdíÈvÍ
+"aÙ^Ü
+BankGothic Md BT
+INPRTÿ
+I[PÁ8Uè~
+){Ncãà
+)Ï°¦>ÂY
+²TÖÉ@
+½µ´Ö¶Ó
+qÉ!>v¦ºG
+[®TÛÐ`
+«Ù®ï@(¦
+çÃ¥o×vT¶-wÞO|5Îô9ëa,
+Ãï¢ÎÅ
+À£.×O
+m¨ßÒE;V
+DEMX\
+b.X '
+çjk¤p
+#Ñxt¤ì¶å^k
+R¹~Os
+)Ï°¦>ÂY
+-×*mè0L
+íÕÌ×Ws
+|ÑnA5ð¼
+R¦>·!XþÔ¨
+MaQd<
+ö|¼»ç
+é¿òSùw
+Êþ¥L}nB±ý©P
+333ÿ333ÿ
+-W×ÿf
+ki­­@&
+s)ü)xJË#ð
+Z#,ãpÀM:
+uu5ÕÐ
+è)ÆË%e
+Öê¬È×@
+NÝ\Íuw:
+|[Mñj
+B.ðB«
+:o &ô
+ªßøTëðÇXj³
+;ñs7Åß°
+333ÿ333ÿ
+i¾-@&
+ÀXæÿc
+IuÉÓ}
+¥§å,Ò
+ªßøTëðÇXj³
+;ñs7Åß°
+ºU´ÉVÍ
+E²\Ö©S
+[[Mmj
+'Q®e?
+§@.®¦ºº
+æSøRð
+çjk¤p
+§@.®¦ºº
+8Ùd¬²?
+2,ÈÈà
+®®ç@%
+*ªfk[i
+¡).d¤¦
+[<©· Á25Ð
+·W3]]Î
+Ä/-ðØ{
+5kÒøyP
+òºÓ=:m³XEÚÀ¦áGv$yo
+i@6Èb\f
+à­wYÛ
+8.½Ô`
+É@6Èb\f`
+Ø»ÞôcîT7Êç;
+~[áÀâJü
+N»ËÓ¶
+ál¶!xdíÈvÍ
+"aÙ^Ü
+BankGothic Md BT
+INPRTÿ
+I[PÁ8Uè~
+BR\ÉIM
+KÛ[Mkm0
+B|íMt
+24ÈÈÌ`
+·\©· Á25Ð
+·W3]]Î
+Ò%ù=Îi
+,)°°@*&
+ã­Ê¼Ö#`&ûØ
+z-È&¾
+}nB±ý©Sf
+PÙ_Ô¨
+«Ù®ï@(¦
++~¿eKb×}ä÷Ã\ïC
+ÇJ^ÓL||
+teÚºxcmFþ
+á÷Ñgb
+HcjÆø
+DEMX]
+óµ5Ò8
+hÈÓ##1
+NÝ\Íuw:
+BR\ÉIM
+KÛ[Mkm0
+çjk¤p
+y¬FÀM÷±
+YJåù=Îi
+,)°°@*&
+À¦¶IÙ¡àT6Wõ*cër
+¦êXàFuóE¹
+MaQd<
+ö|¼»ç
+é¿òSùw
+Êþ¥L}nB±ý©P
+333ÿ333ÿ
+-W×ÿf
+ki­­@&
+s)ü)xJË#ð
+Z#,ãpÀM:
+uu5ÕÐ
+è)ÆË%e
+Öê¬È×@
+NÝ\Íuw:
+|[Mñj
+B.ðB«
+:o &ô
+ªßøTëðÇXj³
+;ñs7Åß°
+333ÿ333ÿ
+i¾-@&
+ÀXæÿc
+IuÉÓ}
+¥§å,Ò
+ªßøTëðÇXj³
+;ñs7Åß°
+ºU´ÉVÍ
+E²\Ö©S
+[[Mmj
+'Q®e?
+§@.®¦ºº
+æSøRð
+çjk¤p
+§@.®¦ºº
+8Ùd¬²?
+2,ÈÈà
+®®ç@%
+*ªfk[i
+¡).d¤¦
+[<©· Á25Ð
+·W3]]Î
+Ä/-ðØ{
+5kÒøyP
+òºÓ=:m³XEÚÀ¦áGv$yo
+i@6Èb\f
+à­wYÛ
+8.½Ô`
+É@6Èb\f`
+Ø»ÞôcîT7Êç;
+~[áÀâJü
+N»ËÓ¶
+ál¶!xdíÈvÍ
+"aÙ^Ü
+BankGothic Md BT
+INPRTÿ
+I[PÁ8Uè~
+¿'¹Í1ñð
+¬t¥{¥ÁnèÅÀ
+è¼z@1
+B|íMt
+24ÈÈÌ`
+·\©· Á25Ð
+·W3]]Î
+²TÖÉ@
+½µ´Ö¶Ó
+R¦>·!XþÔ¨
+«Ù®ï@(¦
+çÃ¥o×vT¶-wÞO|5Îô9ëa,
+Ãï¢ÎÅ
+À£.×O
+m¨ßÒE;V
+*Ê¶d¤
+ÚÚk{p
+&Rm¦J·g
+3DÌÀi
+ÉLÍS3@i
+2±ïºÿÇÖ
+ìhîÀq
+2±ïºÿÇÖ
+ìhîÀq
+2±ïºÿÇÖ
+ìhîÀq
+M!kw<
+¶ýÊî­½Å
+ªPR´Ü`øñ×
+àøñÔ¯³
+¹%Ù@Ô¹
+wî°0î
+·ì0þ"Ý á|
+M!kw<
+¶ýÊî­½Å
+ªPRµÜ`x><uÂk«/
+àx><u+ìànIvP5.cG
+à¸ßàIðþ"Õ¥­û
+M!kw<
+¶ýÊî­½Å
+ªPR´Ü`øñ×
+àøñÔ¯³
+¹%Ù@Ô¹
+wî°0î
+·ì0þ"Ý á|
+T@ÈPª
+áPö#8kÝ
+AÒí£\lÍ&
+uC&Vþ)ö
+¬êøßWÆíÆVÞ©9í:ª
+Wg@ì´nM6f7
+ªW4·ªq»N
+÷ÕÎ[qª
+T@ÈPÊ
+áPö#8kÝ
+AÒí£ÜlÍ&
+uC&Vþ)ö
+«³¡vZ7&
+_6ú¾7n2¶õIÏiÕPê
+´é_}\å·
+T@ÈPÊ
+áPö#8kÝ
+AÒí£ÜlÍ&
+uC&Vþ)ö
+«³¡vZ7&
+_6ú¾7n2¶õIÏiÕPê
+´é_}\å·
+ÍKS)ja¿
+ÔtÞ ¿
+';_ls
+]uUíssÛ á
+µjö¹GmrrÖª®#Ç¾
+®QºêÕÇÞ-
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+ànöÇGb¼zëª¯k
+µ«WµÊ;k
+=ð¾;öÈÈmr
+×V®>ñnØç
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+L©¯kS
+- 7|¾Ë¾^
+õºW­½}Ôæ£í
+}G{¶-nUësW
+Np©jZ
+`ÁóåyÊ¹
+}ÀÂ@%b¹LkV
+äÝ}Òf[X;ZÇÜÖBæ°
++¬k«Á"
+MqIjZ
+é}yYdE
+¶@&Né
+Á«V\Üõ@iQõ¬g`x¨
+[DôÜ®z£MÆÉAü
+¯ºLËk
+­d×P0
+]s¯9ßÉ
+àG0`ùò¼å\
+Á{É¾àa
+±\¦5«
+òn¾é3-¬
+­cîk!sXKÀ¤
+]@Â0Eu
+DEMX7
+40001
+-7EFC6FE0
+480048
+16B,Vatsyayana
+The author of the great Kamasutra. His date is uncertain, but he appears to have been earlier than Kalidasa and is generally assigned to different periods from third century A.D. to the sixth. According to some, he flourished about the fourth century A.D. Supposed by some to have belonged to Pataliputra; according to others, he belonged to Avanti.
+C0000
+E0000
+E0000
+B0000
+B0000
+C0000
+C0000
+E0000
+Arial
+40008

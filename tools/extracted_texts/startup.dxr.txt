@@ -1,0 +1,772 @@
+=== startup.dxr (770 segments) ===
+
+XFIRîÃ
+39VMpami
+XFIRîÃ
+*YEK(
+tSACF
+tSAC×
+tSAC7
+tSAC6
+tSAC=
+tSACG
+tSAC5
+tSAC8
+tSAC(
+tSAC(
+tSAC×
+tSACÝ
+tSACÜ
+tSAC(
+tSAC6
+tSACÝ
+tSAC×
+tSAC7
+tSAC6
+tSAC5
+tSAC×
+tSAC×
+tSAC>
+tSAC6
+tSAC9
+*SACd
+xtcL8
+ÿÿÿÿfniC<
+rcsL´
+rcsL´
+rcsLÜ
+rcsL°
+rcsLÄ
+rcsL|
+rcsLÔ
+rcsL¦
+rcsLô
+rcsL¨
+rcsL¬
+rcsL¨
+rcsL`
+DEMXl
+DEMX¨
+DEMXÒ
+FCRDT
+pmXF¼
+droSx
+ÿÿÿÿlRTX¯
+LOCF8
+LBUPk
+FRCS*
+*YEK(
+DEMX8
+DEMX9
+DEMX:
+DEMX;
+DEMX<
+DEMX=
+DEMX>
+DEMX?
+FCRDL
+LOCF@
+pmXFN
+DIRGA
+LsCMM
+LBUPO
+FRCSB
+droSK
+SREVC
+IFWVF
+BLWVD
+CSWVH
+lRTXP
+FRCSQ
+FRCS"
+*SAC&
+fniC#
+xtcL#
+xtcL#
+xtcL#
+xtcL#
+xtcL#
+xtcL%
+FCRDT
+droSx
+pmXF¼
+; Copyright 1994-2000, Macromedia, Inc.  All Rights Reserved.
+;=================================================================
+; Default Font Mapping Table for Director 8 Macintosh and Windows.
+; This file provides a font mapping table for Director 8 for Windows
+; and Macintosh.
+; If a copy of this file is in the same folder or directory as the
+; Director application, Director will automatically include this font
+; mapping table in every new movie you create.
+; To add this font mapping table to an existing movie, choose
+; Movie:Properties... from the Modify menu.  Then click Load from File.
+; Use the dialog box that appears to locate this file.
+; Note: In this file, a semicolon at the beginning of a line indicates
+; a comment.
+;=================================================================
+; FONT MAPPINGS
+; Font mappings specify which font and size substitutions to make when
+; moving a movie from one platform to another.
+; The format for font mapping definitions is:
+; Platform:FontName => Platform:FontName [MAP NONE] [oldSize => newSize]
+;    Specifying MAP NONE turns off character mapping for this font.
+;    If you specify size mappings, they apply for THAT FONT ONLY.
+; Here are some typical mappings for the standard Macintosh fonts:
+Mac:Chicago       => Win:System
+Mac:Courier       => Win:"Courier New"
+Mac:Geneva        => Win:"MS Sans Serif"
+Mac:Helvetica     => Win:Arial
+Mac:Monaco        => Win:Terminal
+Mac:"New York"    => Win:"MS Serif"
+Mac:Symbol        => Win:Symbol  Map None
+Mac:Times         => Win:"Times New Roman" 14=>12 18=>14 24=>18 30=>24
+Mac:Palatino      => Win:"Times New Roman"
+; Here are some typical mappings for the standard Windows fonts:
+Win:Arial             => Mac:Helvetica
+Win:"Courier"         => Mac:Courier
+Win:"Courier New"     => Mac:Courier
+Win:"MS Serif"        => Mac:"New York"
+Win:"MS Sans Serif"   => Mac:Geneva
+Win:Symbol            => Mac:Symbol  Map None
+Win:System            => Mac:Chicago
+Win:Terminal          => Mac:Monaco
+Win:"Times New Roman" => Mac:"Times" 12=>14 14=>18 18=>24 24=>30
+; Note: When mapping from Windows to Macintosh, Courier and Courier New
+; map onto Courier.  When coming back to Windows only Courier New
+; will be used.
+; Japanese Font Mappings
+; The Macintosh Japanese Osaka font is mapped to a Windows font, and
+; all Windows fonts are mapped to Macintosh's Osaka.  Map None is used
+; because only Roman fonts need upper-ASCII characters mapped.  To prevent
+; mapping of any additional Japanese fonts, add them to this list.
+; Note: If you do not have a Japanese system, the font names below
+; will appear to be unreadable.
+Mac:Osaka=>Win:"
+N" Map None
+Win:"
+N"=>Mac:Osaka Map None
+Win:"
+©"=>Mac:Osaka Map None
+Win:"
+N"=>Mac:Osaka Map None
+Win:"
+©"=>Mac:Osaka Map None
+Win:"
+©"=>Mac:Osaka Map None
+;=================================================================
+; CHARACTER MAPPINGS
+; Character mapping ensures that characters such as bullets,
+; quote marks, and accented characters always appear correctly
+; when text is moved from one platform to another.  When a
+; character is mapped, a different ASCII value is substituted
+; in order to preserve the appearance of the character.
+; Character mappings are used for all fonts EXCEPT those declared
+; above as Map None.
+; The format for character mappings is:
+; Platform: => Platform:  oldChar => oldChar ...
+; The following table provides a full set of bi-directional
+; mappings for all ASCII values between 128 and 255.
+; Note: Some characters are not available in both character sets.
+; However, the bi-directional mapping table below preserves these
+; characters even if they are mapped to a different platform and
+; later re-mapped back to the original platform.
+Mac: => Win: 128=>196 129=>197 130=>199 131=>201 132=>209 133=>214 134=>220
+Mac: => Win: 135=>225 136=>224 137=>226 138=>228 139=>227 140=>229 141=>231
+Mac: => Win: 142=>233 143=>232 144=>234 145=>235 146=>237 147=>236 148=>238
+Mac: => Win: 149=>239 150=>241 151=>243 152=>242 153=>244 154=>246 155=>245
+Mac: => Win: 156=>250 157=>249 158=>251 159=>252 160=>134 161=>176 162=>162
+Mac: => Win: 163=>163 164=>167 165=>149 166=>182 167=>223 168=>174 169=>169
+Mac: => Win: 170=>153 171=>180 172=>168 173=>141 174=>198 175=>216 176=>144
+Mac: => Win: 177=>177 178=>143 179=>142 180=>165 181=>181 182=>240 183=>221
+Mac: => Win: 184=>222 185=>254 186=>138 187=>170 188=>186 189=>253 190=>230
+Mac: => Win: 191=>248 192=>191 193=>161 194=>172 195=>175 196=>131 197=>188
+Mac: => Win: 198=>208 199=>171 200=>187 201=>133 202=>160 203=>192 204=>195
+Mac: => Win: 205=>213 206=>140 207=>156 208=>173 209=>151 210=>147 211=>148
+Mac: => Win: 212=>145 213=>146 214=>247 215=>215 216=>255 217=>159 218=>158
+Mac: => Win: 219=>164 220=>139 221=>155 222=>128 223=>129 224=>135 225=>183
+Mac: => Win: 226=>130 227=>132 228=>137 229=>194 230=>202 231=>193 232=>203
+Mac: => Win: 233=>200 234=>205 235=>206 236=>207 237=>204 238=>211 239=>212
+Mac: => Win: 240=>157 241=>210 242=>218 243=>219 244=>217 245=>166 246=>136
+Mac: => Win: 247=>152 248=>150 249=>154 250=>178 251=>190 252=>184 253=>189
+Mac: => Win: 254=>179 255=>185
+Win: => Mac: 128=>222 129=>223 130=>226 131=>196 132=>227 133=>201 134=>160
+Win: => Mac: 135=>224 136=>246 137=>228 138=>186 139=>220 140=>206 141=>173
+Win: => Mac: 142=>179 143=>178 144=>176 145=>212 146=>213 147=>210 148=>211
+Win: => Mac: 149=>165 150=>248 151=>209 152=>247 153=>170 154=>249 155=>221
+Win: => Mac: 156=>207 157=>240 158=>218 159=>217 160=>202 161=>193 162=>162
+Win: => Mac: 163=>163 164=>219 165=>180 166=>245 167=>164 168=>172 169=>169
+Win: => Mac: 170=>187 171=>199 172=>194 173=>208 174=>168 175=>195 176=>161
+Win: => Mac: 177=>177 178=>250 179=>254 180=>171 181=>181 182=>166 183=>225
+Win: => Mac: 184=>252 185=>255 186=>188 187=>200 188=>197 189=>253 190=>251
+Win: => Mac: 191=>192 192=>203 193=>231 194=>229 195=>204 196=>128 197=>129
+Win: => Mac: 198=>174 199=>130 200=>233 201=>131 202=>230 203=>232 204=>237
+Win: => Mac: 205=>234 206=>235 207=>236 208=>198 209=>132 210=>241 211=>238
+Win: => Mac: 212=>239 213=>205 214=>133 215=>215 216=>175 217=>244 218=>242
+Win: => Mac: 219=>243 220=>134 221=>183 222=>184 223=>167 224=>136 225=>135
+Win: => Mac: 226=>137 227=>139 228=>138 229=>140 230=>190 231=>141 232=>143
+Win: => Mac: 233=>142 234=>144 235=>145 236=>147 237=>146 238=>148 239=>149
+Win: => Mac: 240=>182 241=>150 242=>152 243=>151 244=>153 245=>155 246=>154
+Win: => Mac: 247=>214 248=>191 249=>157 250=>156 251=>158 252=>159 253=>189
+Win: => Mac: 254=>185 255=>216
+lRTX¯
+INETURL.X32
+INetUrl PPC Xtra
+NETFILE.X32
+NetFile PPC Xtra
+Netlingo.x32
+NetLingo PPC Xtra
+swadcmpr.x32
+SWA Decompression PPC Xtra
+MacroMix.x32
+DirectSound.x32
+Sound Control.x32
+Sound Control
+Text Asset.x32
+Flash Asset.x32
+TextXtra.x32
+Internal
+startup
+"D:\sanskrit\devabhasha\startup.cst
+²LOCF8
+"""333DDDUUUfffwww
+ªªª»»»ÌÌÌÝÝÝîîîÿÿÿLBUPk
+æFRCS
+FRCS*
+EfniC<
+*SACd
+!tSACF
+Hold on Current Frame
+tSAC×
+tSAC7
+tSAC6
+indeo
+tSAC=
+Play Movie X
+tSACG
+Rollover Cursor Change
+tSAC5
+tSAC8
+forhome
+tSAC(
+tSAC(
+tSAC×
+tSACÝ
+enter
+tSACÜ
+tSAC(
+tSAC6
+ENTER
+tSACÝ
+intel
+tSAC×
+tSAC7
+tSAC×
+tSAC×
+tSAC6
+godis
+tSAC5
+tSAC>
+scollkeyevent
+tSAC6
+start
+tSAC9
+ashmain1
+xtcL8
+ÿÿÿÿÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+æJXÿÿÿÿ
+æÃhÿÿÿÿ
+rcsL´
+/ÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsL´
+/ÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsLÜ
+/ÿÿÿÿ
+HOLD ON CURRENT FRAME
+Drop this behavior into the Script Channel of the Score or onto the Stage in order to keep the playback head in the current frame.
+PARAMETERS: None
+Frame behavior.
+Holds the playback head still.
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsL°
+/ÿÿÿÿ
+\iv5setup.exe
+rcsLÄ
+/ÿÿÿÿ
+PLAY MOVIE X
+Drop this behavior onto a Sprite, the Stage or into the Script Channel of the Score to start a sequence and move the playback head to a given movie.
+oUse the 'Play Done' behavior to end the sequence and to tell the playback head to return to the current frame.
+PARAMETERS:
+* Play which movie on mouseUp?
+pIf the target movie is in the same folder as the current movie then you need only enter the name of the movie.
+fIf the movie is in a different folder, then enter the full or relative path name to the target movie.
+ASSOCIATED BEHAVIORS:
++ Play Frame X
++ Play Done
+2Use with graphic members or as a frame behavior.
+-Jumps the playback head to the given movie.
+`Acts on mouseUp or on exitFrame, depending on whether you drag it to a sprite or to the Stage.
+4Use the Play Done behavior to return to this frame.
+Play which movie on exitFrame?
+Play which movie on mouseUp?
+(Include path if necessary).
+!Type the name of your movie here
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+/ÿÿÿÿ
+;R0L(
+R L L
+?R(L(a
+R L L
+?R(L(a
+ROLLOVER CURSOR CHANGE
+BChanges the cursor when the mouse rolls over the current sprite.
+ÅChoose one of the pointers included with Director, or specify two 1-bit 16x16 pixel bitmap members: one to act as the pointer image, the other to define the transparent/opaque areas of the cursor.
+TIPS:
+yPlace a single pixel at the topRight and bottomLeft of the image itself to create what is in fact a 17x17 pixel bitmap.
+lThese extra pixels will not appear in the cursor (they will be clipped) but the mask will align with them.
+HThis ensures that the opaque area surrounds the cursor image correctly.
+>Set the regPoint of the image to define the cursor's hotspot.
+PARAMETERS:
+3* EITHER - Use one of Director's built-in cursors.
+#* OR - Use your own bitmap images.
+* Custom Image
+* Custom Mask
+#To use custom images, ensure that
+1 bit bitmap
+$ is selected as the type of cursor.
+Use with graphic members.
+8Modifies the cursor when the mouse rolls over a sprite.
+6You can use built-in or custom images for the cursor.
+Built-in cursor
+Cursor Member
+1 bit bitmap
+no mask
+no mask
+Cursor Member
+1 bit bitmap
+Built-in cursor
++CHOICE OF TYPE - Use which type of cursor?
+4CHOICE OF CURSOR   -               Built-in cursor:
+Use which cursor?
+-             Cursor member:
+-   1 bit bitmap (image)
+1 bit bitmap   (mask)
+/ÿÿÿÿ
+rcsL|
+/ÿÿÿÿ
+direct sound
+mahazine\mahazine
+ÿÿÿÿÿÿÿÿÿÿ
+rcsLÔ
+/ÿÿÿÿ
+kxtras\PMLite.x32
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+rcsL¦
+/ÿÿÿÿ
+rcsLô
+/ÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿ
+rcsL¨
+/ÿÿÿÿ
+START
+rcsL¬
+/ÿÿÿÿ
+ashmain
+rcsL¨
+/ÿÿÿÿ
+START
+rcsL`
+/ÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+stage
+title
+return
+namePPC
+nameW32
+default
+netlib
+package
+getBehaviorDescription
+getBehaviorTooltip
+exitFrame
+isOKToAttach
+frame
+script
+aSpriteNum
+aSpriteType
+tisok
+mouseDown
+moviePath
+mouseUp
+getPropertyDescriptionList
+myTargetMovie
+currentSpriteNum
+comment
+format
+string
+theComment
+beginSprite
+endSprite
+SetSpriteCursor
+GetCursorMembers
+GetCursorBitmaps
+mySprite
+mySavedCursor
+cursor
+sprite
+spriteNum
+voidp
+myCursorType
+myBuiltInCursor
+myCursorMember
+value
+number
+myCustomCursor
+myCustomMask
+append
+cursorList
+graphic
+duplicate
+addAt
+count
+range
+getAt
+addProp
+member
+bitmap
+cursorMembersList
+cursorTypes
+bitmapCursors
+cursorMasksList
+cursorBitmapsList
+cursorMembers
+propertyDescriptionList
+memberNumber
+theCastLib
+maxCastLib
+theMember
+maxMember
+depth
+width
+height
+mouseEnter
+mouseLeave
+soundBusy
+sound
+openXLib
+ShockwaveSave
+swCategory
+swTitle
+swSendUrl
+swPicon
+swPackage
+swPackageSize
+integer
+swContextMenu
+boolean
+itemDescriptionList
+label
+alignment
+right
+point
+property
+symbol
+helpTopic
+picture
+movieProps
+movie
+sourceRect
+editable
+drawRect
+bgColor
+color
+windowType
+lastChannel
+editShortcutsEnabled
+movieCopyrightInfo
+movieAboutInfo
+createName
+modifyName
+enableInkmodeLimitations
+defaultPalette
+bottom
+palette
+stageSizePic
+field
+labelX
+stageLocationPic
+stageLeft
+stageTop
+stageFillPic
+stageColor
+lastChannelPicture
+lastChannelLabel
+radioButton
+index
+remapPalettes
+checkBox
+aboutLabel
+scroll
+copyrightLabel
+createNameLabel
+modifyNameLabel
+fontMap
+SaveFontMap
+button
+LoadFontMap
+soundDevice
+spriteTab
+startFrame
+endFrame
+foreColor
+backColor
+blend
+rotation
+float
+flipH
+flipV
+memberTab
+castLibNum
+fileName
+scriptText
+getProp
+creationDate
+modifiedDate
+modifiedBy
+comments
+purgePriority
+modified
+linked
+loaded
+media
+thumbnail
+memorysize
+mediaReady
+graphicProps
+hilite
+regPoint
+browse
+sizeLabel
+createdLabel
+created
+modifiedLabel
+modifiedByLabel
+commentsLabel
+about
+editScript
+purgeLabel
+options
+textTab
+autoTab
+UseHypertextStyles
+wordWrap
+boxType
+adjust
+fixed
+limit
+scrollTop
+directToStage
+preRender
+copyInk
+otherInk
+saveBitmap
+Kerning
+KerningThreshold
+antialias
+antiAliasThreshold
+centerRegPoint
+selection
+selectedText
+missingFonts
+pageHeight
+fontStyle
+fontSize
+CharSpacing
+Hyperlink
+HyperlinkRange
+HyperlinkState
+center
+FixedLinespace
+LeftIndent
+RightIndent
+FirstIndent
+TopSpacing
+BottomSpacing
+TabCount
+Alpha
+Hyperlinks
+framingLabel
+renderLabel
+antiAliasLabel
+pixels
+kerningLabel
+castTab
+preloadMode
+storageLabel
+preloadLabel
+_soundXtra
+updateStage
+prepareFrame
+scrollname
+startMovie
+keyDown
+keyCode
+scrollByLine
+neelu kohli - virtual media
+rehana khan - vmi
+D:\sanskrit\devabhasha\
+[#myBuiltInCursor: 280]
+[#myBuiltInCursor: 280]
+[#myBuiltInCursor: 280]
+[#myBuiltInCursor: 280]
+[#myBuiltInCursor: 280]
+STARTDISLTWV
+DEMXÒ
+40001
+-7FFC6FE0
+480048
+A,DISCLAIMER
+C0000
+120000
+120000
+120000
+120000
+Arial
+40008
+40001
+-7FFC6FE0
+480048
+76,The videos in this CD need video decompressor software. Click on the Install button to install the video decompressor.
+C0000
+180000
+180000
+180000
+120000
+Arial
+40008
+40001
+-7EFC6FE0
+480048
+Sri Aurobindo Society
+TERMS & CONDITIONS
+AGREEMENT for use of CD-ROMs
+The Wonder that is Sanskrit
+set of CD-ROMs produced and published by Sri Aurobindo Society (SAS) containing video, audio, text, pictures and software is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein. Your use of these CD-ROMs constitutes your agreement to all such terms, conditions, and notices.
+LIABILITY DISCLAIMER
+In no event shall SAS, the publishers of these CD-ROMs and/or its suppliers be liable for any direct, indirect, punitive, incidental, special, consequential damages or any damages whatsoever including, without limitation, damages for loss of use, data or profits, business interruption, or lost information arising out of or in any way arising out of the use of, or inability to use these CD-ROMs, even if SAS has been advised of the possibility of such damages, with the inability to use these CD-ROMs, or otherwise arising out of the use of these CD-ROMs, whether based on contract, tort, strict liability or otherwise, even if SAS or any of its suppliers has been advised of the possibility of damages. Because some states/jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you. If you are dissatisfied with any portion of these CD-ROMs, or with any of these terms of use, your sole and exclusive remedy is to discontinue using these CD-ROMs.
+System Requirements. To run these CD-ROMs, your computer must meet the following minimum requirements:
+Windows ® 95 or Windows ® 98
+Intel Celeron 400 or equivalent processor
+32MB RAM (64MB recommended)
+48X CD-ROM drive or above (recommended)
+Sound card and speakers
+High-color (16-bit) VGA or better monitor setting
+800 x 600 screen resolution
+While every precaution has been to taken to ensure that these CD-ROMs are free of all viruses and malicious code, SAS will not be responsible for any loss of data, corruption of installed programs, or the overall working of the user
+s PC through the use of these CD-ROMs.
+SAS and/or its respective suppliers make no representations about the suitability, reliability, timeliness and accuracy of information or the contents of the CD-ROMs for any purpose. All contents are provided "as is" without warranty of any kind. SAS and/or its respective suppliers hereby disclaim all warranties and conditions with regard to the contents, including all implied warranties and conditions of merchantability, fitness for a particular purpose, title and non-infringement.
+Opinions, views, commentary, interpretation, explication and analysis expressed and published herein in these CD-ROMs do not necessarily represent those of its publishers.
+The contents on these CD-ROMs may include inaccuracies or errors. Periodic changes may be made to the information herein whenever required. SAS and/or its respective suppliers may make improvements and/or changes in these CD-ROMs from time to time.
+SAS does not guarantee that the functions contained in this software will meet your requirements or that the operation of the CD-ROMs will be error free. You agree that your sole and exclusive remedy will be limited to the refund of the price you paid for this product or replacement with another copy of the CD-ROMs. A refund for these CD-ROMs in question can only be obtained after returning it to: Sri Aurobindo Society, No.1 Rangapillai Street, Pondicherry
+605002.
+PERSONAL AND NON-COMMERCIAL USE LIMITATION
+These CD-ROMs are for your personal and non-commercial use. You may not modify, copy, distribute, transmit, display, perform, reproduce, rearrange, publish, license, create derivative works from, transfer, or sell any information, graphics, video, audio or any other content obtained from these CD-ROMs.
+NO UNLAWFUL OR PROHIBITED USE
+As a condition of your use of these CD-ROMs, you warrant to SAS that you will not use these CD-ROMs for any purpose that is unlawful or prohibited by these terms, conditions, and notices.
+SOFTWARE AVAILABLE ON THESE CD-ROMs
+Software (if any) that is made available for installation from these CD-ROMs ("Software") is the copyrighted work of its respective developers. Your use of the Software is governed by the terms of the end-user license agreement, if any, which accompanies or is included with the Software ("License Agreement").
+You may not install or use any Software that is accompanied by or includes a License Agreement unless you first agree to the License Agreement terms. For any Software not accompanied by a license agreement, SAS hereby gives to you, the user, a personal, non-transferable permission to use the Software for viewing and otherwise using these CD-ROMs in accordance with these terms and conditions, and for no other purpose provided that you keep intact all copyright and other proprietary notices. Please note that all Software, including code and scripts contained in these CD-ROMs, is owned by SAS and/or its suppliers and is protected by copyright laws and international treaty provisions. Any reproduction or redistribution of the Software is expressly prohibited by law, and may result in severe civil and criminal penalties.
+AC8,Violators will be prosecuted at their cost. Without limiting the foregoing, copying or reproduction of the software to any other server, PC or networked location for further reproduction or redistribution is expressly prohibited. The Software is warranted, if at all, only according to the terms of the license agreement. You acknowledge that the Software, and any accompanying documentation and/or technical information, is subject to applicable export control laws and regulations of India. You agree not to export or re-export the Software, directly or indirectly, to any countries that are subject to India export restrictions.
+GENERAL LEGALITIES
+The use of this software is for individual, non-commercial purposes only. This agreement is governed by the national copyright laws in force and international treaty provisions. All disputes shall be subject to the jurisdiction of the courts of Pondicherry, India. By the use of these CD-ROMs the user hereby consents to the exclusive jurisdiction and venue of courts in Pondicherry, India, in all disputes arising out of or relating to the use of these CD-ROMs. Use of these CD-ROMs is unauthorised in any jurisdiction that does not give effect to all provisions of these terms and conditions, including without limitation this paragraph.
+If any part of this agreement is determined to be invalid or unenforceable pursuant to applicable law including, but not limited to, the warranty disclaimers and liability limitations set forth above, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remainder of the agreement shall continue in effect.
+This agreement constitutes the entire agreement between the user and SAS with respect to these CD-ROMs and it supersedes all prior or contemporaneous communications and proposals, whether electronic, oral or written, between the user and SAS with respect to these CD-ROMs.
+A printed version of this agreement and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to this agreement to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form.
+SERVICE CONTACT
+Contact info@virtualmahamedia.com with questions on or problems with these CD-ROMs.
+MODIFICATION OF THESE TERMS AND CONDITIONS
+SAS reserves the right to change the terms, conditions, and notices under which these CD-ROMs is offered.
+COPYRIGHT AND TRADEMARK NOTICES
+All contents of these CD-ROMs are: Copyright © 2001 Sri Aurobindo Society, No.1 Rangapillai Street, Pondicherry
+605002. All rights reserved.
+C0000
+120000
+120000
+120000
+C0000
+C0000
+C0000
+C0000
+C0000
+C0000
+C0000
+C0000
+C0000
+C0000
+120000
+Arial
+40008
+Symbol
+40000
+40001
+-7FFC6FE0
+480048
+8,I ACCEPT
+C0000
+120000
+120000
+Arial
+40008
+DEMXl
+40001
+-7FFC6FE0
+480048
+192,To view the video clips in the Mahazine you require video compression software. Click on the Install button to launch a wizard that will guide you through the installation. This will take 50-120 seconds approx.
+This installation is required only the first time you run the Mahazine.
+You need not repeat this procedure to run this and subsequent issues
+of the Mahazine, unless it
+s specially mentioned.
+C0000
+B0000
+B0000
+B0000
+B0000
+Arial
+40008
+Verdana
+40008
+DEMX¨
+40001
+-7FFC6FE0
+480048
+95,This presentation requires a screen resolution of  800 X 600 pixels. Please exit and reset your resolution if required, or click 'Enter' to continue.
+C0000
+C0000
+C0000
+180000
+120000
+Arial
+40008
+40001
+-7FFC6FE0
+480048
+5,ENTER
+C0000
+180000
+180000
+180000
+Arial
+40008
+40001
+-7FFC6FE0
+480048
+4,EXIT
+C0000
+180000
+180000
+180000
+Arial
+40008

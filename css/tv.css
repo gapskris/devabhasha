@@ -1,0 +1,47 @@
+/**
+ * Devabhāṣā Modern — Smart TV 10-Foot Mode Stylesheet
+ */
+
+body.tv-mode {
+  font-size: 1.25rem;
+}
+
+body.tv-mode .app-header {
+  padding: 1.25rem 2.5rem;
+}
+
+body.tv-mode .brand-sanskrit {
+  font-size: 1.8rem;
+}
+
+body.tv-mode .chapter-sidebar {
+  width: 380px;
+}
+
+body.tv-mode .chapter-nav-item {
+  padding: 1rem 1.25rem;
+}
+
+body.tv-mode .nav-sanskrit {
+  font-size: 1.35rem;
+}
+
+body.tv-mode .audio-player-bar {
+  height: 95px;
+  padding: 0 2.5rem;
+}
+
+body.tv-mode .btn-player-main {
+  width: 52px;
+  height: 52px;
+  font-size: 1.6rem;
+}
+
+/* Spatial Focus Ring */
+body.tv-mode :focus-visible,
+body.tv-mode .tv-focused {
+  outline: 4px solid #ffd700 !important;
+  outline-offset: 4px !important;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.8) !important;
+  transform: scale(1.02);
+}

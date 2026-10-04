@@ -1,0 +1,28 @@
+{
+  "name": "Devabhāṣā — The Language of the Gods",
+  "short_name": "Devabhāṣā",
+  "description": "1997 Multimedia CD-ROM Modernization & Heritage Digital Preservation",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#120c08",
+  "theme_color": "#d4af37",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

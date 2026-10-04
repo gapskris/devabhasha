@@ -1,0 +1,684 @@
+/**
+ * Devabhāṣā Modern — Player, Canvas Stage & Manuscript Card Styles
+ * 100% Visual and Behavioral Parity with Ashtavadhanam (Pic 3)
+ */
+
+/* ================= IN-CANVAS PARCHMENT FLOW & STAGE ================= */
+.canvas-stage-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 800 / 600;
+  max-height: 820px;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  overflow: hidden;
+  background: #140e0a;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+  contain: layout paint;
+}
+
+.stage-canvas-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+  pointer-events: none;
+  transform: translateZ(0);
+  transition: opacity 0.35s ease-in-out, filter 0.35s ease-in-out;
+}
+
+/* ================= DUAL-PANE DIAGRAM & ARTWORK MODE ================= */
+.canvas-stage-wrapper.diagram-mode {
+  aspect-ratio: auto !important;
+  min-height: clamp(540px, 68vh, 760px);
+  max-height: 860px;
+}
+
+.canvas-stage-wrapper.diagram-mode .stage-canvas-bg {
+  opacity: 0.14 !important;
+  filter: blur(4px) brightness(0.4) !important;
+}
+
+.stage-diagram-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px 24px 18px;
+  pointer-events: auto;
+}
+
+.stage-diagram-container.hidden {
+  display: none !important;
+}
+
+.diagram-frame {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  max-height: 92%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(26, 17, 10, 0.92);
+  border: 1px solid rgba(217, 119, 6, 0.6);
+  border-radius: 10px;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.7),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.12),
+    inset 0 0 20px rgba(184, 134, 11, 0.22);
+  padding: 14px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.diagram-badge {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #f7e7c4;
+  background: rgba(180, 83, 9, 0.65);
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  border-radius: 12px;
+  padding: 4px 14px;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.diagram-img-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #0f0a07;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  max-height: 60vh;
+  width: 100%;
+}
+
+.stage-diagram-img {
+  max-width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  display: block;
+  border-radius: 4px;
+  transition: transform 0.25s ease;
+}
+
+.diagram-zoom-btn {
+  margin-top: 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fef3c7;
+  background: rgba(69, 26, 3, 0.9);
+  border: 1px solid rgba(217, 119, 6, 0.65);
+  border-radius: 14px;
+  padding: 5px 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.diagram-zoom-btn:hover {
+  background: #b45309;
+  border-color: #f59e0b;
+  transform: translateY(-1px);
+}
+
+/* In Diagram Mode, dialogues wrapper takes the right half without covering the diagram */
+.canvas-stage-wrapper.diagram-mode .dialogues-wrapper {
+  left: 50% !important;
+  width: 50% !important;
+  right: 0 !important;
+  padding: clamp(14px, 2vh, 22px) 4% 56px 4% !important;
+}
+
+/* Responsive adjustment for Mobile / Small Screens */
+@media (max-width: 767px) {
+  .canvas-stage-wrapper.diagram-mode {
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+    max-height: none !important;
+    aspect-ratio: auto !important;
+  }
+
+  .canvas-stage-wrapper.diagram-mode .stage-diagram-container {
+    position: relative;
+    width: 100%;
+    max-height: 320px;
+    padding: 10px;
+  }
+
+  .canvas-stage-wrapper.diagram-mode .dialogues-wrapper {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    max-height: 480px;
+    padding: 12px 14px 40px 14px !important;
+  }
+}
+
+/* DIALOGUES & VERSES FLOW CONTAINER */
+.dialogues-wrapper {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: transparent !important;
+  background-image: none !important;
+  padding: clamp(14px, 2vh, 22px) 3.5% 56px 3.5%;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(184, 134, 11, 0.5) transparent;
+  mask-image: linear-gradient(to bottom, black calc(100% - 32px), rgba(0, 0, 0, 0.2) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 32px), rgba(0, 0, 0, 0.2) 100%);
+}
+
+.dialogues-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+.dialogues-wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+.dialogues-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(184, 134, 11, 0.5);
+  border-radius: 4px;
+}
+
+/* Safe Zone layout for corner illustrations on desktop/tablet */
+@media (min-width: 768px) {
+  /* For chapters with illustrations at left (e.g. Chapter 1, 5, 7) */
+  .dialogues-wrapper.art-left {
+    padding-top: clamp(14px, 2vh, 22px);
+    padding-left: 36%;
+    padding-right: 3.5%;
+    padding-bottom: 56px;
+  }
+
+  /* For chapters with illustrations at right (e.g. Chapter 2, 8, 9, 10) */
+  .dialogues-wrapper.art-right {
+    padding-top: clamp(14px, 2vh, 22px);
+    padding-right: 36%;
+    padding-left: 3.5%;
+    padding-bottom: 56px;
+  }
+
+  /* For center/subtle watermark chapters */
+  .dialogues-wrapper.art-center {
+    padding-top: clamp(14px, 2vh, 22px);
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 56px;
+  }
+}
+
+/* PARCHMENT MANUSCRIPT CARDS (Double-Fillet Folio Border) */
+.dialogue-card {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 252, 242, 0.95);
+  border: 1px solid rgba(184, 134, 11, 0.55);
+  box-shadow: 
+    0 3px 12px rgba(45, 25, 10, 0.16),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.8),
+    inset 0 0 0 3px rgba(184, 134, 11, 0.15);
+  border-radius: 8px;
+  padding: 12px 16px;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: #2b1908;
+  cursor: pointer;
+}
+
+.dialogue-card:hover {
+  background: rgba(255, 254, 247, 0.98);
+  border-color: #c28d32;
+  box-shadow: 
+    0 6px 20px rgba(184, 134, 11, 0.28),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.9),
+    inset 0 0 0 3px rgba(217, 119, 6, 0.22);
+  transform: translateY(-1px);
+}
+
+.dialogue-card.active {
+  background: #fffdf9;
+  border-color: #d97706;
+  border-width: 1px;
+  box-shadow: 
+    0 0 20px rgba(217, 119, 6, 0.38),
+    0 4px 14px rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.95),
+    inset 0 0 0 3px rgba(217, 119, 6, 0.3);
+  transform: scale(1.008);
+}
+
+/* Compact turn styling for single-shloka / brief audio phrases */
+.dialogue-card.compact-turn {
+  padding: 8px 14px;
+  background: rgba(255, 250, 236, 0.96);
+  border: 1px dashed rgba(184, 134, 11, 0.65);
+}
+
+.compact-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.speaker-seal-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.compact-turn-subtitle {
+  font-size: 0.72rem;
+  color: #854d0e;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.akshara-hero {
+  font-size: 1.85rem !important;
+  font-weight: 700;
+  color: #b45309 !important;
+  line-height: 1 !important;
+  margin-bottom: 0 !important;
+  padding: 2px 0;
+}
+
+/* Floating Scroll Hint Pill */
+.scroll-hint-pill {
+  position: absolute;
+  bottom: 12px;
+  right: 18px;
+  z-index: 10;
+  background: rgba(38, 22, 10, 0.88);
+  color: #f7e7c4;
+  border: 1px solid rgba(229, 169, 60, 0.65);
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+  transition: opacity 0.35s ease;
+  animation: bounce-subtle 2.2s infinite ease-in-out;
+}
+
+@keyframes bounce-subtle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.dialogue-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+/* Traditional Manuscript Seal / Stamp Badges */
+.speaker-badge, .speaker-seal {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: clamp(0.74rem, 1.8vw, 0.84rem);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  border: 1px solid rgba(184, 134, 11, 0.5);
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.2);
+  font-family: var(--font-sanskrit), 'Noto Serif Devanagari', serif;
+}
+
+.speaker-avadhani, .speaker-vakta { background: #8b3806; color: #fff8e7; border-color: #d97706; }
+.speaker-shloka { background: #14532d; color: #f0fdf4; border-color: #22c55e; }
+.speaker-scholar { background: #1e3a8a; color: #f0f9ff; border-color: #3b82f6; }
+.speaker-subhashita { background: #78350f; color: #fefce8; border-color: #ca8a04; }
+.speaker-default { background: #3f3f46; color: #f4f4f5; border-color: #71717a; }
+
+.dialogue-audio-btn {
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  min-height: 38px;
+  border-radius: 50%;
+  background: #452a12;
+  border: 1px solid #b8860b;
+  color: #ffd875;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dialogue-audio-btn:hover {
+  background: #5d3818;
+  color: #ffffff;
+  border-color: #ffd875;
+  box-shadow: 0 0 10px rgba(229, 169, 60, 0.4);
+  transform: scale(1.08);
+}
+
+.dialogue-audio-btn.playing {
+  background: #d97706;
+  color: #ffffff;
+  border-color: #ffffff;
+  animation: pulse-ring 1.5s infinite;
+}
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(229, 169, 60, 0.7); }
+  70% { box-shadow: 0 0 0 12px rgba(229, 169, 60, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(229, 169, 60, 0); }
+}
+
+/* Verse text styling */
+.text-sanskrit {
+  font-family: var(--font-sanskrit), 'Noto Serif Devanagari', 'Martel', serif;
+  font-size: clamp(1.05rem, 2.2vw, 1.28rem);
+  line-height: 1.8;
+  color: #2b1908;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.text-iast {
+  font-family: var(--font-serif), 'Georgia', serif;
+  font-size: 0.95rem;
+  color: #78350f;
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
+.text-english {
+  font-family: var(--font-serif), 'Georgia', serif;
+  font-size: 0.92rem;
+  color: #45220a;
+  line-height: 1.55;
+  border-top: 1px dashed rgba(184, 134, 11, 0.3);
+  padding-top: 6px;
+  margin-top: 4px;
+}
+
+/* ================= FLOATING HIGH-FIDELITY BOTTOM AUDIO PLAYER ================= */
+.audio-player-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  background: linear-gradient(180deg, rgba(26, 18, 12, 0.98) 0%, rgba(18, 12, 8, 1) 100%);
+  border-top: 1px solid var(--border-gold);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease;
+}
+
+.player-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-width: 240px;
+}
+
+.player-speaker-badge {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: var(--gold-light);
+}
+
+.player-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-title {
+  font-size: 0.95rem;
+  color: var(--gold-light);
+  font-weight: 600;
+}
+
+.player-subtitle {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* Center Controls & Scrubber */
+.player-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  flex: 1;
+  max-width: 600px;
+  margin: 0 1.5rem;
+}
+
+.player-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.btn-player {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-player:hover {
+  color: var(--gold-light);
+  transform: scale(1.1);
+}
+
+.btn-player-main {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--gold-primary);
+  color: #120c08;
+  font-size: 1.15rem;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
+}
+
+.btn-player-main:hover {
+  background: var(--gold-light);
+  transform: scale(1.08);
+}
+
+.scrubber-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.time-text {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: monospace;
+  min-width: 36px;
+}
+
+.audio-progress-bar {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 5px;
+  border-radius: 3px;
+  background: rgba(212, 175, 55, 0.2);
+  outline: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.audio-progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--gold-light);
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.8);
+}
+
+/* Volume controls */
+.player-trailing {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 160px;
+  justify-content: flex-end;
+}
+
+.volume-slider {
+  width: 80px;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: rgba(212, 175, 55, 0.2);
+  border-radius: 2px;
+  outline: none;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--gold-primary);
+  cursor: pointer;
+}
+
+/* ================= COLLAPSIBLE CURRICULUM ACCORDION ================= */
+.nav-category-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-align: left;
+  transition: background 0.2s ease;
+  user-select: none;
+}
+
+.nav-category-toggle:hover {
+  background: rgba(229, 169, 60, 0.12);
+}
+
+.nav-category-toggle .cat-title-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-arrow {
+  font-size: 0.85rem;
+  color: var(--accent-gold, #e5a93c);
+  transition: transform 0.25s ease;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.collapsible-curriculum {
+  transition: max-height 0.3s ease, opacity 0.25s ease;
+}
+
+.collapsible-curriculum.collapsed {
+  display: none !important;
+}
+
+/* ================= INSTALL PWA DRAWER BUTTON ================= */
+.nav-link-install {
+  border-left: 3px solid var(--accent-gold, #e5a93c);
+  background: rgba(229, 169, 60, 0.08);
+}
+
+.nav-link-install:hover {
+  background: rgba(229, 169, 60, 0.22);
+}
+
+.nav-link-install .text-primary-label {
+  color: #ffd875;
+  font-weight: 600;
+}
+
+/* ================= 3-WAY SCRIPT & LANGUAGE MODE CASCADE ================= */
+body.mode-devanagari .text-iast,
+body.mode-devanagari .text-english {
+  display: none !important;
+}
+
+body.mode-devanagari .prose-card {
+  display: none !important;
+}
+
+body.mode-english .text-sanskrit {
+  display: none !important;
+}
+
+body.mode-english .text-english {
+  border-top: none !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+body.mode-bilingual .text-sanskrit {
+  display: block;
+}
+
+body.mode-bilingual .text-iast {
+  display: block;
+}
+
+body.mode-bilingual .text-english {
+  display: block;
+}
