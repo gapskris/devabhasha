@@ -10,8 +10,8 @@
  * 4. AUDIO: Cached at runtime only upon receiving a complete 200 OK response.
  */
 
-const CORE_CACHE_NAME = 'devabhasha-core-v1.0.0';
-const MEDIA_CACHE_NAME = 'devabhasha-media-v1.0.0';
+const CORE_CACHE_NAME = 'devabhasha-core-v1.2.0';
+const MEDIA_CACHE_NAME = 'devabhasha-media-v1.2.0';
 
 // Core Application Shell assets (~2.5 MB total)
 const PRECACHE_ASSETS = [
@@ -27,6 +27,8 @@ const PRECACHE_ASSETS = [
   'js/player.js',
   'js/tv-remote.js',
   'content/data.json',
+  'js/gallery_data.js',
+  'favicon.ico',
   'assets/icons/icon-192.png',
   'assets/icons/icon-512.png',
   'assets/icons/maskable-512.png',
@@ -54,14 +56,15 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// ACTIVATE: Purge stale core caches, preserve media cache, and claim clients
+// ACTIVATE: Purge stale core & media caches, and claim clients
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(
         keys.map((key) => {
-          if (key.startsWith('devabhasha-core-') && key !== CORE_CACHE_NAME) {
-            console.log('[SW] Purging outdated core cache:', key);
+          if ((key.startsWith('devabhasha-core-') && key !== CORE_CACHE_NAME) ||
+              (key.startsWith('devabhasha-media-') && key !== MEDIA_CACHE_NAME)) {
+            console.log('[SW] Purging outdated cache:', key);
             return caches.delete(key);
           }
         })
@@ -121,14 +124,12 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 5. STATIC IMAGES & CANVASES: Cache-first with runtime fallback
-  if (url.pathname.match(/\.(jpg|jpeg|png|webp|svg|gif)$/i)) {
+  // 5. STATIC IMAGES & CANVASES: Network-First with Cache Fallback
+  // Guarantees updated icons, diagrams, and artwork are immediately visible online
+  if (url.pathname.match(/\.(jpg|jpeg|png|webp|svg|gif|ico)$/i)) {
     event.respondWith(
-      caches.match(request).then((cachedResponse) => {
-        if (cachedResponse) {
-          return cachedResponse;
-        }
-        return fetch(request).then((networkResponse) => {
+      fetch(request)
+        .then((networkResponse) => {
           if (networkResponse && networkResponse.status === 200) {
             const responseClone = networkResponse.clone();
             caches.open(MEDIA_CACHE_NAME).then((cache) => {
@@ -136,8 +137,10 @@ self.addEventListener('fetch', (event) => {
             });
           }
           return networkResponse;
-        });
-      })
+        })
+        .catch(() => {
+          return caches.match(request);
+        })
     );
     return;
   }

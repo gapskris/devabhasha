@@ -732,11 +732,25 @@ class DevabhashaApp {
     const chapter = chapters.find(c => c.id === chapterId) || chapters[0];
     if (!chapter) return;
 
-    // Update Top Carousel Active State
+    // Update Top Carousel Active State & Auto-Center Pill
     document.querySelectorAll('.chapter-pill').forEach(pill => {
       const id = parseInt(pill.dataset.chapterId, 10);
-      pill.classList.toggle('active', id === chapterId);
+      const isActive = (id === chapterId);
+      pill.classList.toggle('active', isActive);
+      if (isActive) {
+        pill.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+      }
     });
+
+    // Update Carousel Arrow Disabled States
+    if (this.btnChapterPrev) {
+      this.btnChapterPrev.disabled = (chapterId <= 1);
+      this.btnChapterPrev.classList.toggle('disabled', chapterId <= 1);
+    }
+    if (this.btnChapterNext) {
+      this.btnChapterNext.disabled = (chapterId >= 10);
+      this.btnChapterNext.classList.toggle('disabled', chapterId >= 10);
+    }
 
     // Update Drawer Active State
     document.querySelectorAll('#chapter-nav-list .nav-link, #drawer-chapter-list .nav-link').forEach(link => {

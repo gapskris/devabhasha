@@ -146,6 +146,12 @@
 
 /* Responsive adjustment for Mobile / Small Screens */
 @media (max-width: 767px) {
+  .canvas-stage-wrapper {
+    aspect-ratio: auto !important;
+    min-height: 480px;
+    height: auto !important;
+  }
+
   .canvas-stage-wrapper.diagram-mode {
     display: flex;
     flex-direction: column;
@@ -157,16 +163,25 @@
   .canvas-stage-wrapper.diagram-mode .stage-diagram-container {
     position: relative;
     width: 100%;
-    max-height: 320px;
+    max-height: 280px;
     padding: 10px;
+    box-sizing: border-box;
   }
 
   .canvas-stage-wrapper.diagram-mode .dialogues-wrapper {
     position: relative !important;
     left: 0 !important;
     width: 100% !important;
-    max-height: 480px;
-    padding: 12px 14px 40px 14px !important;
+    max-height: 520px;
+    padding: 12px 14px 48px 14px !important;
+    box-sizing: border-box;
+  }
+
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper {
+    position: relative !important;
+    max-height: 520px;
+    padding: 12px 14px 48px 14px !important;
+    box-sizing: border-box;
   }
 }
 
@@ -681,4 +696,77 @@ body.mode-bilingual .text-iast {
 
 body.mode-bilingual .text-english {
   display: block;
+}
+
+/* ================= MOBILE BOTTOM AUDIO PLAYER BAR & SAFE-AREA ================= */
+@media (max-width: 768px) {
+  .audio-player-bar {
+    height: auto;
+    flex-direction: column;
+    padding: 8px 12px 10px 12px;
+    gap: 6px;
+  }
+
+  .player-info {
+    min-width: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .player-speaker-badge {
+    width: 24px;
+    height: 24px;
+    font-size: 0.8rem;
+  }
+
+  .player-meta {
+    text-align: center;
+  }
+
+  .player-title {
+    font-size: 0.85rem;
+  }
+
+  .player-subtitle {
+    font-size: 0.72rem;
+  }
+
+  .player-center {
+    width: 100%;
+    gap: 0.25rem;
+  }
+
+  .player-buttons {
+    gap: 0.75rem;
+  }
+
+  .btn-player {
+    width: 32px;
+    height: 32px;
+    font-size: 0.85rem;
+  }
+
+  .btn-player-main {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+
+  .scrubber-container {
+    width: 100%;
+    gap: 8px;
+  }
+
+  .time-text {
+    font-size: 0.72rem;
+  }
+
+  .player-trailing {
+    display: none !important; /* Volume slider hidden on mobile; OS physical volume keys used */
+  }
+
+  .stage-container {
+    padding-bottom: 130px !important; /* Prevent overlap with two-tier bottom player */
+  }
 }
