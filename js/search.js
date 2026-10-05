@@ -205,6 +205,16 @@ class DevabhashaSearch {
     this.modal.classList.add('hidden');
   }
 
+  escapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
   renderResults(results) {
     if (!this.resultsContainer) return;
     if (results.length === 0) {
@@ -214,13 +224,16 @@ class DevabhashaSearch {
 
     let html = '';
     results.forEach(doc => {
+      const safeTitle = this.escapeHtml(doc.title);
+      const safeSnippet = this.escapeHtml(doc.snippet);
+      const safeType = this.escapeHtml(doc.type);
       html += `
         <div class="search-result-item" data-id="${doc.id}" data-chapter="${doc.chapterId}" style="padding:1rem; border-bottom:1px solid var(--border-subtle); cursor:pointer;">
           <div style="display:flex; justify-content:space-between; align-items:center;">
-            <strong style="color:var(--gold-light); font-size:1.05rem;">${doc.title}</strong>
-            <span style="font-size:0.75rem; text-transform:uppercase; background:rgba(212,175,55,0.15); padding:2px 6px; border-radius:4px; color:var(--gold-primary);">${doc.type}</span>
+            <strong style="color:var(--gold-light); font-size:1.05rem;">${safeTitle}</strong>
+            <span style="font-size:0.75rem; text-transform:uppercase; background:rgba(212,175,55,0.15); padding:2px 6px; border-radius:4px; color:var(--gold-primary);">${safeType}</span>
           </div>
-          <p style="font-size:0.9rem; color:var(--text-secondary); margin-top:0.35rem;">${doc.snippet}</p>
+          <p style="font-size:0.9rem; color:var(--text-secondary); margin-top:0.35rem;">${safeSnippet}</p>
         </div>
       `;
     });

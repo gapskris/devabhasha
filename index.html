@@ -10,6 +10,7 @@
   <meta name="apple-mobile-web-app-title" content="Devabhasha">
   <meta name="theme-color" content="#3c2415">
   <meta name="description" content="Devabhāṣā — The Language of the Gods. 1997 Historic Multimedia CD-ROM Master Preservation Edition.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: blob:; media-src 'self' blob: data:; connect-src 'self';">
   <title>देवभाषा • Devabhāṣā — The Language of the Gods</title>
   
   <link rel="manifest" href="manifest.json?v=1.2.0">
@@ -499,7 +500,7 @@
   <!-- ================= SYSTEM MODALS ================= -->
 
   <!-- 1. SEARCH MODAL (Ctrl+K or /) -->
-  <div id="search-modal" class="modal-overlay hidden">
+  <div id="search-modal" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-card">
       <div class="modal-header">
         <h3>🔍 Sanskrit Search Engine (संस्कृत-अन्वेषणम्)</h3>
@@ -515,7 +516,7 @@
   </div>
 
   <!-- 2. SHLOKAS CONCORDANCE MODAL (Master 149 tracks) -->
-  <div id="modal-shlokas" class="modal-overlay hidden">
+  <div id="modal-shlokas" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-card">
       <div class="modal-header">
         <h3>📜 Master Shlokas Concordance (149 Recitations)</h3>
@@ -531,7 +532,7 @@
   </div>
 
   <!-- 3. CREDITS MODAL (acknowledge.dxr) -->
-  <div id="modal-credits" class="modal-overlay hidden">
+  <div id="modal-credits" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-card">
       <div class="modal-header">
         <h3>📜 Credits & Acknowledgments (कृतज्ञता)</h3>
@@ -551,7 +552,7 @@
   </div>
 
   <!-- 4. INSTITUTIONS MODAL (institu.dxr) -->
-  <div id="modal-institu" class="modal-overlay hidden">
+  <div id="modal-institu" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-card" style="max-width: 960px; max-height: 90vh;">
       <div class="modal-header">
         <h3>🏛️ Participating Sanskrit Institutions (40 Academies)</h3>
@@ -567,7 +568,7 @@
   </div>
 
   <!-- 5. SRI AUROBINDO SOCIETY MODAL (sas.dxr) -->
-  <div id="modal-sas" class="modal-overlay hidden">
+  <div id="modal-sas" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-card">
       <div class="modal-header">
         <h3>🕊️ Sri Aurobindo Society, Puducherry</h3>
@@ -586,7 +587,7 @@
   </div>
 
   <!-- 5B. SCHOLARS MODAL (विद्वत्परिचयः) -->
-  <div id="modal-scholars" class="modal-overlay hidden">
+  <div id="modal-scholars" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-card" style="max-width: 920px;">
       <div class="modal-header">
         <h3>👥 Western &amp; Indian Scholars on Sanskrit (विद्वत्परिचयः)</h3>
@@ -604,7 +605,7 @@
   </div>
 
   <!-- 5C. MASTER HISTORICAL GALLERY MODAL (चित्रशाला • 127 Visuals) -->
-  <div id="modal-gallery" class="modal-overlay hidden">
+  <div id="modal-gallery" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-card" style="max-width: 1040px; max-height: 90vh;">
       <div class="modal-header">
         <h3>🖼️ Master Historical Visual Gallery (चित्रशाला • 127 Visuals)</h3>
@@ -631,7 +632,7 @@
   </div>
 
   <!-- 6. HELP & SHORTCUTS MODAL (help.dxr) -->
-  <div id="modal-help" class="modal-overlay hidden">
+  <div id="modal-help" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-card">
       <div class="modal-header">
         <h3>❓ User Guide & Keyboard Shortcuts (सहायता)</h3>
@@ -662,7 +663,7 @@
   </div>
 
   <!-- 7. EXIT CONFIRMATION MODAL (exit.dxr) -->
-  <div id="modal-exit" class="modal-overlay hidden">
+  <div id="modal-exit" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-card" style="max-width:440px; text-align:center;">
       <div class="modal-header">
         <h3>🚪 Exit Experience (निर्गमनम्)</h3>
@@ -679,7 +680,7 @@
   </div>
 
   <!-- 8. ANATOMICAL RESONANCE & VOCAL TRACT MODAL (Chapter 2 Articulation Lightbox) -->
-  <div id="modal-diagram" class="modal-overlay hidden">
+  <div id="modal-diagram" class="modal-overlay hidden" role="dialog" aria-modal="true">
     <div class="modal-card" style="max-width:680px; text-align:center;">
       <div class="modal-header">
         <h3 id="modal-diagram-title">Anatomical Resonance & Vocal Tract</h3>

@@ -211,6 +211,21 @@ class DevabhashaPlayer {
     }
   }
 
+  pause() {
+    if (this.audio) {
+      this.audio.pause();
+    }
+    this.isPlaying = false;
+    this.stopSyncLoop();
+    this.updatePlayState();
+  }
+
+  play() {
+    if (!this.isPlaying) {
+      this.togglePlay();
+    }
+  }
+
   togglePlay() {
     if (this.playlist.length === 0) return;
     

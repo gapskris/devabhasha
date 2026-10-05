@@ -382,13 +382,13 @@ CHAPTERS_DATA = [
             {"id": "c2_tavarga", "slideIndex": 4, "title": "Dentals — Ta-Varga (त थ द ध न)", "m4a": "assets/audio/chap2/Ta-varga.m4a", "mp3": "assets/audio/chap2/Ta-varga.mp3"},
             {"id": "c2_pavarga", "slideIndex": 5, "title": "Labials — Pa-Varga (प फ ब भ म)", "m4a": "assets/audio/chap2/Pa-varga.m4a", "mp3": "assets/audio/chap2/Pa-varga.mp3"},
             {"id": "c2_ishat", "slideIndex": 6, "title": "Semi-Vowels — Antastha (य र ल व)", "m4a": "assets/audio/chap2/Ishatsparsha.m4a", "mp3": "assets/audio/chap2/Ishatsparsha.mp3"},
-            {"id": "c2_h", "slideIndex": 7, "title": "Aspirate & Sibilants (श ष स ह)", "m4a": "assets/audio/chap2/H.m4a", "mp3": "assets/audio/chap2/H.mp3"},
-            {"id": "c2_sandhi", "slideIndex": 8, "title": "Euphonic Combination (Sandhi Rules)", "m4a": "assets/audio/chap2/Sandhi.m4a", "mp3": "assets/audio/chap2/Sandhi.mp3"},
-            {"id": "c2_s1", "slideIndex": 9, "title": "Shiva Sutra Chants (Part 1)", "m4a": "assets/audio/chap2/chapter2s1.m4a", "mp3": "assets/audio/chap2/chapter2s1.mp3"},
-            {"id": "c2_s2", "slideIndex": 10, "title": "Anatomical Vocalization Resonance", "m4a": "assets/audio/chap2/chapter2s2.m4a", "mp3": "assets/audio/chap2/chapter2s2.mp3"},
-            {"id": "c2_s3", "slideIndex": 11, "title": "Vedic Accentuation: Udātta, Anudātta, Svarita", "m4a": "assets/audio/chap2/chapter2s3.m4a", "mp3": "assets/audio/chap2/chapter2s3.mp3"},
-            {"id": "c2_chant", "slideIndex": 12, "title": "Traditional Paninian Recitation", "m4a": "assets/audio/chap2/chant.m4a", "mp3": "assets/audio/chap2/chant.mp3"},
-            {"id": "c2_om", "slideIndex": 13, "title": "Pranava OM Acoustic Synthesis", "m4a": "assets/audio/chap2/om.m4a", "mp3": "assets/audio/chap2/om.mp3"}
+            {"id": "c2_ushman", "slideIndex": 7, "title": "Sibilants — Ūṣman (श ष स)", "m4a": "assets/audio/chap2/ushman.m4a", "mp3": "assets/audio/chap2/ushman.mp3"},
+            {"id": "c2_h", "slideIndex": 8, "title": "Aspirate — Hakāra (ह)", "m4a": "assets/audio/chap2/H.m4a", "mp3": "assets/audio/chap2/H.mp3"},
+            {"id": "c2_sandhi", "slideIndex": 9, "title": "Euphonic Combination (Sandhi Rules)", "m4a": "assets/audio/chap2/Sandhi.m4a", "mp3": "assets/audio/chap2/Sandhi.mp3"},
+            {"id": "c2_s1", "slideIndex": 10, "title": "Shiva Sutra Chants (Part 1)", "m4a": "assets/audio/chap2/chapter2s1.m4a", "mp3": "assets/audio/chap2/chapter2s1.mp3"},
+            {"id": "c2_s2", "slideIndex": 11, "title": "Anatomical Vocalization Resonance", "m4a": "assets/audio/chap2/chapter2s2.m4a", "mp3": "assets/audio/chap2/chapter2s2.mp3"},
+            {"id": "c2_s3", "slideIndex": 12, "title": "Vedic Accentuation: Udātta, Anudātta, Svarita", "m4a": "assets/audio/chap2/chapter2s3.m4a", "mp3": "assets/audio/chap2/chapter2s3.mp3"},
+            {"id": "c2_bhagavadgita", "slideIndex": 13, "title": "Bhagavadgītā Recitation & Metrics", "m4a": "assets/audio/chap2/Bhagavadgita.m4a", "mp3": "assets/audio/chap2/Bhagavadgita.mp3"}
         ],
         "contentSections": [
             {
@@ -492,8 +492,8 @@ CHAPTERS_DATA = [
                 "id": f"c5_s{i:02d}",
                 "slideIndex": min(int((i - 1) * 20 / 31), 19),
                 "title": f"Classical Poetry Recitation {i}",
-                "m4a": f"assets/audio/chap5/chapter5s{i:02d}.m4a",
-                "mp3": f"assets/audio/chap5/chapter5s{i:02d}.mp3"
+                "m4a": f"assets/audio/chap5/chapter5s{i}.m4a",
+                "mp3": f"assets/audio/chap5/chapter5s{i}.mp3"
             } for i in range(1, 32)
         ],
         "contentSections": [
@@ -524,8 +524,8 @@ CHAPTERS_DATA = [
                 "id": f"c6_s{i:02d}",
                 "slideIndex": min(int((i - 1) * 12 / 22), 11),
                 "title": f"Subhashita Wisdom Verse {i}",
-                "m4a": f"assets/audio/chap6/chapter6s{i:02d}.m4a",
-                "mp3": f"assets/audio/chap6/chapter6s{i:02d}.mp3"
+                "m4a": f"assets/audio/chap6/chapter6s{i}.m4a",
+                "mp3": f"assets/audio/chap6/chapter6s{i}.mp3"
             } for i in range(1, 23)
         ],
         "contentSections": [
@@ -552,13 +552,22 @@ CHAPTERS_DATA = [
         "totalSections": 16,
         "slides": ch7_slides,
         "audioTracks": [
+            *(
+                {
+                    "id": f"c7_s{i:02d}",
+                    "slideIndex": min(int((i - 1) * 16 / 40), 15),
+                    "title": f"Sacred Vedic Recitation {i}",
+                    "m4a": f"assets/audio/chap7/chapter7s{i}.m4a",
+                    "mp3": f"assets/audio/chap7/chapter7s{i}.mp3"
+                } for i in range(1, 40)
+            ),
             {
-                "id": f"c7_s{i:02d}",
-                "slideIndex": min(int((i - 1) * 16 / 40), 15),
-                "title": f"Sacred Vedic Recitation {i}",
-                "m4a": f"assets/audio/chap7/chapter7s{i:02d}.m4a",
-                "mp3": f"assets/audio/chap7/chapter7s{i:02d}.mp3"
-            } for i in range(1, 41)
+                "id": "c7_s1b",
+                "slideIndex": 0,
+                "title": "Sacred Vedic Recitation 1b (Invocation Variant)",
+                "m4a": "assets/audio/chap7/chapter7s1b.m4a",
+                "mp3": "assets/audio/chap7/chapter7s1b.mp3"
+            }
         ],
         "contentSections": [
             {

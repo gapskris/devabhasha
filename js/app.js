@@ -85,6 +85,8 @@ class DevabhashaApp {
     this.currentDiagram = null;
 
     window.DevabhashaInstance = this;
+    window.App = this;
+    window.app = this;
 
     this.init();
   }

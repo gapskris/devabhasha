@@ -719,6 +719,10 @@ body {
   font-size: 0.82rem;
   font-weight: 600;
   padding: 5px 14px;
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 20px;
   cursor: pointer;
   transition: var(--transition);
@@ -1453,11 +1457,16 @@ body {
   }
 
   .app-header {
-    padding: 0 10px;
-    height: var(--header-height);
+    padding: 6px 10px;
+    height: auto;
+    min-height: var(--header-height);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .header-left {
+    order: 1;
     gap: 8px;
     flex-shrink: 0;
   }
@@ -1479,32 +1488,50 @@ body {
     display: none; /* Hide subtitle on mobile to give room for language switcher */
   }
 
-  /* Compact 3-way language switcher in header */
-  .language-switcher {
-    flex-shrink: 1;
-    min-width: 0;
-  }
-
-  .view-switcher {
-    padding: 2px;
-  }
-
-  .view-btn {
-    padding: 4px 8px;
-    font-size: 0.72rem;
-    white-space: nowrap;
-  }
-
   /* Compact header action buttons */
   .header-right {
+    order: 2;
     gap: 4px;
     flex-shrink: 0;
   }
 
   .header-right .icon-btn {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
+    min-width: 32px;
+    min-height: 32px;
     font-size: 1.05rem;
+  }
+
+  /* Compact 3-way language switcher wrapped to full width row 2 */
+  .language-switcher {
+    order: 3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 4px 0 2px 0;
+    flex-shrink: 1;
+    min-width: 0;
+  }
+
+  .view-switcher {
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    padding: 2px;
+    box-sizing: border-box;
+  }
+
+  .view-btn {
+    flex: 1;
+    text-align: center;
+    padding: 4px 6px;
+    min-height: 32px;
+    font-size: 0.74rem;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* Hide TV mode and fullscreen on mobile screens (< 768px) */
@@ -1609,8 +1636,9 @@ body {
   }
 
   .view-btn {
-    padding: 3px 6px;
-    font-size: 0.68rem;
+    padding: 3px 4px;
+    font-size: 0.70rem;
+    min-height: 32px;
   }
 
   .opening-spiritual-crest .crest-subtext {
