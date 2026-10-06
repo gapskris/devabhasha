@@ -437,14 +437,20 @@
         <div class="canvas-stage-wrapper" id="canvas-stage-wrapper">
           <img id="stage-canvas-bg" class="stage-canvas-bg" src="assets/images/chapter1/chap1page01.jpg" alt="Chapter Canvas Backdrop">
           
-          <!-- Dual-Pane Diagram Presentation Pane -->
+          <!-- Dual-Pane Presentation Pane (Diagram or Illuminated Folio Narrative) -->
           <div class="stage-diagram-container hidden" id="stage-diagram-container">
-            <div class="diagram-frame">
+            <div class="diagram-frame" id="stage-diagram-frame">
               <div class="diagram-badge" id="diagram-badge">Sanskrit Geometric Diagram</div>
-              <div class="diagram-img-wrap">
+              <div class="diagram-img-wrap" id="stage-diagram-img-wrap">
                 <img id="stage-diagram-img" class="stage-diagram-img" src="" alt="Sanskrit Geometric Diagram">
               </div>
               <button id="btn-zoom-diagram" class="diagram-zoom-btn" title="Expand Diagram">🔍 Expand Diagram</button>
+              
+              <!-- Illuminated Folio Historical Narrative Pane -->
+              <div class="folio-narrative-box hidden" id="folio-narrative-box">
+                <h4 class="folio-narrative-title" id="folio-narrative-title">Historical Exposition</h4>
+                <div class="folio-narrative-text" id="folio-narrative-text"></div>
+              </div>
             </div>
           </div>
 

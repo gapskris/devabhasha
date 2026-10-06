@@ -691,7 +691,7 @@ class DevabhashaApp {
         const pill = document.createElement('button');
         pill.className = `chapter-pill ${ch.id === this.activeChapterId ? 'active' : ''}`;
         pill.dataset.chapterId = ch.id;
-        pill.textContent = `Page ${ch.id}`;
+        pill.textContent = (this.displayView === 'devanagari') ? `अध्यायः ${ch.id}` : `Ch. ${ch.id}`;
         pill.title = `Chapter ${ch.id}: ${titleSa} — ${titleEn}`;
         pill.addEventListener('click', () => this.loadChapter(ch.id));
         this.chapterPillsContainer.appendChild(pill);
@@ -845,6 +845,15 @@ class DevabhashaApp {
         ? (this.verseFilterMode === 'slide' ? 'पृष्ठ-श्लोकाः' : 'सर्वे श्लोकाः')
         : (this.verseFilterMode === 'slide' ? 'Slide Verses' : 'All Tracks');
     }
+
+    // Keep top chapter carousel pills synchronized with view mode
+    if (this.chapterPillsContainer) {
+      const pills = this.chapterPillsContainer.querySelectorAll('.chapter-pill');
+      pills.forEach(pill => {
+        const chId = pill.dataset.chapterId;
+        pill.textContent = (this.displayView === 'devanagari') ? `अध्यायः ${chId}` : `Ch. ${chId}`;
+      });
+    }
   }
 
   getSanskritOrdinal(num) {
@@ -946,22 +955,32 @@ class DevabhashaApp {
           bodyHtml = `<div class="text-sanskrit" style="font-size:1.15rem; color: #78350f;">${trackTitle}</div>`;
         }
 
-        // Compute script-specific seal title
-        let sealTitle = trackTitle;
+        // Compute script-specific semantic seal title
+        let sealTitle = '';
+        const trackSa = track.titleSanskrit || track.title_sa || '';
         if (this.displayView === 'devanagari') {
-          if (track.titleSanskrit || track.title_sa) {
-            sealTitle = track.titleSanskrit || track.title_sa;
+          if (trackSa) {
+            sealTitle = trackSa;
           } else if (chapter.id === 1) {
             sealTitle = 'रघुवंश-मङ्गलाचरणम् • महाकवि-कालिदासः';
-          } else if (track.sanskrit) {
-            const firstWords = track.sanskrit.split(/[ ।॥\n]/).filter(Boolean).slice(0, 3).join(' ');
-            sealTitle = firstWords ? `श्लोकः ${idx + 1} — ${firstWords}` : `श्लोकः ${idx + 1}`;
           } else {
-            sealTitle = `अध्यायः ${chapter.id} — श्लोकः ${idx + 1}`;
+            sealTitle = `श्लोकः ${idx + 1}`;
           }
-        } else if (this.displayView === 'bilingual') {
-          const saPart = track.titleSanskrit || track.title_sa || (chapter.id === 1 ? 'रघुवंशम्' : `श्लोकः ${idx + 1}`);
-          sealTitle = `${saPart} • ${trackTitle}`;
+        } else if (this.displayView === 'english') {
+          sealTitle = trackTitle;
+        } else {
+          // Bilingual
+          if (trackSa) {
+            let shortEn = trackTitle;
+            if (shortEn.includes('—')) {
+              shortEn = shortEn.split('—')[0].trim();
+            } else if (shortEn.includes(' - ')) {
+              shortEn = shortEn.split(' - ')[0].trim();
+            }
+            sealTitle = (shortEn && shortEn !== trackSa) ? `${trackSa} • ${shortEn}` : trackSa;
+          } else {
+            sealTitle = `श्लोकः ${idx + 1} • ${trackTitle}`;
+          }
         }
 
         card.innerHTML = `
@@ -1100,50 +1119,90 @@ class DevabhashaApp {
     // Update Slide Ribbon UI
     this.updateSlideNavControls();
 
-    // Universal Dual-Pane Presentation (Left: Visual Artwork/Diagram when available)
+    // Universal Dual-Pane Presentation (Left: Visual Diagram OR Illuminated Folio Narrative)
     const visualSrc = slide.diagram;
     const visualTitle = slide.diagramTitle || slide.title || 'Manuscript Artwork';
+    const prose = slide.proseText || slide.description || '';
+
+    let allowedIndices = [];
+    if (slide && slide.trackIndices && Array.isArray(slide.trackIndices)) {
+      allowedIndices = slide.trackIndices;
+    } else if (slide && slide.trackIndex !== null && slide.trackIndex !== undefined) {
+      allowedIndices = [slide.trackIndex];
+    }
+    const hasAudioCards = (allowedIndices.length > 0);
+
+    const diagramImgWrap = document.getElementById('stage-diagram-img-wrap');
+    const folioNarrativeBox = document.getElementById('folio-narrative-box');
+    const folioNarrativeTitle = document.getElementById('folio-narrative-title');
+    const folioNarrativeText = document.getElementById('folio-narrative-text');
 
     if (visualSrc) {
+      // Mode A: Diagram visual present
       this.currentDiagram = { src: visualSrc, title: visualTitle };
-      if (this.canvasStageWrapper) {
-        this.canvasStageWrapper.classList.add('diagram-mode');
-      }
-      if (this.stageDiagramContainer) {
-        this.stageDiagramContainer.classList.remove('hidden');
-      }
+      if (this.canvasStageWrapper) this.canvasStageWrapper.classList.add('diagram-mode');
+      if (this.stageDiagramContainer) this.stageDiagramContainer.classList.remove('hidden');
+      if (diagramImgWrap) diagramImgWrap.classList.remove('hidden');
       if (this.stageDiagramImg) {
         this.stageDiagramImg.src = visualSrc;
         this.stageDiagramImg.alt = visualTitle;
       }
+      if (this.btnZoomDiagram) this.btnZoomDiagram.classList.remove('hidden');
       if (this.diagramBadge) {
-        let badgeText = visualTitle;
-        if (this.displayView === 'devanagari') {
-          badgeText = slide.titleSanskrit || slide.title_sa || (slide.diagram ? 'चित्रकाव्य-चित्रम्' : 'कला-दर्शनम्');
-        }
-        this.diagramBadge.textContent = badgeText;
+        this.diagramBadge.textContent = this.displayView === 'devanagari'
+          ? (slide.titleSanskrit || 'चित्रकाव्य-चित्रम्')
+          : (slide.diagramTitle || 'Sanskrit Geometric Diagram');
       }
       if (this.btnViewDiagram) {
         this.btnViewDiagram.classList.remove('hidden');
         this.btnViewDiagram.title = `Zoom Lightbox: ${visualTitle}`;
-        const viewLabel = this.displayView === 'devanagari' ? 'चित्र-दर्शनम्' : (slide.diagram ? 'Diagram View' : 'Artwork View');
+        const viewLabel = this.displayView === 'devanagari' ? 'चित्र-दर्शनम्' : 'Diagram View';
         this.btnViewDiagram.innerHTML = `<span>👁️</span> ${viewLabel}`;
       }
       const btnZoom = document.getElementById('btn-zoom-diagram');
       if (btnZoom) {
         btnZoom.textContent = this.displayView === 'devanagari' ? '🔍 चित्र-विस्तारः' : '🔍 Expand Visual';
       }
-    } else {
+      if (folioNarrativeBox) {
+        if (prose && prose.length > 30) {
+          folioNarrativeBox.classList.remove('hidden');
+          if (folioNarrativeTitle) folioNarrativeTitle.textContent = (this.displayView === 'devanagari') ? (slide.titleSanskrit || slide.title) : slide.title;
+          if (folioNarrativeText) folioNarrativeText.textContent = prose;
+        } else {
+          folioNarrativeBox.classList.add('hidden');
+        }
+      }
+    } else if (hasAudioCards && prose && prose.length > 40) {
+      // Mode B: Dual-Pane Folio Mode (Historical narrative on left, recitation cards on right)
       this.currentDiagram = null;
-      if (this.canvasStageWrapper) {
-        this.canvasStageWrapper.classList.remove('diagram-mode');
+      if (this.canvasStageWrapper) this.canvasStageWrapper.classList.add('diagram-mode');
+      if (this.stageDiagramContainer) this.stageDiagramContainer.classList.remove('hidden');
+      if (diagramImgWrap) diagramImgWrap.classList.add('hidden');
+      if (this.btnZoomDiagram) this.btnZoomDiagram.classList.add('hidden');
+      if (this.btnViewDiagram) this.btnViewDiagram.classList.add('hidden');
+      if (this.diagramBadge) {
+        this.diagramBadge.textContent = this.displayView === 'devanagari'
+          ? '〔 ऐतिहासिक-समीक्षा • विषय-परिचयः 〕'
+          : '〔 Historical Context & Commentary 〕';
       }
-      if (this.stageDiagramContainer) {
-        this.stageDiagramContainer.classList.add('hidden');
+      if (folioNarrativeBox) {
+        folioNarrativeBox.classList.remove('hidden');
+        if (folioNarrativeTitle) {
+          folioNarrativeTitle.textContent = this.displayView === 'devanagari'
+            ? (slide.titleSanskrit || slide.title)
+            : slide.title;
+        }
+        if (folioNarrativeText) {
+          folioNarrativeText.textContent = prose;
+        }
       }
-      if (this.btnViewDiagram) {
-        this.btnViewDiagram.classList.add('hidden');
-      }
+    } else {
+      // Mode C: Single-pane mode
+      this.currentDiagram = null;
+      if (this.canvasStageWrapper) this.canvasStageWrapper.classList.remove('diagram-mode');
+      if (this.stageDiagramContainer) this.stageDiagramContainer.classList.add('hidden');
+      if (this.btnViewDiagram) this.btnViewDiagram.classList.add('hidden');
+      if (folioNarrativeBox) folioNarrativeBox.classList.add('hidden');
     }
 
     // Filter cards to match active slide
@@ -1226,7 +1285,7 @@ class DevabhashaApp {
 
     // Handle pure narrative slides with no matching audio tracks
     let slideCard = this.dialoguesWrapper.querySelector('.slide-intro-card');
-    if (visibleCount === 0 && slide && slide.description) {
+    if (visibleCount === 0 && slide && (slide.description || slide.proseText)) {
       if (!slideCard) {
         slideCard = document.createElement('div');
         slideCard.className = 'dialogue-card prose-card slide-intro-card';
@@ -1236,13 +1295,17 @@ class DevabhashaApp {
       const sealPageLabel = this.displayView === 'devanagari'
         ? `〔 अध्यायः ${this.activeChapterId} — पृष्ठम् ${slide.slideNumber} 〕`
         : `〔 Chapter ${this.activeChapterId} — Page ${slide.slideNumber} 〕`;
+      const slideTitleDisplay = (this.displayView === 'devanagari' && slide.titleSanskrit)
+        ? slide.titleSanskrit
+        : slide.title;
+      const textToDisplay = slide.proseText || slide.description || '';
       slideCard.innerHTML = `
         <div class="dialogue-header">
           <span class="speaker-seal speaker-scholar">${sealPageLabel}</span>
         </div>
         <div class="dialogue-body">
-          <h3 style="color:#d97706; font-size:1.15rem; margin-bottom:0.75rem; font-family:'Noto Serif Devanagari', serif;">${slide.title}</h3>
-          <div class="text-prose" style="font-size:1rem; line-height:1.7; color:#45220a;">${slide.description}</div>
+          <h3 style="color:#d97706; font-size:1.15rem; margin-bottom:0.75rem; font-family:'Noto Serif Devanagari', serif;">${slideTitleDisplay}</h3>
+          <div class="text-prose" style="font-size:1.02rem; line-height:1.75; color:#3e1f08;">${textToDisplay}</div>
         </div>
       `;
       visibleCount++;
