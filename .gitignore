@@ -18,3 +18,8 @@ desktop.ini
 .vscode/
 .idea/
 *.swp
+
+# Extracted scratch caches
+tools/extracted_stxt/
+tools/extracted_chapters_corpus/
+

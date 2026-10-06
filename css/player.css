@@ -410,33 +410,49 @@
   100% { box-shadow: 0 0 0 0 rgba(229, 169, 60, 0); }
 }
 
-/* Verse text styling */
+/* Sacred Verse Typography */
 .text-sanskrit {
-  font-family: var(--font-sanskrit), 'Noto Serif Devanagari', 'Martel', serif;
-  font-size: clamp(1.05rem, 2.2vw, 1.28rem);
-  line-height: 1.8;
+  font-family: var(--font-sanskrit), 'Noto Serif Devanagari', 'Tiro Devanagari Sanskrit', 'Martel', serif;
+  font-size: clamp(1.08rem, 2.25vw, 1.32rem);
+  line-height: 1.85;
   color: #2b1908;
   font-weight: 600;
-  margin-bottom: 6px;
+  letter-spacing: 0.012em;
+  margin-bottom: 8px;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+.text-sanskrit .verse-line {
+  display: block;
+  margin-bottom: 0.35rem;
+  padding-left: 0.15rem;
+  word-break: keep-all;
 }
 
 .text-iast {
   font-family: var(--font-serif), 'Georgia', serif;
-  font-size: 0.95rem;
+  font-size: clamp(0.92rem, 1.8vw, 1.02rem);
   color: #78350f;
-  line-height: 1.6;
+  line-height: 1.65;
   font-style: italic;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+
+.text-iast .iast-line {
+  display: block;
+  margin-bottom: 0.25rem;
 }
 
 .text-english {
   font-family: var(--font-serif), 'Georgia', serif;
-  font-size: 0.92rem;
+  font-size: clamp(0.88rem, 1.7vw, 0.98rem);
   color: #45220a;
-  line-height: 1.55;
-  border-top: 1px dashed rgba(184, 134, 11, 0.3);
-  padding-top: 6px;
-  margin-top: 4px;
+  line-height: 1.6;
+  border-top: 1px dashed rgba(184, 134, 11, 0.35);
+  padding-top: 8px;
+  margin-top: 6px;
 }
 
 /* ================= FLOATING HIGH-FIDELITY BOTTOM AUDIO PLAYER ================= */

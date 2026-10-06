@@ -20,6 +20,8 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TESTS = [
     ("Canonical Data Parity Verification", [sys.executable, os.path.join(PROJECT_ROOT, "tools", "sync_data_js.py"), "--check"]),
     ("Sanskrit Devanagari Ligature & Corruption Audit", [sys.executable, os.path.join(PROJECT_ROOT, "tools", "audit_sanskrit_cards.py")]),
+    ("Orthogonal Sanskrit Forensic Parity Audit (7 Axes / 52 Checks)", [sys.executable, os.path.join(PROJECT_ROOT, "tools", "audit_orthogonal_sanskrit.py")]),
+    ("Automated Sanskrit Orthography & Forensic Test Suite", [sys.executable, os.path.join(PROJECT_ROOT, "tests", "test_orthogonal_sanskrit.py")]),
     ("43-Point / 82-Check Forensic 1-to-1 Mapping Audit", [sys.executable, os.path.join(PROJECT_ROOT, "tools", "verify_1to1_mapping.py")]),
     ("9-Stage Deep Engineering & Playwright Runtime Audit", [sys.executable, os.path.join(PROJECT_ROOT, "tests", "test_audit_9stage_deep_engineering.py")])
 ]

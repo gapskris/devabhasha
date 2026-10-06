@@ -852,6 +852,26 @@ class DevabhashaApp {
     return ordinals[num] || `${num}`;
   }
 
+  formatSanskritDisplay(text) {
+    if (!text) return '';
+    // Ensure non-breaking space before dandas
+    const glued = text.replace(/[ \t]+([।॥])/g, '\u00A0$1');
+    const lines = glued.split('\n');
+    if (lines.length > 1) {
+      return lines.map(line => `<div class="verse-line">${line.trim()}</div>`).join('');
+    }
+    return glued;
+  }
+
+  formatIastDisplay(text) {
+    if (!text) return '';
+    const lines = text.split('\n');
+    if (lines.length > 1) {
+      return lines.map(line => `<div class="iast-line">${line.trim()}</div>`).join('');
+    }
+    return text;
+  }
+
   /* ================= RENDER STACKED MANUSCRIPT CARDS ================= */
   renderChapterCards() {
     if (!this.dialoguesWrapper) return;
@@ -895,15 +915,19 @@ class DevabhashaApp {
 
         const speakerClass = (idx % 2 === 0) ? 'speaker-avadhani' : 'speaker-shloka';
 
+        const formattedSa = this.formatSanskritDisplay(trackSanskrit);
+        const formattedIast = this.formatIastDisplay(trackIast);
+        const formattedEn = trackTranslation ? trackTranslation.replace(/\n/g, '<br>') : '';
+
         let bodyHtml = '';
         if (this.displayView === 'devanagari') {
-          bodyHtml = trackSanskrit 
-            ? `<div class="text-sanskrit">${trackSanskrit.replace(/\n/g, '<br>')}</div>` 
+          bodyHtml = formattedSa 
+            ? `<div class="text-sanskrit">${formattedSa}</div>` 
             : `<div class="text-sanskrit" style="font-size:1.15rem; color: #78350f;">${trackTitle}</div>`;
         } else if (this.displayView === 'english') {
           bodyHtml = `
-            ${trackIast ? `<div class="text-iast">${trackIast.replace(/\n/g, '<br>')}</div>` : ''}
-            ${trackTranslation ? `<div class="text-english">${trackTranslation.replace(/\n/g, '<br>')}</div>` : ''}
+            ${formattedIast ? `<div class="text-iast">${formattedIast}</div>` : ''}
+            ${formattedEn ? `<div class="text-english">${formattedEn}</div>` : ''}
           `;
           if (!bodyHtml.trim()) {
             bodyHtml = `<div class="text-english" style="font-size:1rem; color: #78350f;">${trackTitle}</div>`;
@@ -911,9 +935,9 @@ class DevabhashaApp {
         } else {
           // Bilingual
           bodyHtml = `
-            ${trackSanskrit ? `<div class="text-sanskrit">${trackSanskrit.replace(/\n/g, '<br>')}</div>` : ''}
-            ${trackIast ? `<div class="text-iast">${trackIast.replace(/\n/g, '<br>')}</div>` : ''}
-            ${trackTranslation ? `<div class="text-english">${trackTranslation.replace(/\n/g, '<br>')}</div>` : ''}
+            ${formattedSa ? `<div class="text-sanskrit">${formattedSa}</div>` : ''}
+            ${formattedIast ? `<div class="text-iast">${formattedIast}</div>` : ''}
+            ${formattedEn ? `<div class="text-english">${formattedEn}</div>` : ''}
           `;
         }
 
