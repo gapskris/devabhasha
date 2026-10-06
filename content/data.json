@@ -91,7 +91,7 @@
       "audioTracks": [
         {
           "id": "chap1_01",
-          "slideIndex": 0,
+          "slideIndex": 5,
           "title": "Raghuvamsham Invocation — Kalidasa",
           "sanskrit": "वागर्थाविव सम्पृक्तौ वागर्थप्रतिपत्तये ।\nजगतः पितरौ वन्दे पार्वतीपरमेश्वरौ ॥",
           "iast": "vāgarthāviva sampṛktau vāgarthapratipattaye |\njagataḥ pitarau vande pārvatīparameśvarau ||",
@@ -188,8 +188,8 @@
           "title": "The Sanskrit Alphabet (Varṇamālā)",
           "canvas": "assets/images/chap2/page01.jpg",
           "trackIndex": 0,
-          "diagram": null,
-          "diagramTitle": null
+          "diagram": "assets/images/chap2/alpha.jpg",
+          "diagramTitle": "Varṇamālā — The Sanskrit Alphabet Master Chart"
         },
         {
           "id": 2,
@@ -558,55 +558,190 @@
       "titleEnglish": "Chitrakavya — Wonder of Visual Poetry",
       "subtitle": "Mathematical Verses, Constrained Patterns & Knight's Tour",
       "canvas": "assets/images/chap03/kalidas.jpg",
-      "totalSections": 6,
+      "totalSections": 15,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
-          "title": "Kalidasa's Dvikshara & Ekakshara Mastery",
-          "canvas": "assets/images/chap03/kalidas.jpg",
-          "description": "Mastery of one-syllable and two-syllable verses in classical poetry."
+          "title": "Introduction to Chitrakavya: The Realm of Adhama-Kavya",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Linguistic acrobatics, constrained compositions, and the playful genius of Sanskrit poets.",
+          "trackIndices": []
         },
         {
           "id": 2,
           "slideNumber": 2,
-          "title": "Sage Valmiki & The Birth of Shloka",
-          "canvas": "assets/images/chap03/valmiki.jpg",
-          "description": "The transformation of grief (śoka) into immortal verse (śloka)."
+          "title": "Varnachitra: All 33 Consonants in Exact Phonetic Order",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "A coherent prayer to Vishnu utilizing all 33 consonants from ka to ha without interruption.",
+          "trackIndices": [
+            0
+          ]
         },
         {
           "id": 3,
           "slideNumber": 3,
-          "title": "Muraja-Bandha: The Double-Headed Drum Pattern",
-          "canvas": "assets/images/chap03/drum.jpg",
-          "description": "Geometric poem woven along the diagonal cords of the sacred drum."
+          "title": "Tryakshara & Dvyakshara: Strict Three and Two Consonant Constraints",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Poetic verses restricted entirely to 3 consonants (n, d, v) or 2 consonants (bh, r).",
+          "trackIndices": [
+            1,
+            2
+          ]
         },
         {
           "id": 4,
           "slideNumber": 4,
-          "title": "Turanga-Gati: The Knight's Tour on 8x8 Chessboard",
-          "canvas": "assets/images/chap03/chess.jpg",
-          "description": "Sanskrit verse traversing an 8x8 board through chess Knight moves."
+          "title": "Ekakshara: Monoconsonantal Mastery (Only 'na' and Only 'da')",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Kiratarjuniya and Shishupalavadha verses composed of a single repeating consonant.",
+          "trackIndices": [
+            3,
+            4
+          ]
         },
         {
           "id": 5,
           "slideNumber": 5,
-          "title": "Gomutrika-Bandha: The Zigzag Cow's Path",
-          "canvas": "assets/images/chap03/gau.jpg",
-          "description": "Constrained verse alternating diagonally like the sacred path."
+          "title": "Sthanachitras, Monovocalics & Bidirectional Hymns",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Verses restricted to single phonetic organs, single vowels, and reversible palindromes.",
+          "trackIndices": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
         },
         {
           "id": 6,
           "slideNumber": 6,
-          "title": "Sarvatobhadra: The Omnidirectional Magic Square Grid",
-          "canvas": "assets/images/chap03/diag04.jpg",
-          "description": "A perfect phonetic matrix reading identically in all 8 directions."
+          "title": "Gomutrika-Bandha: The Zigzag Cow's Path",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "diagram": "assets/images/chap03/gau.jpg",
+          "diagramTitle": "Gomūtrikā-Bandha Diagram Plate",
+          "description": "Diagonal alternating syllables tracing the sacred path of the wandering cow.",
+          "trackIndices": [
+            18
+          ]
+        },
+        {
+          "id": 7,
+          "slideNumber": 7,
+          "title": "Muraja-Bandha: The Constellation of the Double-Headed Drum",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "diagram": "assets/images/chap03/drum.jpg",
+          "diagramTitle": "Muraja-Bandha Mridanga Drum Diagram",
+          "description": "Poetic verse woven across the crossing diagonal laces of the sacred drum.",
+          "trackIndices": [
+            19
+          ]
+        },
+        {
+          "id": 8,
+          "slideNumber": 8,
+          "title": "Sarvatobhadra: The Omnidirectional 8x8 Magic Square",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "diagram": "assets/images/chap03/diag04.jpg",
+          "diagramTitle": "Sarvatobhadra 8x8 Magic Square Matrix",
+          "description": "An 8x8 matrix reading identically forwards, backwards, downwards, and upwards.",
+          "trackIndices": [
+            20
+          ]
+        },
+        {
+          "id": 9,
+          "slideNumber": 9,
+          "title": "Turanga-Gati: The Knight's Tour on the 8x8 Chessboard",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "diagram": "assets/images/chap03/chess.jpg",
+          "diagramTitle": "Turanga-Pada-Bandha Chessboard Knight Tour",
+          "description": "Vedanta Desika's Paduka Sahasram verse revealing a second sacred verse via Knight's moves.",
+          "trackIndices": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": 10,
+          "slideNumber": 10,
+          "title": "Samasya-Purti: Riddle Verses and Metrical Challenges",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Spontaneous poetic composition completing paradoxical final lines.",
+          "trackIndices": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": 11,
+          "slideNumber": 11,
+          "title": "Kalidasa's Wit & Riddle Verses",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "diagram": "assets/images/chap03/kalidas.jpg",
+          "diagramTitle": "Mahakavi Kalidasa Historical Portrait",
+          "description": "The black-faced, two-tongued riddle solved as the sacred quill pen.",
+          "trackIndices": [
+            25
+          ]
+        },
+        {
+          "id": 12,
+          "slideNumber": 12,
+          "title": "Vakrokti: The Art of Clever Verbal Evasion & Playful Dialogue",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Humorous exchanges between Krishna and Satyabhama playing on multiple word meanings.",
+          "trackIndices": [
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "id": 13,
+          "slideNumber": 13,
+          "title": "The Court of King Bhoja: The Humble Weaver's Poem",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "A poor weaver dazzles the royal assembly with 'Kavāmi, Vayāmi, Yāmi'.",
+          "trackIndices": [
+            29
+          ]
+        },
+        {
+          "id": 14,
+          "slideNumber": 14,
+          "title": "Kalidasa's Eulogies: The Grief and Resurrection of King Bhoja",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "From 'Adya Dhara Niradhara' to 'Adya Dhara Sadadhara' upon finding Bhoja alive.",
+          "trackIndices": [
+            30,
+            31
+          ]
+        },
+        {
+          "id": 15,
+          "slideNumber": 15,
+          "title": "The Ocean of Chitrakavya: Boundless Mastery of Speech",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Concluding synthesis on how Sanskrit becomes an instrument of infinite creative play.",
+          "trackIndices": [
+            32
+          ]
         }
       ],
       "audioTracks": [
         {
           "id": "c3_s01",
-          "slideIndex": 0,
+          "slideIndex": 1,
           "title": "Varṇacitra — All 33 Consonants in Order",
           "m4a": "assets/audio/chap3/chapter3s01.m4a",
           "mp3": "assets/audio/chap3/chapter3s01.mp3",
@@ -616,7 +751,7 @@
         },
         {
           "id": "c3_s02",
-          "slideIndex": 0,
+          "slideIndex": 2,
           "title": "Tryakṣara — Constrained to 3 Consonants (n, d, v)",
           "m4a": "assets/audio/chap3/chapter3s02.m4a",
           "mp3": "assets/audio/chap3/chapter3s02.mp3",
@@ -626,7 +761,7 @@
         },
         {
           "id": "c3_s03",
-          "slideIndex": 0,
+          "slideIndex": 2,
           "title": "Dvyakṣara — Two Consonants Only (bh, r) — Magha",
           "m4a": "assets/audio/chap3/chapter3s03.m4a",
           "mp3": "assets/audio/chap3/chapter3s03.mp3",
@@ -636,7 +771,7 @@
         },
         {
           "id": "c3_s04",
-          "slideIndex": 0,
+          "slideIndex": 3,
           "title": "Ekākṣara — Single Consonant 'na' — Bharavi",
           "m4a": "assets/audio/chap3/chapter3s04.m4a",
           "mp3": "assets/audio/chap3/chapter3s04.mp3",
@@ -646,7 +781,7 @@
         },
         {
           "id": "c3_s05",
-          "slideIndex": 0,
+          "slideIndex": 3,
           "title": "Ekākṣara — Single Consonant 'da' — Magha",
           "m4a": "assets/audio/chap3/chapter3s05.m4a",
           "mp3": "assets/audio/chap3/chapter3s05.mp3",
@@ -656,7 +791,7 @@
         },
         {
           "id": "c3_s06",
-          "slideIndex": 1,
+          "slideIndex": 4,
           "title": "Kaṇṭhya-Varṇacitra — Guttural Consonants Only",
           "m4a": "assets/audio/chap3/chapter3s06.m4a",
           "mp3": "assets/audio/chap3/chapter3s06.mp3",
@@ -666,7 +801,7 @@
         },
         {
           "id": "c3_s07",
-          "slideIndex": 1,
+          "slideIndex": 4,
           "title": "Tālavya-Varṇacitra — Palatal Consonants Only",
           "m4a": "assets/audio/chap3/chapter3s07.m4a",
           "mp3": "assets/audio/chap3/chapter3s07.mp3",
@@ -676,7 +811,7 @@
         },
         {
           "id": "c3_s08",
-          "slideIndex": 1,
+          "slideIndex": 4,
           "title": "Dantya-Varṇacitra — Dental Consonants Only",
           "m4a": "assets/audio/chap3/chapter3s08.m4a",
           "mp3": "assets/audio/chap3/chapter3s08.mp3",
@@ -686,7 +821,7 @@
         },
         {
           "id": "c3_s09",
-          "slideIndex": 1,
+          "slideIndex": 4,
           "title": "Oṣṭhya-Varṇacitra — Labial Consonants Only",
           "m4a": "assets/audio/chap3/chapter3s09.m4a",
           "mp3": "assets/audio/chap3/chapter3s09.mp3",
@@ -696,7 +831,7 @@
         },
         {
           "id": "c3_s10",
-          "slideIndex": 1,
+          "slideIndex": 4,
           "title": "Ekā-Svara — Monovocalic Verse (Vowel 'a' Only)",
           "m4a": "assets/audio/chap3/chapter3s10.m4a",
           "mp3": "assets/audio/chap3/chapter3s10.mp3",
@@ -706,7 +841,7 @@
         },
         {
           "id": "c3_s11",
-          "slideIndex": 1,
+          "slideIndex": 4,
           "title": "Ekā-Svara — Monovocalic Verse (Vowel 'i' Only)",
           "m4a": "assets/audio/chap3/chapter3s11.m4a",
           "mp3": "assets/audio/chap3/chapter3s11.mp3",
@@ -716,7 +851,7 @@
         },
         {
           "id": "c3_s12",
-          "slideIndex": 2,
+          "slideIndex": 4,
           "title": "Dvikāra-Khelanam — The Play of Consonants 'ka' and 'ta'",
           "m4a": "assets/audio/chap3/chapter3s12.m4a",
           "mp3": "assets/audio/chap3/chapter3s12.mp3",
@@ -726,7 +861,7 @@
         },
         {
           "id": "c3_s13",
-          "slideIndex": 2,
+          "slideIndex": 4,
           "title": "Mahā-Yamaka — 4 Identical Quarters with Distinct Meanings",
           "m4a": "assets/audio/chap3/chapter3s13.m4a",
           "mp3": "assets/audio/chap3/chapter3s13.mp3",
@@ -736,7 +871,7 @@
         },
         {
           "id": "c3_s14",
-          "slideIndex": 2,
+          "slideIndex": 4,
           "title": "Pāda-Pratiloma — Line-by-Line Palindrome",
           "m4a": "assets/audio/chap3/chapter3s14.m4a",
           "mp3": "assets/audio/chap3/chapter3s14.mp3",
@@ -746,7 +881,7 @@
         },
         {
           "id": "c3_s15",
-          "slideIndex": 2,
+          "slideIndex": 4,
           "title": "Śloka-Pratiloma — Complete Verse Palindrome",
           "m4a": "assets/audio/chap3/chapter3s15.m4a",
           "mp3": "assets/audio/chap3/chapter3s15.mp3",
@@ -756,7 +891,7 @@
         },
         {
           "id": "c3_s16",
-          "slideIndex": 2,
+          "slideIndex": 4,
           "title": "Rāghavayādavīyam — Bidirectional Rāma & Kṛṣṇa Dual Verse",
           "m4a": "assets/audio/chap3/chapter3s16.m4a",
           "mp3": "assets/audio/chap3/chapter3s16.mp3",
@@ -766,7 +901,7 @@
         },
         {
           "id": "c3_s17",
-          "slideIndex": 2,
+          "slideIndex": 4,
           "title": "Muraja-Bandha — The Double-Headed Drum Geometric Pattern",
           "m4a": "assets/audio/chap3/chapter3s17.m4a",
           "mp3": "assets/audio/chap3/chapter3s17.mp3",
@@ -776,7 +911,7 @@
         },
         {
           "id": "c3_s18",
-          "slideIndex": 3,
+          "slideIndex": 4,
           "title": "Sarvatobhadra — The 8-Directional Magic Square Matrix",
           "m4a": "assets/audio/chap3/chapter3s18.m4a",
           "mp3": "assets/audio/chap3/chapter3s18.mp3",
@@ -786,7 +921,7 @@
         },
         {
           "id": "c3_s19",
-          "slideIndex": 3,
+          "slideIndex": 5,
           "title": "Turaṅga-Gati (Part 1) — The 8x8 Chessboard Knight's Tour Setup",
           "m4a": "assets/audio/chap3/chapter3s19.m4a",
           "mp3": "assets/audio/chap3/chapter3s19.mp3",
@@ -796,7 +931,7 @@
         },
         {
           "id": "c3_s20",
-          "slideIndex": 3,
+          "slideIndex": 6,
           "title": "Turaṅga-Gati (Part 2) — Reading via Knight Moves (Euler Tour)",
           "m4a": "assets/audio/chap3/chapter3s20.m4a",
           "mp3": "assets/audio/chap3/chapter3s20.mp3",
@@ -806,7 +941,7 @@
         },
         {
           "id": "c3_s21",
-          "slideIndex": 3,
+          "slideIndex": 7,
           "title": "Gomūtrikā-Bandha — The Zigzag Cow's Path Constrained Verse",
           "m4a": "assets/audio/chap3/chapter3s21.m4a",
           "mp3": "assets/audio/chap3/chapter3s21.mp3",
@@ -816,7 +951,7 @@
         },
         {
           "id": "c3_s22",
-          "slideIndex": 3,
+          "slideIndex": 8,
           "title": "Samasyā-Pūraṇa 1 — 'Mṛgāt Siṃhaḥ Palāyate' (The Lion Flees the Deer)",
           "m4a": "assets/audio/chap3/chapter3s22.m4a",
           "mp3": "assets/audio/chap3/chapter3s22.mp3",
@@ -826,7 +961,7 @@
         },
         {
           "id": "c3_s23",
-          "slideIndex": 3,
+          "slideIndex": 8,
           "title": "Samasyā-Pūraṇa 2 — Kalidasa's Onomatopoeic 'Ṭhaṁ-Ṭhaṁ' Solution",
           "m4a": "assets/audio/chap3/chapter3s23.m4a",
           "mp3": "assets/audio/chap3/chapter3s23.mp3",
@@ -836,7 +971,7 @@
         },
         {
           "id": "c3_s24",
-          "slideIndex": 4,
+          "slideIndex": 9,
           "title": "Prahelikā 1 — Riddle of the Reed Pen (Kṛṣṇamukhī)",
           "m4a": "assets/audio/chap3/chapter3s24.m4a",
           "mp3": "assets/audio/chap3/chapter3s24.mp3",
@@ -846,7 +981,7 @@
         },
         {
           "id": "c3_s25",
-          "slideIndex": 4,
+          "slideIndex": 9,
           "title": "Prahelikā 2 — The Cosmic Family Paradox",
           "m4a": "assets/audio/chap3/chapter3s25.m4a",
           "mp3": "assets/audio/chap3/chapter3s25.mp3",
@@ -856,7 +991,7 @@
         },
         {
           "id": "c3_s26",
-          "slideIndex": 4,
+          "slideIndex": 10,
           "title": "Vakrokti 1 — Gopi & Krishna Nocturnal Doorstep Dialogue",
           "m4a": "assets/audio/chap3/chapter3s26.m4a",
           "mp3": "assets/audio/chap3/chapter3s26.mp3",
@@ -866,7 +1001,7 @@
         },
         {
           "id": "c3_s27",
-          "slideIndex": 4,
+          "slideIndex": 11,
           "title": "Vakrokti 2 — Satyabhāmā & Krishna Playful Banter",
           "m4a": "assets/audio/chap3/chapter3s27.m4a",
           "mp3": "assets/audio/chap3/chapter3s27.mp3",
@@ -876,7 +1011,7 @@
         },
         {
           "id": "c3_s28",
-          "slideIndex": 4,
+          "slideIndex": 11,
           "title": "Stuti — In Praise of Divine Mother Parvati",
           "m4a": "assets/audio/chap3/chapter3s28.m4a",
           "mp3": "assets/audio/chap3/chapter3s28.mp3",
@@ -886,7 +1021,7 @@
         },
         {
           "id": "c3_s29",
-          "slideIndex": 4,
+          "slideIndex": 11,
           "title": "Bhoja's Court — The Humble Weaver's Spontaneous Verse",
           "m4a": "assets/audio/chap3/chapter3s29.m4a",
           "mp3": "assets/audio/chap3/chapter3s29.mp3",
@@ -896,7 +1031,7 @@
         },
         {
           "id": "c3_s30",
-          "slideIndex": 5,
+          "slideIndex": 12,
           "title": "Bhoja's Obituary — Kalidasa's Heartbreak",
           "m4a": "assets/audio/chap3/chapter3s30.m4a",
           "mp3": "assets/audio/chap3/chapter3s30.mp3",
@@ -906,7 +1041,7 @@
         },
         {
           "id": "c3_s31",
-          "slideIndex": 5,
+          "slideIndex": 13,
           "title": "Bhoja's Resurrection — Kalidasa's Instant Poetic Transformation",
           "m4a": "assets/audio/chap3/chapter3s31.m4a",
           "mp3": "assets/audio/chap3/chapter3s31.mp3",
@@ -916,7 +1051,7 @@
         },
         {
           "id": "c3_s32",
-          "slideIndex": 5,
+          "slideIndex": 13,
           "title": "Citrakāvya Retrospective — Versatility of the Language",
           "m4a": "assets/audio/chap3/chapter3s32.m4a",
           "mp3": "assets/audio/chap3/chapter3s32.mp3",
@@ -926,7 +1061,7 @@
         },
         {
           "id": "c3_s33",
-          "slideIndex": 5,
+          "slideIndex": 14,
           "title": "The Sweetness of Sacred Speech — Final Citrakāvya Reflection",
           "m4a": "assets/audio/chap3/chapter3s33.m4a",
           "mp3": "assets/audio/chap3/chapter3s33.mp3",
@@ -960,49 +1095,159 @@
       "titleIAST": "Vijñānasya Bhāṣā",
       "titleEnglish": "The Language of Science",
       "subtitle": "Mathematics, Astronomy, Medicine & AI in Sanskrit",
-      "canvas": "assets/images/chap03/diag04.jpg",
-      "totalSections": 5,
+      "canvas": "assets/images/chapter1/chap1page01.jpg",
+      "totalSections": 17,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
-          "title": "Baudhayana's Sulba Sutras & Ancient Geometry",
-          "canvas": "assets/images/chap03/diag04.jpg",
-          "trackIndex": 0
+          "title": "Sanskrit in Arts, Sciences and Daily Life",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Comprehensive vision of Sanskrit as an exact scientific medium.",
+          "trackIndices": []
         },
         {
           "id": 2,
           "slideNumber": 2,
-          "title": "Aryabhata's Astronomical Algorithms",
-          "canvas": "assets/images/chap03/diag04.jpg",
-          "trackIndex": 1
+          "title": "Sanskrit and Artificial Intelligence: Rick Briggs & NASA",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Bridging natural language processing and Paninian semantic graphs.",
+          "trackIndices": []
         },
         {
           "id": 3,
           "slideNumber": 3,
-          "title": "Pingala's Binary System & Combinatorics (Chandas)",
-          "canvas": "assets/images/chap03/diag04.jpg",
-          "trackIndex": 2
+          "title": "Semantic Networks & Knowledge Representation",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "How 5th-century BCE grammarians solved modern computer language problems.",
+          "trackIndices": []
         },
         {
           "id": 4,
           "slideNumber": 4,
-          "title": "Sushruta & Charaka: The Foundations of Ayurveda",
-          "canvas": "assets/images/chap03/diag04.jpg",
-          "trackIndex": 3
+          "title": "Baudhayana Sulba Sutras: Ancient Indian Geometry",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Earliest formulation of the diagonal theorem (Pythagoras).",
+          "trackIndices": [
+            0
+          ]
         },
         {
           "id": 5,
           "slideNumber": 5,
-          "title": "Rick Briggs & NASA: Sanskrit in Artificial Intelligence",
-          "canvas": "assets/images/chap03/diag04.jpg",
-          "trackIndex": 4
+          "title": "Precision Approximation of the Square Root of 2",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Fractional expansion calculating √2 to 5 decimal places.",
+          "trackIndices": [
+            1
+          ]
+        },
+        {
+          "id": 6,
+          "slideNumber": 6,
+          "title": "Aryabhata I: Exact Calculation of Pi (3.1416)",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Astronomical treatises and circumference-to-diameter ratio.",
+          "trackIndices": [
+            2
+          ]
+        },
+        {
+          "id": 7,
+          "slideNumber": 7,
+          "title": "The True Learning: Para Vidya and Apara Vidya",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Spiritual foundation integrating outer sciences with inner wisdom.",
+          "trackIndices": []
+        },
+        {
+          "id": 8,
+          "slideNumber": 8,
+          "title": "The Vedas and Vedangas: The Six Auxiliary Sciences",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Phonetics, metrics, grammar, etymology, astronomy, and ritual.",
+          "trackIndices": []
+        },
+        {
+          "id": 9,
+          "slideNumber": 9,
+          "title": "Jyotisha: Ancient Astronomy and Time Measurement",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Planetary positions, cosmic cycles, and celestial mathematics.",
+          "trackIndices": []
+        },
+        {
+          "id": 10,
+          "slideNumber": 10,
+          "title": "Shatarudriya Hymns: Metallurgy, Flora, and Ecology",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Vedic enumeration of metals, crafts, and forest conservation.",
+          "trackIndices": []
+        },
+        {
+          "id": 11,
+          "slideNumber": 11,
+          "title": "The Itihasas & Puranas: Encyclopedias of Human Knowledge",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Ramayana and Mahabharata as repositories of geography and statecraft.",
+          "trackIndices": []
+        },
+        {
+          "id": 12,
+          "slideNumber": 12,
+          "title": "Sacred Geography & Pan-Indian Pilgrimage",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Confluence of holy rivers and mountains binding the subcontinent.",
+          "trackIndices": []
+        },
+        {
+          "id": 13,
+          "slideNumber": 13,
+          "title": "Katapayadi: The Alphanumeric Cipher System",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Encoding astronomical constants and mathematical tables into poetry.",
+          "trackIndices": [
+            3,
+            4
+          ]
+        },
+        {
+          "id": 14,
+          "slideNumber": 14,
+          "title": "Kautilya's Arthashastra: Statecraft and Economics",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Meticulous treatise on public administration, law, and treasury.",
+          "trackIndices": []
+        },
+        {
+          "id": 15,
+          "slideNumber": 15,
+          "title": "Vatsyayana's Kamashastra and the 64 Traditional Arts",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Comprehensive curriculum of aesthetics, music, sculpting, and daily arts.",
+          "trackIndices": []
+        },
+        {
+          "id": 16,
+          "slideNumber": 16,
+          "title": "The Six Darshanas: Classical Systems of Philosophy",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa, and Vedanta.",
+          "trackIndices": []
+        },
+        {
+          "id": 17,
+          "slideNumber": 17,
+          "title": "Classical Drama and Living Traditions of Sanskrit",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Kalidasa, Bhasa, and Bhavabhuti reflecting vibrant social life.",
+          "trackIndices": []
         }
       ],
       "audioTracks": [
         {
           "id": "c4_s1",
-          "slideIndex": 0,
+          "slideIndex": 3,
           "title": "Baudhāyana Śulba Sūtra — Precursor to Pythagoras' Theorem",
           "m4a": "assets/audio/chap4/chapter4s1.m4a",
           "mp3": "assets/audio/chap4/chapter4s1.mp3",
@@ -1012,7 +1257,7 @@
         },
         {
           "id": "c4_s2",
-          "slideIndex": 1,
+          "slideIndex": 4,
           "title": "Baudhāyana's Precision Approximation of √2",
           "m4a": "assets/audio/chap4/chapter4s2.m4a",
           "mp3": "assets/audio/chap4/chapter4s2.mp3",
@@ -1022,7 +1267,7 @@
         },
         {
           "id": "c4_s3",
-          "slideIndex": 2,
+          "slideIndex": 5,
           "title": "Āryabhaṭa's Accurate Calculation of π (3.1416)",
           "m4a": "assets/audio/chap4/chapter4s3.m4a",
           "mp3": "assets/audio/chap4/chapter4s3.mp3",
@@ -1032,7 +1277,7 @@
         },
         {
           "id": "c4_s4",
-          "slideIndex": 3,
+          "slideIndex": 12,
           "title": "Āryabhaṭa's Alphabetical Number Code (Kaṭapayādi)",
           "m4a": "assets/audio/chap4/chapter4s4.m4a",
           "mp3": "assets/audio/chap4/chapter4s4.mp3",
@@ -1042,7 +1287,7 @@
         },
         {
           "id": "c4_s5",
-          "slideIndex": 4,
+          "slideIndex": 12,
           "title": "Sanskrit in Architecture, Music & Practical Sciences",
           "m4a": "assets/audio/chap4/chapter4s5.m4a",
           "mp3": "assets/audio/chap4/chapter4s5.mp3",
@@ -1072,127 +1317,209 @@
       "titleEnglish": "An Inexhaustible Literature",
       "subtitle": "The Classical Kavya Trinity: Kalidasa, Bhavabhuti, Bharavi",
       "canvas": "assets/images/chapter5/chap5page01.jpg",
-      "totalSections": 20,
+      "totalSections": 19,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
           "title": "Classical Poetry Manuscript Page 1",
-          "canvas": "assets/images/chapter5/chap5page01.jpg"
+          "canvas": "assets/images/chapter5/chap5page01.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            0
+          ]
         },
         {
           "id": 2,
           "slideNumber": 2,
           "title": "Classical Poetry Manuscript Page 2",
-          "canvas": "assets/images/chapter5/chap5page02.jpg"
+          "canvas": "assets/images/chapter5/chap5page02.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            1
+          ]
         },
         {
           "id": 3,
           "slideNumber": 3,
           "title": "Classical Poetry Manuscript Page 3",
-          "canvas": "assets/images/chapter5/chap5page03.jpg"
+          "canvas": "assets/images/chapter5/chap5page03.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            2
+          ]
         },
         {
           "id": 4,
           "slideNumber": 4,
           "title": "Classical Poetry Manuscript Page 4",
-          "canvas": "assets/images/chapter5/chap5page04.jpg"
+          "canvas": "assets/images/chapter5/chap5page04.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            3,
+            4
+          ]
         },
         {
           "id": 5,
           "slideNumber": 5,
           "title": "Classical Poetry Manuscript Page 5",
-          "canvas": "assets/images/chapter5/chap5page05.jpg"
+          "canvas": "assets/images/chapter5/chap5page05.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            5
+          ]
         },
         {
           "id": 6,
           "slideNumber": 6,
           "title": "Classical Poetry Manuscript Page 6",
-          "canvas": "assets/images/chapter5/chap5page06.jpg"
+          "canvas": "assets/images/chapter5/chap5page06.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            6,
+            7
+          ]
         },
         {
           "id": 7,
           "slideNumber": 7,
           "title": "Classical Poetry Manuscript Page 7",
-          "canvas": "assets/images/chapter5/chap5page07.jpg"
+          "canvas": "assets/images/chapter5/chap5page07.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            8
+          ]
         },
         {
           "id": 8,
           "slideNumber": 8,
           "title": "Classical Poetry Manuscript Page 8",
-          "canvas": "assets/images/chapter5/chap5page08.jpg"
+          "canvas": "assets/images/chapter5/chap5page08.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            9
+          ]
         },
         {
           "id": 9,
           "slideNumber": 9,
           "title": "Classical Poetry Manuscript Page 9",
-          "canvas": "assets/images/chapter5/chap5page09.jpg"
+          "canvas": "assets/images/chapter5/chap5page09.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            10,
+            11
+          ]
         },
         {
           "id": 10,
           "slideNumber": 10,
           "title": "Classical Poetry Manuscript Page 10",
-          "canvas": "assets/images/chapter5/chap5page10.jpg"
+          "canvas": "assets/images/chapter5/chap5page10.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            12,
+            13
+          ]
         },
         {
           "id": 11,
           "slideNumber": 11,
           "title": "Classical Poetry Manuscript Page 11",
-          "canvas": "assets/images/chapter5/chap5page11.jpg"
+          "canvas": "assets/images/chapter5/chap5page11.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            14,
+            15
+          ]
         },
         {
           "id": 12,
           "slideNumber": 12,
           "title": "Classical Poetry Manuscript Page 12",
-          "canvas": "assets/images/chapter5/chap5page12.jpg"
+          "canvas": "assets/images/chapter5/chap5page12.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            16
+          ]
         },
         {
           "id": 13,
           "slideNumber": 13,
           "title": "Classical Poetry Manuscript Page 13",
-          "canvas": "assets/images/chapter5/chap5page13.jpg"
+          "canvas": "assets/images/chapter5/chap5page13.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            17,
+            18
+          ]
         },
         {
           "id": 14,
           "slideNumber": 14,
           "title": "Classical Poetry Manuscript Page 14",
-          "canvas": "assets/images/chapter5/chap5page14.jpg"
+          "canvas": "assets/images/chapter5/chap5page14.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            19,
+            20
+          ]
         },
         {
           "id": 15,
           "slideNumber": 15,
           "title": "Classical Poetry Manuscript Page 15",
-          "canvas": "assets/images/chapter5/chap5page15.jpg"
+          "canvas": "assets/images/chapter5/chap5page15.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            21,
+            22
+          ]
         },
         {
           "id": 16,
           "slideNumber": 16,
           "title": "Classical Poetry Manuscript Page 16",
-          "canvas": "assets/images/chapter5/chap5page16.jpg"
+          "canvas": "assets/images/chapter5/chap5page16.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            23,
+            24
+          ]
         },
         {
           "id": 17,
           "slideNumber": 17,
           "title": "Classical Poetry Manuscript Page 17",
-          "canvas": "assets/images/chapter5/chap5page17.jpg"
+          "canvas": "assets/images/chapter5/chap5page17.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            25,
+            26
+          ]
         },
         {
           "id": 18,
           "slideNumber": 18,
           "title": "Classical Poetry Manuscript Page 18",
-          "canvas": "assets/images/chapter5/chap5page18.jpg"
+          "canvas": "assets/images/chapter5/chap5page18.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            27,
+            28
+          ]
         },
         {
           "id": 19,
           "slideNumber": 19,
           "title": "Classical Poetry Manuscript Page 19",
-          "canvas": "assets/images/chapter5/chap5page19.jpg"
-        },
-        {
-          "id": 20,
-          "slideNumber": 20,
-          "title": "Sage Valmiki — Adi Kavi of Classical Kavya",
-          "canvas": "assets/images/chapter5/valmiki.jpg"
+          "canvas": "assets/images/chapter5/chap5page19.jpg",
+          "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
+          "trackIndices": [
+            29,
+            30
+          ]
         }
       ],
       "audioTracks": [
@@ -1208,7 +1535,7 @@
         },
         {
           "id": "c5_s02",
-          "slideIndex": 0,
+          "slideIndex": 1,
           "title": "Valmiki Ramayana — The Birth of the First Shloka",
           "m4a": "assets/audio/chap5/chapter5s2.m4a",
           "mp3": "assets/audio/chap5/chapter5s2.mp3",
@@ -1218,7 +1545,7 @@
         },
         {
           "id": "c5_s03",
-          "slideIndex": 1,
+          "slideIndex": 2,
           "title": "Valmiki Ramayana — Kausalyā Gives Birth to Rama",
           "m4a": "assets/audio/chap5/chapter5s3.m4a",
           "mp3": "assets/audio/chap5/chapter5s3.mp3",
@@ -1228,7 +1555,7 @@
         },
         {
           "id": "c5_s04",
-          "slideIndex": 1,
+          "slideIndex": 3,
           "title": "Valmiki Ramayana — Sita's Message of Compassion to Hanuman",
           "m4a": "assets/audio/chap5/chapter5s4.m4a",
           "mp3": "assets/audio/chap5/chapter5s4.mp3",
@@ -1238,7 +1565,7 @@
         },
         {
           "id": "c5_s05",
-          "slideIndex": 2,
+          "slideIndex": 3,
           "title": "Valmiki Ramayana — Description of Night in the Forest",
           "m4a": "assets/audio/chap5/chapter5s5.m4a",
           "mp3": "assets/audio/chap5/chapter5s5.mp3",
@@ -1248,7 +1575,7 @@
         },
         {
           "id": "c5_s06",
-          "slideIndex": 3,
+          "slideIndex": 4,
           "title": "Vyasa Mahabharata — Draupadi Addressing Bhimasena",
           "m4a": "assets/audio/chap5/chapter5s6.m4a",
           "mp3": "assets/audio/chap5/chapter5s6.mp3",
@@ -1258,7 +1585,7 @@
         },
         {
           "id": "c5_s07",
-          "slideIndex": 3,
+          "slideIndex": 5,
           "title": "Vyasa Mahabharata — Damayanti's Lament in the Forest",
           "m4a": "assets/audio/chap5/chapter5s7.m4a",
           "mp3": "assets/audio/chap5/chapter5s7.mp3",
@@ -1268,7 +1595,7 @@
         },
         {
           "id": "c5_s08",
-          "slideIndex": 4,
+          "slideIndex": 5,
           "title": "Vyasa Mahabharata — Savitri's Unwavering Resolve",
           "m4a": "assets/audio/chap5/chapter5s8.m4a",
           "mp3": "assets/audio/chap5/chapter5s8.mp3",
@@ -1278,7 +1605,7 @@
         },
         {
           "id": "c5_s09",
-          "slideIndex": 5,
+          "slideIndex": 6,
           "title": "Kalidasa Kumarasambhavam — The Himalayas as Divine Axis",
           "m4a": "assets/audio/chap5/chapter5s9.m4a",
           "mp3": "assets/audio/chap5/chapter5s9.mp3",
@@ -1288,7 +1615,7 @@
         },
         {
           "id": "c5_s10",
-          "slideIndex": 5,
+          "slideIndex": 7,
           "title": "Kalidasa Kumarasambhavam — The Demon Army (Verse 1)",
           "m4a": "assets/audio/chap5/chapter5s10.m4a",
           "mp3": "assets/audio/chap5/chapter5s10.mp3",
@@ -1298,7 +1625,7 @@
         },
         {
           "id": "c5_s11",
-          "slideIndex": 6,
+          "slideIndex": 8,
           "title": "Kalidasa Kumarasambhavam — The Demon Army (Verse 2)",
           "m4a": "assets/audio/chap5/chapter5s11.m4a",
           "mp3": "assets/audio/chap5/chapter5s11.mp3",
@@ -1308,7 +1635,7 @@
         },
         {
           "id": "c5_s12",
-          "slideIndex": 7,
+          "slideIndex": 8,
           "title": "Kalidasa Kumarasambhavam — The Demon Army (Verse 3)",
           "m4a": "assets/audio/chap5/chapter5s12.m4a",
           "mp3": "assets/audio/chap5/chapter5s12.mp3",
@@ -1318,7 +1645,7 @@
         },
         {
           "id": "c5_s13",
-          "slideIndex": 7,
+          "slideIndex": 9,
           "title": "Kalidasa Kumarasambhavam — The Demon Army (Verse 4)",
           "m4a": "assets/audio/chap5/chapter5s13.m4a",
           "mp3": "assets/audio/chap5/chapter5s13.mp3",
@@ -1328,7 +1655,7 @@
         },
         {
           "id": "c5_s14",
-          "slideIndex": 8,
+          "slideIndex": 9,
           "title": "Kalidasa Meghadutam — The Exiled Yaksha (Verse 1)",
           "m4a": "assets/audio/chap5/chapter5s14.m4a",
           "mp3": "assets/audio/chap5/chapter5s14.mp3",
@@ -1338,7 +1665,7 @@
         },
         {
           "id": "c5_s15",
-          "slideIndex": 9,
+          "slideIndex": 10,
           "title": "Kalidasa Meghadutam — The Cloud on the Mountain Peak (Verse 2)",
           "m4a": "assets/audio/chap5/chapter5s15.m4a",
           "mp3": "assets/audio/chap5/chapter5s15.mp3",
@@ -1348,7 +1675,7 @@
         },
         {
           "id": "c5_s16",
-          "slideIndex": 9,
+          "slideIndex": 10,
           "title": "Kalidasa Meghadutam — The Celestial City of Alakā (Verse 3)",
           "m4a": "assets/audio/chap5/chapter5s16.m4a",
           "mp3": "assets/audio/chap5/chapter5s16.mp3",
@@ -1358,7 +1685,7 @@
         },
         {
           "id": "c5_s17",
-          "slideIndex": 10,
+          "slideIndex": 11,
           "title": "Kalidasa Abhijnanashakuntalam — Dushyanta First Sees Shakuntala",
           "m4a": "assets/audio/chap5/chapter5s17.m4a",
           "mp3": "assets/audio/chap5/chapter5s17.mp3",
@@ -1368,7 +1695,7 @@
         },
         {
           "id": "c5_s18",
-          "slideIndex": 10,
+          "slideIndex": 12,
           "title": "Kalidasa Abhijnanashakuntalam — Shakuntala's Departure (Verse 1)",
           "m4a": "assets/audio/chap5/chapter5s18.m4a",
           "mp3": "assets/audio/chap5/chapter5s18.mp3",
@@ -1378,7 +1705,7 @@
         },
         {
           "id": "c5_s19",
-          "slideIndex": 11,
+          "slideIndex": 12,
           "title": "Kalidasa Abhijnanashakuntalam — Sage Kanva Bids Nature Farewell (Verse 2)",
           "m4a": "assets/audio/chap5/chapter5s19.m4a",
           "mp3": "assets/audio/chap5/chapter5s19.mp3",
@@ -1388,7 +1715,7 @@
         },
         {
           "id": "c5_s20",
-          "slideIndex": 12,
+          "slideIndex": 13,
           "title": "Kalidasa Abhijnanashakuntalam — The Fawn That Clings to Her Robe (Verse 3)",
           "m4a": "assets/audio/chap5/chapter5s20.m4a",
           "mp3": "assets/audio/chap5/chapter5s20.mp3",
@@ -1398,7 +1725,7 @@
         },
         {
           "id": "c5_s21",
-          "slideIndex": 12,
+          "slideIndex": 13,
           "title": "Kalidasa Abhijnanashakuntalam — Kanva's Counsel to the King (Verse 4)",
           "m4a": "assets/audio/chap5/chapter5s21.m4a",
           "mp3": "assets/audio/chap5/chapter5s21.mp3",
@@ -1408,7 +1735,7 @@
         },
         {
           "id": "c5_s22",
-          "slideIndex": 13,
+          "slideIndex": 14,
           "title": "Kalidasa Vikramorvashiyam — Pururavas Seeking Urvashi",
           "m4a": "assets/audio/chap5/chapter5s22.m4a",
           "mp3": "assets/audio/chap5/chapter5s22.mp3",
@@ -1428,7 +1755,7 @@
         },
         {
           "id": "c5_s24",
-          "slideIndex": 14,
+          "slideIndex": 15,
           "title": "Kalidasa Ritusamhara — The Rainy Season (Varṣā)",
           "m4a": "assets/audio/chap5/chapter5s24.m4a",
           "mp3": "assets/audio/chap5/chapter5s24.mp3",
@@ -1478,7 +1805,7 @@
         },
         {
           "id": "c5_s29",
-          "slideIndex": 18,
+          "slideIndex": 17,
           "title": "Jayadeva Gitagovindam — The Flute of Krishna (Verse 2)",
           "m4a": "assets/audio/chap5/chapter5s29.m4a",
           "mp3": "assets/audio/chap5/chapter5s29.mp3",
@@ -1498,7 +1825,7 @@
         },
         {
           "id": "c5_s31",
-          "slideIndex": 19,
+          "slideIndex": 18,
           "title": "The Creation of Woman — The Divine Harmony of Speech",
           "m4a": "assets/audio/chap5/chapter5s31.m4a",
           "mp3": "assets/audio/chap5/chapter5s31.mp3",
@@ -1528,79 +1855,110 @@
       "titleEnglish": "Subhashitas — Gems of Wisdom",
       "subtitle": "Epigrammatic Philosophy, Friendship, Learning & Ethics",
       "canvas": "assets/images/chapter6/chapter6page01.jpg",
-      "totalSections": 12,
+      "totalSections": 9,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
           "title": "Subhashita Wisdom Inscription Page 1",
-          "canvas": "assets/images/chapter6/chapter6page01.jpg"
+          "canvas": "assets/images/chapter6/chapter6page01.jpg",
+          "description": "Condensed ethical wisdom, contentment, friendship, and self-mastery.",
+          "trackIndices": [
+            0,
+            1
+          ]
         },
         {
           "id": 2,
           "slideNumber": 2,
           "title": "Subhashita Wisdom Inscription Page 2",
-          "canvas": "assets/images/chapter6/chapter6page02.jpg"
+          "canvas": "assets/images/chapter6/chapter6page02.jpg",
+          "description": "Condensed ethical wisdom, contentment, friendship, and self-mastery.",
+          "trackIndices": [
+            2,
+            3
+          ]
         },
         {
           "id": 3,
           "slideNumber": 3,
           "title": "Subhashita Wisdom Inscription Page 3",
-          "canvas": "assets/images/chapter6/chapter6page03.jpg"
+          "canvas": "assets/images/chapter6/chapter6page03.jpg",
+          "description": "Condensed ethical wisdom, contentment, friendship, and self-mastery.",
+          "trackIndices": [
+            4,
+            5
+          ]
         },
         {
           "id": 4,
           "slideNumber": 4,
           "title": "Subhashita Wisdom Inscription Page 4",
-          "canvas": "assets/images/chapter6/chapter6page04.jpg"
+          "canvas": "assets/images/chapter6/chapter6page04.jpg",
+          "description": "Condensed ethical wisdom, contentment, friendship, and self-mastery.",
+          "trackIndices": [
+            6,
+            7,
+            8
+          ]
         },
         {
           "id": 5,
           "slideNumber": 5,
           "title": "Subhashita Wisdom Inscription Page 5",
-          "canvas": "assets/images/chapter6/chapter6page05.jpg"
+          "canvas": "assets/images/chapter6/chapter6page05.jpg",
+          "description": "Condensed ethical wisdom, contentment, friendship, and self-mastery.",
+          "trackIndices": [
+            9,
+            10,
+            11
+          ]
         },
         {
           "id": 6,
           "slideNumber": 6,
           "title": "Subhashita Wisdom Inscription Page 6",
-          "canvas": "assets/images/chapter6/chapter6page06.jpg"
+          "canvas": "assets/images/chapter6/chapter6page06.jpg",
+          "description": "Condensed ethical wisdom, contentment, friendship, and self-mastery.",
+          "trackIndices": [
+            12,
+            13,
+            14
+          ]
         },
         {
           "id": 7,
           "slideNumber": 7,
           "title": "Subhashita Wisdom Inscription Page 7",
-          "canvas": "assets/images/chapter6/chapter6page07.jpg"
+          "canvas": "assets/images/chapter6/chapter6page07.jpg",
+          "description": "Condensed ethical wisdom, contentment, friendship, and self-mastery.",
+          "trackIndices": [
+            15,
+            16
+          ]
         },
         {
           "id": 8,
           "slideNumber": 8,
           "title": "Subhashita Wisdom Inscription Page 8",
-          "canvas": "assets/images/chapter6/chapter6page08.jpg"
+          "canvas": "assets/images/chapter6/chapter6page08.jpg",
+          "description": "Condensed ethical wisdom, contentment, friendship, and self-mastery.",
+          "trackIndices": [
+            17,
+            18,
+            19
+          ]
         },
         {
           "id": 9,
           "slideNumber": 9,
           "title": "Subhashita Wisdom Inscription Page 9",
-          "canvas": "assets/images/chapter6/chapter6page09.jpg"
-        },
-        {
-          "id": 10,
-          "slideNumber": 10,
-          "title": "Friedrich Engels on Ancient Indian Logic",
-          "canvas": "assets/images/chapter6/engels.jpg"
-        },
-        {
-          "id": 11,
-          "slideNumber": 11,
-          "title": "Mahatma Gandhi on Sanskrit Moral Education",
-          "canvas": "assets/images/chapter6/gandhi.jpg"
-        },
-        {
-          "id": 12,
-          "slideNumber": 12,
-          "title": "Karl Marx on Indian Heritage & Culture",
-          "canvas": "assets/images/chapter6/marx.jpg"
+          "canvas": "assets/images/chapter6/chapter6page09.jpg",
+          "description": "Condensed ethical wisdom, contentment, friendship, and self-mastery.",
+          "trackIndices": [
+            20,
+            21
+          ]
         }
       ],
       "audioTracks": [
@@ -1686,7 +2044,7 @@
         },
         {
           "id": "c6_s09",
-          "slideIndex": 4,
+          "slideIndex": 3,
           "title": "Subhashita 9 — Knowledge: The Indestructible Wealth",
           "m4a": "assets/audio/chap6/chapter6s9.m4a",
           "mp3": "assets/audio/chap6/chapter6s9.mp3",
@@ -1706,7 +2064,7 @@
         },
         {
           "id": "c6_s11",
-          "slideIndex": 5,
+          "slideIndex": 4,
           "title": "Subhashita 11 — Pure Speech Alone Is the Immortal Ornament",
           "m4a": "assets/audio/chap6/chapter6s11.m4a",
           "mp3": "assets/audio/chap6/chapter6s11.mp3",
@@ -1716,7 +2074,7 @@
         },
         {
           "id": "c6_s12",
-          "slideIndex": 6,
+          "slideIndex": 4,
           "title": "Subhashita 12 — The Four Classes of Men in the World",
           "m4a": "assets/audio/chap6/chapter6s12.m4a",
           "mp3": "assets/audio/chap6/chapter6s12.mp3",
@@ -1726,7 +2084,7 @@
         },
         {
           "id": "c6_s13",
-          "slideIndex": 6,
+          "slideIndex": 5,
           "title": "Subhashita 13 — The Obstinate Fool — Bhartrihari",
           "m4a": "assets/audio/chap6/chapter6s13.m4a",
           "mp3": "assets/audio/chap6/chapter6s13.mp3",
@@ -1736,7 +2094,7 @@
         },
         {
           "id": "c6_s14",
-          "slideIndex": 7,
+          "slideIndex": 5,
           "title": "Subhashita 14 — Caraiveti: The March Forward (Aitareya Brahmana 1)",
           "m4a": "assets/audio/chap6/chapter6s14.m4a",
           "mp3": "assets/audio/chap6/chapter6s14.mp3",
@@ -1746,7 +2104,7 @@
         },
         {
           "id": "c6_s15",
-          "slideIndex": 7,
+          "slideIndex": 5,
           "title": "Subhashita 15 — Caraiveti: The Blossoming Soul (Aitareya Brahmana 2)",
           "m4a": "assets/audio/chap6/chapter6s15.m4a",
           "mp3": "assets/audio/chap6/chapter6s15.mp3",
@@ -1756,7 +2114,7 @@
         },
         {
           "id": "c6_s16",
-          "slideIndex": 8,
+          "slideIndex": 6,
           "title": "Subhashita 16 — Caraiveti: The Four Ages in Action (Aitareya Brahmana 3)",
           "m4a": "assets/audio/chap6/chapter6s16.m4a",
           "mp3": "assets/audio/chap6/chapter6s16.mp3",
@@ -1766,7 +2124,7 @@
         },
         {
           "id": "c6_s17",
-          "slideIndex": 8,
+          "slideIndex": 6,
           "title": "Subhashita 17 — The One Divine Truth Expressed Variously",
           "m4a": "assets/audio/chap6/chapter6s17.m4a",
           "mp3": "assets/audio/chap6/chapter6s17.mp3",
@@ -1776,7 +2134,7 @@
         },
         {
           "id": "c6_s18",
-          "slideIndex": 9,
+          "slideIndex": 7,
           "title": "Subhashita 18 — Righteous Wealth (Dharmenaiva Samaharet)",
           "m4a": "assets/audio/chap6/chapter6s18.m4a",
           "mp3": "assets/audio/chap6/chapter6s18.mp3",
@@ -1786,7 +2144,7 @@
         },
         {
           "id": "c6_s19",
-          "slideIndex": 9,
+          "slideIndex": 7,
           "title": "Subhashita 19 — The Mind As Master — Dhammapada in Sanskrit",
           "m4a": "assets/audio/chap6/chapter6s19.m4a",
           "mp3": "assets/audio/chap6/chapter6s19.mp3",
@@ -1796,7 +2154,7 @@
         },
         {
           "id": "c6_s20",
-          "slideIndex": 10,
+          "slideIndex": 7,
           "title": "Subhashita 20 — Hatred Ceases by Love Alone — Dhammapada",
           "m4a": "assets/audio/chap6/chapter6s20.m4a",
           "mp3": "assets/audio/chap6/chapter6s20.mp3",
@@ -1806,7 +2164,7 @@
         },
         {
           "id": "c6_s21",
-          "slideIndex": 10,
+          "slideIndex": 8,
           "title": "Subhashita 21 — The Fragrance of Good Deeds — Dhammapada",
           "m4a": "assets/audio/chap6/chapter6s21.m4a",
           "mp3": "assets/audio/chap6/chapter6s21.mp3",
@@ -1816,7 +2174,7 @@
         },
         {
           "id": "c6_s22",
-          "slideIndex": 11,
+          "slideIndex": 8,
           "title": "Subhashita 22 — The True Sage (Śāntakāyo Śāntavāk) — Dhammapada",
           "m4a": "assets/audio/chap6/chapter6s22.m4a",
           "mp3": "assets/audio/chap6/chapter6s22.mp3",
@@ -1846,103 +2204,182 @@
       "titleEnglish": "Sacred & Spiritual Heritage",
       "subtitle": "Vedas, Upanishads, Bhagavad Gita & Stotras",
       "canvas": "assets/images/chapter7/chap7page01.jpg",
-      "totalSections": 16,
+      "totalSections": 15,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
           "title": "Sacred Vedic & Upanishadic Revelation Page 1",
-          "canvas": "assets/images/chapter7/chap7page01.jpg"
+          "canvas": "assets/images/chapter7/chap7page01.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            0,
+            1
+          ]
         },
         {
           "id": 2,
           "slideNumber": 2,
           "title": "Sacred Vedic & Upanishadic Revelation Page 2",
-          "canvas": "assets/images/chapter7/chap7page02.jpg"
+          "canvas": "assets/images/chapter7/chap7page02.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            2,
+            3,
+            4
+          ]
         },
         {
           "id": 3,
           "slideNumber": 3,
           "title": "Sacred Vedic & Upanishadic Revelation Page 3",
-          "canvas": "assets/images/chapter7/chap7page03.jpg"
+          "canvas": "assets/images/chapter7/chap7page03.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            5,
+            6,
+            7
+          ]
         },
         {
           "id": 4,
           "slideNumber": 4,
           "title": "Sacred Vedic & Upanishadic Revelation Page 4",
-          "canvas": "assets/images/chapter7/chap7page04.jpg"
+          "canvas": "assets/images/chapter7/chap7page04.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            8,
+            9,
+            10
+          ]
         },
         {
           "id": 5,
           "slideNumber": 5,
           "title": "Sacred Vedic & Upanishadic Revelation Page 5",
-          "canvas": "assets/images/chapter7/chap7page05.jpg"
+          "canvas": "assets/images/chapter7/chap7page05.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            11,
+            12,
+            13
+          ]
         },
         {
           "id": 6,
           "slideNumber": 6,
           "title": "Sacred Vedic & Upanishadic Revelation Page 6",
-          "canvas": "assets/images/chapter7/chap7page06.jpg"
+          "canvas": "assets/images/chapter7/chap7page06.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            14,
+            15,
+            16
+          ]
         },
         {
           "id": 7,
           "slideNumber": 7,
           "title": "Sacred Vedic & Upanishadic Revelation Page 7",
-          "canvas": "assets/images/chapter7/chap7page07.jpg"
+          "canvas": "assets/images/chapter7/chap7page07.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            17,
+            18,
+            19
+          ]
         },
         {
           "id": 8,
           "slideNumber": 8,
           "title": "Sacred Vedic & Upanishadic Revelation Page 8",
-          "canvas": "assets/images/chapter7/chap7page08.jpg"
+          "canvas": "assets/images/chapter7/chap7page08.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            20,
+            21,
+            22
+          ]
         },
         {
           "id": 9,
           "slideNumber": 9,
           "title": "Sacred Vedic & Upanishadic Revelation Page 9",
-          "canvas": "assets/images/chapter7/chap7page09.jpg"
+          "canvas": "assets/images/chapter7/chap7page09.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            23,
+            24,
+            25
+          ]
         },
         {
           "id": 10,
           "slideNumber": 10,
           "title": "Sacred Vedic & Upanishadic Revelation Page 10",
-          "canvas": "assets/images/chapter7/chap7page10.jpg"
+          "canvas": "assets/images/chapter7/chap7page10.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            26,
+            27,
+            28
+          ]
         },
         {
           "id": 11,
           "slideNumber": 11,
           "title": "Sacred Vedic & Upanishadic Revelation Page 11",
-          "canvas": "assets/images/chapter7/chap7page11.jpg"
+          "canvas": "assets/images/chapter7/chap7page11.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            29,
+            30,
+            31
+          ]
         },
         {
           "id": 12,
           "slideNumber": 12,
           "title": "Sacred Vedic & Upanishadic Revelation Page 12",
-          "canvas": "assets/images/chapter7/chap7page12.jpg"
+          "canvas": "assets/images/chapter7/chap7page12.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            32,
+            33
+          ]
         },
         {
           "id": 13,
           "slideNumber": 13,
           "title": "Sacred Vedic & Upanishadic Revelation Page 13",
-          "canvas": "assets/images/chapter7/chap7page13.jpg"
+          "canvas": "assets/images/chapter7/chap7page13.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            34,
+            35
+          ]
         },
         {
           "id": 14,
           "slideNumber": 14,
           "title": "Sacred Vedic & Upanishadic Revelation Page 14",
-          "canvas": "assets/images/chapter7/chap7page14.jpg"
+          "canvas": "assets/images/chapter7/chap7page14.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            36,
+            37
+          ]
         },
         {
           "id": 15,
           "slideNumber": 15,
           "title": "Sacred Vedic & Upanishadic Revelation Page 15",
-          "canvas": "assets/images/chapter7/chap7page15.jpg"
-        },
-        {
-          "id": 16,
-          "slideNumber": 16,
-          "title": "Adi Shankaracharya — Master of Non-Dual Advaita",
-          "canvas": "assets/images/chapter7/shankaracharya.jpg"
+          "canvas": "assets/images/chapter7/chap7page15.jpg",
+          "description": "Vedic hymns, Upanishads, and the Bhagavad Gita.",
+          "trackIndices": [
+            38,
+            39
+          ]
         }
       ],
       "audioTracks": [
@@ -1968,7 +2405,7 @@
         },
         {
           "id": "c7_s03",
-          "slideIndex": 0,
+          "slideIndex": 1,
           "title": "Katha Upanishad — The Supreme Refuge (Etadālambanam)",
           "m4a": "assets/audio/chap7/chapter7s3.m4a",
           "mp3": "assets/audio/chap7/chapter7s3.mp3",
@@ -2048,7 +2485,7 @@
         },
         {
           "id": "c7_s11",
-          "slideIndex": 4,
+          "slideIndex": 3,
           "title": "Rigveda — Samjnana Sukta (Concord of Hearts 3)",
           "m4a": "assets/audio/chap7/chapter7s11.m4a",
           "mp3": "assets/audio/chap7/chapter7s11.mp3",
@@ -2078,7 +2515,7 @@
         },
         {
           "id": "c7_s14",
-          "slideIndex": 5,
+          "slideIndex": 4,
           "title": "Katha Upanishad — The Inner Person (Angushthamatraḥ Purushaḥ)",
           "m4a": "assets/audio/chap7/chapter7s14.m4a",
           "mp3": "assets/audio/chap7/chapter7s14.mp3",
@@ -2098,7 +2535,7 @@
         },
         {
           "id": "c7_s16",
-          "slideIndex": 6,
+          "slideIndex": 5,
           "title": "Katha Upanishad — Beyond Senses & Death",
           "m4a": "assets/audio/chap7/chapter7s16.m4a",
           "mp3": "assets/audio/chap7/chapter7s16.mp3",
@@ -2108,7 +2545,7 @@
         },
         {
           "id": "c7_s17",
-          "slideIndex": 6,
+          "slideIndex": 5,
           "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 1: Shreya & Preya)",
           "m4a": "assets/audio/chap7/chapter7s17.m4a",
           "mp3": "assets/audio/chap7/chapter7s17.mp3",
@@ -2128,7 +2565,7 @@
         },
         {
           "id": "c7_s19",
-          "slideIndex": 7,
+          "slideIndex": 6,
           "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 3: The Blind Leading the Blind)",
           "m4a": "assets/audio/chap7/chapter7s19.m4a",
           "mp3": "assets/audio/chap7/chapter7s19.mp3",
@@ -2138,7 +2575,7 @@
         },
         {
           "id": "c7_s20",
-          "slideIndex": 7,
+          "slideIndex": 6,
           "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 4: The Delusion of Wealth)",
           "m4a": "assets/audio/chap7/chapter7s20.m4a",
           "mp3": "assets/audio/chap7/chapter7s20.mp3",
@@ -2148,7 +2585,7 @@
         },
         {
           "id": "c7_s21",
-          "slideIndex": 8,
+          "slideIndex": 7,
           "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 5: The Wonder of the Teacher & Seeker)",
           "m4a": "assets/audio/chap7/chapter7s21.m4a",
           "mp3": "assets/audio/chap7/chapter7s21.mp3",
@@ -2158,7 +2595,7 @@
         },
         {
           "id": "c7_s22",
-          "slideIndex": 8,
+          "slideIndex": 7,
           "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 6: The Secret Cave of the Heart)",
           "m4a": "assets/audio/chap7/chapter7s22.m4a",
           "mp3": "assets/audio/chap7/chapter7s22.mp3",
@@ -2168,7 +2605,7 @@
         },
         {
           "id": "c7_s23",
-          "slideIndex": 8,
+          "slideIndex": 7,
           "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 7: The Sacred Word OM)",
           "m4a": "assets/audio/chap7/chapter7s23.m4a",
           "mp3": "assets/audio/chap7/chapter7s23.mp3",
@@ -2178,7 +2615,7 @@
         },
         {
           "id": "c7_s24",
-          "slideIndex": 9,
+          "slideIndex": 8,
           "title": "Katha Upanishad — The Self-Luminous Light of All Lights",
           "m4a": "assets/audio/chap7/chapter7s24.m4a",
           "mp3": "assets/audio/chap7/chapter7s24.mp3",
@@ -2188,7 +2625,7 @@
         },
         {
           "id": "c7_s25",
-          "slideIndex": 9,
+          "slideIndex": 8,
           "title": "Bhagavadgita — The Immortal Self (2.20)",
           "m4a": "assets/audio/chap7/chapter7s25.m4a",
           "mp3": "assets/audio/chap7/chapter7s25.mp3",
@@ -2198,7 +2635,7 @@
         },
         {
           "id": "c7_s26",
-          "slideIndex": 10,
+          "slideIndex": 8,
           "title": "Bhagavadgita — Casting Off Old Garments (2.22)",
           "m4a": "assets/audio/chap7/chapter7s26.m4a",
           "mp3": "assets/audio/chap7/chapter7s26.mp3",
@@ -2208,7 +2645,7 @@
         },
         {
           "id": "c7_s27",
-          "slideIndex": 10,
+          "slideIndex": 9,
           "title": "Bhagavadgita — Beyond Weapon, Fire & Wind (2.23)",
           "m4a": "assets/audio/chap7/chapter7s27.m4a",
           "mp3": "assets/audio/chap7/chapter7s27.mp3",
@@ -2218,7 +2655,7 @@
         },
         {
           "id": "c7_s28",
-          "slideIndex": 10,
+          "slideIndex": 9,
           "title": "Bhagavadgita — The Descent of the Avatara (4.7)",
           "m4a": "assets/audio/chap7/chapter7s28.m4a",
           "mp3": "assets/audio/chap7/chapter7s28.mp3",
@@ -2228,7 +2665,7 @@
         },
         {
           "id": "c7_s29",
-          "slideIndex": 11,
+          "slideIndex": 9,
           "title": "Bhagavadgita — For Protection of the Righteous (4.8)",
           "m4a": "assets/audio/chap7/chapter7s29.m4a",
           "mp3": "assets/audio/chap7/chapter7s29.mp3",
@@ -2238,7 +2675,7 @@
         },
         {
           "id": "c7_s30",
-          "slideIndex": 11,
+          "slideIndex": 10,
           "title": "Bhagavadgita — Equal Vision of the Sage (5.18)",
           "m4a": "assets/audio/chap7/chapter7s30.m4a",
           "mp3": "assets/audio/chap7/chapter7s30.mp3",
@@ -2248,7 +2685,7 @@
         },
         {
           "id": "c7_s31",
-          "slideIndex": 12,
+          "slideIndex": 10,
           "title": "Bhagavadgita — Freedom from Attachment & Aversion (12.17)",
           "m4a": "assets/audio/chap7/chapter7s31.m4a",
           "mp3": "assets/audio/chap7/chapter7s31.mp3",
@@ -2258,7 +2695,7 @@
         },
         {
           "id": "c7_s32",
-          "slideIndex": 12,
+          "slideIndex": 10,
           "title": "Bhagavadgita — Cosmic Majesty of the Divine (11.18)",
           "m4a": "assets/audio/chap7/chapter7s32.m4a",
           "mp3": "assets/audio/chap7/chapter7s32.mp3",
@@ -2268,7 +2705,7 @@
         },
         {
           "id": "c7_s33",
-          "slideIndex": 12,
+          "slideIndex": 11,
           "title": "Bhagavadgita — The Transcendent Wonder of the Cosmic Form (11.20)",
           "m4a": "assets/audio/chap7/chapter7s33.m4a",
           "mp3": "assets/audio/chap7/chapter7s33.mp3",
@@ -2278,7 +2715,7 @@
         },
         {
           "id": "c7_s34",
-          "slideIndex": 13,
+          "slideIndex": 11,
           "title": "Bhagavadgita — Arjuna's Plea for the Lord's Identity (11.31)",
           "m4a": "assets/audio/chap7/chapter7s34.m4a",
           "mp3": "assets/audio/chap7/chapter7s34.mp3",
@@ -2288,7 +2725,7 @@
         },
         {
           "id": "c7_s35",
-          "slideIndex": 13,
+          "slideIndex": 12,
           "title": "Bhagavadgita — Complete Devotion & Love (18.65)",
           "m4a": "assets/audio/chap7/chapter7s35.m4a",
           "mp3": "assets/audio/chap7/chapter7s35.mp3",
@@ -2298,7 +2735,7 @@
         },
         {
           "id": "c7_s36",
-          "slideIndex": 14,
+          "slideIndex": 12,
           "title": "Bhagavadgita — The Supreme Secret of Surrender (18.66)",
           "m4a": "assets/audio/chap7/chapter7s36.m4a",
           "mp3": "assets/audio/chap7/chapter7s36.mp3",
@@ -2308,7 +2745,7 @@
         },
         {
           "id": "c7_s37",
-          "slideIndex": 14,
+          "slideIndex": 13,
           "title": "Bhavani Ashtakam — Thou Art My Sole Refuge (Verse 1)",
           "m4a": "assets/audio/chap7/chapter7s37.m4a",
           "mp3": "assets/audio/chap7/chapter7s37.mp3",
@@ -2318,7 +2755,7 @@
         },
         {
           "id": "c7_s38",
-          "slideIndex": 14,
+          "slideIndex": 13,
           "title": "Bhavani Ashtakam — Beyond Formal Rites & Mantras (Verse 2)",
           "m4a": "assets/audio/chap7/chapter7s38.m4a",
           "mp3": "assets/audio/chap7/chapter7s38.mp3",
@@ -2328,7 +2765,7 @@
         },
         {
           "id": "c7_s39",
-          "slideIndex": 15,
+          "slideIndex": 14,
           "title": "Bhavani Ashtakam — Refuge of the Helpless Soul (Verse 3)",
           "m4a": "assets/audio/chap7/chapter7s39.m4a",
           "mp3": "assets/audio/chap7/chapter7s39.mp3",
@@ -2338,7 +2775,7 @@
         },
         {
           "id": "c7_s1b",
-          "slideIndex": 0,
+          "slideIndex": 14,
           "title": "Rigveda — Gayatri Chanting (Invocation Choral Variant)",
           "m4a": "assets/audio/chap7/chapter7s1b.m4a",
           "mp3": "assets/audio/chap7/chapter7s1b.mp3",
@@ -2367,14 +2804,74 @@
       "titleIAST": "Saṁskṛtaṁ Bhāratīyāḥ Bhāṣāśca",
       "titleEnglish": "Sanskrit and Indian Languages",
       "subtitle": "Common Roots, Shared Vocabulary & Cultural Bonds",
-      "canvas": "assets/images/chapter8/raman.jpg",
-      "totalSections": 1,
+      "canvas": "assets/images/chapter1/chap1page01.jpg",
+      "totalSections": 8,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
-          "title": "Sir C.V. Raman on Sanskrit & Indian Linguistics",
-          "canvas": "assets/images/chapter8/raman.jpg"
+          "title": "Sanskrit and Indian Languages: The Great Unifying Thread",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Linguistic relationship between Sanskrit and regional Indian tongues.",
+          "trackIndices": []
+        },
+        {
+          "id": 2,
+          "slideNumber": 2,
+          "title": "Phonetic Roots in Indo-Aryan Vernaculars",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Evolution from Prakrit to Hindi, Bengali, Marathi, and Gujarati.",
+          "trackIndices": []
+        },
+        {
+          "id": 3,
+          "slideNumber": 3,
+          "title": "Sanskrit and the Dravidian Languages: Cultural Synthesis",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Profuse vocabulary assimilation in Telugu, Kannada, Malayalam, and Tamil.",
+          "trackIndices": []
+        },
+        {
+          "id": 4,
+          "slideNumber": 4,
+          "title": "The Living Presence in Regional Literature",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Kavyas, devotional songs, and epics inspiring regional poets.",
+          "trackIndices": []
+        },
+        {
+          "id": 5,
+          "slideNumber": 5,
+          "title": "Sanskrit as the Medium of Pan-Indian Intellectual Life",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Scholarly debates across Kashmir, Kerala, Bengal, and Gujarat.",
+          "trackIndices": []
+        },
+        {
+          "id": 6,
+          "slideNumber": 6,
+          "title": "The Inflow of Technical and Philosophical Lexicon",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Scientific and medical vocabulary underlying all Indian languages.",
+          "trackIndices": []
+        },
+        {
+          "id": 7,
+          "slideNumber": 7,
+          "title": "Sanskrit as the Bridge Across Cultural Diversity",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Universal emotional resonance uniting distant regions of India.",
+          "trackIndices": []
+        },
+        {
+          "id": 8,
+          "slideNumber": 8,
+          "title": "Sir C.V. Raman on Sanskrit: The Scientific Soul of India",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Nobel laureate C.V. Raman on Sanskrit's phonetic and cultural precision.",
+          "trackIndices": [],
+          "diagram": "assets/images/chapter8/raman.jpg",
+          "diagramTitle": "Sir C.V. Raman Historical Portrait"
         }
       ],
       "audioTracks": [],
@@ -2398,20 +2895,52 @@
       "titleIAST": "Saṁśayanivāraṇam",
       "titleEnglish": "Doubts & Clarifications",
       "subtitle": "Dispelling Misconceptions: The Myth of the Dead Language",
-      "canvas": "assets/images/chapter9/william jones.jpg",
-      "totalSections": 2,
+      "canvas": "assets/images/chapter1/chap1page01.jpg",
+      "totalSections": 5,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
-          "title": "Sir William Jones & The Discovery of Indo-European",
-          "canvas": "assets/images/chapter9/william jones.jpg"
+          "title": "Is Sanskrit a 'Dead' Language? The Living Reality",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Challenging modern misconceptions about the vitality of Sanskrit.",
+          "trackIndices": []
         },
         {
           "id": 2,
           "slideNumber": 2,
-          "title": "Historical Clarifications Archive",
-          "canvas": "assets/images/chapter9/popup1.jpg"
+          "title": "Sir William Jones & The Global Discovery of Indo-European",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "The 1786 Asiatic Society discourse on the structure of Sanskrit.",
+          "trackIndices": [],
+          "diagram": "assets/images/chapter9/william jones.jpg",
+          "diagramTitle": "Sir William Jones Historical Portrait"
+        },
+        {
+          "id": 3,
+          "slideNumber": 3,
+          "title": "Is Sanskrit Difficult? Natural Learning Approaches",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "How simplified Sanskrit teaching revitalizes natural fluency.",
+          "trackIndices": []
+        },
+        {
+          "id": 4,
+          "slideNumber": 4,
+          "title": "Daily Expressions and Spoken Sanskrit Revival",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Modern movements demonstrating Sanskrit as a spoken tongue for conversation.",
+          "trackIndices": [],
+          "diagram": "assets/images/chapter9/popup1.jpg",
+          "diagramTitle": "Historical Clarifications Archive"
+        },
+        {
+          "id": 5,
+          "slideNumber": 5,
+          "title": "The Future of Sanskrit in Global Culture",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Its enduring relevance in linguistics, psychology, computer science, and spirituality.",
+          "trackIndices": []
         }
       ],
       "audioTracks": [],
@@ -2435,28 +2964,88 @@
       "titleIAST": "Bhāratasya Ātmā",
       "titleEnglish": "The Soul of India",
       "subtitle": "National Mottos, Cultural Unity & the Vision of Great Leaders",
-      "canvas": "assets/images/chapter10/tagore.jpg",
-      "totalSections": 2,
+      "canvas": "assets/images/chapter1/chap1page01.jpg",
+      "totalSections": 8,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
-          "title": "Rabindranath Tagore on the Soul of India",
-          "canvas": "assets/images/chapter10/tagore.jpg",
-          "trackIndex": 0
+          "title": "Sanskrit: The Eternal Soul of India",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Introduction to Sanskrit as the spiritual and cultural identity of India.",
+          "trackIndices": []
         },
         {
           "id": 2,
           "slideNumber": 2,
-          "title": "Jawaharlal Nehru on the Great Heritage",
-          "canvas": "assets/images/chapter10/nehru.jpg",
-          "trackIndex": 2
+          "title": "National Motto: Satyameva Jayate (Truth Alone Triumphs)",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Mundaka Upanishad 3.1.6 adopted as India's supreme national seal.",
+          "trackIndices": [
+            0
+          ]
+        },
+        {
+          "id": 3,
+          "slideNumber": 3,
+          "title": "The Sacred Geography of Bharata: North to the Snowy Himalayas",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Vishnu Purana description of the sacred land between the mountains and the sea.",
+          "trackIndices": [
+            1
+          ]
+        },
+        {
+          "id": 4,
+          "slideNumber": 4,
+          "title": "Rabindranath Tagore on the Universal Spirit of Sanskrit",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Tagore's reflection on Sanskrit literature as India's gift to the world.",
+          "trackIndices": [],
+          "diagram": "assets/images/chapter10/tagore.jpg",
+          "diagramTitle": "Rabindranath Tagore Historical Portrait"
+        },
+        {
+          "id": 5,
+          "slideNumber": 5,
+          "title": "The Holy Rivers of India: The Sacred Invocation",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Ganga, Yamuna, Godavari, Saraswati, Narmada, Sindhu, and Kaveri.",
+          "trackIndices": []
+        },
+        {
+          "id": 6,
+          "slideNumber": 6,
+          "title": "Jawaharlal Nehru on the Living Heritage of Sanskrit",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Nehru's testament in The Discovery of India on the genius of Sanskrit.",
+          "trackIndices": [],
+          "diagram": "assets/images/chapter10/nehru.jpg",
+          "diagramTitle": "Jawaharlal Nehru Historical Portrait"
+        },
+        {
+          "id": 7,
+          "slideNumber": 7,
+          "title": "Invocation to Sthanu: Mahakavi Kalidasa's Opening Prayer",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Vikramorvashiyam 1.1 invocation to the eternal Lord Shiva.",
+          "trackIndices": [
+            2
+          ]
+        },
+        {
+          "id": 8,
+          "slideNumber": 8,
+          "title": "The Eternal Dawn: Preserving the Heritage for Future Generations",
+          "canvas": "assets/images/chapter1/chap1page01.jpg",
+          "description": "Concluding celebration of Devabhasha across millennia.",
+          "trackIndices": []
         }
       ],
       "audioTracks": [
         {
           "id": "c10_s1",
-          "slideIndex": 0,
+          "slideIndex": 1,
           "title": "National Motto: Satyameva Jayate (Mundaka Upanishad 3.1.6)",
           "m4a": "assets/audio/chap10/chapter10s1.m4a",
           "mp3": "assets/audio/chap10/chapter10s1.mp3",
@@ -2466,7 +3055,7 @@
         },
         {
           "id": "c10_s2",
-          "slideIndex": 0,
+          "slideIndex": 2,
           "title": "Sacred Geography of Bharata & The Holy Rivers",
           "m4a": "assets/audio/chap10/chapter10s2.m4a",
           "mp3": "assets/audio/chap10/chapter10s2.mp3",
@@ -2476,7 +3065,7 @@
         },
         {
           "id": "c10_s3",
-          "slideIndex": 1,
+          "slideIndex": 6,
           "title": "Tagore & Nehru on Sanskrit — Invocation to Sthanu (Vikramorvashiyam 1.1)",
           "m4a": "assets/audio/chap10/chapter10s3.m4a",
           "mp3": "assets/audio/chap10/chapter10s3.mp3",
@@ -2504,7 +3093,7 @@
       "id": "chap1_01",
       "chapterId": 1,
       "chapterTitle": "The Language of India",
-      "slideIndex": 0,
+      "slideIndex": 5,
       "title": "Raghuvamsham Invocation — Kalidasa",
       "sanskrit": "वागर्थाविव सम्पृक्तौ वागर्थप्रतिपत्तये ।\nजगतः पितरौ वन्दे पार्वतीपरमेश्वरौ ॥",
       "iast": "vāgarthāviva sampṛktau vāgarthapratipattaye |\njagataḥ pitarau vande pārvatīparameśvarau ||",
@@ -2684,7 +3273,7 @@
       "id": "c3_s01",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 0,
+      "slideIndex": 1,
       "title": "Varṇacitra — All 33 Consonants in Order",
       "sanskrit": "कः खगौघाङ्गचिच्छौजा झाञ्ज्ञोऽटौठीडडण्ढणः ।\nतथोदधीन् पफर्बाभीर्मयोऽरिल्वाशिषां सहः ॥",
       "iast": "kaḥ khagaughāṅgacicchaujā jhāñjño'ṭauṭhīḍaḍaṇḍhaṇaḥ |\ntathodadhīn papharbābhīrmayo'rilvāśiṣāṁ sahaḥ ||",
@@ -2696,7 +3285,7 @@
       "id": "c3_s02",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 0,
+      "slideIndex": 2,
       "title": "Tryakṣara — Constrained to 3 Consonants (n, d, v)",
       "sanskrit": "देवानां नन्दनो देवो नोदनो वेदनिन्दिनाम् ।\nदिवो दुदाव नादेन दाने दानववन्दिनः ॥",
       "iast": "devānāṁ nandano devo nodano vedanindinām |\ndivo dudāva nādena dāne dānavavandinaḥ ||",
@@ -2708,7 +3297,7 @@
       "id": "c3_s03",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 0,
+      "slideIndex": 2,
       "title": "Dvyakṣara — Two Consonants Only (bh, r) — Magha",
       "sanskrit": "भूरिभिर्भारिभिर्भीरा भूभारैरभिरेभिरे ।\nभेरीरेभिर्भिरभ्राभैरभीरुभिरिभैरिभाः ॥",
       "iast": "bhūribhirbhāribhirbhīrā bhūbhārairabhirebhire |\nbherīrebhirbhirabhrābhairabhīrubhiribhairibhāḥ ||",
@@ -2720,7 +3309,7 @@
       "id": "c3_s04",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 0,
+      "slideIndex": 3,
       "title": "Ekākṣara — Single Consonant 'na' — Bharavi",
       "sanskrit": "न नोननुन्नो नुन्नोन्नो नाना नानानना ननु ।\nनुन्नोऽनुन्नो ननुन्नेन्नो नानेना नुन्ननुन्ननुत् ॥",
       "iast": "na nonanunno nunnonno nānā nānānanā nanu |\nnunno'nunno nanunnenno nānenā nunnanunnanut ||",
@@ -2732,7 +3321,7 @@
       "id": "c3_s05",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 0,
+      "slideIndex": 3,
       "title": "Ekākṣara — Single Consonant 'da' — Magha",
       "sanskrit": "दादो दुद्दद्दुद्दादी दाददो दूददीददोः ।\nदुद्दादं दददे दुद्दे दादाददददोऽददः ॥",
       "iast": "dādo duddadduddādī dādado dūdadīdadoḥ |\nduddādaṁ dadade dudde dādādadadado'dadaḥ ||",
@@ -2744,7 +3333,7 @@
       "id": "c3_s06",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 1,
+      "slideIndex": 4,
       "title": "Kaṇṭhya-Varṇacitra — Guttural Consonants Only",
       "sanskrit": "गाङ्गोऽगाङ्गाकहाकाहा ककुहाकाकहाकहा ।\nगाहाहागाकहाहागा हहाहाहाकहाकहा ॥",
       "iast": "gāṅgo'gāṅgākahākāhā kakuhākākahākaha |\ngāhāhāgākahāhāgā hahāhāhākakākahā ||",
@@ -2756,7 +3345,7 @@
       "id": "c3_s07",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 1,
+      "slideIndex": 4,
       "title": "Tālavya-Varṇacitra — Palatal Consonants Only",
       "sanskrit": "चञ्चच्चीरचरोऽजाजी चञ्चच्चूचुकचापलः ।\nचाटूक्तिचुञ्चुश्चञ्चाक्षश्चीचीचोचचरीचिरः ॥",
       "iast": "cañcaccīracaro'jājī cañcaccūcukacāpalaḥ |\ncāṭūkticuñcuścañcākṣaścīcīcocacarīciraḥ ||",
@@ -2768,7 +3357,7 @@
       "id": "c3_s08",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 1,
+      "slideIndex": 4,
       "title": "Dantya-Varṇacitra — Dental Consonants Only",
       "sanskrit": "तातं ततातितातन्ते तता ताताततातता ।\nतितित्ता तितितेतात ताति तात तता तता ॥",
       "iast": "tātaṁ tatātitātante tatā tātātātātatā |\ntitittā tititetāta tāti tāta tatā tatā ||",
@@ -2780,7 +3369,7 @@
       "id": "c3_s09",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 1,
+      "slideIndex": 4,
       "title": "Oṣṭhya-Varṇacitra — Labial Consonants Only",
       "sanskrit": "पापापापापिपापापौ पपौ पौपोपपापपः ।\nपापापिपिपुपापोपो पपी पापपपोपपः ॥",
       "iast": "pāpāpāpāpipāpāpau papau paupopapāpapaḥ |\npāpāpipipupāpopo papī pāpapapopapaḥ ||",
@@ -2792,7 +3381,7 @@
       "id": "c3_s10",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 1,
+      "slideIndex": 4,
       "title": "Ekā-Svara — Monovocalic Verse (Vowel 'a' Only)",
       "sanskrit": "मत्तहंसा नदन्त्यत्र नभः संछाद्य काकदः ।\nयतस्ततः प्रसर्पन्तः सन्तः सन्तोषकारकाः ॥",
       "iast": "mattahaṁsā nadantyatra nabhaḥ saṁchādya kākadaḥ |\nyatastataḥ prasarpantaḥ santaḥ santoṣakārakāḥ ||",
@@ -2804,7 +3393,7 @@
       "id": "c3_s11",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 1,
+      "slideIndex": 4,
       "title": "Ekā-Svara — Monovocalic Verse (Vowel 'i' Only)",
       "sanskrit": "निशि निशीथिनि पिब तिमिरीं दिशि दिशि विधिरिह विहितविधिः ।\nनिमिषितनिमिषि विशिकिविहगी विरिचितविविधविहितविविधी ॥",
       "iast": "niśi niśīthini piba timirīṁ diśi diśi vidhiriha vihitavidhiḥ |\nnimiṣitanimiṣi viśikivihagī viricitavividhavihitavividhī ||",
@@ -2816,7 +3405,7 @@
       "id": "c3_s12",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 2,
+      "slideIndex": 4,
       "title": "Dvikāra-Khelanam — The Play of Consonants 'ka' and 'ta'",
       "sanskrit": "काके काकाः ककौ काकः ककः काकः ककाः ककाः ।\nकोकाः काकाः ककाः कोकाः केके काकाः ककाः ककाः ॥",
       "iast": "kāke kākāḥ kakau kākaḥ kakaḥ kākaḥ kakāḥ kakāḥ |\nkokāḥ kākāḥ kakāḥ kokāḥ keke kākāḥ kakāḥ kakāḥ ||",
@@ -2828,7 +3417,7 @@
       "id": "c3_s13",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 2,
+      "slideIndex": 4,
       "title": "Mahā-Yamaka — 4 Identical Quarters with Distinct Meanings",
       "sanskrit": "विकासमीयुर्जगतीशमार्गणा विकासमीयुर्जगतीशमार्गणाः ।\nविकासमीयुर्जगतीशमार्गणा विकासमीयुर्जगतीशमार्गणाः ॥",
       "iast": "vikāsamīyurjagatīśamārgaṇā vikāsamīyurjagatīśamārgaṇāḥ |\nvikāsamīyurjagatīśamārgaṇā vikāsamīyurjagatīśamārgaṇāḥ ||",
@@ -2840,7 +3429,7 @@
       "id": "c3_s14",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 2,
+      "slideIndex": 4,
       "title": "Pāda-Pratiloma — Line-by-Line Palindrome",
       "sanskrit": "तं प्रतीतं प्रतीतं तं तततं तततं ततं ।\nतं रतं तं रतं तं तं ततं ततं ततं ततं ॥",
       "iast": "taṁ pratītaṁ pratītaṁ taṁ tatataṁ tatataṁ tataṁ |\ntaṁ rataṁ taṁ rataṁ taṁ taṁ tatataṁ tatataṁ tataṁ ||",
@@ -2852,7 +3441,7 @@
       "id": "c3_s15",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 2,
+      "slideIndex": 4,
       "title": "Śloka-Pratiloma — Complete Verse Palindrome",
       "sanskrit": "वारणागभीरभावा वारिजातायताक्षिका ।\nकाक्षितायताजिरार्वा वाभरीभगणारवा ॥",
       "iast": "vāraṇāgabhīrabhāvā vārijātāyatākṣikā |\nkākṣitāyatājirārvā vābharībhagaṇāravā ||",
@@ -2864,7 +3453,7 @@
       "id": "c3_s16",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 2,
+      "slideIndex": 4,
       "title": "Rāghavayādavīyam — Bidirectional Rāma & Kṛṣṇa Dual Verse",
       "sanskrit": "साकेतराजो विजयप्रयाणे पराभवाय प्रथितः परेषां ।\nतां चातुरीं मे जनयन्मनोज्ञां रामाभिधानेन हरिः पुनातु ॥",
       "iast": "sāketarājo vijayaprayāṇe parābhavāya prathitaḥ pareṣāṁ |\ntāṁ cāturīṁ me janayanmanojñāṁ rāmābhidhānena hariḥ punātu ||",
@@ -2876,7 +3465,7 @@
       "id": "c3_s17",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 2,
+      "slideIndex": 4,
       "title": "Muraja-Bandha — The Double-Headed Drum Geometric Pattern",
       "sanskrit": "सा मया सा मया सा मया सा मया ।\nया मया या मया या मया या मया ॥",
       "iast": "sā mayā sā mayā sā mayā sā mayā |\nyā mayā yā mayā yā mayā yā mayā ||",
@@ -2888,7 +3477,7 @@
       "id": "c3_s18",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 3,
+      "slideIndex": 4,
       "title": "Sarvatobhadra — The 8-Directional Magic Square Matrix",
       "sanskrit": "सासेना लिलसेना सा सारसा गदसारसा ।\nसा गदा सारसा सा सा सेना लीना सुरासुरा ॥",
       "iast": "sāsenā lilasenā sā sārasā gadasārasā |\nsā gadā sārasā sā sā senā līnā surāsurā ||",
@@ -2900,7 +3489,7 @@
       "id": "c3_s19",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 3,
+      "slideIndex": 5,
       "title": "Turaṅga-Gati (Part 1) — The 8x8 Chessboard Knight's Tour Setup",
       "sanskrit": "स्थिरागसां सदाऽऽराध्या विहताकततामता ।\nसत्पादुके सरसा मा रङ्गराजपदं नय ॥",
       "iast": "sthirāgasāṁ sadā''rādhyā vihatākatatāmatā |\nsatpāduke sarasā mā raṅgarājapadaṁ naya ||",
@@ -2912,7 +3501,7 @@
       "id": "c3_s20",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 3,
+      "slideIndex": 6,
       "title": "Turaṅga-Gati (Part 2) — Reading via Knight Moves (Euler Tour)",
       "sanskrit": "स्थिता समयराजत्पा गतरोमादवे गवि ।\nदुरंहसां सन्नतादा साध्यातापकरासरा ॥",
       "iast": "sthitā samayarājatpā gataromādave gavi |\nduraṁhasāṁ sannatādā sādhyātāpakarāsarā ||",
@@ -2924,7 +3513,7 @@
       "id": "c3_s21",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 3,
+      "slideIndex": 7,
       "title": "Gomūtrikā-Bandha — The Zigzag Cow's Path Constrained Verse",
       "sanskrit": "सदा सदा सदारामं सदा सदा सदारतम् ।\nसदा सदा सदाकामं सदा सदा सदागतम् ॥",
       "iast": "sadā sadā sadārāmaṁ sadā sadā sadāratam |\nsadā sadā sadākāmaṁ sadā sadā sadāgatam ||",
@@ -2936,7 +3525,7 @@
       "id": "c3_s22",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 3,
+      "slideIndex": 8,
       "title": "Samasyā-Pūraṇa 1 — 'Mṛgāt Siṃhaḥ Palāyate' (The Lion Flees the Deer)",
       "sanskrit": "किमद्भुतं यद्गिरिगह्वरेषु मृगेन्द्रयूथैः सहिता मृगेन्द्राः ।\nमृगाभिभूता विचरन्ति भग्ना मृगात् सिंहः पलायते ॥",
       "iast": "kimadbhutaṁ yadgirigahvareṣu mṛgendrayūthaiḥ sahitā mṛgendrāḥ |\nmṛgābhibhūtā vicaranti bhagnā mṛgāt siṁhaḥ palāyate ||",
@@ -2948,7 +3537,7 @@
       "id": "c3_s23",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 3,
+      "slideIndex": 8,
       "title": "Samasyā-Pūraṇa 2 — Kalidasa's Onomatopoeic 'Ṭhaṁ-Ṭhaṁ' Solution",
       "sanskrit": "रामाभिषेके मदविह्वलाया हस्ताच्च्युतो हेमघटो युवत्याः ।\nसोपानमार्गेण करोति शब्दं ठं ठं ठं ठं ठं ठठठं ठठं ठः ॥",
       "iast": "rāmābhiṣeke madavihvalāyā hastāccyuto hemaghaṭo yuvatyāḥ |\nsopānamārgeṇa karoti śabdaṁ ṭhaṁ ṭhaṁ ṭhaṁ ṭhaṁ ṭhaṁ ṭhaṭhaṭhaṁ ṭhaṭhaṁ ṭhaḥ ||",
@@ -2960,7 +3549,7 @@
       "id": "c3_s24",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 4,
+      "slideIndex": 9,
       "title": "Prahelikā 1 — Riddle of the Reed Pen (Kṛṣṇamukhī)",
       "sanskrit": "कृष्णमुखी न मार्जारी द्विजिह्वा न च सर्पिणी ।\nपञ्चभर्त्री न पाञ्चाली यो जानाति स पण्डितः ॥",
       "iast": "kṛṣṇamukhī na mārjārī dvijihvā na ca sarpiṇī |\npañcabhartrī na pāñcālī yo jānāti sa paṇḍitaḥ ||",
@@ -2972,7 +3561,7 @@
       "id": "c3_s25",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 4,
+      "slideIndex": 9,
       "title": "Prahelikā 2 — The Cosmic Family Paradox",
       "sanskrit": "एको मुखः षडाननश्चैको द्वौ तौ गजमुखश्चैकः ।\nभिक्षाटनं करोत्येकः कथं जीवन्ति ते गृहे ॥",
       "iast": "eko mukhaḥ ṣaḍānanaścaiko dvau tau gajamukhaścaikaḥ |\nbhikṣāṭanaṁ karotyekaḥ kathaṁ jīvanti te gṛhe ||",
@@ -2984,7 +3573,7 @@
       "id": "c3_s26",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 4,
+      "slideIndex": 10,
       "title": "Vakrokti 1 — Gopi & Krishna Nocturnal Doorstep Dialogue",
       "sanskrit": "कस्त्वं भो निशि केशवः किमिह ते कार्यं ममैवास्पदं ।\nद्वारं देहि किमुच्यते परिहसत्येवं स गोपीजनैः ॥",
       "iast": "kastvaṁ bho niśi keśavaḥ kimiha te kāryaṁ mamaivāspadaṁ |\ndvāraṁ dehi kimucyate parihasatyevaṁ sa gopījanaiḥ ||",
@@ -2996,7 +3585,7 @@
       "id": "c3_s27",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 4,
+      "slideIndex": 11,
       "title": "Vakrokti 2 — Satyabhāmā & Krishna Playful Banter",
       "sanskrit": "कोऽयं द्वारि हरिः प्रयाह्युपवनं शाखामृगैः किं तव ।\nक्लीबोऽहं यदि चक्रिणा किमु कुलालेनापि कार्यं तव ॥",
       "iast": "ko'yaṁ dvāri hariḥ prayāhyupavanaṁ śākhāmṛgaiḥ kiṁ tava |\nklībo'haṁ yadi cakriṇā kimu kulālenāpi kāryaṁ tava ||",
@@ -3008,7 +3597,7 @@
       "id": "c3_s28",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 4,
+      "slideIndex": 11,
       "title": "Stuti — In Praise of Divine Mother Parvati",
       "sanskrit": "या सर्वमङ्गला लोके सर्वकामप्रदायिनी ।\nप्रणमामि शिवां शान्तां सर्वसिद्धिप्रदायिनीम् ॥",
       "iast": "yā sarvamaṅgalā loke sarvakāmapradāyinī |\npraṇamāmi śivāṁ śāntāṁ sarvasiddhipradāyinīm ||",
@@ -3020,7 +3609,7 @@
       "id": "c3_s29",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 4,
+      "slideIndex": 11,
       "title": "Bhoja's Court — The Humble Weaver's Spontaneous Verse",
       "sanskrit": "काव्यं करोमि न हि चारुतरं करोमि यत्नात् करोमि यदि कोऽपि न हस्यते मे ।\nभूपालमण्डलमणे मणिरश्मिदीप्ये कव्यामि वा वयति यामि विहाय शङ्काम् ॥",
       "iast": "kāvyaṁ karomi na hi cārutaraṁ karomi yatnāt karomi yadi ko'pi na hasyate me |\nbhūpālamaṇḍalamaṇe maṇiraśmidīpye kavyāmi vā vayati yāmi vihāya śaṅkām ||",
@@ -3032,7 +3621,7 @@
       "id": "c3_s30",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 5,
+      "slideIndex": 12,
       "title": "Bhoja's Obituary — Kalidasa's Heartbreak",
       "sanskrit": "अद्य धारा निराधारा निरालम्बा सरस्वती ।\nपण्डिताः खण्डिताः सर्वे भोजराजे दिवं गते ॥",
       "iast": "adya dhārā nirādhārā nirālambā sarasvatī |\npaṇḍitāḥ khaṇḍitāḥ sarve bhojarāje divaṁ gate ||",
@@ -3044,7 +3633,7 @@
       "id": "c3_s31",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 5,
+      "slideIndex": 13,
       "title": "Bhoja's Resurrection — Kalidasa's Instant Poetic Transformation",
       "sanskrit": "अद्य धारा सदाधारा सदालम्बा सरस्वती ।\nपण्डिता मण्डिताः सर्वे भोजराजे भुवं गते ॥",
       "iast": "adya dhārā sadādhārā sadālambā sarasvatī |\npaṇḍitā maṇḍitāḥ sarve bhojarāje bhuvaṁ gate ||",
@@ -3056,7 +3645,7 @@
       "id": "c3_s32",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 5,
+      "slideIndex": 13,
       "title": "Citrakāvya Retrospective — Versatility of the Language",
       "sanskrit": "अहो विचित्रं सुमहत् कवीनां चातुर्यमत्र प्रथितं विभाति ।\nयत् संस्कृतं केवलमेव वक्तुं समर्थमेतादृशचित्तरञ्जने ॥",
       "iast": "aho vicitraṁ sumahat kavīnāṁ cāturyamatra prathitaṁ vibhāti |\nyat saṁskṛtaṁ kevalameva vaktuṁ samarthametādṛśacittarañjane ||",
@@ -3068,7 +3657,7 @@
       "id": "c3_s33",
       "chapterId": 3,
       "chapterTitle": "Chitrakavya — Wonder of Visual Poetry",
-      "slideIndex": 5,
+      "slideIndex": 14,
       "title": "The Sweetness of Sacred Speech — Final Citrakāvya Reflection",
       "sanskrit": "भाषासु मुख्या मधुरा दिव्या गीर्वाणभारती ।\nतस्यां हि काव्यं मधुरं तस्मादपि सुभाषितम् ॥",
       "iast": "bhāṣāsu mukhyā madhurā divyā gīrvāṇabhāratī |\ntasyāṁ hi kāvyaṁ madhuraṁ tasmādapi subhāṣitam ||",
@@ -3080,7 +3669,7 @@
       "id": "c4_s1",
       "chapterId": 4,
       "chapterTitle": "The Language of Science",
-      "slideIndex": 0,
+      "slideIndex": 3,
       "title": "Baudhāyana Śulba Sūtra — Precursor to Pythagoras' Theorem",
       "sanskrit": "दीर्घचतुरस्रस्याक्ष्णया रज्जुः पार्श्वमानी तिर्यङ्मानी च ।\nयत्पृथग्भूते कुरुतस्तदुभयं करोति ॥",
       "iast": "dīrghacaturasrasyākṣṇayā rajjuḥ pārśvamānī tiryaṅmānī ca |\nyatpṛthagbhūte kurutastadubhayaṁ karoti ||",
@@ -3092,7 +3681,7 @@
       "id": "c4_s2",
       "chapterId": 4,
       "chapterTitle": "The Language of Science",
-      "slideIndex": 1,
+      "slideIndex": 4,
       "title": "Baudhāyana's Precision Approximation of √2",
       "sanskrit": "प्रमाणं तृतीयेन वर्धयेत्तच्च चतुर्थेनात्मचतुस्त्रिंशोनेन सविशेषः इति विशेषः ॥",
       "iast": "pramāṇaṁ tṛtīyena vardhayettacca caturthenātmacatustriṁśonena saviśeṣaḥ iti viśeṣaḥ ||",
@@ -3104,7 +3693,7 @@
       "id": "c4_s3",
       "chapterId": 4,
       "chapterTitle": "The Language of Science",
-      "slideIndex": 2,
+      "slideIndex": 5,
       "title": "Āryabhaṭa's Accurate Calculation of π (3.1416)",
       "sanskrit": "चतुरधिकं शतमष्टगुणं द्वाषष्टिस्तथा सहस्राणाम् ।\nअयुतद्वयविष्कम्भस्यासन्नो वृत्तपरिणाहः ॥",
       "iast": "caturadhikaṁ śatamaṣṭaguṇaṁ dvāṣaṣṭistathā sahasrāṇām |\nayutadvayaviṣkambhasyāsanno vṛttapariṇāhaḥ ||",
@@ -3116,7 +3705,7 @@
       "id": "c4_s4",
       "chapterId": 4,
       "chapterTitle": "The Language of Science",
-      "slideIndex": 3,
+      "slideIndex": 12,
       "title": "Āryabhaṭa's Alphabetical Number Code (Kaṭapayādi)",
       "sanskrit": "वर्गाक्षराणि वर्गेऽवर्गेऽवर्गाक्षराणि कात् ङ्भौ यः ।\nखद्विनवके स्वरा नव वर्गेऽवर्गे नवान्त्यवर्गे वा ॥",
       "iast": "vargākṣarāṇi varge'varge'vargākṣarāṇi kāt ṅbhau yaḥ |\nkhadvinavake svarā nava varge'varge navāntyavarge vā ||",
@@ -3128,7 +3717,7 @@
       "id": "c4_s5",
       "chapterId": 4,
       "chapterTitle": "The Language of Science",
-      "slideIndex": 4,
+      "slideIndex": 12,
       "title": "Sanskrit in Architecture, Music & Practical Sciences",
       "sanskrit": "गीतं वाद्यं च नृत्यं च त्रयं सङ्गीतमुच्यते ।\nसर्वशास्त्रप्रवीणत्वं संस्कृतज्ञानेन लभ्यते ॥",
       "iast": "gītaṁ vādyaṁ ca nṛtyaṁ ca trayaṁ saṅgītamucyate |\nsarvaśāstrapravīṇatvaṁ saṁskṛtajñānena labhyate ||",
@@ -3152,7 +3741,7 @@
       "id": "c5_s02",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 0,
+      "slideIndex": 1,
       "title": "Valmiki Ramayana — The Birth of the First Shloka",
       "sanskrit": "मा निषाद प्रतिष्ठां त्वमगमः शाश्वतीः समाः ।\nयत्क्रौञ्चमिथुनादेकमवधीः काममोहितम् ॥",
       "iast": "mā niṣāda pratiṣṭhāṁ tvamagamaḥ śāśvatīḥ samāḥ |\nyatkrauñcamithunādekamavadhīḥ kāmamohitam ||",
@@ -3164,7 +3753,7 @@
       "id": "c5_s03",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 1,
+      "slideIndex": 2,
       "title": "Valmiki Ramayana — Kausalyā Gives Birth to Rama",
       "sanskrit": "कौसल्या सुषुवे रामं सर्वलक्षणसंयुतम् ।\nविष्णोरर्धं महाभागं पुत्रमैक्ष्वाकुवर्धनम् ॥",
       "iast": "kausalyā suṣuve rāmaṁ sarvalakṣaṇasaṁyutam |\nviṣṇorardhaṁ mahābhāgaṁ putramaikṣvākuvardhanam ||",
@@ -3176,7 +3765,7 @@
       "id": "c5_s04",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 1,
+      "slideIndex": 3,
       "title": "Valmiki Ramayana — Sita's Message of Compassion to Hanuman",
       "sanskrit": "पापानां वा शुभानां वा वधार्हाणामथापि वा ।\nकार्यं कारुण्यमार्येण न कश्चिन्नापराध्यति ॥",
       "iast": "pāpānāṁ vā śubhānāṁ vā vadhārhāṇāmathāpi vā |\nkāryaṁ kāruṇyamāryeṇa na kaścinnāparādhyati ||",
@@ -3188,7 +3777,7 @@
       "id": "c5_s05",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 2,
+      "slideIndex": 3,
       "title": "Valmiki Ramayana — Description of Night in the Forest",
       "sanskrit": "प्रदोषकालो गमितो निशा च परिहीयते ।\nमन्दाकिनीविमले तीरे मुनिभिः स्तूयते हरिः ॥",
       "iast": "pradoṣakālo gamito niśā ca parihīyate |\nmandākinīvimale tīre munibhiḥ stūyate hariḥ ||",
@@ -3200,7 +3789,7 @@
       "id": "c5_s06",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 3,
+      "slideIndex": 4,
       "title": "Vyasa Mahabharata — Draupadi Addressing Bhimasena",
       "sanskrit": "दिष्ट्या पश्यामि ते वीर्यं दिष्ट्या पश्यामि ते बलम् ।\nद्रौपदीं परिरक्ष त्वं भीमसेन महाबल ॥",
       "iast": "diṣṭyā paśyāmi te vīryaṁ diṣṭyā paśyāmi te balam |\ndraupadīṁ parirakṣa tvaṁ bhīmasena mahābala ||",
@@ -3212,7 +3801,7 @@
       "id": "c5_s07",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 3,
+      "slideIndex": 5,
       "title": "Vyasa Mahabharata — Damayanti's Lament in the Forest",
       "sanskrit": "हा नाथ हा परित्राण हा नल प्रियदर्शन ।\nत्यक्त्वा मां गहनेऽरण्ये क्व यासि नृपसत्तम ॥",
       "iast": "hā nātha hā paritrāṇa hā nala priyadarśana |\ntyaktvā māṁ gahane'raṇye kva yāsi nṛpasattama ||",
@@ -3224,7 +3813,7 @@
       "id": "c5_s08",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 4,
+      "slideIndex": 5,
       "title": "Vyasa Mahabharata — Savitri's Unwavering Resolve",
       "sanskrit": "सकृदंशो निपतति सकृत्कन्या प्रदीयते ।\nसकृदाह ददानीति त्रीण्येतानि सकृत्सकृत् ॥",
       "iast": "sakṛdaṁśo nipatati sakṛtkanyā pradīyate |\nsakṛdāha dadānīti trīṇyetāni sakṛtsakṛt ||",
@@ -3236,7 +3825,7 @@
       "id": "c5_s09",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 5,
+      "slideIndex": 6,
       "title": "Kalidasa Kumarasambhavam — The Himalayas as Divine Axis",
       "sanskrit": "अस्त्युत्तरस्यां दिशि देवतात्मा हिमालयो नाम नगाधिराजः ।\nपूर्वापरौ तोयनिधी वगाह्य स्थितः पृथिव्या इव मानदण्डः ॥",
       "iast": "astyuttarasyāṁ diśi devatātmā himālayo nāma nagādhirājaḥ |\npūrvāparau toyanidhī vagāhya sthitaḥ pṛthivyā iva mānadaṇḍaḥ ||",
@@ -3248,7 +3837,7 @@
       "id": "c5_s10",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 5,
+      "slideIndex": 7,
       "title": "Kalidasa Kumarasambhavam — The Demon Army (Verse 1)",
       "sanskrit": "ततः प्रवृत्ते सङ्ग्रामे घोरे भैरवनिस्वने ।\nप्रदुद्रुवुः सुराः सर्वे दैत्यसैन्यभयार्दिताः ॥",
       "iast": "tataḥ pravṛtte saṅgrāme ghore bhairavanisvane |\npradudruvuḥ surāḥ sarve daityasainyabhayārditāḥ ||",
@@ -3260,7 +3849,7 @@
       "id": "c5_s11",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 6,
+      "slideIndex": 8,
       "title": "Kalidasa Kumarasambhavam — The Demon Army (Verse 2)",
       "sanskrit": "असिचर्मधरा वीरा गदातोमरपाणयः ।\nनदन्तो भैरवं नादं समभ्यद्रवन्नाहवे ॥",
       "iast": "asicarmadharā vīrā gadātomarapāṇayaḥ |\nnadanto bhairavaṁ nādaṁ samabhyadravannāhave ||",
@@ -3272,7 +3861,7 @@
       "id": "c5_s12",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 7,
+      "slideIndex": 8,
       "title": "Kalidasa Kumarasambhavam — The Demon Army (Verse 3)",
       "sanskrit": "रथिनो रथिभिः सार्धं गजाश्च गजवाजिभिः ।\nपदातयः पदातिभिश्चक्रुः सङ्गरमुत्कटम् ॥",
       "iast": "rathino rathibhiḥ sārdhaṁ gajāśca gajavājibhiḥ |\npadātayaḥ padātibhiścakruḥ saṅgaramutkaṭam ||",
@@ -3284,7 +3873,7 @@
       "id": "c5_s13",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 7,
+      "slideIndex": 9,
       "title": "Kalidasa Kumarasambhavam — The Demon Army (Verse 4)",
       "sanskrit": "रणे तस्मिन् महाघोरे वीरबाहुपुरस्कृताः ।\nदैत्या विजयरिपुणा सह समरे युयुधिरे ॥",
       "iast": "raṇe tasmin mahāghore vīrabāhupuraskṛtāḥ |\ndaityā vijayaripuṇā saha samare yuyudhire ||",
@@ -3296,7 +3885,7 @@
       "id": "c5_s14",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 8,
+      "slideIndex": 9,
       "title": "Kalidasa Meghadutam — The Exiled Yaksha (Verse 1)",
       "sanskrit": "कश्चित्कान्ताविरहगुरुणा स्वाधिकारात्प्रमत्तः\nशापेनास्तङ्गमितमहिमा वर्षभोग्येन भर्तुः ।\nयक्षश्चक्रे जनकतनयास्नानपुण्योदकेषु\nस्निग्धच्छायातरुषु वसतिं रामगिर्याश्रमेषु ॥",
       "iast": "kaścitkāntāvirahaguruṇā svādhikārātpramattaḥ\nśāpenāstaṅgamitamahimā varṣabhogyena bhartuḥ |\nyakṣaścakre janakatanayāsnānapuṇyodakeṣu\nsnigdhacchāyātaruṣu vasatiṁ rāmagiryāśrameṣu ||",
@@ -3308,7 +3897,7 @@
       "id": "c5_s15",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 9,
+      "slideIndex": 10,
       "title": "Kalidasa Meghadutam — The Cloud on the Mountain Peak (Verse 2)",
       "sanskrit": "तस्मिन्नद्रौ कतिचिदबलाविप्रयुक्तः स कामी\nनीत्वा मासान् कनकवलयभ्रंशरिक्तप्रकोष्ठः ।\nआषाढस्य प्रथमदिवसे मेघमाश्लिष्टसानुं\nवप्रक्रीडापरिणतगजप्रेक्षणीयं ददर्श ॥",
       "iast": "tasminnadrau katicidabalāviprayuktaḥ sa kāmī\nnītvā māsān kanakavalayabhraṁśariktaprakoṣṭhaḥ |\nāṣāḍhasya prathamadivase meghamāśliṣṭasānuṁ\nvaprakrīḍāpariṇatagajaprekṣaṇīyaṁ dadarśa ||",
@@ -3320,7 +3909,7 @@
       "id": "c5_s16",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 9,
+      "slideIndex": 10,
       "title": "Kalidasa Meghadutam — The Celestial City of Alakā (Verse 3)",
       "sanskrit": "गन्तव्या ते वसतिरिव सा हर्म्यमालाभिरामा\nयस्यामुत्तुङ्गाग्रशिखरशिरश्चन्द्रपादावदाते ।\nविद्युद्वन्तं ललितवनिता सेन्द्रचापं सचित्राः\nसङ्गीताय प्रहतमुरजाः स्निग्धगम्भीरघोषम् ॥",
       "iast": "gantavyā te vasatiriva sā harmyamālābhirāmā\nyasyāmuttuṅgāgraśikharaśiraścandrapādāvadāte |\nvidyudvantaṁ lalitavanitā sendracāpaṁ sacitrāḥ\nsaṅgītāya prahatamurajāḥ snigdhagambhīraghoṣam ||",
@@ -3332,7 +3921,7 @@
       "id": "c5_s17",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 10,
+      "slideIndex": 11,
       "title": "Kalidasa Abhijnanashakuntalam — Dushyanta First Sees Shakuntala",
       "sanskrit": "सरसिजमनुविद्धं शैवलेनापि रम्यं\nमलिनमपि हिमांशोर्लक्ष्म लक्ष्मीं तनोति ।\nइयमधिकमनोज्ञा वल्कलेनापि तन्वी\nकिमिव हि मधुराणां मण्डनं नाकृतीनाम् ॥",
       "iast": "sarasijamanuviddhaṁ śaivalenāpi ramyaṁ\nmalinamapi himāṁśorlakṣma lakṣmīṁ tanoti |\niyamadhikamanojñā valkalenāpi tanvī\nkimiva hi madhurāṇāṁ maṇḍanaṁ nākṛtīnām ||",
@@ -3344,7 +3933,7 @@
       "id": "c5_s18",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 10,
+      "slideIndex": 12,
       "title": "Kalidasa Abhijnanashakuntalam — Shakuntala's Departure (Verse 1)",
       "sanskrit": "यास्यत्यद्य शकुन्तलेति हृदयं संस्पृष्टमुत्कण्ठया\nकण्ठः स्तम्भितबाष्पवृत्तिकलुषश्चिन्ताजडं दर्शनम् ।\nवैक्लव्यं मम तावदीदृशमहो स्नेहादरण्यौकसः\nपीड्यन्ते गृहिणः कथं नु तनयाविश्लेषदुःखैर्नवैः ॥",
       "iast": "yāsyatyadya śakuntaleti hṛdayaṁ saṁspṛṣṭamutkaṇṭhayā\nkaṇṭhaḥ stambhitabāṣpavṛttikaluṣaścintājaḍaṁ darśanam |\nvaiklavyaṁ mama tāvadīdṛśamaho snehādaraṇyaukasaḥ\npīḍyante gṛhiṇaḥ kathaṁ nu tanayāviśleṣaduḥkhairnavaiḥ ||",
@@ -3356,7 +3945,7 @@
       "id": "c5_s19",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 11,
+      "slideIndex": 12,
       "title": "Kalidasa Abhijnanashakuntalam — Sage Kanva Bids Nature Farewell (Verse 2)",
       "sanskrit": "पातुं न प्रथमं व्यवस्यति जलं युष्मास्वपीतेषु या\nनादत्ते प्रियमण्डनापि भवतां स्नेहेन या पल्लवम् ।\nआद्ये वः कुसुमप्रसूतिसमये यस्या भवत्युत्सवः\nसेयं याति शकुन्तला पतिगृहं सर्वैरनुज्ञायताम् ॥",
       "iast": "pātuṁ na prathamaṁ vyavasyati jalaṁ yuṣmāsvapīteṣu yā\nnādatte priyamaṇḍanāpi bhavatāṁ snehena yā pallavam |\nādye vaḥ kusumaprasūtisamaye yasyā bhavatyutsavaḥ\nseyaṁ yāti śakuntalā patigṛhaṁ sarvairanujñāyatām ||",
@@ -3368,7 +3957,7 @@
       "id": "c5_s20",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 12,
+      "slideIndex": 13,
       "title": "Kalidasa Abhijnanashakuntalam — The Fawn That Clings to Her Robe (Verse 3)",
       "sanskrit": "यस्य त्वया व्रणविरोपणमिङ्गुदीनां\nतैलं न्यषिच्यत मुखे कुशसूचिविद्धे ।\nश्यामाकमुष्टिवर्धितको जहाति सोऽयं\nन पुत्रकृतकः पदवीं मृगस्ते ॥",
       "iast": "yasya tvayā vraṇaviropaṇamiṅgudīnāṁ\ntailaṁ nyaṣicyata mukhe kuśasūcividdhe |\nśyāmākamuṣṭivardhitako jahāti so'yaṁ\nna putrakṛtakaḥ padavīṁ mṛgaste ||",
@@ -3380,7 +3969,7 @@
       "id": "c5_s21",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 12,
+      "slideIndex": 13,
       "title": "Kalidasa Abhijnanashakuntalam — Kanva's Counsel to the King (Verse 4)",
       "sanskrit": "अस्मान् साधु विचिन्त्य संयमधनानुच्चैः कुलं चात्मन-\nस्त्वय्यस्याः कथमप्यबान्धवकृतां स्नेहप्रवृत्तिं च ताम् ।\nसामान्यप्रतिपत्तिपूर्वकमिदं दारेषु दृश्या त्वया\nभाग्यायत्तमतः परं न खलु तद् वाच्यं वधूधूर्जटि ॥",
       "iast": "asmān sādhu vicintya saṁyamadhanānuccaiḥ kulaṁ cātmana-\nstvayyasyāḥ kathamapyabāndhavakṛtāṁ snehapravṛttiṁ ca tām |\nsāmānyapratipattipūrvakamidaṁ dāreṣu dṛśyā tvayā\nbhāgyāyattamataḥ paraṁ na khalu tad vācyaṁ vadhūdhūrjaṭi ||",
@@ -3392,7 +3981,7 @@
       "id": "c5_s22",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 13,
+      "slideIndex": 14,
       "title": "Kalidasa Vikramorvashiyam — Pururavas Seeking Urvashi",
       "sanskrit": "सर्वक्षितिभृतां नाथं दृष्ट्वा कामवशं गतम् ।\nउपतस्थे नभोमार्गे सुरसुन्दरी पुरूरवसम् ॥",
       "iast": "sarvakṣitibhṛtāṁ nāthaṁ dṛṣṭvā kāmavaśaṁ gatam |\nupatasthe nabhomārge surasundarī purūravasam ||",
@@ -3416,7 +4005,7 @@
       "id": "c5_s24",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 14,
+      "slideIndex": 15,
       "title": "Kalidasa Ritusamhara — The Rainy Season (Varṣā)",
       "sanskrit": "ससीकराम्भोधरलोलमारुतं\nसुशीतलामोदितगन्धवाहिनम् ।\nमयूरनृत्यध्वनिकण्ठनिस्वनं\nघनागमं पश्य सुचारुहासिनी ॥",
       "iast": "sasīkarāmbhodharalolamārutaṁ\nsuśītalāmoditagandhavāhinam |\nmayūranṛtyadhvanikaṇṭhanisvanaṁ\nghanāgamaṁ paśya sucāruhāsinī ||",
@@ -3476,7 +4065,7 @@
       "id": "c5_s29",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 18,
+      "slideIndex": 17,
       "title": "Jayadeva Gitagovindam — The Flute of Krishna (Verse 2)",
       "sanskrit": "उन्मदमदनमनोरथपथिकवधूरुदितैः सह कूजति ।\nमञ्जुलकुञ्जकुटीरपयोधरकुङ्कुमपङ्कविभागे ॥\nहरिरिह मुग्धवधूभिरुपेतः क्रीडति रासकुतूहलकेतो ॥",
       "iast": "unmadamadanamanorathapathikavadhūruditaiḥ saha kūjati |\nmañjulakuñjakuṭīrapayodharakuṅkumapaṅkavibhāge ||\nhaririha mugdhavadhūbhirupetaḥ krīḍati rāsakutūhalaketo ||",
@@ -3500,7 +4089,7 @@
       "id": "c5_s31",
       "chapterId": 5,
       "chapterTitle": "An Inexhaustible Literature",
-      "slideIndex": 19,
+      "slideIndex": 18,
       "title": "The Creation of Woman — The Divine Harmony of Speech",
       "sanskrit": "नार्याः सृष्टिं विधायाशु विधाता विस्मयं गतः ।\nरूपसौन्दर्यलावण्यैः सर्वानन्दविधायिनी ॥",
       "iast": "nāryāḥ sṛṣṭiṁ vidhāyāśu vidhātā vismayaṁ gataḥ |\nrūpasaundaryalāvaṇyaiḥ sarvānandavidhāyinī ||",
@@ -3608,7 +4197,7 @@
       "id": "c6_s09",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 4,
+      "slideIndex": 3,
       "title": "Subhashita 9 — Knowledge: The Indestructible Wealth",
       "sanskrit": "न चौरहार्यं न च राजहार्यं न भ्रातृभाज्यं न च भारकारि ।\nव्यये कृते वर्धत एव नित्यं विद्याधनं सर्वधनप्रधानम् ॥",
       "iast": "na caurahāryaṁ na ca rājahāryaṁ na bhrātṛbhājyaṁ na ca bhārakāri |\nvyaye kṛte vardhata eva nityaṁ vidyādhanaṁ sarvadhanapradhānam ||",
@@ -3632,7 +4221,7 @@
       "id": "c6_s11",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 5,
+      "slideIndex": 4,
       "title": "Subhashita 11 — Pure Speech Alone Is the Immortal Ornament",
       "sanskrit": "केयूरा न विभूषयन्ति पुरुषं हारा न चन्द्रोज्ज्वला\nन स्नानं न विलेपनं न कुसुमं नालङ्कृता मूर्धजाः ।\nवाण्येका समलङ्करोति पुरुषं या संस्कृता धार्यते\nक्षीयन्ते खलु भूषणानि सततं वाग्भूषणं भूषणम् ॥",
       "iast": "keyūrā na vibhūṣayanti puruṣaṁ hārā na candrojjvalā\nna snānaṁ na vilepanaṁ na kusumaṁ nālaṅkṛtā mūrdhajāḥ |\nvāṇyekā samalaṅkaroti puruṣaṁ yā saṁskṛtā dhāryate\nkṣīyante khalu bhūṣaṇāni satataṁ vāgbhūṣaṇaṁ bhūṣaṇam ||",
@@ -3644,7 +4233,7 @@
       "id": "c6_s12",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 6,
+      "slideIndex": 4,
       "title": "Subhashita 12 — The Four Classes of Men in the World",
       "sanskrit": "एते सत्पुरुषाः परार्थघटकाः स्वार्थां परित्यज्य ये\nसामान्यास्तु परार्थमुद्यमभृतः स्वार्थाविरोधेन ये ।\nतेऽमी मानुषराक्षसाः परहितं स्वार्थाय निघ्नन्ति ये\nये निघ्नन्ति निरर्थकं परहितं ते के न जानीमहे ॥",
       "iast": "ete satpuruṣāḥ parārthaghaṭakāḥ svārthāṁ parityajya ye\nsāmānyāstu parārthamudyamabhṛtaḥ svārthāvirodhena ye |\nte'mī mānuṣarākṣasāḥ parahitaṁ svārthāya nighnanti ye\nye nighnanti nirarthakaṁ parahitaṁ te ke na jānīmahe ||",
@@ -3656,7 +4245,7 @@
       "id": "c6_s13",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 6,
+      "slideIndex": 5,
       "title": "Subhashita 13 — The Obstinate Fool — Bhartrihari",
       "sanskrit": "लभेत सिकतासु तैलमपि यत्नतः पीडयन्\nपिबेच्च मृगतृष्णिकासु सलिलं पिपासादितः ।\nकदाचिदपि पर्यटञ्छशविषाणमासादयेत्\nन तु प्रतिनिविष्टमूर्खजनचित्तमाराधयेत् ॥",
       "iast": "labheta sikatāsu tailamapi yatnataḥ pīḍayan\npibecca mṛgatṛṣṇikāsu salilaṁ pipāsāditaḥ |\nkadācidapi paryaṭañchaśaviṣāṇamāsādayet\nna tu pratiniviṣṭamūrkhajanacittamārādhayet ||",
@@ -3668,7 +4257,7 @@
       "id": "c6_s14",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 7,
+      "slideIndex": 5,
       "title": "Subhashita 14 — Caraiveti: The March Forward (Aitareya Brahmana 1)",
       "sanskrit": "नानाश्रान्ताय श्रीरस्तीति रोहित शुश्रुम ।\nपापो नृषद्वरो जन इन्द्र इच्चरतः सखा ।\nचरैवेति चरैवेति ॥",
       "iast": "nānāśrāntāya śrīrastīti rohita śuśruma |\npāpo nṛṣadvaro jana indra iccarataḥ sakhā |\ncaraiveti caraiveti ||",
@@ -3680,7 +4269,7 @@
       "id": "c6_s15",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 7,
+      "slideIndex": 5,
       "title": "Subhashita 15 — Caraiveti: The Blossoming Soul (Aitareya Brahmana 2)",
       "sanskrit": "पुष्पिण्यौ चरतो जङ्घे भूष्णुरात्मा फलग्रहिः ।\nशर्शेस्य सर्वे पाप्मानः श्रमेण प्रपथे हताः ।\nचरैवेति चरैवेति ॥",
       "iast": "puṣpiṇyau carato jaṅghe bhūṣṇurātmā phalagrahiḥ |\nśarśesya sarve pāpmānaḥ śrameṇa prapathe hatāḥ |\ncaraiveti caraiveti ||",
@@ -3692,7 +4281,7 @@
       "id": "c6_s16",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 8,
+      "slideIndex": 6,
       "title": "Subhashita 16 — Caraiveti: The Four Ages in Action (Aitareya Brahmana 3)",
       "sanskrit": "कलिः शयानो भवति सञ्जिहानस्तु द्वापरः ।\nउत्तिष्ठंस्त्रेता भवति कृतं सम्पद्यते चरन् ।\nचरैवेति चरैवेति ॥",
       "iast": "kaliḥ śayāno bhavati sañjihānastu dvāparaḥ |\nuttiṣṭhaṁstretā bhavati kṛtaṁ sampadyate caran |\ncaraiveti caraiveti ||",
@@ -3704,7 +4293,7 @@
       "id": "c6_s17",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 8,
+      "slideIndex": 6,
       "title": "Subhashita 17 — The One Divine Truth Expressed Variously",
       "sanskrit": "एकं सद् विप्रा बहुधा वदन्त्यग्निं यमं मातरिश्वानमाहुः ।\nसत्यमेकं परं ब्रह्म सर्वभूतेषु संस्थितम् ॥",
       "iast": "ekaṁ sad viprā bahudhā vadantyagniṁ yamaṁ mātariśvānamāhuḥ |\nsatyamekaṁ paraṁ brahma sarvabhūteṣu saṁsthitam ||",
@@ -3716,7 +4305,7 @@
       "id": "c6_s18",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 9,
+      "slideIndex": 7,
       "title": "Subhashita 18 — Righteous Wealth (Dharmenaiva Samaharet)",
       "sanskrit": "यतो धर्मस्ततो जयः ।\nधर्मेणैव समाहर्तव्यं वित्तं धर्मेण योजयेत् ॥",
       "iast": "yato dharmastato jayaḥ |\ndharmeṇaiva samāhartavyaṁ vittaṁ dharmeṇa yojayet ||",
@@ -3728,7 +4317,7 @@
       "id": "c6_s19",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 9,
+      "slideIndex": 7,
       "title": "Subhashita 19 — The Mind As Master — Dhammapada in Sanskrit",
       "sanskrit": "मनःपूर्वङ्गमा धर्मा मनोश्रेष्ठा मनोमयाः ।\nमनसा चेत् प्रसन्नोन भाषते वा करोति वा ।\nततस्तं सुखमन्वेति छाया वाऽनपायिनी ॥",
       "iast": "manaḥpūrvaṅgamā dharmā manośreṣṭhā manomayāḥ |\nmanasā cet prasannona bhāṣate vā karoti vā |\ntatastaṁ sukhamanveti chāyā vā'napāyinī ||",
@@ -3740,7 +4329,7 @@
       "id": "c6_s20",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 10,
+      "slideIndex": 7,
       "title": "Subhashita 20 — Hatred Ceases by Love Alone — Dhammapada",
       "sanskrit": "न हि वैरेण वैराणि शाम्यन्तीह कदाचन ।\nअवैरेणैव शाम्यन्ति एष धर्मः सनातनः ॥",
       "iast": "na hi vaireṇa vairāṇi śāmyantīha kadācana |\navaireṇaiva śāmyanti eṣa dharmaḥ sanātanaḥ ||",
@@ -3752,7 +4341,7 @@
       "id": "c6_s21",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 10,
+      "slideIndex": 8,
       "title": "Subhashita 21 — The Fragrance of Good Deeds — Dhammapada",
       "sanskrit": "न पुष्पगन्धः प्रतिवातमेति न चन्दनं तगरं मल्लिका वा ।\nसतां तु गन्धः प्रतिवातमेति सर्वा दिशः सत्पुरुषः प्रवाति ॥",
       "iast": "na puṣpagandhaḥ prativātameti na candanaṁ tagaraṁ mallikā vā |\nsatāṁ tu gandhaḥ prativātameti sarvā diśaḥ satpuruṣaḥ pravāti ||",
@@ -3764,7 +4353,7 @@
       "id": "c6_s22",
       "chapterId": 6,
       "chapterTitle": "Subhashitas — Gems of Wisdom",
-      "slideIndex": 11,
+      "slideIndex": 8,
       "title": "Subhashita 22 — The True Sage (Śāntakāyo Śāntavāk) — Dhammapada",
       "sanskrit": "न मुण्डनेन श्रमणो ह्यव्रतोऽनृतं भणन् ।\nशान्तकायो शान्तवाक् शान्तमनाः सुसमाहितः ।\nवान्तलोकामिषो भिक्षुरुपशान्त इति चोच्यते ॥",
       "iast": "na muṇḍanena śramaṇo hyavrato'nṛtaṁ bhaṇan |\nśāntakāyo śāntavāk śāntamanāḥ susamāhitaḥ |\nvāntalokāmiṣo bhikṣurupaśānta iti cocyate ||",
@@ -3800,7 +4389,7 @@
       "id": "c7_s03",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 0,
+      "slideIndex": 1,
       "title": "Katha Upanishad — The Supreme Refuge (Etadālambanam)",
       "sanskrit": "एतदालम्बनं श्रेष्ठमेतदालम्बनं परम् ।\nएतदालम्बनं ज्ञात्वा ब्रह्मलोके महीयते ॥",
       "iast": "etadālambanaṁ śreṣṭhametadālambanaṁ param |\netadālambanaṁ jñātvā brahmaloke mahīyate ||",
@@ -3896,7 +4485,7 @@
       "id": "c7_s11",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 4,
+      "slideIndex": 3,
       "title": "Rigveda — Samjnana Sukta (Concord of Hearts 3)",
       "sanskrit": "समानी व आकूतिः समाना हृदयानि वः ।\nसमानमस्तु वो मनो यथा वः सुसहासति ॥",
       "iast": "samānī va ākūtiḥ samānā hṛdayāni vaḥ |\nsamānamastu vo mano yathā vaḥ susahāsati ||",
@@ -3932,7 +4521,7 @@
       "id": "c7_s14",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 5,
+      "slideIndex": 4,
       "title": "Katha Upanishad — The Inner Person (Angushthamatraḥ Purushaḥ)",
       "sanskrit": "अङ्गुष्ठमात्रः पुरुषोऽन्तरात्मा सदा जनानां हृदये संनिविष्टः ।\nतं स्वाच्छरीरात् प्रवृहेन्मुञ्जादिवेषीकां धैर्येण ॥",
       "iast": "aṅguṣṭhamātraḥ puruṣo'ntarātmā sadā janānāṁ hṛdaye saṁniviṣṭaḥ |\ntaṁ svāccharīrāt pravṛhenmuñjādiveṣīkāṁ dhairyeṇa ||",
@@ -3956,7 +4545,7 @@
       "id": "c7_s16",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 6,
+      "slideIndex": 5,
       "title": "Katha Upanishad — Beyond Senses & Death",
       "sanskrit": "अशब्दमस्पर्शमरूपमव्ययं तथाऽरसं नित्यमगन्धवच्च यत् ।\nअनाद्यनन्तं महतः परं ध्रुवं निचाय्य तन्मृत्युमुखात् प्रमुच्यते ॥",
       "iast": "aśabdamasparśamarūpamavyayaṁ tathā'rasaṁ nityamagandhavacca yat |\nanādyanantaṁ mahataḥ paraṁ dhruvaṁ nicāyya tanmṛtyumukhāt pramucyate ||",
@@ -3968,7 +4557,7 @@
       "id": "c7_s17",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 6,
+      "slideIndex": 5,
       "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 1: Shreya & Preya)",
       "sanskrit": "श्रेयश्च प्रेयश्च मनुष्यमेतस्तौ सम्परीत्य विविनक्ति धीरः ।\nश्रेयो हि धीरोऽभि प्रेयसो वृणीते प्रेयो मन्दो योगक्षेमाद् वृणीते ॥",
       "iast": "śreyaśca preyaśca manuṣyametastau samparītya vivinakti dhīraḥ |\nśreyo hi dhīro'bhi preyaso vṛṇīte preyo mando yogakṣemād vṛṇīte ||",
@@ -3992,7 +4581,7 @@
       "id": "c7_s19",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 7,
+      "slideIndex": 6,
       "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 3: The Blind Leading the Blind)",
       "sanskrit": "अविद्यायामन्तरे वर्तमानाः स्वयं धीराः पण्डितम्मन्यमानाः ।\nदन्द्रम्यमाणाः परियन्ति मूढा अन्धेनैव नीयमाना यथान्धाः ॥",
       "iast": "avidyāyāmantare vartamānāḥ svayaṁ dhīrāḥ paṇḍitammanyamānāḥ |\ndandramyamāṇāḥ pariyanti mūḍhā andhenaiva nīyamānā yathāndhāḥ ||",
@@ -4004,7 +4593,7 @@
       "id": "c7_s20",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 7,
+      "slideIndex": 6,
       "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 4: The Delusion of Wealth)",
       "sanskrit": "न साम्परायः प्रतिभाति बालं प्रमाद्यन्तं वित्तमोहेन मूढम् ।\nअयं लोको नास्ति पर इति मानी पुनः पुनर्वशमापद्यते मे ॥",
       "iast": "na sāmparāyaḥ pratibhāti bālaṁ pramādyantaṁ vittamohena mūḍham |\nayaṁ loko nāsti para iti mānī punaḥ punarvaśamāpadyate me ||",
@@ -4016,7 +4605,7 @@
       "id": "c7_s21",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 8,
+      "slideIndex": 7,
       "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 5: The Wonder of the Teacher & Seeker)",
       "sanskrit": "श्रवणायापि बहुभिर्यो न लभ्यः शृण्वन्तोऽपि बहवो यं न विद्युः ।\nआश्चर्यो वक्ता कुशलोऽस्य लब्धाऽऽश्चर्यो ज्ञाता कुशलानुशिष्टः ॥",
       "iast": "śravaṇāyāpi bahubhiryo na labhyaḥ śṛṇvanto'pi bahavo yaṁ na vidyuḥ |\nāścaryo vaktā kuśalo'sya labdhā''ścaryo jñātā kuśalānuśiṣṭaḥ ||",
@@ -4028,7 +4617,7 @@
       "id": "c7_s22",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 8,
+      "slideIndex": 7,
       "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 6: The Secret Cave of the Heart)",
       "sanskrit": "तं दुर्दर्शं गूढमनुप्रविष्टं गुहाहितं गह्वरेष्ठं पुराणम् ।\nअध्यात्मयोगाधिगमेन देवं मत्वा धीरो हर्षशोकौ जहाति ॥",
       "iast": "taṁ durdarśaṁ gūḍhamanupraviṣṭaṁ guhāhitaṁ gahvareṣṭhaṁ purāṇam |\nadhyātmayogādhigamena devaṁ matvā dhīro harṣaśokau jahāti ||",
@@ -4040,7 +4629,7 @@
       "id": "c7_s23",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 8,
+      "slideIndex": 7,
       "title": "Katha Upanishad — Yama & Nachiketa Dialogue (Verse 7: The Sacred Word OM)",
       "sanskrit": "सर्वे वेदा यत्पदमामनन्ति तपांसि सर्वाणि च यद् वदन्ति ।\nयदिच्छन्तो ब्रह्मचर्यं चरन्ति तत्ते पदं सङ्ग्रहेण ब्रवीम्योमित्येतत् ॥",
       "iast": "sarve vedā yatpadamāmananti tapāṁsi sarvāṇi ca yad vadanti |\nyadicchanto brahmacaryaṁ caranti tatte padaṁ saṅgraheṇa bravīmyomityetat ||",
@@ -4052,7 +4641,7 @@
       "id": "c7_s24",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 9,
+      "slideIndex": 8,
       "title": "Katha Upanishad — The Self-Luminous Light of All Lights",
       "sanskrit": "न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्निः ।\nतमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति ॥",
       "iast": "na tatra sūryo bhāti na candratārakaṁ nemā vidyuto bhānti kuto'yamagniḥ |\ntameva bhāntamanubhāti sarvaṁ tasya bhāsā sarvamidaṁ vibhāti ||",
@@ -4064,7 +4653,7 @@
       "id": "c7_s25",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 9,
+      "slideIndex": 8,
       "title": "Bhagavadgita — The Immortal Self (2.20)",
       "sanskrit": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः ।\nअजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ॥",
       "iast": "na jāyate mriyate vā kadācinnāyaṁ bhūtvā bhavitā vā na bhūyaḥ |\najo nityaḥ śāśvato'yaṁ purāṇo na hanyate hanyamāne śarīre ||",
@@ -4076,7 +4665,7 @@
       "id": "c7_s26",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 10,
+      "slideIndex": 8,
       "title": "Bhagavadgita — Casting Off Old Garments (2.22)",
       "sanskrit": "वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि ।\nतथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही ॥",
       "iast": "vāsāṁsi jīrṇāni yathā vihāya navāni gṛhṇāti naro'parāṇi |\ntathā śarīrāṇi vihāya jīrṇānyanyāni saṁyāti navāni dehī ||",
@@ -4088,7 +4677,7 @@
       "id": "c7_s27",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 10,
+      "slideIndex": 9,
       "title": "Bhagavadgita — Beyond Weapon, Fire & Wind (2.23)",
       "sanskrit": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः ।\nन चैनं क्लेदयन्त्यापो न शोषयति मारुतः ॥",
       "iast": "nainaṁ chindanti śastrāṇi nainaṁ dahati pāvakaḥ |\nna cainaṁ kledayantyāpo na śoṣayati mārutaḥ ||",
@@ -4100,7 +4689,7 @@
       "id": "c7_s28",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 10,
+      "slideIndex": 9,
       "title": "Bhagavadgita — The Descent of the Avatara (4.7)",
       "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत ।\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥",
       "iast": "yadā yadā hi dharmasya glānirbhavati bhārata |\nabhyutthānamadharmasya tadātmānaṁ sṛjāmyaham ||",
@@ -4112,7 +4701,7 @@
       "id": "c7_s29",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 11,
+      "slideIndex": 9,
       "title": "Bhagavadgita — For Protection of the Righteous (4.8)",
       "sanskrit": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् ।\nधर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥",
       "iast": "paritrāṇāya sādhūnāṁ vināśāya ca duṣkṛtām |\ndharmasaṁsthāpanārthāya sambhavāmi yuge yuge ||",
@@ -4124,7 +4713,7 @@
       "id": "c7_s30",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 11,
+      "slideIndex": 10,
       "title": "Bhagavadgita — Equal Vision of the Sage (5.18)",
       "sanskrit": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि ।\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ॥",
       "iast": "vidyāvinayasampanne brāhmaṇe gavi hastini |\nśuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ ||",
@@ -4136,7 +4725,7 @@
       "id": "c7_s31",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 12,
+      "slideIndex": 10,
       "title": "Bhagavadgita — Freedom from Attachment & Aversion (12.17)",
       "sanskrit": "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति ।\nशुभाशुभपरित्यागी भक्तिमान् यः स मे प्रियः ॥",
       "iast": "yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati |\nśubhāśubhaparityāgī bhaktimān yaḥ sa me priyaḥ ||",
@@ -4148,7 +4737,7 @@
       "id": "c7_s32",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 12,
+      "slideIndex": 10,
       "title": "Bhagavadgita — Cosmic Majesty of the Divine (11.18)",
       "sanskrit": "त्वमक्षरं परमं वेदितव्यं त्वमस्य विश्वस्य परं निधानम् ।\nत्वमव्ययः शाश्वतधर्मगोप्ता सनातनस्त्वं पुरुषो मतो मे ॥",
       "iast": "tvamakṣaraṁ paramaṁ veditavyaṁ tvamasya viśvasya paraṁ nidhānam |\ntvamavyayaḥ śāśvatadharmagoptā sanātanastvaṁ puruṣo mato me ||",
@@ -4160,7 +4749,7 @@
       "id": "c7_s33",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 12,
+      "slideIndex": 11,
       "title": "Bhagavadgita — The Transcendent Wonder of the Cosmic Form (11.20)",
       "sanskrit": "द्यावापृथिव्योरिदमन्तरं हि व्याप्तं त्वयैकेन दिशश्च सर्वाः ।\nदृष्ट्वाद्भुतं रूपमुग्रं तवेदं लोकत्रयं प्रव्यथितं महात्मन् ॥",
       "iast": "dyāvāpṛthivyoridamantaraṁ hi vyāptaṁ tvayaikena diśaśca sarvāḥ |\ndṛṣṭvādbhutaṁ rūpamugraṁ tavedaṁ lokatrayaṁ pravyathitaṁ mahātman ||",
@@ -4172,7 +4761,7 @@
       "id": "c7_s34",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 13,
+      "slideIndex": 11,
       "title": "Bhagavadgita — Arjuna's Plea for the Lord's Identity (11.31)",
       "sanskrit": "आख्याहि मे को भवानुग्ररूपो नमोऽस्तु ते देववर प्रसीद ।\nविज्ञातुमिच्छामि भवन्तमाद्यं न हि प्रजानामि तव प्रवृत्तिम् ॥",
       "iast": "ākhyāhi me ko bhavānugrarūpo namo'stu te dewavara prasīda |\nvijñātumicchāmi bhavantamādyaṁ na hi prajānāmi tava pravṛttim ||",
@@ -4184,7 +4773,7 @@
       "id": "c7_s35",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 13,
+      "slideIndex": 12,
       "title": "Bhagavadgita — Complete Devotion & Love (18.65)",
       "sanskrit": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु ।\nमामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे ॥",
       "iast": "manmanā bhava madbhakto madyājī māṁ namaskuru |\nmāmevaiṣyasi satyaṁ te pratijāne priyo'si me ||",
@@ -4196,7 +4785,7 @@
       "id": "c7_s36",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 14,
+      "slideIndex": 12,
       "title": "Bhagavadgita — The Supreme Secret of Surrender (18.66)",
       "sanskrit": "सर्वधर्मान् परित्यज्य मामेकं शरणं व्रज ।\nअहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥",
       "iast": "sarvadharmān parityajya māmekaṁ śaraṇaṁ vraja |\nahaṁ tvā sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ ||",
@@ -4208,7 +4797,7 @@
       "id": "c7_s37",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 14,
+      "slideIndex": 13,
       "title": "Bhavani Ashtakam — Thou Art My Sole Refuge (Verse 1)",
       "sanskrit": "न तातो न माता न बन्धुर्न दाता न पुत्रो न पुत्री न भृत्यो न भर्ता ।\nन जाया न विद्या न वृत्तिर्ममैव गतिस्त्वं गतिस्त्वं त्वमेका भवानि ॥",
       "iast": "na tāto na mātā na bandhurna dātā na putro na putrī na bhṛtyo na bhartā |\nna jāyā na vidyā na vṛttirmamaiva gatistvaṁ gatistvaṁ tvamekā bhavāni ||",
@@ -4220,7 +4809,7 @@
       "id": "c7_s38",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 14,
+      "slideIndex": 13,
       "title": "Bhavani Ashtakam — Beyond Formal Rites & Mantras (Verse 2)",
       "sanskrit": "न जानामि दानं न च ध्यानयोगं न जानामि तन्त्रं न च स्तोत्रमन्त्रम् ।\nन जानामि पूजां न च न्यासयोगं गतिस्त्वं गतिस्त्वं त्वमेका भवानि ॥",
       "iast": "na jānāmi dānaṁ na ca dhyānayogaṁ na jānāmi tantraṁ na ca stotramantram |\nna jānāmi pūjāṁ na ca nyāsayogaṁ gatistvaṁ gatistvaṁ tvamekā bhavāni ||",
@@ -4232,7 +4821,7 @@
       "id": "c7_s39",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 15,
+      "slideIndex": 14,
       "title": "Bhavani Ashtakam — Refuge of the Helpless Soul (Verse 3)",
       "sanskrit": "न जानामि पुण्यं न जानामि तीर्थं न जानामि मुक्तिं लयं वा कदाचित् ।\nन जानामि भक्तिं व्रतं वापि मातर्गतिस्त्वं गतिस्त्वं त्वमेका भवानि ॥",
       "iast": "na jānāmi puṇyaṁ na jānāmi tīrthaṁ na jānāmi muktiṁ layaṁ vā kadācit |\nna jānāmi bhaktiṁ vrataṁ vāpi mātargatistvaṁ gatistvaṁ tvamekā bhavāni ||",
@@ -4244,7 +4833,7 @@
       "id": "c7_s1b",
       "chapterId": 7,
       "chapterTitle": "Sacred & Spiritual Heritage",
-      "slideIndex": 0,
+      "slideIndex": 14,
       "title": "Rigveda — Gayatri Chanting (Invocation Choral Variant)",
       "sanskrit": "ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात् ॥\nॐ आपो ज्योती रसोऽमृतं ब्रह्म भूर्भुवः स्वरोम् ॥",
       "iast": "oṁ bhūrbhuvaḥ svaḥ tatsaviturvareṇyaṁ bhargo devasya dhīmahi dhiyo yo naḥ pracodayāt ||\noṁ āpo jyotī raso'mṛtaṁ brahma bhūrbhuvaḥ svarom ||",
@@ -4256,7 +4845,7 @@
       "id": "c10_s1",
       "chapterId": 10,
       "chapterTitle": "The Soul of India",
-      "slideIndex": 0,
+      "slideIndex": 1,
       "title": "National Motto: Satyameva Jayate (Mundaka Upanishad 3.1.6)",
       "sanskrit": "सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः ।\nयेनाक्रमन्त्यृषयो ह्याप्तकामा यत्र तत् सत्यस्य परमं निधानम् ॥",
       "iast": "satyameva jayate nānṛtaṁ satyena panthā vitato devayānaḥ |\nyenākramantyṛṣayo hyāptakāmā yatra tat satyasya paramaṁ nidhānam ||",
@@ -4268,7 +4857,7 @@
       "id": "c10_s2",
       "chapterId": 10,
       "chapterTitle": "The Soul of India",
-      "slideIndex": 0,
+      "slideIndex": 2,
       "title": "Sacred Geography of Bharata & The Holy Rivers",
       "sanskrit": "उत्तरं यत् समुद्रस्य हिमाद्रेश्चैव दक्षिणम् ।\nवर्षं तद् भारतं नाम भारती यत्र सन्ततिः ॥\nगङ्गे च यमुने चैव गोदावरि सरस्वति ।\nनर्मदे सिन्धु कावेरि जलेऽस्मिन् संनिधिं कुरु ॥",
       "iast": "uttaraṁ yat samudrasya himādreścaiva dakṣiṇam |\nvarṣaṁ tad bhārataṁ nāma bhāratī yatra santatiḥ ||\ngaṅge ca yamune caiva godāvari sarasvati |\nnarmade sindhu kāveri jale'smin saṁnidhiṁ kuru ||",
@@ -4280,7 +4869,7 @@
       "id": "c10_s3",
       "chapterId": 10,
       "chapterTitle": "The Soul of India",
-      "slideIndex": 1,
+      "slideIndex": 6,
       "title": "Tagore & Nehru on Sanskrit — Invocation to Sthanu (Vikramorvashiyam 1.1)",
       "sanskrit": "वेदान्तेषु यमाहुरेकपुरुषं व्याप्य स्थितं रोदसी\nयस्मिन्नीश्वर इत्यनन्यविषयः शब्दो यथार्थाक्षरः ।\nअन्तर्यश्च मुमुक्षुभिर्नियमितप्राणादिभिर्मृग्यते\nस स्थाणुः स्थिरभक्तियोगसुलभो निःश्रेयसायास्तु वः ॥",
       "iast": "vedānteṣu yamāhurekapuruṣaṁ vyāpya sthitaṁ rodasī\nyasminnīśvara ityananyaviṣayaḥ śabdo yathārthākṣaraḥ |\nantaryaśca mumukṣubhirniyamitaprāṇādibhirmṛgyate\nsa sthāṇuḥ sthirabhaktiyogosulabho niḥśreyasāyāstu vaḥ ||",

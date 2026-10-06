@@ -1100,8 +1100,8 @@ class DevabhashaApp {
     // Update Slide Ribbon UI
     this.updateSlideNavControls();
 
-    // Universal Dual-Pane Presentation (Left: Visual Artwork/Diagram, Right: Manuscript Cards)
-    const visualSrc = slide.diagram || slide.canvas;
+    // Universal Dual-Pane Presentation (Left: Visual Artwork/Diagram when available)
+    const visualSrc = slide.diagram;
     const visualTitle = slide.diagramTitle || slide.title || 'Manuscript Artwork';
 
     if (visualSrc) {
@@ -1175,10 +1175,11 @@ class DevabhashaApp {
     }
 
     // Mode: 'slide' - filter to matching tracks/sections
+    const hasExplicitTracks = (slide && slide.trackIndices !== undefined);
     let allowedIndices = [];
-    if (slide.trackIndices && Array.isArray(slide.trackIndices)) {
+    if (slide && slide.trackIndices && Array.isArray(slide.trackIndices)) {
       allowedIndices = slide.trackIndices;
-    } else if (slide.trackIndex !== null && slide.trackIndex !== undefined) {
+    } else if (slide && slide.trackIndex !== null && slide.trackIndex !== undefined) {
       allowedIndices = [slide.trackIndex];
     }
 
@@ -1202,7 +1203,14 @@ class DevabhashaApp {
 
       // Verse card
       const trackIdx = parseInt(card.dataset.index, 10);
-      if (allowedIndices.length > 0) {
+      if (hasExplicitTracks) {
+        const isMatch = allowedIndices.includes(trackIdx);
+        card.style.display = isMatch ? '' : 'none';
+        if (isMatch) {
+          visibleCount++;
+          if (!firstVisibleCard) firstVisibleCard = card;
+        }
+      } else if (allowedIndices.length > 0) {
         const isMatch = allowedIndices.includes(trackIdx);
         card.style.display = isMatch ? '' : 'none';
         if (isMatch) {
@@ -1210,16 +1218,37 @@ class DevabhashaApp {
           if (!firstVisibleCard) firstVisibleCard = card;
         }
       } else {
-        // If slide has no specific track indices, show all
         card.style.display = '';
         visibleCount++;
         if (!firstVisibleCard) firstVisibleCard = card;
       }
     });
 
-    // If no card matched, fallback to showing all cards
-    if (visibleCount === 0) {
-      allCards.forEach(card => card.style.display = '');
+    // Handle pure narrative slides with no matching audio tracks
+    let slideCard = this.dialoguesWrapper.querySelector('.slide-intro-card');
+    if (visibleCount === 0 && slide && slide.description) {
+      if (!slideCard) {
+        slideCard = document.createElement('div');
+        slideCard.className = 'dialogue-card prose-card slide-intro-card';
+        this.dialoguesWrapper.appendChild(slideCard);
+      }
+      slideCard.style.display = '';
+      const sealPageLabel = this.displayView === 'devanagari'
+        ? `〔 अध्यायः ${this.activeChapterId} — पृष्ठम् ${slide.slideNumber} 〕`
+        : `〔 Chapter ${this.activeChapterId} — Page ${slide.slideNumber} 〕`;
+      slideCard.innerHTML = `
+        <div class="dialogue-header">
+          <span class="speaker-seal speaker-scholar">${sealPageLabel}</span>
+        </div>
+        <div class="dialogue-body">
+          <h3 style="color:#d97706; font-size:1.15rem; margin-bottom:0.75rem; font-family:'Noto Serif Devanagari', serif;">${slide.title}</h3>
+          <div class="text-prose" style="font-size:1rem; line-height:1.7; color:#45220a;">${slide.description}</div>
+        </div>
+      `;
+      visibleCount++;
+      firstVisibleCard = slideCard;
+    } else if (slideCard) {
+      slideCard.style.display = 'none';
     }
 
     if (firstVisibleCard && shouldScroll) {

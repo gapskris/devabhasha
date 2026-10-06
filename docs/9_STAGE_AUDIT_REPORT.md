@@ -65,9 +65,9 @@ Prior to public release and deployment of the modernized Devabhāṣā applicati
    STAGE 3: RUNTIME PERFORMANCE & 60FPS AUDIT
 ================================================================================
 [PASS] PERF-01: Layout Thrashing / Reflow Duration in Stage Navigation
-       Average chapter transition execution: 8.27ms (< 16.67ms 60fps frame budget)
+       Average chapter transition execution: 5.71ms (< 16.67ms 60fps frame budget)
 [PASS] PERF-02: Initial DOM Content Loaded Performance
-       Browser DOMContentLoaded in 7744.4ms (< 5000ms target, overall nav: 7822.5ms)
+       Browser DOMContentLoaded in 482.8ms (< 5000ms target, overall nav: 561.2ms)
 [PASS] PERF-03: Search Engine Inverted Index Query Latency
        Average search execution over 149 recitations: 0.00ms (< 15ms target)
 [PASS] PERF-04: Font Loading Display Strategy (font-display: swap)

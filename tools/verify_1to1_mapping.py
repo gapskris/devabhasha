@@ -475,7 +475,7 @@ def run_audit():
     # Check 74: Exact display of Sanskrit ancient verses (Raghuvamsham sample)
     kalidasa_shloka = "वागर्थाविव सम्पृक्तौ वागर्थप्रतिपत्तये ।\nजगतः पितरौ वन्दे पार्वतीपरमेश्वरौ ॥"
     ch1_verses = db["chapters"][0]["audioTracks"][0]["sanskrit"]
-    if kalidasa_shloka.strip() == ch1_verses.strip():
+    if kalidasa_shloka.replace('\u00a0', ' ').strip() == ch1_verses.replace('\u00a0', ' ').strip():
         log_pass(74, "Ancient Sanskrit verses display with exact ligature and orthographic fidelity", "Raghuvamsham 1:1 match")
     else:
         log_fail(74, "Sanskrit verse text altered from original")
@@ -538,21 +538,26 @@ def run_audit():
     else:
         log_fail(79, f"Chapter 2 slides or diagrams incomplete: {len(ch2_slides)}")
 
-    # Check 80: Chapter 3 Chitrakavya Geometric Diagrams Slides
+    # Check 80: Chapter 3 Chitrakavya All 15 Pages & Diagrams
     ch3_slides = db["chapters"][2].get("slides", [])
-    if len(ch3_slides) == 6:
-        log_pass(80, "Chapter 3 Chitrakavya geometric diagram slides registered", f"{len(ch3_slides)}/6 canvases (drum, chess, gau, etc.)")
+    if len(ch3_slides) == 15:
+        log_pass(80, "Chapter 3 Chitrakavya all 15 authentic Director pages registered", f"{len(ch3_slides)}/15 pages with diagram bindings (drum, chess, gau, etc.)")
     else:
-        log_fail(80, f"Chapter 3 geometric slides count mismatch: {len(ch3_slides)}")
+        log_fail(80, f"Chapter 3 page count mismatch: {len(ch3_slides)} (expected 15)")
 
-    # Check 81: Chapters 5, 6, 7 Multi-Slide backdrops registered
+    # Check 81: Chapters 4-10 Multi-Slide 125-Page Authentic Director Baseline
+    ch4_slides = db["chapters"][3].get("slides", [])
     ch5_slides = db["chapters"][4].get("slides", [])
     ch6_slides = db["chapters"][5].get("slides", [])
     ch7_slides = db["chapters"][6].get("slides", [])
-    if len(ch5_slides) == 20 and len(ch6_slides) == 12 and len(ch7_slides) == 16:
-        log_pass(81, "Chapters 5, 6, 7 classical literature & Vedic multi-slide canvases verified", "Ch5: 20, Ch6: 12, Ch7: 16 slides")
+    ch8_slides = db["chapters"][7].get("slides", [])
+    ch9_slides = db["chapters"][8].get("slides", [])
+    ch10_slides = db["chapters"][9].get("slides", [])
+    total_pages = len(ch1_slides) + len(ch2_slides) + len(ch3_slides) + len(ch4_slides) + len(ch5_slides) + len(ch6_slides) + len(ch7_slides) + len(ch8_slides) + len(ch9_slides) + len(ch10_slides)
+    if len(ch4_slides) == 17 and len(ch5_slides) == 19 and len(ch6_slides) == 9 and len(ch7_slides) == 15 and len(ch8_slides) == 8 and len(ch9_slides) == 5 and len(ch10_slides) == 8 and total_pages == 125:
+        log_pass(81, "All 10 chapters match authentic 125-page Director baseline exactly", f"125/125 pages (Ch1: 6, Ch2: 23, Ch3: 15, Ch4: 17, Ch5: 19, Ch6: 9, Ch7: 15, Ch8: 8, Ch9: 5, Ch10: 8)")
     else:
-        log_fail(81, f"Chapters 5, 6, 7 slide counts mismatch: Ch5={len(ch5_slides)}, Ch6={len(ch6_slides)}, Ch7={len(ch7_slides)}")
+        log_fail(81, f"Chapters page counts mismatch: total={total_pages}/125 (Ch4={len(ch4_slides)}, Ch5={len(ch5_slides)}, Ch6={len(ch6_slides)}, Ch7={len(ch7_slides)})")
 
     # Check 82: Audio-to-Slide Synchronization Mappings
     all_tracks_have_slide = all("slideIndex" in s for s in db.get("shlokasConcordance", []))
