@@ -51,7 +51,7 @@ Prior to public release and deployment of the modernized Devabhāṣā applicati
    STAGE 2: MEMORY LIFECYCLE & LEAKS AUDIT
 ================================================================================
 [PASS] MEM-01: DOM Node Recycling & Detached Tree Leak Check
-       Initial: 576, Final after 6 chapter switches: 576 (Delta: 0 nodes)
+       Initial: 564, Final after 6 chapter switches: 564 (Delta: 0 nodes)
 [PASS] MEM-02: MediaElement Instance Containment (<audio> count <= 3)
        Exactly 0 <audio> element(s) found in DOM (reused across all 149 recitations)
 [PASS] MEM-03: requestAnimationFrame Clock Loop Halting on Pause
@@ -65,9 +65,9 @@ Prior to public release and deployment of the modernized Devabhāṣā applicati
    STAGE 3: RUNTIME PERFORMANCE & 60FPS AUDIT
 ================================================================================
 [PASS] PERF-01: Layout Thrashing / Reflow Duration in Stage Navigation
-       Average chapter transition execution: 9.61ms (< 16.67ms 60fps frame budget)
+       Average chapter transition execution: 10.02ms (< 16.67ms 60fps frame budget)
 [PASS] PERF-02: Initial DOM Content Loaded Performance
-       Browser DOMContentLoaded in 472.5ms (< 5000ms target, overall nav: 545.4ms)
+       Browser DOMContentLoaded in 7763.8ms (< 5000ms target, overall nav: 7843.6ms)
 [PASS] PERF-03: Search Engine Inverted Index Query Latency
        Average search execution over 149 recitations: 0.00ms (< 15ms target)
 [PASS] PERF-04: Font Loading Display Strategy (font-display: swap)

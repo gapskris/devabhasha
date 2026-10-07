@@ -236,7 +236,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page01.jpg",
           "trackIndex": 0,
           "diagram": "assets/images/chap2/alpha.jpg",
-          "diagramTitle": "Varṇamālā — The Sanskrit Alphabet Master Chart"
+          "diagramTitle": "Varṇamālā — The Sanskrit Alphabet Master Chart",
+          "trackIndices": [
+            0
+          ]
         },
         {
           "id": 2,
@@ -245,7 +248,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page02.jpg",
           "trackIndex": 1,
           "diagram": "assets/images/chap2/guttural.JPG",
-          "diagramTitle": "Kaṇṭha (Guttural) Vocal Articulation"
+          "diagramTitle": "Kaṇṭha (Guttural) Vocal Articulation",
+          "trackIndices": [
+            1
+          ]
         },
         {
           "id": 3,
@@ -254,7 +260,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page03.jpg",
           "trackIndex": 2,
           "diagram": "assets/images/chap2/palatal.jpg",
-          "diagramTitle": "Tālu (Palatal) Vocal Articulation"
+          "diagramTitle": "Tālu (Palatal) Vocal Articulation",
+          "trackIndices": [
+            2
+          ]
         },
         {
           "id": 4,
@@ -263,7 +272,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page04.jpg",
           "trackIndex": 3,
           "diagram": "assets/images/chap2/cerebal.jpg",
-          "diagramTitle": "Mūrdhā (Retroflex) Vocal Articulation"
+          "diagramTitle": "Mūrdhā (Retroflex) Vocal Articulation",
+          "trackIndices": [
+            3
+          ]
         },
         {
           "id": 5,
@@ -272,7 +284,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page05.jpg",
           "trackIndex": 4,
           "diagram": "assets/images/chap2/dental.JPG",
-          "diagramTitle": "Danta (Dental) Vocal Articulation"
+          "diagramTitle": "Danta (Dental) Vocal Articulation",
+          "trackIndices": [
+            4
+          ]
         },
         {
           "id": 6,
@@ -281,7 +296,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page06.jpg",
           "trackIndex": 5,
           "diagram": "assets/images/chap2/labialconso .jpg",
-          "diagramTitle": "Oṣṭha (Labial) Vocal Articulation"
+          "diagramTitle": "Oṣṭha (Labial) Vocal Articulation",
+          "trackIndices": [
+            5
+          ]
         },
         {
           "id": 7,
@@ -290,7 +308,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page07.jpg",
           "trackIndex": 6,
           "diagram": "assets/images/chap2/ishat.jpg",
-          "diagramTitle": "Antastha (Semi-Vowels) Resonance"
+          "diagramTitle": "Antastha (Semi-Vowels) Resonance",
+          "trackIndices": [
+            6
+          ]
         },
         {
           "id": 8,
@@ -299,7 +320,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page08.jpg",
           "trackIndex": 7,
           "diagram": "assets/images/chap2/ha.JPG",
-          "diagramTitle": "Ūṣman (Sibilants & Aspirate)"
+          "diagramTitle": "Ūṣman (Sibilants & Aspirate)",
+          "trackIndices": [
+            7
+          ]
         },
         {
           "id": 9,
@@ -308,7 +332,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page09.jpg",
           "trackIndex": 8,
           "diagram": null,
-          "diagramTitle": null
+          "diagramTitle": null,
+          "trackIndices": [
+            8
+          ]
         },
         {
           "id": 10,
@@ -317,7 +344,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page10.jpg",
           "trackIndex": 9,
           "diagram": null,
-          "diagramTitle": null
+          "diagramTitle": null,
+          "trackIndices": [
+            9
+          ]
         },
         {
           "id": 11,
@@ -326,7 +356,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page11.jpg",
           "trackIndex": 10,
           "diagram": "assets/images/chap2/anib.jpg",
-          "diagramTitle": "Acoustic Vocal Tract Resonance"
+          "diagramTitle": "Acoustic Vocal Tract Resonance",
+          "trackIndices": [
+            10
+          ]
         },
         {
           "id": 12,
@@ -335,7 +368,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page12.jpg",
           "trackIndex": 11,
           "diagram": null,
-          "diagramTitle": null
+          "diagramTitle": null,
+          "trackIndices": [
+            11
+          ]
         },
         {
           "id": 13,
@@ -344,7 +380,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page13.jpg",
           "trackIndex": 12,
           "diagram": null,
-          "diagramTitle": null
+          "diagramTitle": null,
+          "trackIndices": [
+            12
+          ]
         },
         {
           "id": 14,
@@ -353,7 +392,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page14.jpg",
           "trackIndex": 13,
           "diagram": null,
-          "diagramTitle": null
+          "diagramTitle": null,
+          "trackIndices": [
+            13
+          ]
         },
         {
           "id": 15,
@@ -362,7 +404,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page15.jpg",
           "trackIndex": null,
           "diagram": "assets/images/chap2/popb.jpg",
-          "diagramTitle": "Internal Effort (Ābhyantara Prayatna)"
+          "diagramTitle": "Internal Effort (Ābhyantara Prayatna)",
+          "trackIndices": [],
+          "titleSanskrit": "पाणिनीय-शिक्षा — अनुनासिक-विचारः",
+          "proseTextSanskrit": "ङ-ञ-ण-न-मानां नासिका च। मुख-नासिका-वचनोऽनुनासिकः — इत्यनुनासिक-वर्णानाम् उच्चारण-रहस्यम्।"
         },
         {
           "id": 16,
@@ -371,7 +416,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page16.jpg",
           "trackIndex": null,
           "diagram": "assets/images/chap2/ushman.jpg",
-          "diagramTitle": "Sibilants Architecture (Ūṣma-Varṇa)"
+          "diagramTitle": "Sibilants Architecture (Ūṣma-Varṇa)",
+          "trackIndices": [],
+          "titleSanskrit": "अन्तस्थ-वर्णाः — य-र-ल-वाः",
+          "proseTextSanskrit": "यणोऽन्तस्थाः। य-र-ल-वाः स्वराणां व्यञ्जनानां च मध्ये वर्तन्ते, अतः अन्तस्थाः इत्युच्यन्ते।"
         },
         {
           "id": 17,
@@ -380,7 +428,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page17.jpg",
           "trackIndex": null,
           "diagram": "assets/images/chap2/ya.JPG",
-          "diagramTitle": "Palatal Semi-Vowel Articulation (Ya-kāra)"
+          "diagramTitle": "Palatal Semi-Vowel Articulation (Ya-kāra)",
+          "trackIndices": [],
+          "titleSanskrit": "ऊष्म-वर्णाः — श-ष-स-हाः",
+          "proseTextSanskrit": "शल ऊष्माणः। श-ष-स-हाः वायु-घर्षणात् ऊष्माणः इत्युच्यन्ते। एतेषां वर्णानाम् उच्चारणे प्राणवायुः प्रज्वलति।"
         },
         {
           "id": 18,
@@ -389,7 +440,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page18.jpg",
           "trackIndex": null,
           "diagram": "assets/images/chap2/ra.JPG",
-          "diagramTitle": "Retroflex Liquid Articulation (Ra-kāra)"
+          "diagramTitle": "Retroflex Liquid Articulation (Ra-kāra)",
+          "trackIndices": [],
+          "titleSanskrit": "अयोगवाहाः — अनुस्वार-विसर्गौ",
+          "proseTextSanskrit": "अं (अनुस्वारः) अः (विसर्गः) च अयोगवाहाः। एते स्वराश्रयेणैव उच्चार्यन्ते, न स्वतन्त्राः।"
         },
         {
           "id": 19,
@@ -398,7 +452,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page19.jpg",
           "trackIndex": null,
           "diagram": "assets/images/chap2/la.JPG",
-          "diagramTitle": "Dental Lateral Articulation (La-kāra)"
+          "diagramTitle": "Dental Lateral Articulation (La-kāra)",
+          "trackIndices": [],
+          "titleSanskrit": "जिह्वामूलीय-उपध्मानीयौ",
+          "proseTextSanskrit": "क-खाभ्यां प्रागर्धविसर्गसदृशो जिह्वामूलीयः। प-फाभ्यां प्रागर्धविसर्गसदृश उपध्मानीयः।"
         },
         {
           "id": 20,
@@ -407,7 +464,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page20.jpg",
           "trackIndex": null,
           "diagram": "assets/images/chap2/va.JPG",
-          "diagramTitle": "Dento-Labial Articulation (Va-kāra)"
+          "diagramTitle": "Dento-Labial Articulation (Va-kāra)",
+          "trackIndices": [],
+          "titleSanskrit": "प्रयत्न-विवेकः — आभ्यन्तर-प्रयत्नाः",
+          "proseTextSanskrit": "प्रयत्नो द्विधा — आभ्यन्तरो बाह्यश्च। स्पृष्टेषत्स्पृष्टेषद्विवृतविवृतसंवृतभेदात् आभ्यन्तरः पञ्चधा।"
         },
         {
           "id": 21,
@@ -416,7 +476,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page21.jpg",
           "trackIndex": null,
           "diagram": "assets/images/chap2/sa.JPG",
-          "diagramTitle": "Palatal Sibilant Articulation (Śa-kāra)"
+          "diagramTitle": "Palatal Sibilant Articulation (Śa-kāra)",
+          "trackIndices": [],
+          "titleSanskrit": "बाह्य-प्रयत्नाः — एकादश-भेदाः",
+          "proseTextSanskrit": "विवारः संवारः श्वासो नादो घोषोऽघोषोऽल्पप्राणो महाप्राण उदात्तोऽनुदात्तः स्वरितश्चेत्येकादश बाह्य-प्रयत्नाः।"
         },
         {
           "id": 22,
@@ -425,7 +488,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page22.jpg",
           "trackIndex": null,
           "diagram": "assets/images/chap2/saa.JPG",
-          "diagramTitle": "Dental Sibilant Articulation (Sa-kāra)"
+          "diagramTitle": "Dental Sibilant Articulation (Sa-kāra)",
+          "trackIndices": [],
+          "titleSanskrit": "माहेश्वर-सूत्राणां प्रत्याहार-रचना",
+          "proseTextSanskrit": "अइउण् ऋऌक् एओङ् ऐऔच् — चतुर्दशभ्यः सूत्रेभ्यः अण्-अच्-हल्-अल-प्रभृतयः प्रत्याहाराः निर्मीयन्ते।"
         },
         {
           "id": 23,
@@ -434,7 +500,10 @@ const DEVABHASHA_DATA = {
           "canvas": "assets/images/chap2/page23.jpg",
           "trackIndex": null,
           "diagram": "assets/images/chap2/alpha.jpg",
-          "diagramTitle": "Sanskrit Phonetic Grid Overview"
+          "diagramTitle": "Sanskrit Phonetic Grid Overview",
+          "trackIndices": [],
+          "titleSanskrit": "वर्णोच्चारण-विज्ञानस्य उपसंहारः",
+          "proseTextSanskrit": "एवं पाणिनीय-शिक्षायां मानव-शरीरस्य नाद-तन्त्रं सम्यक् विविच्य विश्वस्य पूर्णतमं ध्वनिविज्ञानं रचितम्।"
         }
       ],
       "audioTracks": [
@@ -637,7 +706,8 @@ const DEVABHASHA_DATA = {
           "proseText": "The varnachitras are shlokas written with certain constraints on the use of consonants. For example, here is a shloka where all the 33 consonants in Sanskrit come in their natural order and each consonant is used once and only once. Who is he, the lover of birds, pure in intelligence, expert in stealing the strength of others, leader among the destroyers of enemies, steadfast, fearless, the one who filled the ocean? He is king Maya, the repository of blessings that can destroy the foes.",
           "trackIndices": [
             0
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 3 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 3,
@@ -651,7 +721,8 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             1,
             2
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 3 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 4,
@@ -665,7 +736,8 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             3,
             4
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 3 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 5,
@@ -681,7 +753,8 @@ const DEVABHASHA_DATA = {
             6,
             7,
             8
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 3 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 6,
@@ -697,7 +770,8 @@ const DEVABHASHA_DATA = {
             10,
             11,
             12
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 3 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 7,
@@ -712,7 +786,8 @@ const DEVABHASHA_DATA = {
             13,
             14,
             15
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 3 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 8,
@@ -726,7 +801,8 @@ const DEVABHASHA_DATA = {
           "proseText": "In the chitrabandhas, when the shloka is written out, the letters form intricate geometric patterns. In Gomutrika-bandha, the alternate syllables of the first and second padas, and the third and fourth padas, are identical. Tracing the syllables creates the zigzag path formed by the meandering movement of a cow.",
           "trackIndices": [
             20
-          ]
+          ],
+          "proseTextSanskrit": "गोमूत्रिका-बन्धः — गोमूत्रस्य वक्र-गत्या श्लोकाक्षराणां पठन-क्रमः। संस्कृत-कविभिः रचिता एषा आश्चर्यकरी विधा।"
         },
         {
           "id": 9,
@@ -740,7 +816,8 @@ const DEVABHASHA_DATA = {
           "proseText": "This shloka creates the geometric design of a muraja or double-headed Indian drum (mridanga). First the four padas are written out horizontally. The syllables on the crossing laces (ABC and DEF) form the first and fourth lines, while internal intersecting squares form the middle lines, celebrating an army moving with rhythmic precision.",
           "trackIndices": [
             16
-          ]
+          ],
+          "proseTextSanskrit": "मुरज-बन्धः — मृदङ्गाकारेण श्लोक-विन्यासः। अत्र प्रति-पादम् आवर्तमानेषु अक्षरेषु अलौकिकं सङ्गीतमयं सौन्दर्यं प्रकाशते।"
         },
         {
           "id": 10,
@@ -754,7 +831,8 @@ const DEVABHASHA_DATA = {
           "proseText": "An amazing verse that creates an omnidirectional magic square. When each syllable is inscribed in an 8x8 grid, one can read horizontally, vertically, top-to-bottom, bottom-to-top, or reversed in all directions, yielding the exact same sacred verse describing the divine battlefield.",
           "trackIndices": [
             17
-          ]
+          ],
+          "proseTextSanskrit": "सर्वतोभद्र-बन्धः — यत्र चतसृष्वपि दिक्षु अनुलोम-प्रतिलोम-क्रमेण पठनेऽपि एक एव श्लोकः अवतिष्ठते।"
         },
         {
           "id": 11,
@@ -769,7 +847,8 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             18,
             19
-          ]
+          ],
+          "proseTextSanskrit": "तुरङ्ग-पद-बन्धः — चतुरङ्ग-फलके अश्वस्य गत्या अक्षराणां भ्रमणं श्लोक-निष्पत्तिश्च।"
         },
         {
           "id": 12,
@@ -783,7 +862,8 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             21,
             22
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 3 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 13,
@@ -799,7 +879,8 @@ const DEVABHASHA_DATA = {
             23,
             24,
             25
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 3 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 14,
@@ -814,7 +895,8 @@ const DEVABHASHA_DATA = {
             26,
             27,
             28
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 3 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 15,
@@ -830,7 +912,8 @@ const DEVABHASHA_DATA = {
             30,
             31,
             32
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 3 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         }
       ],
       "audioTracks": [
@@ -1241,7 +1324,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "Comprehensive vision of Sanskrit as an exact scientific medium across arts, polity, and medicine.",
           "proseText": "Today Sanskrit has come to be identified very closely with Indian spirituality, religion and philosophy. So much so that not many are aware of the vast amount of literature available in Sanskrit on the arts, sciences, polity and daily life. What little is known is primarily through a few translations. But there are several books that are available only in Sanskrit and the majority of the literature is in the form of unpublished manuscripts. In fact, Sanskrit may perhaps have the largest amount of manuscripts in the world on every subject — estimated at over 100,000 collections.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 2,
@@ -1252,7 +1336,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "Sri Aurobindo on India's unceasing millennia of scientific, political, and cultural invention.",
           "proseText": "Regarding this prolific creativity of India, Sri Aurobindo says: 'In what field indeed has not India attempted, achieved, created, and in all on a large scale and yet with much attention to completeness of detail?... It is now proved that in science she went farther than any country before the modern era... Especially in mathematics, astronomy and chemistry, she discovered and formulated much and anticipated some of the scientific ideas which Europe first arrived at much later.'",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 3,
@@ -1263,7 +1348,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "NASA Ames Research Center discoveries on Sanskrit as the optimal unambiguous natural language for AI.",
           "proseText": "The modern exploding science of computers and artificial intelligence, in their search for an ideal computer language, have found the ancient language Sanskrit to be the most suited for this purpose. Rick Briggs, scientist at the NASA Ames Research Center, noted in AI Magazine that Panini's grammatical method for paraphrasing Sanskrit is identical not only in essence but in form with modern knowledge representation semantic networks.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 4,
@@ -1276,7 +1362,8 @@ const DEVABHASHA_DATA = {
           "proseText": "Ask any child the famous Pythagoras theorem and pat comes the reply 'a² = b² + c²'. Ask him if the name Baudhayana sounds familiar, and it is highly unlikely he will know why. And yet it was Baudhayana who formulated the theorem in around 600 BC — a whole six centuries before Pythagoras. His exact shloka declares: 'The diagonal cord of a rectangle produces both the areas produced separately by its length and breadth.'",
           "trackIndices": [
             0
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 5,
@@ -1289,7 +1376,8 @@ const DEVABHASHA_DATA = {
           "proseText": "Take another mathematical discovery by Baudhayana: the calculation of the approximate value of the irrational number √2. His sutra instructs: 'Increase the measure by its third, and this third by its own fourth, less the thirty-fourth part of that fourth.' In algebraic terms: √2 = 1 + 1/3 + 1/(3×4) - 1/(3×4×34) = 1.4142156 — an astonishingly precise approximation for 600 B.C.",
           "trackIndices": [
             1
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 6,
@@ -1302,7 +1390,8 @@ const DEVABHASHA_DATA = {
           "proseText": "Aryabhata I gave a value for π correct to four decimal places: 'Add 4 to 100, multiply by 8, and add to 62,000. This is the approximate circumference of a circle of diameter 20,000.' This yields π = 62,832 / 20,000 = 3.1416. Aryabhata also determined the sidereal period of Earth's rotation about its axis as 23h 56m 4.1s — within fractions of a second of modern satellite measurements.",
           "trackIndices": [
             2
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 7,
@@ -1313,7 +1402,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "Integration of secular sciences (Aparavidya) with transcendental self-knowledge (Paravidya).",
           "proseText": "All learning in ancient India was divided into two categories: Paravidya (supreme spiritual realisation leading to Sat-Chit-Ananda) and Aparavidya (encompassing the Vedas, sciences, medicine, polity, and metallurgy). A living spirituality permeated all empirical disciplines, so that science needed philosophy as much as philosophy needed science, recognizing that all knowledge is fundamentally one.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 8,
@@ -1324,7 +1414,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "Phonetics, metrics, grammar, etymology, astronomy, and geometric ritual altars.",
           "proseText": "The six Vedangas (Shiksha, Chandas, Vyakarana, Nirukta, Jyotisha, Kalpa) provided the scientific scaffolding of Vedic knowledge. Phonetics and linguistic analysis reached unmatched empirical rigor. Numbers up to thirteen digits appeared in the Yajurveda Samhitas, and the Sulba Sutras codified geometric altar construction that influenced early world mathematics.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 9,
@@ -1335,7 +1426,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "Planetary coordinates, solar solstices, lunar mansions, and cosmological epochs.",
           "proseText": "Ancient Indian astronomy systematically tracked the 27 nakshatras, solar courses (ayanas), eclipses, and seasonal cycles. Treatises by Varahamihira, Brahmagupta, and Bhaskara developed sophisticated trigonometry, indeterminate equations, and calculus principles centuries ahead of their rediscovery in the West.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 10,
@@ -1346,7 +1438,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "Vedic recognition of crafts, metals, ecology, and occupational vocations as sacred divine forms.",
           "proseText": "In the Shatarudriya of Krishna Yajurveda, hymns worship the Divine manifested through potters, iron-smiths, carpenters, archers, and farmers, while systematically naming metals (gold, silver, copper, iron, tin, lead) and cataloguing medicinal forest plants, revealing advanced early technology.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 11,
@@ -1357,7 +1450,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "The Ramayana, Mahabharata, and 18 Mahapuranas as encyclopedias of geography, polity, and law.",
           "proseText": "The Ramayana and Mahabharata form vast thesauruses of civilisational information: tribal dynasties, flora, fauna, geography, diplomacy, warfare technologies, metallurgy, and philosophy. The Puranic Bhuvanakosha charts continents, oceans, and cosmic dissolution cycles with astonishing geographic sweep.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 12,
@@ -1368,7 +1462,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "How the institution of Tirtha-yatra bound the geography and spirit of India into an organic unity.",
           "proseText": "The pan-Indian pilgrimage network (tirtha-yatra) fostered enduring territorial and cultural unity. Traversing from Hinglaj and Amarnath to Rameshwaram, or carrying Ganga water across thousands of miles, knitted the subcontinent into a sacred, interconnected landscape hallowed by shared memory.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 13,
@@ -1382,7 +1477,8 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             3,
             4
-          ]
+          ],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 14,
@@ -1393,7 +1489,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "Meticulous ancient treatise on welfare statecraft, taxation, urban planning, and diplomacy.",
           "proseText": "Kautilya's Arthashastra is an encyclopedia of governance. Formulating the Mandala theory of foreign relations, internal intelligence, mining, irrigation, urban civic planning, and the welfare of citizens, Kautilya established the vision of a unified state under benevolent rule.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 15,
@@ -1404,7 +1501,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "Curriculum of the 64 Kalas: music, painting, puppetry, gemstone appraisal, and architecture.",
           "proseText": "Refuting the notion that Indian thought is world-denying, Vatsyayana and Bharata celebrate life's fullness through the 64 traditional arts (Chatussashti-kalas) — spanning singing, dance, dramatic arts, gemology, horticulture, perfumery, culinary sciences, and architectural aesthetics.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 16,
@@ -1415,7 +1513,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "Nyaya logic, Vaisheshika atomic theory, Samkhya cosmology, Yoga, Mimamsa, and Vedanta.",
           "proseText": "The six orthodox philosophical systems (Shad-darshana) embody the peak of Indian intellectual attainment. The atomic realism of Vaisheshika, the propositional logic of Nyaya, the evolutionary psychology of Samkhya, and the non-dual metaphysics of Vedanta formed a rigorous dialectical tradition of world-historic importance.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 17,
@@ -1426,7 +1525,8 @@ const DEVABHASHA_DATA = {
           "diagram": null,
           "description": "Kalidasa, Shudraka, Bhavabhuti, and the enduring global journey of Sanskrit drama and Panchatantra.",
           "proseText": "In world literature, Sanskrit drama bridges the long epoch between Classical Greek theatre and the European Renaissance. With masterworks by Kalidasa, Bhasa, and Bhavabhuti, and the global translation of the Panchatantra into over 50 languages, Sanskrit continues to live as an immortal wellspring of global wisdom.",
-          "trackIndices": []
+          "trackIndices": [],
+          "proseTextSanskrit": "अध्यायस्य 4 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         }
       ],
       "audioTracks": [
@@ -1490,12 +1590,16 @@ const DEVABHASHA_DATA = {
         {
           "page": 1,
           "heading": "Sanskrit: The Precise Medium of Exact Sciences",
-          "body": "Far from being limited to liturgical chants, Sanskrit served as the scientific language of ancient India. From Baudhayana's Sulba Sutras (containing the earliest geometric formulations of the Pythagorean theorem) to Aryabhata's astronomical algorithms, Sanskrit delivered mathematical ideas with concise elegance."
+          "body": "Far from being limited to liturgical chants, Sanskrit served as the scientific language of ancient India. From Baudhayana's Sulba Sutras (containing the earliest geometric formulations of the Pythagorean theorem) to Aryabhata's astronomical algorithms, Sanskrit delivered mathematical ideas with concise elegance.",
+          "heading_sa": "संस्कृतम् — यथार्थ-विज्ञानानां सूक्ष्मं माध्यमम्",
+          "body_sa": "केवलं धार्मिक-पूजा-पाठ-पर्यन्तं सीमितं न भूत्वा, संस्कृतं प्राचीने भारते गणित-खगोल-आयुर्वेद-धातुकर्म-वास्तुविज्ञानानां परमं माध्यमम् आसीत्। आर्यभट-वराहमिहिर-भास्कराचार्याणां सिद्धान्ताः संस्कृतस्य वैज्ञानिक-स्पष्टतया एव संरक्षिताः।"
         },
         {
           "page": 2,
           "heading": "Rick Briggs & NASA: Sanskrit in Artificial Intelligence",
-          "body": "In 1985, NASA researcher Rick Briggs published his landmark paper 'Knowledge Representation in Sanskrit and Artificial Intelligence' in AI Magazine, demonstrating that ancient Paninian grammarians had constructed a semantic representation system that modern computer science was only beginning to rediscover."
+          "body": "In 1985, NASA researcher Rick Briggs published his landmark paper 'Knowledge Representation in Sanskrit and Artificial Intelligence' in AI Magazine, demonstrating that ancient Paninian grammarians had constructed a semantic representation system that modern computer science was only beginning to rediscover.",
+          "heading_sa": "रिक् ब्रिग्स तथा नासा (NASA) — कृत्रिम-बुद्धौ (AI) संस्कृतम्",
+          "body_sa": "१९८५ तमे वर्षे नासा-शोधकर्त्रा रिक्-ब्रिग्सेन 'आर्टिफिशियल् इन्टेलिजन्स्' पत्रिकायां प्रतिपादितं यत् — संस्कृतस्य व्याकरणं प्राकृतिक-भाषासु सर्वाधिकं सुसम्बद्धं, स्पष्टं, गणितीय-युक्तं च वर्तते। सङ्गणक-प्रणाल्यां ज्ञान-निरूपणाय (Knowledge Representation) अस्याः तुलना नास्ति।"
         }
       ]
     },
@@ -1517,7 +1621,9 @@ const DEVABHASHA_DATA = {
           "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
           "trackIndices": [
             0
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 1",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 2,
@@ -1527,7 +1633,9 @@ const DEVABHASHA_DATA = {
           "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
           "trackIndices": [
             1
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 2",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 3,
@@ -1537,7 +1645,9 @@ const DEVABHASHA_DATA = {
           "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
           "trackIndices": [
             2
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 3",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 4,
@@ -1548,7 +1658,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             3,
             4
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 4",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 5,
@@ -1558,7 +1670,9 @@ const DEVABHASHA_DATA = {
           "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
           "trackIndices": [
             5
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 5",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 6,
@@ -1569,7 +1683,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             6,
             7
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 6",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 7,
@@ -1579,7 +1695,9 @@ const DEVABHASHA_DATA = {
           "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
           "trackIndices": [
             8
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 7",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 8,
@@ -1589,7 +1707,9 @@ const DEVABHASHA_DATA = {
           "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
           "trackIndices": [
             9
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 8",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 9,
@@ -1600,7 +1720,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             10,
             11
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 9",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 10,
@@ -1611,7 +1733,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             12,
             13
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 10",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 11,
@@ -1622,7 +1746,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             14,
             15
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 11",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 12,
@@ -1632,7 +1758,9 @@ const DEVABHASHA_DATA = {
           "description": "Masterpieces of Kalidasa, Valmiki, Vyasa, Bharavi, and Magha.",
           "trackIndices": [
             16
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 12",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 13,
@@ -1643,7 +1771,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             17,
             18
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 13",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 14,
@@ -1654,7 +1784,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             19,
             20
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 14",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 15,
@@ -1665,7 +1797,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             21,
             22
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 15",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 16,
@@ -1676,7 +1810,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             23,
             24
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 16",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 17,
@@ -1687,7 +1823,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             25,
             26
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 17",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 18,
@@ -1698,7 +1836,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             27,
             28
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 18",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 19,
@@ -1709,7 +1849,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             29,
             30
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 5 • पृष्ठम् 19",
+          "proseTextSanskrit": "अध्यायस्य 5 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         }
       ],
       "audioTracks": [
@@ -2028,12 +2170,16 @@ const DEVABHASHA_DATA = {
         {
           "page": 1,
           "heading": "The Grand Canvas of Classical Sanskrit Poetry",
-          "body": "Classical Sanskrit literature is celebrated for its boundless imagination, delicate lyricism, and profound psychological insight. The trinity of poets—Kalidasa, Bhavabhuti, and Bharavi—elevated human emotion and natural beauty into timeless art."
+          "body": "Classical Sanskrit literature is celebrated for its boundless imagination, delicate lyricism, and profound psychological insight. The trinity of poets—Kalidasa, Bhavabhuti, and Bharavi—elevated human emotion and natural beauty into timeless art.",
+          "heading_sa": "शास्त्रीय-संस्कृत-काव्यस्य महावैभवम्",
+          "body_sa": "शास्त्रीय-संस्कृत-साहित्यम् अनन्त-कल्पनाशक्त्या, कोमल-लालित्येन, दार्शनिक-गाम्भीर्येण च विश्व-साहित्ये मूर्धन्यं वर्तते। महाकाव्यानि, नाटकानि, खण्डकाव्यानि च रस-भाव-अलङ्काराणां त्रिवेणी-सङ्गमं प्रस्तौति।"
         },
         {
           "page": 2,
           "heading": "Kalidasa: The Master of Similes (Upamā)",
-          "body": "'Upamā Kālidāsasya'—the similes of Kalidasa are unequalled in world literature. In works like Meghadutam (The Cloud Messenger) and Abhijnanashakuntalam, every verse paints a vivid, evocative picture of nature and human longing."
+          "body": "'Upamā Kālidāsasya'—the similes of Kalidasa are unequalled in world literature. In works like Meghadutam (The Cloud Messenger) and Abhijnanashakuntalam, every verse paints a vivid, evocative picture of nature and human longing.",
+          "heading_sa": "महाकवि-कालिदासः — उपमा-सम्राट्",
+          "body_sa": "'उपमा कालिदासस्य' — कालिदासस्य उपमा-सौन्दर्यं निखिल-विश्वे अनुपमम्। मेघदूते, शाकुन्तले, रघुवंशे, कुमारसम्भवे च निसर्गस्य मानव-हृदयस्य च यद् मनोहरं चित्रणं तेन कृतं, तत् सार्वकालिकं सहृदयहृदयाह्लादकं वर्तते।"
         }
       ]
     },
@@ -2056,7 +2202,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             0,
             1
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 6 • पृष्ठम् 1",
+          "proseTextSanskrit": "अध्यायस्य 6 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 2,
@@ -2067,7 +2215,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             2,
             3
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 6 • पृष्ठम् 2",
+          "proseTextSanskrit": "अध्यायस्य 6 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 3,
@@ -2078,7 +2228,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             4,
             5
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 6 • पृष्ठम् 3",
+          "proseTextSanskrit": "अध्यायस्य 6 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 4,
@@ -2090,7 +2242,9 @@ const DEVABHASHA_DATA = {
             6,
             7,
             8
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 6 • पृष्ठम् 4",
+          "proseTextSanskrit": "अध्यायस्य 6 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 5,
@@ -2102,7 +2256,9 @@ const DEVABHASHA_DATA = {
             9,
             10,
             11
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 6 • पृष्ठम् 5",
+          "proseTextSanskrit": "अध्यायस्य 6 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 6,
@@ -2114,7 +2270,9 @@ const DEVABHASHA_DATA = {
             12,
             13,
             14
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 6 • पृष्ठम् 6",
+          "proseTextSanskrit": "अध्यायस्य 6 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 7,
@@ -2125,7 +2283,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             15,
             16
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 6 • पृष्ठम् 7",
+          "proseTextSanskrit": "अध्यायस्य 6 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 8,
@@ -2137,7 +2297,9 @@ const DEVABHASHA_DATA = {
             17,
             18,
             19
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 6 • पृष्ठम् 8",
+          "proseTextSanskrit": "अध्यायस्य 6 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 9,
@@ -2148,7 +2310,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             20,
             21
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 6 • पृष्ठम् 9",
+          "proseTextSanskrit": "अध्यायस्य 6 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         }
       ],
       "audioTracks": [
@@ -2377,12 +2541,16 @@ const DEVABHASHA_DATA = {
         {
           "page": 1,
           "heading": "Subhashitas: Condensed Wisdom for Daily Living",
-          "body": "Subhashitas ('well-spoken words') are epigrammatic Sanskrit verses that distill centuries of practical wisdom, social ethics, psychological discernment, and moral virtue into four concise lines."
+          "body": "Subhashitas ('well-spoken words') are epigrammatic Sanskrit verses that distill centuries of practical wisdom, social ethics, psychological discernment, and moral virtue into four concise lines.",
+          "heading_sa": "सुभाषितानि — जीवन-व्यवहारस्य अमृत-बिन्दवः",
+          "body_sa": "सुभाषितानि नाम सुष्ठु भाषितानि वचनानि। एतेषु लघुषु श्लोकेषु शताब्दानाम् अनुभव-सञ्चयः, नीतितत्त्वानि, जीवन-मार्गाश्च संक्षेपेण निबद्धाः सन्ति, ये नित्य-जीवने मार्गदर्शनं कुर्वन्ति।"
         },
         {
           "page": 2,
           "heading": "Themes of Life: Knowledge, True Friendship and Character",
-          "body": "Verses praise the indestructible wealth of knowledge (Vidyā), contrast the steadfast friend with the fair-weather companion, and celebrate nobility of character above royal birth or material wealth."
+          "body": "Verses praise the indestructible wealth of knowledge (Vidyā), contrast the steadfast friend with the fair-weather companion, and celebrate nobility of character above royal birth or material wealth.",
+          "heading_sa": "जीवन-मूल्यानि — विद्या, सत्सङ्गतिः, शीलम्",
+          "body_sa": "'विद्या ददाति विनयं विनयाद्याति पात्रताम्।' सुभाषितानि विद्यायाः अक्षय-धनं प्रशंसन्ति, कुमित्रात् सन्मित्रस्य भेदं निरूपयन्ति, विपदि धैर्यं सम्पादयितुं च मानवान् प्रेरयन्ति।"
         }
       ]
     },
@@ -2405,7 +2573,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             0,
             1
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 1",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 2,
@@ -2417,7 +2587,9 @@ const DEVABHASHA_DATA = {
             2,
             3,
             4
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 2",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 3,
@@ -2429,7 +2601,9 @@ const DEVABHASHA_DATA = {
             5,
             6,
             7
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 3",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 4,
@@ -2441,7 +2615,9 @@ const DEVABHASHA_DATA = {
             8,
             9,
             10
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 4",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 5,
@@ -2453,7 +2629,9 @@ const DEVABHASHA_DATA = {
             11,
             12,
             13
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 5",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 6,
@@ -2465,7 +2643,9 @@ const DEVABHASHA_DATA = {
             14,
             15,
             16
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 6",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 7,
@@ -2477,7 +2657,9 @@ const DEVABHASHA_DATA = {
             17,
             18,
             19
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 7",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 8,
@@ -2489,7 +2671,9 @@ const DEVABHASHA_DATA = {
             20,
             21,
             22
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 8",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 9,
@@ -2501,7 +2685,9 @@ const DEVABHASHA_DATA = {
             23,
             24,
             25
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 9",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 10,
@@ -2513,7 +2699,9 @@ const DEVABHASHA_DATA = {
             26,
             27,
             28
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 10",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 11,
@@ -2525,7 +2713,9 @@ const DEVABHASHA_DATA = {
             29,
             30,
             31
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 11",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 12,
@@ -2536,7 +2726,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             32,
             33
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 12",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 13,
@@ -2547,7 +2739,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             34,
             35
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 13",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 14,
@@ -2558,7 +2752,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             36,
             37
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 14",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 15,
@@ -2569,7 +2765,9 @@ const DEVABHASHA_DATA = {
           "trackIndices": [
             38,
             39
-          ]
+          ],
+          "titleSanskrit": "अध्यायः 7 • पृष्ठम् 15",
+          "proseTextSanskrit": "अध्यायस्य 7 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         }
       ],
       "audioTracks": [
@@ -2978,12 +3176,16 @@ const DEVABHASHA_DATA = {
         {
           "page": 1,
           "heading": "The Sacred Sounds of the Seers",
-          "body": "Sanskrit is universally revered as the language of the soul. In the Rigveda, the Upanishads, and the Bhagavad Gita, words become luminous vehicles for transcendental consciousness and communion with the Divine."
+          "body": "Sanskrit is universally revered as the language of the soul. In the Rigveda, the Upanishads, and the Bhagavad Gita, words become luminous vehicles for transcendental consciousness and communion with the Divine.",
+          "heading_sa": "ऋषीणां दिव्य-नादाः — मन्त्राणां शक्तिः",
+          "body_sa": "संस्कृतम् आत्मनः परा भाषा इति मन्यते। ऋग्वेदे उपनिषत्सु च ऋषयः ध्यान-समाधौ यान् नादान् साक्षात्कृतवन्तः, त एव वैदिक-मन्त्राः। मन्त्राणां शुद्ध-ध्वनि-तरङ्गाः चेतनायाः उन्नयनं कुर्वन्ति।"
         },
         {
           "page": 2,
           "heading": "Mantras: Vibration and Spiritual Awakening",
-          "body": "Vedic mantras are not mere words to be intellectually analyzed; they are sonic patterns (Śabda-Brahman) whose precise cadence and intonation awaken spiritual centers within the human being."
+          "body": "Vedic mantras are not mere words to be intellectually analyzed; they are sonic patterns (Śabda-Brahman) whose precise cadence and intonation awaken spiritual centers within the human being.",
+          "heading_sa": "मन्त्राणां कम्पनम् — शब्द-ब्रह्म-साक्षात्कारः",
+          "body_sa": "वैदिक-मन्त्राः न केवलं बौद्धिक-विचाराः, अपितु 'शब्द-ब्रह्म' रूपिणः कम्पन-विशेषाः। गायत्र्यादयः मन्त्राः मनसः शुद्धिं, आत्मनः शान्तिं, विश्वात्मना सह ऐक्यं च सम्पादयन्ति।"
         }
       ]
     },
@@ -3005,7 +3207,8 @@ const DEVABHASHA_DATA = {
           "description": "Linguistic relationship between Sanskrit and regional Indian tongues.",
           "trackIndices": [],
           "proseText": "We have seen the important role Sanskrit has played in India's past. And this brings us naturally to the role it has to play in India's future. It is true that a national language is a very important element in the growth and self-actualisation of a people and a nation. It helps to develop and also to give expression to a common national identity.",
-          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 1"
+          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 1",
+          "proseTextSanskrit": "अध्यायस्य 8 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 2,
@@ -3015,7 +3218,8 @@ const DEVABHASHA_DATA = {
           "description": "Evolution from Prakrit to Hindi, Bengali, Marathi, and Gujarati.",
           "trackIndices": [],
           "proseText": "The roots of almost all North Indian and Central Indian languages — Hindi, Bengali, Marathi, Gujarati, Punjabi, Odia, and Assamese — derive directly from Sanskrit. Their phonetic structure, grammatical declensions, and poetic metres reflect an unbroken organic continuity with the mother language.",
-          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 2"
+          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 2",
+          "proseTextSanskrit": "अध्यायस्य 8 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 3,
@@ -3025,7 +3229,8 @@ const DEVABHASHA_DATA = {
           "description": "Profuse vocabulary assimilation in Telugu, Kannada, Malayalam, and Tamil.",
           "trackIndices": [],
           "proseText": "In South India, the Dravidian languages — Tamil, Telugu, Kannada, and Malayalam — have absorbed an immense wealth of Sanskrit vocabulary, cultural imagery, and philosophical terminology over two millennia, creating an exquisite synthesis between indigenous idioms and classical Pan-Indian thought.",
-          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 3"
+          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 3",
+          "proseTextSanskrit": "अध्यायस्य 8 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 4,
@@ -3035,7 +3240,8 @@ const DEVABHASHA_DATA = {
           "description": "Kavyas, devotional songs, and epics inspiring regional poets.",
           "trackIndices": [],
           "proseText": "From the Bhakti saints of Maharashtra and Bengal to the Carnatic composers of the South, Sanskrit has served as the living soul of regional literature. Tulsidas, Tyagaraja, Purandara Dasa, and Tukaram effortlessly wove Sanskrit concepts into the heart language of the common people.",
-          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 4"
+          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 4",
+          "proseTextSanskrit": "अध्यायस्य 8 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 5,
@@ -3045,7 +3251,8 @@ const DEVABHASHA_DATA = {
           "description": "Scholarly debates across Kashmir, Kerala, Bengal, and Gujarat.",
           "trackIndices": [],
           "proseText": "Throughout Indian history, whenever scholars from Kashmir, Kerala, Bengal, and Gujarat gathered to debate mathematics, astronomy, grammar, or metaphysics, Sanskrit was the universal lingua franca that made nationwide scientific discourse possible.",
-          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 5"
+          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 5",
+          "proseTextSanskrit": "अध्यायस्य 8 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 6,
@@ -3055,7 +3262,8 @@ const DEVABHASHA_DATA = {
           "description": "Scientific and medical vocabulary underlying all Indian languages.",
           "trackIndices": [],
           "proseText": "In the modern era of science, technology, and administration, modern Indian languages continuously replenish their vocabularies from the transparent, root-based generative mechanics of Sanskrit, creating precise indigenous terminology for modern concepts.",
-          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 6"
+          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 6",
+          "proseTextSanskrit": "अध्यायस्य 8 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 7,
@@ -3065,7 +3273,8 @@ const DEVABHASHA_DATA = {
           "description": "Universal emotional resonance uniting distant regions of India.",
           "trackIndices": [],
           "proseText": "Sanskrit acts as an extraordinary cultural bridge across India's immense regional, religious, and linguistic diversity. It belongs not to one province or sect, but to the collective civilisational memory of the entire subcontinent.",
-          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 7"
+          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 7",
+          "proseTextSanskrit": "अध्यायस्य 8 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 8,
@@ -3077,7 +3286,8 @@ const DEVABHASHA_DATA = {
           "diagram": "assets/images/chapter8/raman.jpg",
           "diagramTitle": "Dr. C.V. Raman Nobel Laureate",
           "proseText": "The Nobel Laureate physicist, Dr. C.V. Raman, believed that Sanskrit was the only language that could be the true national language of India. He famously declared: 'Sanskrit flows through our blood. It is only Sanskrit that can establish the eternal unity of this country.'",
-          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 8"
+          "titleSanskrit": "अष्टमाध्यायः • पृष्ठम् 8",
+          "proseTextSanskrit": "नोबेल-पुरस्कार-विजेता डा. सी. वी. रामनः — संस्कृत-ध्वनीनां भौतिक-कम्पन-माहात्म्यम्।"
         }
       ],
       "audioTracks": [],
@@ -3085,12 +3295,16 @@ const DEVABHASHA_DATA = {
         {
           "page": 1,
           "heading": "The Unifying Thread of Indian Linguistics",
-          "body": "Sanskrit has provided the foundation and enriched the vocabulary of nearly all Indian languages. Whether Hindi, Bengali, Marathi, Gujarati, Telugu, Kannada, or Malayalam, thousands of shared Sanskrit cognates bridge cultural and regional boundaries."
+          "body": "Sanskrit has provided the foundation and enriched the vocabulary of nearly all Indian languages. Whether Hindi, Bengali, Marathi, Gujarati, Telugu, Kannada, or Malayalam, thousands of shared Sanskrit cognates bridge cultural and regional boundaries.",
+          "heading_sa": "भारतीय-भाषाणां समन्वय-सेतुः",
+          "body_sa": "संस्कृतं निखिल-भारतीय-भाषाणां मूलस्रोतः, शब्दसम्पदः पोषकं च वर्तते। उत्तर-भारतस्य हिन्दी-बङ्गाली-मराठी-गुजराती-प्रभृतयः भाषाः, दक्षिण-भारतस्य तमिल-तेलुगु-कन्नड-मलयाळ-भाषाश्च संस्कृतेन गभीरं सम्बद्धाः सन्ति।"
         },
         {
           "page": 2,
           "heading": "Indo-Aryan and Dravidian Harmony",
-          "body": "Centuries of intimate coexistence created deep syntactical and philosophical bonds across the linguistic traditions of India. Sanskrit acted as the universal scholarly and artistic bridge."
+          "body": "Centuries of intimate coexistence created deep syntactical and philosophical bonds across the linguistic traditions of India. Sanskrit acted as the universal scholarly and artistic bridge.",
+          "heading_sa": "आर्य-द्राविड-भाषाणां सामरस्यम्",
+          "body_sa": "सहस्राधिक-वर्षेभ्यः परस्पर-सम्पर्केण संस्कृत-द्राविड-भाषाणां मध्ये सांस्कृतिकः, दार्शनिकः, शब्दभाण्डारगतश्च अभूतपूर्वः समन्वयः जातः। इयं भाषा-परम्परा भारतस्य अखण्ड-सांस्कृतिकम् ऐक्यं दृढीकरोति।"
         }
       ]
     },
@@ -3112,7 +3326,8 @@ const DEVABHASHA_DATA = {
           "description": "Challenging modern misconceptions about the vitality of Sanskrit.",
           "trackIndices": [],
           "proseText": "It would be good at this stage to look at some of the objections that have been raised against Sanskrit becoming the national language of India. One argument is that Sanskrit is a 'dead' language. But a language is dead only when its literature is forgotten and its thought ceases to inspire. Millions in India still recite, study, and pray in Sanskrit every dawn.",
-          "titleSanskrit": "नवमाध्यायः • पृष्ठम् 1"
+          "titleSanskrit": "नवमाध्यायः • पृष्ठम् 1",
+          "proseTextSanskrit": "अध्यायस्य 9 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 2,
@@ -3124,7 +3339,8 @@ const DEVABHASHA_DATA = {
           "diagram": "assets/images/chapter9/william jones.jpg",
           "diagramTitle": "Sir William Jones Founder of Asiatic Society",
           "proseText": "Sir William Jones, addressing the Asiatic Society of Bengal in 1786, made the historic pronouncement that sparked modern comparative linguistics: 'The Sanskrit language, whatever be its antiquity, is of a wonderful structure; more perfect than the Greek, more copious than the Latin, and more exquisitely refined than either.'",
-          "titleSanskrit": "नवमाध्यायः • पृष्ठम् 2"
+          "titleSanskrit": "नवमाध्यायः • पृष्ठम् 2",
+          "proseTextSanskrit": "सर विलियम जोन्सः — संस्कृतं ग्रीक-लेटिन-भाषाभ्यः अधिकं पूर्णं, समृद्धं, परिष्कृतं चेति उद्घोषकः।"
         },
         {
           "id": 3,
@@ -3134,7 +3350,8 @@ const DEVABHASHA_DATA = {
           "description": "How simplified Sanskrit teaching revitalizes natural fluency.",
           "trackIndices": [],
           "proseText": "Another common doubt is whether Sanskrit is too difficult for ordinary people to learn. The perceived difficulty arises not from the inherent nature of the language, but from obsolete medieval pedagogical methods that emphasized memorising vast grammar tables before speaking a single sentence.",
-          "titleSanskrit": "नवमाध्यायः • पृष्ठम् 3"
+          "titleSanskrit": "नवमाध्यायः • पृष्ठम् 3",
+          "proseTextSanskrit": "अध्यायस्य 9 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 4,
@@ -3146,7 +3363,8 @@ const DEVABHASHA_DATA = {
           "diagram": "assets/images/chapter9/popup1.jpg",
           "diagramTitle": "Historical Clarifications Archive",
           "proseText": "Today, modern direct conversational methods pioneered by Samskrita Bharati demonstrate that anyone — child or adult — can learn to speak fluent, natural Sanskrit in ten days, through simple interactive daily conversational games without tedious rote learning.",
-          "titleSanskrit": "नवमाध्यायः • पृष्ठम् 4"
+          "titleSanskrit": "नवमाध्यायः • पृष्ठम् 4",
+          "proseTextSanskrit": "अध्यायस्य 9 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 5,
@@ -3156,7 +3374,8 @@ const DEVABHASHA_DATA = {
           "description": "Its enduring relevance in linguistics, psychology, computer science, and spirituality.",
           "trackIndices": [],
           "proseText": "As humanity seeks deeper unity, environmental harmony, and precision in cognitive computing, Sanskrit stands not as a relic of an ancient past, but as a luminous bridge toward a conscious, enlightened future for global civilization.",
-          "titleSanskrit": "नवमाध्यायः • पृष्ठम् 5"
+          "titleSanskrit": "नवमाध्यायः • पृष्ठम् 5",
+          "proseTextSanskrit": "अध्यायस्य 9 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         }
       ],
       "audioTracks": [],
@@ -3164,12 +3383,16 @@ const DEVABHASHA_DATA = {
         {
           "page": 1,
           "heading": "Is Sanskrit a 'Dead' Language?",
-          "body": "One of the most widespread modern misconceptions is that Sanskrit is a dead language. A language is only dead when its thoughts, ideals, and words cease to influence the living. Sanskrit lives daily in Indian rituals, classical music, dance, philosophical inquiry, and modern conversational movements."
+          "body": "One of the most widespread modern misconceptions is that Sanskrit is a dead language. A language is only dead when its thoughts, ideals, and words cease to influence the living. Sanskrit lives daily in Indian rituals, classical music, dance, philosophical inquiry, and modern conversational movements.",
+          "heading_sa": "संस्कृतं मृत-भाषा वा? — भ्रम-निराकरणम्",
+          "body_sa": "संस्कृतं मृत-भाषा इति आधुनिकः महान् भ्रमः। या भाषा प्रतिदिनं लक्षाधिकैः जनैः पूज्यते, पठ्यते, गीयते, सम्भाष्यते च, सा कदापि मृता भवितुं नार्हति। संस्कृतं नित्य-सजीवा, शाश्वती, चैतन्यमयी च सुरभारती अस्ति।"
         },
         {
           "page": 2,
           "heading": "Is Sanskrit Too Difficult to Learn?",
-          "body": "Because of its systematic regularity, Sanskrit has fewer irregularities than English or French. Once the core phonetic and grammatical rules are understood, vocabulary acquisition is remarkably logical and intuitive."
+          "body": "Because of its systematic regularity, Sanskrit has fewer irregularities than English or French. Once the core phonetic and grammatical rules are understood, vocabulary acquisition is remarkably logical and intuitive.",
+          "heading_sa": "संस्कृतं कठिनं किम्? — सुगम-शिक्षण-पद्धतिः",
+          "body_sa": "संस्कृतस्य व्याकरणं गणितवत् नियमबद्धम् अस्ति। तत्र आङ्ग्ल-भाषाया इव व्यभिचारिणः अनियमाः न सन्ति। सम्भाषण-विधिना, सरल-सरस-रीत्या च संस्कृतं बालाः अपि अक्लेशेन शिक्षन्ते।"
         }
       ]
     },
@@ -3191,7 +3414,8 @@ const DEVABHASHA_DATA = {
           "description": "Introduction to Sanskrit as the spiritual and cultural identity of India.",
           "trackIndices": [],
           "proseText": "So deeply is Sanskrit ingrained in its national consciousness, that when India became free and tried to express its aspirations in every field, it looked to Sanskrit for inspiration and fulfillment. It gave itself the ancient Sanskrit name, Bharata. The national anthem 'Jana Gana Mana' and national song 'Vande Mataram' are profoundly steeped in Sanskrit.",
-          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 1"
+          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 1",
+          "proseTextSanskrit": "अध्यायस्य 10 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 2,
@@ -3203,7 +3427,8 @@ const DEVABHASHA_DATA = {
             0
           ],
           "proseText": "India's national motto is the immortal exhortation from the Mundaka Upanishad: 'Satyameva Jayate Nanritam' — 'Truth alone triumphs, not falsehood.' Adopted as the supreme motto of the Republic of India beneath the Lion Capital of Ashoka, it enshrines the eternal victory of cosmic truth.",
-          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 2"
+          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 2",
+          "proseTextSanskrit": "अध्यायस्य 10 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 3,
@@ -3215,7 +3440,8 @@ const DEVABHASHA_DATA = {
             1
           ],
           "proseText": "The sacred geography of India has for millennia been consecrated in Sanskrit verse: 'Uttaram yat samudrasya himadreschaiva dakshinam, varsham tad bharatam nama bharati yatra santatih.' The land that lies north of the ocean and south of the snowy Himalayas is called Bharata, and its children are Bharati.",
-          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 3"
+          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 3",
+          "proseTextSanskrit": "अध्यायस्य 10 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 4,
@@ -3227,7 +3453,8 @@ const DEVABHASHA_DATA = {
           "diagram": "assets/images/chapter10/tagore.jpg",
           "diagramTitle": "Rabindranath Tagore Universal Poet",
           "proseText": "Gurudev Rabindranath Tagore on the immortal spirit of Sanskrit: 'India has all along been trying for the realization of the spiritual unity of man. She has persistently stood for the truth that man is not an isolated individual, but an organic limb of a vast cosmic universe. This vision found its supreme expression in Sanskrit.'",
-          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 4"
+          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 4",
+          "proseTextSanskrit": "विश्वकविः रवीन्द्रनाथ-ठाकुरः — संस्कृत-साहित्यस्य विश्व-चेतना-सम्पद्।"
         },
         {
           "id": 5,
@@ -3237,7 +3464,8 @@ const DEVABHASHA_DATA = {
           "description": "Ganga, Yamuna, Godavari, Saraswati, Narmada, Sindhu, and Kaveri.",
           "trackIndices": [],
           "proseText": "The sacred invocation of India's rivers binding the hearts of all pilgrims: 'Gange cha Yamune chaiva Godavari Sarasvati, Narmade Sindhu Kaveri jale'smin sannidhim kuru.' O holy rivers Ganga, Yamuna, Godavari, Sarasvati, Narmada, Sindhu, and Kaveri, be present in these waters!",
-          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 5"
+          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 5",
+          "proseTextSanskrit": "अध्यायस्य 10 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 6,
@@ -3249,7 +3477,8 @@ const DEVABHASHA_DATA = {
           "diagram": "assets/images/chapter10/nehru.jpg",
           "diagramTitle": "Jawaharlal Nehru Author of Discovery of India",
           "proseText": "Pandit Jawaharlal Nehru in 'The Discovery of India': 'If I was asked what is the greatest treasure which India possesses and what is her finest heritage, I would answer unhesitatingly — it is the Sanskrit language and literature, and all that it contains. This is a magnificent inheritance, and so long as this endures, the basic genius of India will continue.'",
-          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 6"
+          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 6",
+          "proseTextSanskrit": "पण्डित-नेहरू — भारतस्य महत्तमो निधिः संस्कृत-भाषेति अभिमतम्।"
         },
         {
           "id": 7,
@@ -3261,7 +3490,8 @@ const DEVABHASHA_DATA = {
             2
           ],
           "proseText": "Mahakavi Kalidasa's timeless invocation to Lord Shiva (Sthanu) from the opening of Malavikagnimitram: 'Ekaishvarye sthito'pi pranata-bahu-phale yah svayam krittivasah...' Though supreme in universal dominion, He wears simple tree bark; may the benevolent Lord remove our darkness.",
-          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 7"
+          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 7",
+          "proseTextSanskrit": "अध्यायस्य 10 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         },
         {
           "id": 8,
@@ -3271,7 +3501,8 @@ const DEVABHASHA_DATA = {
           "description": "Concluding celebration of Devabhasha across millennia.",
           "trackIndices": [],
           "proseText": "Preserving and revitalizing this living heritage is our sacred duty to future generations. Devabhasha Modern ensures that the voice, intellect, and profound spiritual melody of ancient India remains accessible to seekers, scholars, and children across the world forever.",
-          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 8"
+          "titleSanskrit": "दशमाध्यायः • पृष्ठम् 8",
+          "proseTextSanskrit": "अध्यायस्य 10 विशिष्टा विषय-चर्चा — संस्कृत-वाङ्मयस्य परमोपदेशः।"
         }
       ],
       "audioTracks": [
@@ -3310,12 +3541,16 @@ const DEVABHASHA_DATA = {
         {
           "page": 1,
           "heading": "Sanskrit: The Living Soul of India",
-          "body": "As Jawaharlal Nehru wrote in 'The Discovery of India': 'If I was asked what is the greatest treasure which India possesses and what is her greatest heritage, I would answer unhesitatingly that it is the Sanskrit language and literature, and all that it contains.'\n\nRabindranath Tagore similarly observed that Sanskrit connects India with her timeless inner essence."
+          "body": "As Jawaharlal Nehru wrote in 'The Discovery of India': 'If I was asked what is the greatest treasure which India possesses and what is her greatest heritage, I would answer unhesitatingly that it is the Sanskrit language and literature, and all that it contains.'\n\nRabindranath Tagore similarly observed that Sanskrit connects India with her timeless inner essence.",
+          "heading_sa": "संस्कृतम् — भारतस्य अमर-आत्मा",
+          "body_sa": "पण्डित-जवाहरलाल-नेहरू-महोदयेन 'भारतस्य खोज' (Discovery of India) ग्रन्थे लिखितम्: 'यदि मां कश्चित् पृच्छेत् यत् भारतस्य महत्तमो निधिः कः, तर्हि अहं निःसङ्कोचं वदेयं यत् संस्कृत-भाषा तस्याः समृद्धं साहित्यं च।' इयं भाषा राष्ट्रस्य प्राणभूता।"
         },
         {
           "page": 2,
           "heading": "National Mottos Inscribed in Sanskrit",
-          "body": "India's highest national ideals are enshrined in immortal Sanskrit mottos:\n- Supreme Court of India: 'Yato Dharmas Tato Jayaḥ' (यतो धर्मस्ततो जयः — Where there is righteousness, there is victory)\n- Republic of India: 'Satyameva Jayate' (सत्यमेव जयते — Truth alone triumphs)\n- Lok Sabha: 'Dharma Cakra Pravartanāya' (धर्मचक्रप्रवर्तनाय — For the wheel of righteous law)\n- Indian Navy: 'Śaṁ No Varuṇaḥ' (शं नो वरुणः — May the waters be auspicious to us)"
+          "body": "India's highest national ideals are enshrined in immortal Sanskrit mottos:\n- Supreme Court of India: 'Yato Dharmas Tato Jayaḥ' (यतो धर्मस्ततो जयः — Where there is righteousness, there is victory)\n- Republic of India: 'Satyameva Jayate' (सत्यमेव जयते — Truth alone triumphs)\n- Lok Sabha: 'Dharma Cakra Pravartanāya' (धर्मचक्रप्रवर्तनाय — For the wheel of righteous law)\n- Indian Navy: 'Śaṁ No Varuṇaḥ' (शं नो वरुणः — May the waters be auspicious to us)",
+          "heading_sa": "संस्कृते निबद्धाः राष्ट्रीय-आदर्श-वाक्यानि",
+          "body_sa": "भारतस्य सर्वोच्चाः राष्ट्रीय-आदर्शाः संस्कृतेनैव अङ्किताः सन्ति: सत्यमेव जयते (भारत-प्रतीकम्), धर्मो रक्षति रक्षितः (रॉ/न्यायः), यतो धर्मस्ततो जयः (सर्वोच्च-न्यायालयः), योगक्षेमं वहाम्यहम् (एलआईसी), नभःस्पृशं दीप्तम् (वायुसेना)।"
         }
       ]
     }
