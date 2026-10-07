@@ -21,8 +21,9 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
+  background-color: #1a0f07;
   z-index: 1;
   pointer-events: none;
   transform: translateZ(0);
@@ -37,8 +38,12 @@
 }
 
 .canvas-stage-wrapper.diagram-mode .stage-canvas-bg {
-  opacity: 0.14 !important;
-  filter: blur(4px) brightness(0.4) !important;
+  opacity: 0.88 !important;
+  filter: none !important;
+}
+
+.canvas-stage-wrapper.diagram-mode .dialogues-wrapper.art-left {
+  padding-left: 0 !important;
 }
 
 .stage-diagram-container {
@@ -726,10 +731,6 @@
 /* ================= 3-WAY SCRIPT & LANGUAGE MODE CASCADE ================= */
 body.mode-devanagari .text-iast,
 body.mode-devanagari .text-english {
-  display: none !important;
-}
-
-body.mode-devanagari .prose-card {
   display: none !important;
 }
 

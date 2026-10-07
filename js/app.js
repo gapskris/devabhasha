@@ -1015,14 +1015,36 @@ class DevabhashaApp {
         const card = document.createElement('div');
         card.className = 'dialogue-card prose-card';
         card.dataset.sectionIndex = idx;
-        const heading = sec.heading || sec.heading_sa || `Section ${sec.page || idx + 1}`;
-        const bodyText = sec.body || sec.content_en || sec.content_sa || '';
+        const headingSa = sec.heading_sa || sec.headingSanskrit || '';
+        const headingEn = sec.heading || `Section ${sec.page || idx + 1}`;
+        const bodySa = sec.body_sa || sec.content_sa || '';
+        const bodyEn = sec.body || sec.content_en || '';
+
+        let displayHeading = '';
+        let bodyHtml = '';
+
+        if (this.displayView === 'devanagari') {
+          displayHeading = headingSa || headingEn;
+          bodyHtml = `<div class="text-prose" style="font-size:1.02rem; line-height: 1.75; border: none; padding: 0; color: #3e1f08; font-family:'Noto Serif Devanagari', serif;">${(bodySa || bodyEn).replace(/\n\n/g, '<br><br>')}</div>`;
+        } else if (this.displayView === 'english') {
+          displayHeading = headingEn;
+          bodyHtml = `<div class="text-prose" style="font-size:0.96rem; line-height: 1.6; border: none; padding: 0; color: #45220a;">${(bodyEn || bodySa).replace(/\n\n/g, '<br><br>')}</div>`;
+        } else {
+          // bilingual
+          displayHeading = headingSa ? `${headingSa} • ${headingEn}` : headingEn;
+          if (bodySa && bodyEn) {
+            bodyHtml = `<div class="text-sanskrit" style="font-size:1.06rem; line-height:1.75; margin-bottom:1rem; font-family:'Noto Serif Devanagari', serif; color:#2c1505;">${bodySa.replace(/\n\n/g, '<br><br>')}</div><div class="text-english" style="font-size:0.95rem; line-height:1.65; color:#4a2b13; border-top:1px dashed rgba(180,83,9,0.25); padding-top:0.75rem;">${bodyEn.replace(/\n\n/g, '<br><br>')}</div>`;
+          } else {
+            bodyHtml = `<div class="text-prose" style="font-size:0.96rem; line-height: 1.6; border: none; padding: 0; color: #45220a;">${(bodySa || bodyEn).replace(/\n\n/g, '<br><br>')}</div>`;
+          }
+        }
+
         card.innerHTML = `
           <div class="dialogue-header">
-            <span class="speaker-seal speaker-scholar">〔 ${heading} 〕</span>
+            <span class="speaker-seal speaker-scholar">〔 ${displayHeading} 〕</span>
           </div>
           <div class="dialogue-body">
-            <div class="text-prose" style="font-size:0.96rem; line-height: 1.6; border: none; padding: 0; color: #45220a;">${bodyText.replace(/\n\n/g, '<br><br>')}</div>
+            ${bodyHtml}
           </div>
         `;
         this.dialoguesWrapper.appendChild(card);
@@ -1122,7 +1144,16 @@ class DevabhashaApp {
     // Universal Dual-Pane Presentation (Left: Visual Diagram OR Illuminated Folio Narrative)
     const visualSrc = slide.diagram;
     const visualTitle = slide.diagramTitle || slide.title || 'Manuscript Artwork';
-    const prose = slide.proseText || slide.description || '';
+    const sanskritText = slide.proseTextSanskrit || '';
+    const englishText = slide.proseText || slide.description || '';
+    let prose = '';
+    if (this.displayView === 'devanagari') {
+      prose = sanskritText || '';
+    } else if (this.displayView === 'english') {
+      prose = englishText || '';
+    } else {
+      prose = (sanskritText && englishText) ? `${sanskritText}\n\n${englishText}` : (sanskritText || englishText);
+    }
 
     let allowedIndices = [];
     if (slide && slide.trackIndices && Array.isArray(slide.trackIndices)) {
@@ -1164,15 +1195,9 @@ class DevabhashaApp {
         btnZoom.textContent = this.displayView === 'devanagari' ? '🔍 चित्र-विस्तारः' : '🔍 Expand Visual';
       }
       if (folioNarrativeBox) {
-        if (prose && prose.length > 30) {
-          folioNarrativeBox.classList.remove('hidden');
-          if (folioNarrativeTitle) folioNarrativeTitle.textContent = (this.displayView === 'devanagari') ? (slide.titleSanskrit || slide.title) : slide.title;
-          if (folioNarrativeText) folioNarrativeText.textContent = prose;
-        } else {
-          folioNarrativeBox.classList.add('hidden');
-        }
+        folioNarrativeBox.classList.add('hidden');
       }
-    } else if (hasAudioCards && prose && prose.length > 40) {
+    } else if (hasAudioCards && prose && prose.length > 20) {
       // Mode B: Dual-Pane Folio Mode (Historical narrative on left, recitation cards on right)
       this.currentDiagram = null;
       if (this.canvasStageWrapper) this.canvasStageWrapper.classList.add('diagram-mode');
@@ -1248,14 +1273,14 @@ class DevabhashaApp {
     allCards.forEach(card => {
       // If prose section card
       if (card.classList.contains('prose-card')) {
+        if (card.classList.contains('slide-intro-card')) return;
         const secIdx = parseInt(card.dataset.sectionIndex, 10);
         if (slide.sectionIndex !== undefined && slide.sectionIndex !== null) {
           const isMatch = (secIdx === slide.sectionIndex);
           card.style.display = isMatch ? '' : 'none';
           if (isMatch) visibleCount++;
         } else {
-          card.style.display = '';
-          visibleCount++;
+          card.style.display = 'none';
         }
         return;
       }
@@ -1277,15 +1302,13 @@ class DevabhashaApp {
           if (!firstVisibleCard) firstVisibleCard = card;
         }
       } else {
-        card.style.display = '';
-        visibleCount++;
-        if (!firstVisibleCard) firstVisibleCard = card;
+        card.style.display = 'none';
       }
     });
 
     // Handle pure narrative slides with no matching audio tracks
     let slideCard = this.dialoguesWrapper.querySelector('.slide-intro-card');
-    if (visibleCount === 0 && slide && (slide.description || slide.proseText)) {
+    if (visibleCount === 0 && slide && (slide.description || slide.proseText || slide.proseTextSanskrit)) {
       if (!slideCard) {
         slideCard = document.createElement('div');
         slideCard.className = 'dialogue-card prose-card slide-intro-card';
@@ -1297,8 +1320,22 @@ class DevabhashaApp {
         : `〔 Chapter ${this.activeChapterId} — Page ${slide.slideNumber} 〕`;
       const slideTitleDisplay = (this.displayView === 'devanagari' && slide.titleSanskrit)
         ? slide.titleSanskrit
-        : slide.title;
-      const textToDisplay = slide.proseText || slide.description || '';
+        : (slide.title || 'Overview');
+
+      let textToDisplay = '';
+      const sanskritText = slide.proseTextSanskrit || '';
+      const englishText = slide.proseText || slide.description || '';
+      if (this.displayView === 'devanagari') {
+        textToDisplay = sanskritText || englishText;
+      } else if (this.displayView === 'english') {
+        textToDisplay = englishText || sanskritText;
+      } else {
+        // bilingual
+        textToDisplay = (sanskritText && englishText)
+          ? `<div class="text-sanskrit" style="font-size:1.08rem; line-height:1.75; margin-bottom:1rem; font-family:'Noto Serif Devanagari', serif; color:#2c1505;">${sanskritText}</div><div class="text-english" style="font-size:0.96rem; line-height:1.65; color:#4a2b13; border-top:1px dashed rgba(180,83,9,0.25); padding-top:0.75rem;">${englishText}</div>`
+          : (sanskritText || englishText);
+      }
+
       slideCard.innerHTML = `
         <div class="dialogue-header">
           <span class="speaker-seal speaker-scholar">${sealPageLabel}</span>

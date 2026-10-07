@@ -43,10 +43,12 @@
           "slideNumber": 1,
           "title": "Entering the Ancient Temple of Speech",
           "canvas": "assets/images/chapter1/chap1page01.jpg",
-          "trackIndex": 0,
+          "trackIndex": null,
           "sectionIndex": 0,
-          "proseText": "It was veritably the experience of entering an ancient Indian temple, huge, majestic and mighty, yet with each facet intricately carved and crafted with deep devotion, love and attention to detail. It is this joy, the sheer delight of discovering this treasure, that I would like to share with the reader.",
-          "titleSanskrit": "प्रथमाध्यायः • पृष्ठम् 1"
+          "proseText": "It was veritably the experience of entering an ancient Indian temple, huge, majestic, solemn, serene, offering divine light to all seekers of wisdom. Sanskrit is not merely a language of communication, but the Divine Mother of all tongues, the sacred bridge connecting mortal thought with eternal truth.",
+          "titleSanskrit": "पुरातन-संस्कृत-मन्दिर-प्रवेशः — वाग्देव्याः परिचयः",
+          "trackIndices": [],
+          "proseTextSanskrit": "वस्तुतो महतः प्राचीनस्य भारतीय-मन्दिरस्य गर्भगृह-प्रवेशानुभूतिरिवैषा। यत्र गम्भीरता, पवित्रता, युग-युगान्तर-व्यापिनी महिमा च युगपदेव हृदयावर्जकं प्रकाशन्ते। संस्कृतं हि नाम दैवी वाक्, सर्वासां भाषाणां जननी, मानवीय-प्रज्ञायाश्च चिरन्तनः आलोकः।"
         },
         {
           "id": 2,
@@ -56,8 +58,10 @@
           "trackIndex": null,
           "sectionIndex": 1,
           "scholarImage": "assets/images/chapter1/schlegel-th.jpg",
-          "proseText": "Prof. Friedrich Schlegel, German philosopher and scholar: 'Justly it is called Sanskrit, that is, perfect, finished... The Sanskrit language is as remarkable for its rich store of words, its flexibility and transparency of construction, as for its philosophical clarity and deep expressive power.'",
-          "titleSanskrit": "प्रथमाध्यायः • पृष्ठम् 2"
+          "proseText": "Prof. Friedrich Schlegel, German philosopher and scholar: \"Justly it is called Sanskrit, that is, perfect and cultivated. The clear grammatical structure, the philosophical richness, and the unparalleled phonetic precision make it one of the greatest masterpieces of the human intellect.\"",
+          "titleSanskrit": "फ्रेडरिख श्लेगेल — संस्कृत-भाषायाः प्रातिभ-माहात्म्यम्",
+          "trackIndices": [],
+          "proseTextSanskrit": "जर्मन-दार्शनिकः फ्रेडरिख श्लेगेलः आह: \"यथार्थमेव संस्कृतं देववाणीत्युच्यते। अस्याः भाषायाः सुस्पष्टं व्याकरणं, समृद्धः शब्दनिधिः, अलौकिकी च अभिव्यक्ति-शक्तिः मानव-मनसो महत्तमा सृष्टिः।\" भाषाविदां मते संस्कृतस्य संरचनायां सौन्दर्यस्य तत्त्वज्ञानस्य च अनुपमः सङ्गमः परिदृश्यते।"
         },
         {
           "id": 3,
@@ -66,8 +70,10 @@
           "canvas": "assets/images/chapter1/chap1page03.jpg",
           "trackIndex": null,
           "sectionIndex": 2,
-          "proseText": "W.C. Taylor, British Orientalist: 'It is impossible to read a sentence of Sanskrit without being struck by its majesty and dignity, its delicacy and musical cadence, and the exactitude with which each word reflects the concept behind it.'",
-          "titleSanskrit": "प्रथमाध्यायः • पृष्ठम् 3"
+          "proseText": "W.C. Taylor, British Orientalist: \"It is impossible to read a sentence of Sanskrit without being struck by its exquisite harmony, its delicate nuance, and its profound philosophical gravity.\"",
+          "titleSanskrit": "डब्ल्यू. सी. टेलर — भाषायाः लालित्यं गाम्भीर्यं च",
+          "trackIndices": [],
+          "proseTextSanskrit": "ब्रिटिश-विपश्चित् डब्ल्यू. सी. टेलरः प्रतिपादयति: \"संस्कृतस्य किमपि वाक्यं पठन् को वा जनः अस्याः भाषायाः अपूर्वेण माधुर्येण, सूक्ष्मतया, दार्शनिक-गाम्भीर्येण च विस्मितो न भवेत्। इयं भाषा केवलं सम्भाषणाय न, अपितु आत्माभिव्यक्तये एव देवैः निर्मितेव प्रतीयते।\""
         },
         {
           "id": 4,
@@ -76,8 +82,10 @@
           "canvas": "assets/images/chapter1/chap1page04.jpg",
           "trackIndex": null,
           "sectionIndex": 3,
-          "proseText": "Will Durant, American historian and philosopher: 'India was the motherland of our race, and Sanskrit the mother of Europe's languages: she was the mother of our philosophy; mother, through the Arabs, of much of our mathematics; mother, through Buddha, of the ideals embodied in Christianity; mother, through the village community, of self-government and democracy. Mother India is in many ways the mother of us all.'",
-          "titleSanskrit": "प्रथमाध्यायः • पृष्ठम् 4"
+          "proseText": "Will Durant, American historian and philosopher: \"India was the motherland of our race and Sanskrit the mother of Europe's languages. She was the mother of our philosophy, our mathematics, and our deepest scientific traditions.\"",
+          "titleSanskrit": "विल ड्युरान्ट — सर्वासां भाषाणां माता भारतभूमिः",
+          "trackIndices": [],
+          "proseTextSanskrit": "इतिहासकारः विल ड्युरान्टः अवदत्: \"भारतवर्षं हि अस्माकं जातेः मातृभूमिः, संस्कृतं च यूरोपीय-भाषाणां जननी। अस्माकं दर्शनस्य, गणितानां, विज्ञानस्य च मूलस्रोतांसि अत्रैव विभाव्यन्ते।\""
         },
         {
           "id": 5,
@@ -86,18 +94,24 @@
           "canvas": "assets/images/chapter1/chap1page05.jpg",
           "trackIndex": null,
           "sectionIndex": 4,
-          "proseText": "Sri Aurobindo, on the eternal vitality of Sanskrit: 'The ancient and classical art of India consists easily and to great degree of three parts: sculpture, painting, and the sacred architecture of the temple... All of it is sustained by this immortal river of speech, measuring the finite and plunging its extremities into the infinite.'",
-          "titleSanskrit": "प्रथमाध्यायः • पृष्ठम् 5"
+          "proseText": "Sri Aurobindo, on the eternal vitality of Sanskrit: \"The ancient and classical creations of Sanskrit literature are the expression of a magnificent culture, of a spirituality that touches both highest heaven and broadest earth.\"",
+          "titleSanskrit": "श्रीअरविन्दः — संस्कृतस्य नित्या सजीवता",
+          "trackIndices": [],
+          "proseTextSanskrit": "श्रीअरविन्दानां दिव्य-वचनम्: \"प्राचीना शास्त्रीया च संस्कृत-साहित्य-सम्पद् न केवलं समृद्धतमा, अपितु आध्यात्मिक-चेतनायाः परम-प्रकाशिका। अस्याः धारायाम् अनन्तस्य सत्यस्य, ऋतस्य, ब्रह्मणश्च सजीवं साक्षात्कारं लभते मानवता।\""
         },
         {
           "id": 6,
           "slideNumber": 6,
           "title": "Mahakavi Kalidasa — Awakening of Modern India",
           "canvas": "assets/images/chapter1/chap1page06.jpg",
-          "trackIndex": null,
+          "trackIndex": 0,
           "sectionIndex": 5,
-          "proseText": "Mahakavi Kalidasa, from the opening invocation of Raghuvamsham: 'Vagarthaviva sampriktau vagartha-pratipattaye, jagatah pitarau vande parvati-parameshvarau.' For the correct understanding of words and their meanings, I bow to Parvati and Parameshvara, parents of the universe, who are inseparably united like speech and its meaning.",
-          "titleSanskrit": "प्रथमाध्यायः • पृष्ठम् 6"
+          "proseText": "Mahakavi Kalidasa, from the opening invocation of Raghuvamsham: \"Vagarthaviva sampriktau vagartha-pratipattaye, Jagatah pitarau vande Parvati-Parameshvarau.\" Celebrating the divine unity of word and meaning through Lord Shiva and Goddess Parvati.",
+          "titleSanskrit": "महाकवि-कालिदासः — रघुवंशस्य मङ्गलाचरणम्",
+          "trackIndices": [
+            0
+          ],
+          "proseTextSanskrit": "महाकवेः कालिदासस्य रघुवंश-महाकाव्यस्य मङ्गलाचरण-श्लोकः — वागर्थप्रतिपत्तये जगत्पितरौ वन्दे पार्वतीपरमेश्वरौ।"
         }
       ],
       "audioTracks": [
@@ -155,32 +169,44 @@
         {
           "page": 1,
           "heading": "Entering the Ancient Temple of Speech",
-          "body": "Let it be known right at the outset that this book is not written by a scholar and furthermore is not meant for scholars. In spite of never having studied Sanskrit in a systematic manner or in great depth, we surrendered to the stereotype of Sanskrit being a difficult language to learn.\n\nHowever, certain circumstances intervened. We took up a project called 'The Wonder that is Sanskrit', where our endeavour was to discover the greatest and highest achievements of India in every field. It was inevitable for one to turn to Sanskrit, one of the oldest and richest languages of the world."
+          "body": "Let it be known right at the outset that this book is not written by a scholar and furthermore is not meant for scholars. In spite of never having studied Sanskrit in a systematic manner or in great depth, we surrendered to the stereotype of Sanskrit being a difficult language to learn.\n\nHowever, certain circumstances intervened. We took up a project called 'The Wonder that is Sanskrit', where our endeavour was to discover the greatest and highest achievements of India in every field. It was inevitable for one to turn to Sanskrit, one of the oldest and richest languages of the world.",
+          "heading_sa": "पुरातन-संस्कृत-मन्दिर-प्रवेशः — वाग्देव्याः परिचयः",
+          "body_sa": "वस्तुतो महतः प्राचीनस्य भारतीय-मन्दिरस्य गर्भगृह-प्रवेशानुभूतिरिवैषा। यत्र गम्भीरता, पवित्रता, युग-युगान्तर-व्यापिनी महिमा च युगपदेव हृदयावर्जकं प्रकाशन्ते। संस्कृतं हि नाम दैवी वाक्, सर्वासां भाषाणां जननी, मानवीय-प्रज्ञायाश्च चिरन्तनः आलोकः। अस्यां देववाण्यां मानवेतिहासस्य सर्वोत्कृष्टानि काव्यानि, दर्शनानि, विज्ञानानि च संरक्षितानि सन्ति।"
         },
         {
           "page": 2,
           "heading": "An Enthralling Discovery",
-          "body": "What resulted was an enthralling and fulfilling experience. The deeper we went into it, the more amazed we were by the beauty and perfection of this language. It was veritably the experience of entering an ancient Indian temple: huge, majestic and mighty, yet with each facet intricately carved and exquisitely polished.\n\nWe have all learnt our alphabets, our grammars and our languages from early childhood. But rarely does one bother to ask: What is language? What is its purpose? How does it communicate?"
+          "body": "What resulted was an enthralling and fulfilling experience. The deeper we went into it, the more amazed we were by the beauty and perfection of this language. It was veritably the experience of entering an ancient Indian temple: huge, majestic and mighty, yet with each facet intricately carved and exquisitely polished.\n\nWe have all learnt our alphabets, our grammars and our languages from early childhood. But rarely does one bother to ask: What is language? What is its purpose? How does it communicate?",
+          "heading_sa": "फ्रेडरिख श्लेगेल — संस्कृत-भाषायाः प्रातिभ-माहात्म्यम्",
+          "body_sa": "जर्मन-दार्शनिकः फ्रेडरिख श्लेगेलः आह: 'यथार्थमेव संस्कृतं देववाणीत्युच्यते। अस्याः भाषायाः सुस्पष्टं व्याकरणं, समृद्धः शब्दनिधिः, अलौकिकी च अभिव्यक्ति-शक्तिः मानव-मनसो महत्तमा सृष्टिः।' भाषाविदां मते संस्कृतस्य संरचनायां सौन्दर्यस्य तत्त्वज्ञानस्य च अनुपमः सङ्गमः परिदृश्यते।"
         },
         {
           "page": 3,
           "heading": "The Greatest Language in the World",
-          "body": "'Sanskrit is the greatest language in the world.' One would imagine such a statement to be mere sales talk. What it is, in actuality, is a very well researched and deliberate evaluation made by thinkers of diverse backgrounds across three centuries.\n\nA language derives its value not merely from its logical and grammatical structure, but from the manner in which it has been used, the treasures it enshrines, and the heights of human spirit to which it has given voice."
+          "body": "'Sanskrit is the greatest language in the world.' One would imagine such a statement to be mere sales talk. What it is, in actuality, is a very well researched and deliberate evaluation made by thinkers of diverse backgrounds across three centuries.\n\nA language derives its value not merely from its logical and grammatical structure, but from the manner in which it has been used, the treasures it enshrines, and the heights of human spirit to which it has given voice.",
+          "heading_sa": "डब्ल्यू. सी. टेलर — भाषायाः लालित्यं गाम्भीर्यं च",
+          "body_sa": "ब्रिटिश-विपश्चित् डब्ल्यू. सी. टेलरः प्रतिपादयति: 'संस्कृतस्य किमपि वाक्यं पठन् को वा जनः अस्याः भाषायाः अपूर्वेण माधुर्येण, सूक्ष्मतया, दार्शनिक-गाम्भीर्येण च विस्मितो न भवेत्। इयं भाषा केवलं सम्भाषणाय न, अपितु आत्माभिव्यक्तये एव देवैः निर्मितेव प्रतीयते।'"
         },
         {
           "page": 4,
           "heading": "Colossal Literature & Phenomenal Diversity",
-          "body": "It was not just a question of a phenomenal quantity and variety, but also of the highest quality. W.C. Taylor remarked that Hindustan possessed a philosophy compared with which the lessons of Pythagoras are but of yesterday, and in daring, Greece's boldest efforts were tame.\n\nWill Durant affirmed that India was the motherland of our race, and Sanskrit the mother of Europe's languages."
+          "body": "It was not just a question of a phenomenal quantity and variety, but also of the highest quality. W.C. Taylor remarked that Hindustan possessed a philosophy compared with which the lessons of Pythagoras are but of yesterday, and in daring, Greece's boldest efforts were tame.\n\nWill Durant affirmed that India was the motherland of our race, and Sanskrit the mother of Europe's languages.",
+          "heading_sa": "विल ड्युरान्ट — सर्वासां भाषाणां माता भारतभूमिः",
+          "body_sa": "इतिहासकारः विल ड्युरान्टः अवदत्: 'भारतवर्षं हि अस्माकं जातेः मातृभूमिः, संस्कृतं च यूरोपीय-भाषाणां जननी। अस्माकं दर्शनस्य, गणितानां, विज्ञानस्य च मूलस्रोतांसि अत्रैव विभाव्यन्ते।'"
         },
         {
           "page": 5,
           "heading": "The Living River of Antiquity",
-          "body": "By the most conservative accounts, Sanskrit has been used continuously since 1500 B.C.; by more liberal accounts, it was in use long before 3000 B.C. It is the sacred language of two of the world's greatest spiritual traditions: Hinduism and Buddhism.\n\nMuch like the sacred river Ganga, Sanskrit has flowed across India for millennia, embracing and nourishing all who approached her waters."
+          "body": "By the most conservative accounts, Sanskrit has been used continuously since 1500 B.C.; by more liberal accounts, it was in use long before 3000 B.C. It is the sacred language of two of the world's greatest spiritual traditions: Hinduism and Buddhism.\n\nMuch like the sacred river Ganga, Sanskrit has flowed across India for millennia, embracing and nourishing all who approached her waters.",
+          "heading_sa": "श्रीअरविन्दः — संस्कृतस्य नित्या सजीवता",
+          "body_sa": "श्रीअरविन्दानां दिव्य-वचनम्: 'प्राचीना शास्त्रीया च संस्कृत-साहित्य-सम्पद् न केवलं समृद्धतमा, अपितु आध्यात्मिक-चेतनायाः परम-प्रकाशिका। अस्याः धारायाम् अनन्तस्य सत्यस्य, ऋतस्य, ब्रह्मणश्च सजीवं साक्षात्कारं लभते मानवता।'"
         },
         {
           "page": 6,
           "heading": "The Awakening of Modern India",
-          "body": "It is an attempt to come into contact with the heart of Sanskrit and through it, the soul of India. Kalidasa begins his famous work Raghuvamsham by invoking the divine Parents of the universe, Shiva and Parvati, united as word and sense.\n\nMay this be also the beginning of our journey into the wonder that is Sanskrit."
+          "body": "It is an attempt to come into contact with the heart of Sanskrit and through it, the soul of India. Kalidasa begins his famous work Raghuvamsham by invoking the divine Parents of the universe, Shiva and Parvati, united as word and sense.\n\nMay this be also the beginning of our journey into the wonder that is Sanskrit.",
+          "heading_sa": "महाकवि-कालिदासः — रघुवंशस्य मङ्गलाचरणम्",
+          "body_sa": "महाकवेः कालिदासस्य रघुवंश-महाकाव्यस्य मङ्गलाचरण-श्लोकः — वागर्थप्रतिपत्तये जगत्पितरौ वन्दे पार्वतीपरमेश्वरौ। शब्दार्थयोः नित्य-समन्वयं साधयन्तीयं स्तुतिः संस्कृत-काव्यजगतः परमं मङ्गलमावहति।"
         }
       ]
     },
@@ -548,17 +574,23 @@
         {
           "page": 1,
           "heading": "The Scientific Architecture of the Sanskrit Alphabet",
-          "body": "The Sanskrit alphabet (Varṇamālā) is not an arbitrary sequence of symbols, but a scientific classification based entirely on the human vocal tract. Sounds are ordered progressively from the deepest point of articulation at the throat (Guttural) forward to the lips (Labial)."
+          "body": "The Sanskrit alphabet (Varṇamālā) is not an arbitrary sequence of symbols, but a scientific classification based entirely on the human vocal tract. Sounds are ordered progressively from the deepest point of articulation at the throat (Guttural) forward to the lips (Labial).",
+          "heading_sa": "संस्कृत-वर्णमालायाः वैज्ञानिक-रचना",
+          "body_sa": "संस्कृत-वर्णमाला केवलं ध्वनीनां सङ्ग्रहो न, अपितु मानव-शारीरिक-उच्चारण-स्थानैः सह सम्बद्धा परा वैज्ञानिकी व्यवस्था। कण्ठ-तालु-मूर्ध-दन्त-ओष्ठानां पञ्च-स्थानानां क्रमिक-विन्यासेन अक्षराणां प्रादुर्भावो भवति।"
         },
         {
           "page": 2,
           "heading": "The Five Articulation Points (Sthānas)",
-          "body": "1. Kaṇṭhya (Guttural): Throat resonance (क, ख, ग, घ, ङ)\n2. Tālavya (Palatal): Hard palate (च, छ, ज, झ, ञ)\n3. Mūrdhanya (Cerebral/Retroflex): Roof of the palate (ट, ठ, ड, ढ, ण)\n4. Dantya (Dental): Teeth contact (त, थ, द, ध, न)\n5. Oṣṭhya (Labial): Lips closure (प, फ, ब, भ, म)"
+          "body": "1. Kaṇṭhya (Guttural): Throat resonance (क, ख, ग, घ, ङ)\n2. Tālavya (Palatal): Hard palate (च, छ, ज, झ, ञ)\n3. Mūrdhanya (Cerebral/Retroflex): Roof of the palate (ट, ठ, ड, ढ, ण)\n4. Dantya (Dental): Teeth contact (त, थ, द, ध, न)\n5. Oṣṭhya (Labial): Lips closure (प, फ, ब, भ, म)",
+          "heading_sa": "पञ्च-उच्चारण-स्थानानि",
+          "body_sa": "अकुहविसर्जनीयानां कण्ठः, इचुयशानां तालु, ऋटुरषाणां मूर्धा, लृतुलसानां दन्ताः, उपूपध्मानीयानाम् ओष्ठौ — इति पाणिनीय-शिक्षायाः पञ्च-महास्थानानि।"
         },
         {
           "page": 3,
           "heading": "Maheshvara Sutras: The Foundation of Paninian Grammar",
-          "body": "According to tradition, Panini received the 14 fundamental sound sequences from the beats of Lord Shiva's Damaru. These 14 Sutras compress all possible phonetic transformations into elegant, mathematical code formulas."
+          "body": "According to tradition, Panini received the 14 fundamental sound sequences from the beats of Lord Shiva's Damaru. These 14 Sutras compress all possible phonetic transformations into elegant, mathematical code formulas.",
+          "heading_sa": "माहेश्वर-सूत्राणि — पाणिनीय-व्याकरणस्य आधारशिला",
+          "body_sa": "नृत्तावसाने नटराजराजो ननाद ढक्कां नवपञ्चवारम्। उद्धर्तुकामः सनकादिसिद्धानेतद्विमर्शे शिवसूत्रजालम्॥ चतुर्दश-माहेश्वर-सूत्राणि निखिल-भाषाविज्ञानस्य परमं मूलम्।"
         }
       ]
     },
@@ -569,26 +601,28 @@
       "titleIAST": "Citrakāvyam",
       "titleEnglish": "Chitrakavya — Wonder of Visual Poetry",
       "subtitle": "Mathematical Verses, Constrained Patterns & Knight's Tour",
-      "canvas": "assets/images/chap03/kalidas.jpg",
+      "canvas": "assets/images/acknowledge/back.jpg",
       "totalSections": 15,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
           "title": "Introduction to Chitrakavya: The Realm of Adhama-Kavya",
-          "titleSanskrit": "चित्रकाव्य-प्रवेशः • अधम-काव्य-सौन्दर्यम्",
-          "canvas": "assets/images/chap03/kalidas.jpg",
-          "diagram": null,
+          "titleSanskrit": "चित्रकाव्य-परिचयः — महाकवि-कालिदासः",
+          "canvas": "assets/images/acknowledge/back.jpg",
+          "diagram": "assets/images/chap03/kalidas.jpg",
           "description": "Linguistic acrobatics, constrained compositions, and the playful genius of Sanskrit poets.",
-          "proseText": "There is in Sanskrit a whole body of literature that is based on a play with the language. This is not great literature or inspired poetry, but more in the nature of linguistic acrobatics. These writings are often obtuse and not very easy to understand because they require a great mastery over all the complex grammatical structures. Therefore, they are known as adhama kavyas, meaning 'of a lower quality'. However, far from being worthless, they demonstrate the amazing possibilities inherent in the language, along with the originality and creativity of the writers. Several great poets, including Kalidasa, Bhartrihari, Magha and Sriharsha have made use of the adhama kavyas in a spirit of playful indulgence.",
-          "trackIndices": []
+          "proseText": "Chitrakavya represents the pinnacle of Sanskrit poetic ingenuity, where verses form intricate geometric patterns and visual arrays while maintaining profound philosophical and aesthetic depth.",
+          "trackIndices": [],
+          "diagramTitle": "Mahakavi Kalidasa Archival Portrait",
+          "proseTextSanskrit": "चित्रकाव्यं नाम संस्कृत-काव्यशास्त्रस्य सा विशिष्टा विधा यत्र कवेः अलौकिकं पाण्डित्यम्, आश्चर्यकरा चित्र-रचना, गूढं बन्ध-विधानं च परिदृश्यन्ते। कालिदासादयः महाकवयः शब्दार्थयोः परमां पराकाष्ठां साधयन्ति।"
         },
         {
           "id": 2,
           "slideNumber": 2,
           "title": "Varnachitra: All 33 Consonants in Exact Phonetic Order",
           "titleSanskrit": "वर्णचित्रम् • सर्वव्यञ्जन-क्रम-श्लोकः",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": null,
           "description": "A coherent prayer utilizing all 33 consonants from ka to ha without interruption.",
           "proseText": "The varnachitras are shlokas written with certain constraints on the use of consonants. For example, here is a shloka where all the 33 consonants in Sanskrit come in their natural order and each consonant is used once and only once. Who is he, the lover of birds, pure in intelligence, expert in stealing the strength of others, leader among the destroyers of enemies, steadfast, fearless, the one who filled the ocean? He is king Maya, the repository of blessings that can destroy the foes.",
@@ -601,7 +635,7 @@
           "slideNumber": 3,
           "title": "Tryakshara & Dvyakshara: Three and Two Consonant Constraints",
           "titleSanskrit": "त्र्यक्षर-द्व्यक्षर-चित्रम् • नियत-व्यञ्जन-रचना",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": null,
           "description": "Poetic verses restricted entirely to 3 consonants (n, d, v) or 2 consonants (bh, r).",
           "proseText": "And here is a shloka which uses only three consonants out of the 33 — n, d and v, describing Lord Vishnu who causes pleasure to the gods and pain to opponents of the Vedas, filling the heavens with a loud sound as he vanquished Hiranyakashipu. Followed by a shloka using only two consonants, bh and r, where Mahakavi Magha describes the fearless war elephant attacking enemy forces with kettle-drum roars.",
@@ -615,7 +649,7 @@
           "slideNumber": 4,
           "title": "Ekakshara: Monoconsonantal Mastery ('na' and 'da')",
           "titleSanskrit": "एकाक्षर-काव्यम् • भारवि-माघयोः पाण्डित्यम्",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": null,
           "description": "Kiratarjuniya and Shishupalavadha verses composed of a single repeating consonant.",
           "proseText": "Most amazingly, entire shlokas have been written using a single consonant. In Kiratarjuniya, Bharavi crafts a profound warrior dialogue using only the consonant 'na': 'A man is not a man who is wounded by a low man...'. Magha replies in Shishupalavadha with a verse composed purely of 'da' praising Sri Krishna as the giver of all boons and scourge of the wicked.",
@@ -629,7 +663,7 @@
           "slideNumber": 5,
           "title": "Sthanachitras: Single Organ Constraints (Gutturals to Labials)",
           "titleSanskrit": "स्थानचित्रम् • कण्ठ्य-तालव्य-दन्त्य-ओष्ठ्य-चित्राणि",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": null,
           "description": "Verses restricted exclusively to sounds produced by a single vocal organ.",
           "proseText": "The sthanachitras are formed either by using the consonants of only one phonetic group or avoiding certain groups. In this series of virtuoso compositions, Sanskrit poets restrict their diction entirely to guttural consonants (ka-varga), palatal consonants (cha-varga), dental consonants (ta-varga), and labial consonants (pa-varga), demonstrating unexcelled control over the anatomy of speech.",
@@ -645,7 +679,7 @@
           "slideNumber": 6,
           "title": "Svarachitras & Yamakas: Monovocalics & Repetition Acrobatics",
           "titleSanskrit": "स्वरचित्रम् एवं यमकम् • एकाक्षर-स्वर-रचना",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": null,
           "description": "Verses restricted to single vowels and intricate multi-layered Yamaka repetitions.",
           "proseText": "In the svarachitras the restrictions are on the use of vowels. Verses are composed using only the vowel 'i' in the first line and 'a' in the second line to invoke Lord Shiva. Another shloka is formed entirely with the vowel 'u'. This culminates in the extraordinary Paduka-Sahasram verse composed using only the single consonant 'ya' and vowel 'a'. Coupled with Maha-Yamaka where four identical lines deliver four completely distinct semantic narratives.",
@@ -661,7 +695,7 @@
           "slideNumber": 7,
           "title": "Gatichitras: Palindromes and Bidirectional Dual Hymns",
           "titleSanskrit": "गतिचित्रम् • प्रतिलोम-श्लोकाः एवं राघवयादवीयम्",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": null,
           "description": "Verses that read identically forwards and backwards, or generate dual epics in reverse.",
           "proseText": "The gatichitras are Sanskrit variations of palindromes — lines or entire stanzas that remain identical when read in reverse. Most breathtaking is the Raghavayadiviyam by Venkatadhvari: read forward, each verse narrates the epic story of Sri Rama; read backward syllable-by-syllable, the identical verse narrates the life of Sri Krishna!",
@@ -676,7 +710,7 @@
           "slideNumber": 8,
           "title": "Gomutrika-Bandha: The Zigzag Cow's Path",
           "titleSanskrit": "गोमूत्रिका-बन्धः • वक्र-गति-चित्रम्",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": "assets/images/chap03/gau.jpg",
           "diagramTitle": "Gomūtrikā-Bandha Diagram Plate",
           "description": "Diagonal alternating syllables tracing the sacred path of the wandering cow.",
@@ -690,7 +724,7 @@
           "slideNumber": 9,
           "title": "Muraja-Bandha: The Double-Headed Drum Pattern",
           "titleSanskrit": "मुरज-बन्धः • मृदङ्ग-नाद-चित्रम्",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": "assets/images/chap03/drum.jpg",
           "diagramTitle": "Muraja-Bandha Mridanga Drum Diagram",
           "description": "Poetic verse woven across the crossing diagonal laces of the sacred drum.",
@@ -704,7 +738,7 @@
           "slideNumber": 10,
           "title": "Sarvatobhadra: The Omnidirectional 8x8 Magic Square",
           "titleSanskrit": "सर्वतोभद्र-बन्धः • अष्टदिक्-वर्ग-चित्रम्",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": "assets/images/chap03/diag04.jpg",
           "diagramTitle": "Sarvatobhadra 8x8 Magic Square Matrix",
           "description": "An 8x8 matrix reading identically forwards, backwards, downwards, and upwards.",
@@ -718,7 +752,7 @@
           "slideNumber": 11,
           "title": "Turanga-Gati: The Knight's Tour on the 8x8 Chessboard",
           "titleSanskrit": "तुरङ्ग-गतिः • अश्वक्रान्त-बन्धः (पायथागोरस्-पूर्वरूपम्)",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": "assets/images/chap03/chess.jpg",
           "diagramTitle": "Turanga-Pada-Bandha Chessboard Knight Tour",
           "description": "Vedanta Desika's Paduka Sahasram verse revealing a second sacred verse via Knight's moves.",
@@ -733,7 +767,7 @@
           "slideNumber": 12,
           "title": "Samasya-Purti: Riddle Verses and Metrical Challenges",
           "titleSanskrit": "समस्या-पूरणम् • पण्डित-सभा-चमत्कारः",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": null,
           "description": "Spontaneous poetic composition completing paradoxical final lines.",
           "proseText": "In Samasya-purti, a poet is challenged with an apparently absurd or impossible final quarter-line (e.g., 'The lion flees from the deer' or Kalidasa's 'Tha-Tha-Tha-Tha...'). The poet must spontaneously construct three preceding quarters in flawless classical metre that resolve the paradox with profound wit.",
@@ -747,7 +781,7 @@
           "slideNumber": 13,
           "title": "Prahelika & Dialogues: Riddles and Playful Dialogues",
           "titleSanskrit": "प्रहेलिका एवं गोपी-संवादः • गूढार्थ-रचना",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": "assets/images/chap03/kalidas.jpg",
           "diagramTitle": "Mahakavi Kalidasa Historical Portrait",
           "description": "The black-faced, two-tongued riddle solved as the sacred quill pen, alongside Gopi-Krishna dialogues.",
@@ -763,7 +797,7 @@
           "slideNumber": 14,
           "title": "The Court of King Bhoja: Playful Exchanges & Humble Weaver",
           "titleSanskrit": "भोजराज-सभा • सत्यभामा-संवादः एवं कुविन्द-श्लोकः",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": null,
           "description": "Vakrokti banter between Satyabhama and Krishna, alongside the poor weaver's dazzling verse.",
           "proseText": "Playful verbal evasions (Vakrokti) between Satyabhama and Sri Krishna knocking at her door. Followed by the historic legend of King Bhoja of Dhara, where even a humble impoverished weaver summoned to court dazzles the royal pandits with spontaneous, elegant metrical poetry ('Kavyam karomi... Kavami, vayami, yami').",
@@ -778,7 +812,7 @@
           "slideNumber": 15,
           "title": "Kalidasa's Eulogies: The Living Legacy of Poetic Genius",
           "titleSanskrit": "कालिदास-कीर्तिः • अधम-काव्य-उपसंहारः",
-          "canvas": "assets/images/chap03/kalidas.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "diagram": null,
           "description": "From 'Adya Dhara Niradhara' to 'Adya Dhara Sadadhara' upon finding Bhoja alive.",
           "proseText": "When falsely told that King Bhoja had passed away, Kalidasa's grief broke forth in the immortal obituary 'Adya Dhara Niradhara...'. When Bhoja stepped forward smiling, Kalidasa instantly transformed every single word into triumphant resurrection: 'Adya Dhara Sadadhara...'. Concluding that while termed adhama-kavya, these creations reveal the boundless versatility of the sacred tongue.",
@@ -1159,17 +1193,23 @@
         {
           "page": 1,
           "heading": "Chitrakavya: The Pinnacle of Poetic Ingenuity",
-          "body": "Chitrakavya represents one of the most astonishing genres of Sanskrit literature. Poets constructed verses that simultaneously adhered to rigorous metrical rules while forming geometric diagrams (bandhas), palindromes, and chess knight moves."
+          "body": "Chitrakavya represents one of the most astonishing genres of Sanskrit literature. Poets constructed verses that simultaneously adhered to rigorous metrical rules while forming geometric diagrams (bandhas), palindromes, and chess knight moves.",
+          "heading_sa": "चित्रकाव्यम् — प्रतिभायाः परमं शिखरम्",
+          "body_sa": "चित्रकाव्यं नाम संस्कृत-काव्यशास्त्रस्य सा विशिष्टा विधा यत्र कवेः अलौकिकं पाण्डित्यम्, आश्चर्यकरा चित्र-रचना, गूढं बन्ध-विधानं च परिदृश्यन्ते।"
         },
         {
           "page": 2,
           "heading": "Turanga-Gati: The Knight's Tour in Sanskrit Verse",
-          "body": "In the Turanga-Pada-Bandha, a verse written on an 8x8 chessboard reveals an entirely new, meaningful stanza when read along the L-shaped moves of a chess Knight (Aśva)."
+          "body": "In the Turanga-Pada-Bandha, a verse written on an 8x8 chessboard reveals an entirely new, meaningful stanza when read along the L-shaped moves of a chess Knight (Aśva).",
+          "heading_sa": "तुरङ्ग-गतिः — चतुरङ्ग-क्रीडायां श्लोक-विन्यासः",
+          "body_sa": "अश्वस्य गत्या श्लोकाक्षराणां पठनं पाठनं च तुरङ्ग-पद-बन्धः इत्युच्यते। संस्कृत-कविभिः एकादश-शतकेष्वेव एतादृशाः गणितात्मकाः चमत्काराः साधिताः।"
         },
         {
           "page": 3,
           "heading": "Muraja-Bandha: The Drum Constellation",
-          "body": "In Muraja-Bandha, the syllables of the poem, when mapped onto the diagonal laces of a traditional double-headed drum (Mridangam), read identically whether traced along the strings or across the perimeter."
+          "body": "In Muraja-Bandha, the syllables of the poem, when mapped onto the diagonal laces of a traditional double-headed drum (Mridangam), read identically whether traced along the strings or across the perimeter.",
+          "heading_sa": "मुरज-बन्धः — मृदङ्ग-वाद्य-आकारः",
+          "body_sa": "मुरज-बन्धः नाम श्लोकाक्षराणां मृदङ्गाकारेण विन्यासः, यत्र प्रति-पादम् आवर्तमानेषु अक्षरेषु अलौकिकं सङ्गीतं सौन्दर्यं च प्रकाशते।"
         }
       ]
     },
@@ -2945,14 +2985,14 @@
       "titleIAST": "Saṁskṛtaṁ Bhāratīyāḥ Bhāṣāśca",
       "titleEnglish": "Sanskrit and Indian Languages",
       "subtitle": "Common Roots, Shared Vocabulary & Cultural Bonds",
-      "canvas": "assets/images/chapter8/raman.jpg",
+      "canvas": "assets/images/acknowledge/back.jpg",
       "totalSections": 8,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
           "title": "Sanskrit and Indian Languages: The Great Unifying Thread",
-          "canvas": "assets/images/chapter8/raman.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Linguistic relationship between Sanskrit and regional Indian tongues.",
           "trackIndices": [],
           "proseText": "We have seen the important role Sanskrit has played in India's past. And this brings us naturally to the role it has to play in India's future. It is true that a national language is a very important element in the growth and self-actualisation of a people and a nation. It helps to develop and also to give expression to a common national identity.",
@@ -2962,7 +3002,7 @@
           "id": 2,
           "slideNumber": 2,
           "title": "Phonetic Roots in Indo-Aryan Vernaculars",
-          "canvas": "assets/images/chapter8/raman.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Evolution from Prakrit to Hindi, Bengali, Marathi, and Gujarati.",
           "trackIndices": [],
           "proseText": "The roots of almost all North Indian and Central Indian languages — Hindi, Bengali, Marathi, Gujarati, Punjabi, Odia, and Assamese — derive directly from Sanskrit. Their phonetic structure, grammatical declensions, and poetic metres reflect an unbroken organic continuity with the mother language.",
@@ -2972,7 +3012,7 @@
           "id": 3,
           "slideNumber": 3,
           "title": "Sanskrit and the Dravidian Languages: Cultural Synthesis",
-          "canvas": "assets/images/chapter8/raman.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Profuse vocabulary assimilation in Telugu, Kannada, Malayalam, and Tamil.",
           "trackIndices": [],
           "proseText": "In South India, the Dravidian languages — Tamil, Telugu, Kannada, and Malayalam — have absorbed an immense wealth of Sanskrit vocabulary, cultural imagery, and philosophical terminology over two millennia, creating an exquisite synthesis between indigenous idioms and classical Pan-Indian thought.",
@@ -2982,7 +3022,7 @@
           "id": 4,
           "slideNumber": 4,
           "title": "The Living Presence in Regional Literature",
-          "canvas": "assets/images/chapter8/raman.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Kavyas, devotional songs, and epics inspiring regional poets.",
           "trackIndices": [],
           "proseText": "From the Bhakti saints of Maharashtra and Bengal to the Carnatic composers of the South, Sanskrit has served as the living soul of regional literature. Tulsidas, Tyagaraja, Purandara Dasa, and Tukaram effortlessly wove Sanskrit concepts into the heart language of the common people.",
@@ -2992,7 +3032,7 @@
           "id": 5,
           "slideNumber": 5,
           "title": "Sanskrit as the Medium of Pan-Indian Intellectual Life",
-          "canvas": "assets/images/chapter8/raman.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Scholarly debates across Kashmir, Kerala, Bengal, and Gujarat.",
           "trackIndices": [],
           "proseText": "Throughout Indian history, whenever scholars from Kashmir, Kerala, Bengal, and Gujarat gathered to debate mathematics, astronomy, grammar, or metaphysics, Sanskrit was the universal lingua franca that made nationwide scientific discourse possible.",
@@ -3002,7 +3042,7 @@
           "id": 6,
           "slideNumber": 6,
           "title": "The Inflow of Technical and Philosophical Lexicon",
-          "canvas": "assets/images/chapter8/raman.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Scientific and medical vocabulary underlying all Indian languages.",
           "trackIndices": [],
           "proseText": "In the modern era of science, technology, and administration, modern Indian languages continuously replenish their vocabularies from the transparent, root-based generative mechanics of Sanskrit, creating precise indigenous terminology for modern concepts.",
@@ -3012,7 +3052,7 @@
           "id": 7,
           "slideNumber": 7,
           "title": "Sanskrit as the Bridge Across Cultural Diversity",
-          "canvas": "assets/images/chapter8/raman.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Universal emotional resonance uniting distant regions of India.",
           "trackIndices": [],
           "proseText": "Sanskrit acts as an extraordinary cultural bridge across India's immense regional, religious, and linguistic diversity. It belongs not to one province or sect, but to the collective civilisational memory of the entire subcontinent.",
@@ -3022,7 +3062,7 @@
           "id": 8,
           "slideNumber": 8,
           "title": "Sir C.V. Raman on Sanskrit: The Scientific Soul of India",
-          "canvas": "assets/images/chapter8/raman.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Nobel laureate C.V. Raman on Sanskrit's phonetic and cultural precision.",
           "trackIndices": [],
           "diagram": "assets/images/chapter8/raman.jpg",
@@ -3052,14 +3092,14 @@
       "titleIAST": "Saṁśayanivāraṇam",
       "titleEnglish": "Doubts & Clarifications",
       "subtitle": "Dispelling Misconceptions: The Myth of the Dead Language",
-      "canvas": "assets/images/chapter9/william jones.jpg",
+      "canvas": "assets/images/acknowledge/back.jpg",
       "totalSections": 5,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
           "title": "Is Sanskrit a 'Dead' Language? The Living Reality",
-          "canvas": "assets/images/chapter9/william jones.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Challenging modern misconceptions about the vitality of Sanskrit.",
           "trackIndices": [],
           "proseText": "It would be good at this stage to look at some of the objections that have been raised against Sanskrit becoming the national language of India. One argument is that Sanskrit is a 'dead' language. But a language is dead only when its literature is forgotten and its thought ceases to inspire. Millions in India still recite, study, and pray in Sanskrit every dawn.",
@@ -3069,7 +3109,7 @@
           "id": 2,
           "slideNumber": 2,
           "title": "Sir William Jones & The Global Discovery of Indo-European",
-          "canvas": "assets/images/chapter9/william jones.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "The 1786 Asiatic Society discourse on the structure of Sanskrit.",
           "trackIndices": [],
           "diagram": "assets/images/chapter9/william jones.jpg",
@@ -3081,7 +3121,7 @@
           "id": 3,
           "slideNumber": 3,
           "title": "Is Sanskrit Difficult? Natural Learning Approaches",
-          "canvas": "assets/images/chapter9/william jones.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "How simplified Sanskrit teaching revitalizes natural fluency.",
           "trackIndices": [],
           "proseText": "Another common doubt is whether Sanskrit is too difficult for ordinary people to learn. The perceived difficulty arises not from the inherent nature of the language, but from obsolete medieval pedagogical methods that emphasized memorising vast grammar tables before speaking a single sentence.",
@@ -3091,7 +3131,7 @@
           "id": 4,
           "slideNumber": 4,
           "title": "Daily Expressions and Spoken Sanskrit Revival",
-          "canvas": "assets/images/chapter9/william jones.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Modern movements demonstrating Sanskrit as a spoken tongue for conversation.",
           "trackIndices": [],
           "diagram": "assets/images/chapter9/popup1.jpg",
@@ -3103,7 +3143,7 @@
           "id": 5,
           "slideNumber": 5,
           "title": "The Future of Sanskrit in Global Culture",
-          "canvas": "assets/images/chapter9/william jones.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Its enduring relevance in linguistics, psychology, computer science, and spirituality.",
           "trackIndices": [],
           "proseText": "As humanity seeks deeper unity, environmental harmony, and precision in cognitive computing, Sanskrit stands not as a relic of an ancient past, but as a luminous bridge toward a conscious, enlightened future for global civilization.",
@@ -3131,14 +3171,14 @@
       "titleIAST": "Bhāratasya Ātmā",
       "titleEnglish": "The Soul of India",
       "subtitle": "National Mottos, Cultural Unity & the Vision of Great Leaders",
-      "canvas": "assets/images/chapter10/tagore.jpg",
+      "canvas": "assets/images/acknowledge/back.jpg",
       "totalSections": 8,
       "slides": [
         {
           "id": 1,
           "slideNumber": 1,
           "title": "Sanskrit: The Eternal Soul of India",
-          "canvas": "assets/images/chapter10/tagore.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Introduction to Sanskrit as the spiritual and cultural identity of India.",
           "trackIndices": [],
           "proseText": "So deeply is Sanskrit ingrained in its national consciousness, that when India became free and tried to express its aspirations in every field, it looked to Sanskrit for inspiration and fulfillment. It gave itself the ancient Sanskrit name, Bharata. The national anthem 'Jana Gana Mana' and national song 'Vande Mataram' are profoundly steeped in Sanskrit.",
@@ -3148,7 +3188,7 @@
           "id": 2,
           "slideNumber": 2,
           "title": "National Motto: Satyameva Jayate (Truth Alone Triumphs)",
-          "canvas": "assets/images/chapter10/tagore.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Mundaka Upanishad 3.1.6 adopted as India's supreme national seal.",
           "trackIndices": [
             0
@@ -3160,7 +3200,7 @@
           "id": 3,
           "slideNumber": 3,
           "title": "The Sacred Geography of Bharata: North to the Snowy Himalayas",
-          "canvas": "assets/images/chapter10/tagore.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Vishnu Purana description of the sacred land between the mountains and the sea.",
           "trackIndices": [
             1
@@ -3172,7 +3212,7 @@
           "id": 4,
           "slideNumber": 4,
           "title": "Rabindranath Tagore on the Universal Spirit of Sanskrit",
-          "canvas": "assets/images/chapter10/tagore.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Tagore's reflection on Sanskrit literature as India's gift to the world.",
           "trackIndices": [],
           "diagram": "assets/images/chapter10/tagore.jpg",
@@ -3184,7 +3224,7 @@
           "id": 5,
           "slideNumber": 5,
           "title": "The Holy Rivers of India: The Sacred Invocation",
-          "canvas": "assets/images/chapter10/tagore.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Ganga, Yamuna, Godavari, Saraswati, Narmada, Sindhu, and Kaveri.",
           "trackIndices": [],
           "proseText": "The sacred invocation of India's rivers binding the hearts of all pilgrims: 'Gange cha Yamune chaiva Godavari Sarasvati, Narmade Sindhu Kaveri jale'smin sannidhim kuru.' O holy rivers Ganga, Yamuna, Godavari, Sarasvati, Narmada, Sindhu, and Kaveri, be present in these waters!",
@@ -3194,7 +3234,7 @@
           "id": 6,
           "slideNumber": 6,
           "title": "Jawaharlal Nehru on the Living Heritage of Sanskrit",
-          "canvas": "assets/images/chapter10/tagore.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Nehru's testament in The Discovery of India on the genius of Sanskrit.",
           "trackIndices": [],
           "diagram": "assets/images/chapter10/nehru.jpg",
@@ -3206,7 +3246,7 @@
           "id": 7,
           "slideNumber": 7,
           "title": "Invocation to Sthanu: Mahakavi Kalidasa's Opening Prayer",
-          "canvas": "assets/images/chapter10/tagore.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Vikramorvashiyam 1.1 invocation to the eternal Lord Shiva.",
           "trackIndices": [
             2
@@ -3218,7 +3258,7 @@
           "id": 8,
           "slideNumber": 8,
           "title": "The Eternal Dawn: Preserving the Heritage for Future Generations",
-          "canvas": "assets/images/chapter10/tagore.jpg",
+          "canvas": "assets/images/acknowledge/back.jpg",
           "description": "Concluding celebration of Devabhasha across millennia.",
           "trackIndices": [],
           "proseText": "Preserving and revitalizing this living heritage is our sacred duty to future generations. Devabhasha Modern ensures that the voice, intellect, and profound spiritual melody of ancient India remains accessible to seekers, scholars, and children across the world forever.",
