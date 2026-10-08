@@ -1133,7 +1133,7 @@ class DevabhashaApp {
 
     // Smooth GPU Canvas Backdrop crossfade with cache-busting
     if (this.stageCanvasBg && slide.canvas) {
-      const targetSrc = slide.canvas.includes('?v=') ? slide.canvas : `${slide.canvas}?v=1.4.0`;
+      const targetSrc = slide.canvas.includes('?v=') ? slide.canvas : `${slide.canvas}?v=1.4.2`;
       const currentSrc = this.stageCanvasBg.getAttribute('src');
       if (currentSrc !== targetSrc && currentSrc !== slide.canvas) {
         this.stageCanvasBg.style.opacity = '0.3';

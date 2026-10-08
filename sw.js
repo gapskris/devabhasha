@@ -10,8 +10,8 @@
  * 4. AUDIO: Cached at runtime only upon receiving a complete 200 OK response.
  */
 
-const CORE_CACHE_NAME = 'devabhasha-core-v1.4.1';
-const MEDIA_CACHE_NAME = 'devabhasha-media-v1.4.1';
+const CORE_CACHE_NAME = 'devabhasha-core-v1.4.2';
+const MEDIA_CACHE_NAME = 'devabhasha-media-v1.4.2';
 
 // Core Application Shell assets (~2.5 MB total)
 const PRECACHE_ASSETS = [

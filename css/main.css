@@ -1110,7 +1110,7 @@ body.mode-english .nav-link .text-secondary-label {
 /* ================= PARCHMENT STAGE CONTAINER (PIC 3) ================= */
 .stage-container {
   width: 100%;
-  max-width: min(1520px, 96%);
+  max-width: 1080px;
   margin: 0 auto;
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
