@@ -291,10 +291,22 @@
     position: relative !important;
     inset: auto !important;
     width: 100% !important;
-    max-height: 240px !important;
+    height: auto !important;
+    max-height: none !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin: 0 0 12px 0 !important;
     z-index: 3 !important;
+  }
+
+  .canvas-stage-wrapper.diagram-mode .diagram-frame {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .canvas-stage-wrapper.diagram-mode .diagram-img-wrap,
+  .canvas-stage-wrapper.diagram-mode .stage-diagram-img {
+    max-height: 180px !important;
   }
 
   .canvas-stage-wrapper.diagram-mode .dialogues-wrapper {
