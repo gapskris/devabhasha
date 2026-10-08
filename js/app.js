@@ -1133,7 +1133,7 @@ class DevabhashaApp {
 
     // Smooth GPU Canvas Backdrop crossfade with cache-busting
     if (this.stageCanvasBg && slide.canvas) {
-      const targetSrc = slide.canvas.includes('?v=') ? slide.canvas : `${slide.canvas}?v=1.3.0`;
+      const targetSrc = slide.canvas.includes('?v=') ? slide.canvas : `${slide.canvas}?v=1.4.0`;
       const currentSrc = this.stageCanvasBg.getAttribute('src');
       if (currentSrc !== targetSrc && currentSrc !== slide.canvas) {
         this.stageCanvasBg.style.opacity = '0.3';
@@ -1297,6 +1297,15 @@ class DevabhashaApp {
 
     // Handle pure narrative slides with no matching audio tracks
     let slideCard = this.dialoguesWrapper.querySelector('.slide-intro-card');
+    if (slide && slide.layout === 'image-only') {
+      if (slideCard) slideCard.style.display = 'none';
+      allCards.forEach(c => { c.style.display = 'none'; });
+      this.dialoguesWrapper.style.display = 'none';
+      return;
+    } else {
+      this.dialoguesWrapper.style.display = '';
+    }
+
     if (visibleCount === 0 && slide && (slide.description || slide.proseText || slide.proseTextSanskrit)) {
       if (!slideCard) {
         slideCard = document.createElement('div');

@@ -51,6 +51,7 @@ const DEVABHASHA_DATA = {
           "id": 1,
           "slideNumber": 1,
           "title": "Entering the Ancient Temple of Speech",
+          "layout": "image-only",
           "canvas": "assets/images/chapter1/chap1page01.jpg",
           "trackIndex": null,
           "sectionIndex": 0,

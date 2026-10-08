@@ -30,33 +30,32 @@
   transition: opacity 0.35s ease-in-out, filter 0.35s ease-in-out;
 }
 
-/* ================= DUAL-PANE DIAGRAM & ARTWORK MODE ================= */
+/* ================= ARCHETYPE 3: DUAL-PANE DIAGRAM & ARTWORK MODE ================= */
 .canvas-stage-wrapper.diagram-mode {
   aspect-ratio: auto !important;
   min-height: clamp(540px, 68vh, 760px);
   max-height: 860px;
+  position: relative !important;
 }
 
 .canvas-stage-wrapper.diagram-mode .stage-canvas-bg {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
   opacity: 0.88 !important;
   filter: none !important;
-}
-
-.canvas-stage-wrapper.diagram-mode .dialogues-wrapper.art-left {
-  padding-left: 0 !important;
+  z-index: 1 !important;
 }
 
 .stage-diagram-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 50%;
+  position: relative;
   z-index: 3;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: clamp(14px, 2.5vh, 24px) 16px 24px 20px;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
   pointer-events: auto;
   box-sizing: border-box;
 }
@@ -178,13 +177,61 @@
   letter-spacing: 0.01em;
 }
 
-/* In Diagram Mode, dialogues wrapper takes the right half without covering the diagram */
-.canvas-stage-wrapper.diagram-mode .dialogues-wrapper {
-  left: 50% !important;
-  width: 50% !important;
-  right: 0 !important;
-  padding: clamp(14px, 2.5vh, 24px) 20px 56px 16px !important;
-  box-sizing: border-box;
+/* ================= ARCHETYPE 3: DESKTOP DUAL-PANE GRID (>= 768px / >= 900px) ================= */
+@media (min-width: 768px) {
+  .canvas-stage-wrapper.diagram-mode {
+    display: grid !important;
+    grid-template-columns: 48% 48% !important;
+    column-gap: 4% !important;
+    align-items: start !important; /* Locks BOTH to identical Top Baseline */
+    padding: clamp(16px, 2.5vh, 26px) clamp(16px, 2.5vw, 24px) 56px !important;
+    box-sizing: border-box !important;
+  }
+
+  .canvas-stage-wrapper.diagram-mode .stage-diagram-container {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: 3 !important;
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .canvas-stage-wrapper.diagram-mode .diagram-frame {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .canvas-stage-wrapper.diagram-mode .dialogues-wrapper {
+    position: relative !important;
+    inset: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: 3 !important;
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .canvas-stage-wrapper.diagram-mode .dialogues-wrapper .dialogue-card {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
 }
 
 /* Responsive adjustment for Mobile / Small Screens (Two-Tier Vertical Stack) */
@@ -232,27 +279,33 @@
   .canvas-stage-wrapper.diagram-mode {
     display: flex !important;
     flex-direction: column !important;
+    gap: 12px !important;
+    padding: 10px !important;
     height: auto !important;
     max-height: none !important;
     aspect-ratio: auto !important;
+    box-sizing: border-box !important;
   }
 
   .canvas-stage-wrapper.diagram-mode .stage-diagram-container {
     position: relative !important;
+    inset: auto !important;
     width: 100% !important;
     max-height: 240px !important;
-    padding: 10px !important;
-    margin-bottom: 8px !important;
-    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: 3 !important;
   }
 
   .canvas-stage-wrapper.diagram-mode .dialogues-wrapper {
     position: relative !important;
+    inset: auto !important;
     left: 0 !important;
     width: 100% !important;
     max-height: none !important;
-    padding: 8px 12px 48px 12px !important;
-    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: 3 !important;
   }
 }
 
@@ -295,17 +348,17 @@
     box-sizing: border-box !important;
   }
 
-  /* Art on left (e.g. Chapter 1 Slide 1 Temple, Chapter 1 Slide 6 Shiva-Parvati statue, Chapter 5 Golden Lotus):
-     Leaves left 44% illustration completely uncovered! Text flows strictly in right safe-zone */
+  /* Art on left (e.g. Chapter 1 Slide 6 Shiva-Parvati statue, Chapter 5 Golden Lotus):
+     Leaves left 46% illustration completely uncovered! Text flows strictly in right safe-zone */
   .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper.art-left {
-    padding-left: 44% !important;
+    padding-left: 46% !important;
     padding-right: 4% !important;
   }
 
   /* Art on right (e.g. Chapter 2 Slide 1 Buddha head, Chapter 2 Slide 23 holy book):
-     Leaves right 44% illustration completely uncovered! Text flows strictly in left safe-zone */
+     Leaves right 46% illustration completely uncovered! Text flows strictly in left safe-zone */
   .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper.art-right {
-    padding-right: 44% !important;
+    padding-right: 46% !important;
     padding-left: 4% !important;
   }
 
