@@ -290,6 +290,7 @@ body {
   border-radius: 30px;
   font-size: 0.88rem;
   font-weight: 600;
+  font-family: var(--font-sanskrit), var(--font-serif), sans-serif;
   transition: var(--transition);
   cursor: pointer;
 }
@@ -999,6 +1000,30 @@ body {
   font-size: 0.72rem;
   color: var(--text-muted);
   font-family: var(--font-sanskrit);
+}
+
+/* Script Mode Visibility Controls for Sidebar */
+body.mode-devanagari .nav-link .text-primary-label {
+  display: none !important;
+}
+
+body.mode-devanagari .nav-link .text-secondary-label {
+  font-size: 0.92rem !important;
+  color: var(--accent-gold) !important;
+  font-family: var(--font-sanskrit), serif !important;
+  font-weight: 600;
+}
+
+body.mode-devanagari .cat-en {
+  display: none !important;
+}
+
+body.mode-english .cat-sa {
+  display: none !important;
+}
+
+body.mode-english .nav-link .text-secondary-label {
+  display: none !important;
 }
 
 .nav-drawer-backdrop {

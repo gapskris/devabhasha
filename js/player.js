@@ -129,8 +129,7 @@ class DevabhashaPlayer {
       this.audio.src = targetSrc;
     }
 
-    if (this.titleDisplay) this.titleDisplay.textContent = track.title || 'Sanskrit Recitation';
-    if (this.subDisplay) this.subDisplay.textContent = track.speaker || track.chapterTitle || 'Devabhāṣā';
+    this.updateTrackDisplay(track);
     if (this.timeCurrent) this.timeCurrent.textContent = '0:00';
     if (this.progressBar) this.progressBar.value = 0;
 
@@ -170,8 +169,7 @@ class DevabhashaPlayer {
       this.audio.src = targetSrc;
     }
     
-    if (this.titleDisplay) this.titleDisplay.textContent = track.title || 'Sanskrit Recitation';
-    if (this.subDisplay) this.subDisplay.textContent = track.speaker || track.chapterTitle || 'Devabhāṣā';
+    this.updateTrackDisplay(track);
 
     const playPromise = this.audio.play();
     if (playPromise !== undefined) {
@@ -252,6 +250,33 @@ class DevabhashaPlayer {
     }
   }
 
+  updateTrackDisplay(track = null) {
+    const t = track || this.currentTrack;
+    if (!t) return;
+
+    const appInst = window.DevabhashaApp || window.DevabhashaInstance || window.app;
+    const isDevanagari = !appInst || appInst.displayView === 'devanagari';
+    const isBilingual = appInst && appInst.displayView === 'bilingual';
+
+    if (this.titleDisplay) {
+      if (isDevanagari) {
+        this.titleDisplay.textContent = t.titleSanskrit || t.sanskrit || t.title || 'संस्कृत-गानम्';
+      } else if (isBilingual && t.titleSanskrit && t.titleSanskrit !== t.title) {
+        this.titleDisplay.textContent = `${t.titleSanskrit} • ${t.title}`;
+      } else {
+        this.titleDisplay.textContent = t.title || 'Sanskrit Recitation';
+      }
+    }
+
+    if (this.subDisplay) {
+      if (isDevanagari) {
+        this.subDisplay.textContent = 'वाचकः / अध्येता • देवभाषा';
+      } else {
+        this.subDisplay.textContent = t.speaker || t.chapterTitle || 'Devabhāṣā';
+      }
+    }
+  }
+
   updatePlayState() {
     // Bottom player bar play button
     if (this.playBtn) {
@@ -259,10 +284,18 @@ class DevabhashaPlayer {
     }
 
     // Stage header "Play All in Chapter" button
+    const appInst = window.DevabhashaApp || window.DevabhashaInstance || window.app;
+    const isDevanagari = !appInst || appInst.displayView === 'devanagari';
     const playAllIcon = document.getElementById('play-all-icon');
     const playAllText = document.getElementById('play-all-text');
     if (playAllIcon) playAllIcon.textContent = this.isPlaying ? '❚❚' : '▶';
-    if (playAllText) playAllText.textContent = this.isPlaying ? 'Pause Chapter' : 'Play All in Chapter';
+    if (playAllText) {
+      if (this.isPlaying) {
+        playAllText.textContent = isDevanagari ? 'विरामः' : 'Pause Chapter';
+      } else {
+        playAllText.textContent = isDevanagari ? 'सर्वेषां गानम्' : 'Play All in Chapter';
+      }
+    }
 
     // In-card play buttons
     document.querySelectorAll('.dialogue-audio-btn').forEach((btn) => {

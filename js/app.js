@@ -236,8 +236,7 @@ class DevabhashaApp {
     if (btnCurriculum) {
       btnCurriculum.addEventListener('click', () => {
         this.loadChapter(this.activeChapterId || 1);
-        const reader = document.getElementById('chapter-reader');
-        if (reader) reader.scrollIntoView({ behavior: 'smooth' });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         this.closeMobileDrawer();
       });
     }
@@ -284,6 +283,10 @@ class DevabhashaApp {
         this.renderChapterCards();
         this.renderSlide(this.activeSlideIndex, false);
         this.updateHeaderMetaLabels();
+        if (window.Player) {
+          if (typeof window.Player.updateTrackDisplay === 'function') window.Player.updateTrackDisplay();
+          if (typeof window.Player.updatePlayState === 'function') window.Player.updatePlayState();
+        }
       });
     });
 
@@ -663,6 +666,7 @@ class DevabhashaApp {
     if (this.splashGateway) this.splashGateway.classList.add('hidden');
     if (this.appShell) this.appShell.classList.remove('hidden');
 
+    window.scrollTo(0, 0);
     this.loadChapter(1);
   }
 
@@ -739,8 +743,9 @@ class DevabhashaApp {
       const id = parseInt(pill.dataset.chapterId, 10);
       const isActive = (id === chapterId);
       pill.classList.toggle('active', isActive);
-      if (isActive) {
-        pill.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+      if (isActive && this.chapterPillsContainer) {
+        const targetLeft = pill.offsetLeft - (this.chapterPillsContainer.clientWidth / 2) + (pill.clientWidth / 2);
+        this.chapterPillsContainer.scrollTo({ left: Math.max(0, targetLeft), behavior: 'smooth' });
       }
     });
 
@@ -904,6 +909,7 @@ class DevabhashaApp {
         const trackSanskrit = track.sanskrit || track.text_sa || '';
         const trackIast = track.iast || track.text_iast || '';
         const trackTranslation = track.translation || track.text_en || '';
+        const trackSa = track.titleSanskrit || track.title_sa || '';
 
         playlist.push({
           id: track.id || `chap${chapter.id}_${idx + 1}`,
@@ -911,6 +917,7 @@ class DevabhashaApp {
           m4a: track.m4a,
           mp3: track.mp3,
           title: trackTitle,
+          titleSanskrit: trackSa || trackSanskrit || trackTitle,
           speaker: trackSpeaker,
           chapterTitle: `Devabhāṣā Chapter ${chapter.id}: ${titleEn}`,
           sanskrit: trackSanskrit,
@@ -957,7 +964,7 @@ class DevabhashaApp {
 
         // Compute script-specific semantic seal title
         let sealTitle = '';
-        const trackSa = track.titleSanskrit || track.title_sa || '';
+
         if (this.displayView === 'devanagari') {
           if (trackSa) {
             sealTitle = trackSa;
@@ -1024,8 +1031,8 @@ class DevabhashaApp {
         let bodyHtml = '';
 
         if (this.displayView === 'devanagari') {
-          displayHeading = headingSa || headingEn;
-          bodyHtml = `<div class="text-prose" style="font-size:1.02rem; line-height: 1.75; border: none; padding: 0; color: #3e1f08; font-family:'Noto Serif Devanagari', serif;">${(bodySa || bodyEn).replace(/\n\n/g, '<br><br>')}</div>`;
+          displayHeading = headingSa || 'अध्याय-विषयः';
+          bodyHtml = `<div class="text-prose" style="font-size:1.02rem; line-height: 1.75; border: none; padding: 0; color: #3e1f08; font-family:'Noto Serif Devanagari', serif;">${(bodySa || 'संस्कृत-साहित्य-समीक्षा').replace(/\n\n/g, '<br><br>')}</div>`;
         } else if (this.displayView === 'english') {
           displayHeading = headingEn;
           bodyHtml = `<div class="text-prose" style="font-size:0.96rem; line-height: 1.6; border: none; padding: 0; color: #45220a;">${(bodyEn || bodySa).replace(/\n\n/g, '<br><br>')}</div>`;
@@ -1180,9 +1187,16 @@ class DevabhashaApp {
       }
       if (this.btnZoomDiagram) this.btnZoomDiagram.classList.remove('hidden');
       if (this.diagramBadge) {
-        this.diagramBadge.textContent = this.displayView === 'devanagari'
-          ? (slide.titleSanskrit || 'चित्रकाव्य-चित्रम्')
-          : (slide.diagramTitle || 'Sanskrit Geometric Diagram');
+        let badgeText = '';
+        if (this.displayView === 'devanagari') {
+          if (this.activeChapterId === 2) badgeText = 'वर्णमाला-चित्रम्';
+          else if (this.activeChapterId === 3) badgeText = 'चित्रकाव्य-चित्रम्';
+          else if (this.activeChapterId === 4) badgeText = 'विज्ञान-चित्रम्';
+          else badgeText = slide.titleSanskrit || 'पाण्डुलिपि-चित्रम्';
+        } else {
+          badgeText = slide.diagramTitle || (this.activeChapterId === 2 ? 'Alphabet Articulation Chart' : 'Visual Artwork & Diagram');
+        }
+        this.diagramBadge.textContent = badgeText;
       }
       if (this.btnViewDiagram) {
         this.btnViewDiagram.classList.remove('hidden');
@@ -1197,32 +1211,8 @@ class DevabhashaApp {
       if (folioNarrativeBox) {
         folioNarrativeBox.classList.add('hidden');
       }
-    } else if (hasAudioCards && prose && prose.length > 20) {
-      // Mode B: Dual-Pane Folio Mode (Historical narrative on left, recitation cards on right)
-      this.currentDiagram = null;
-      if (this.canvasStageWrapper) this.canvasStageWrapper.classList.add('diagram-mode');
-      if (this.stageDiagramContainer) this.stageDiagramContainer.classList.remove('hidden');
-      if (diagramImgWrap) diagramImgWrap.classList.add('hidden');
-      if (this.btnZoomDiagram) this.btnZoomDiagram.classList.add('hidden');
-      if (this.btnViewDiagram) this.btnViewDiagram.classList.add('hidden');
-      if (this.diagramBadge) {
-        this.diagramBadge.textContent = this.displayView === 'devanagari'
-          ? '〔 ऐतिहासिक-समीक्षा • विषय-परिचयः 〕'
-          : '〔 Historical Context & Commentary 〕';
-      }
-      if (folioNarrativeBox) {
-        folioNarrativeBox.classList.remove('hidden');
-        if (folioNarrativeTitle) {
-          folioNarrativeTitle.textContent = this.displayView === 'devanagari'
-            ? (slide.titleSanskrit || slide.title)
-            : slide.title;
-        }
-        if (folioNarrativeText) {
-          folioNarrativeText.textContent = prose;
-        }
-      }
     } else {
-      // Mode C: Single-pane mode
+      // Archetype 2: Image + Text Safe-Zone Mode (or Archetype 1 Image-Only)
       this.currentDiagram = null;
       if (this.canvasStageWrapper) this.canvasStageWrapper.classList.remove('diagram-mode');
       if (this.stageDiagramContainer) this.stageDiagramContainer.classList.add('hidden');
@@ -1318,15 +1308,15 @@ class DevabhashaApp {
       const sealPageLabel = this.displayView === 'devanagari'
         ? `〔 अध्यायः ${this.activeChapterId} — पृष्ठम् ${slide.slideNumber} 〕`
         : `〔 Chapter ${this.activeChapterId} — Page ${slide.slideNumber} 〕`;
-      const slideTitleDisplay = (this.displayView === 'devanagari' && slide.titleSanskrit)
-        ? slide.titleSanskrit
+      const slideTitleDisplay = (this.displayView === 'devanagari')
+        ? (slide.titleSanskrit || 'अध्याय-विषयः')
         : (slide.title || 'Overview');
 
       let textToDisplay = '';
       const sanskritText = slide.proseTextSanskrit || '';
       const englishText = slide.proseText || slide.description || '';
       if (this.displayView === 'devanagari') {
-        textToDisplay = sanskritText || englishText;
+        textToDisplay = sanskritText || 'संस्कृत-वाङ्मय-परिचयः';
       } else if (this.displayView === 'english') {
         textToDisplay = englishText || sanskritText;
       } else {
@@ -1383,8 +1373,9 @@ class DevabhashaApp {
       });
       // Scroll active dot into view if overflowing
       const activeDot = dots[this.activeSlideIndex];
-      if (activeDot && typeof activeDot.scrollIntoView === 'function') {
-        activeDot.scrollIntoView({ behavior: 'smooth', inline: 'center' });
+      if (activeDot && this.slideIndicators) {
+        const targetLeft = activeDot.offsetLeft - (this.slideIndicators.clientWidth / 2) + (activeDot.clientWidth / 2);
+        this.slideIndicators.scrollTo({ left: Math.max(0, targetLeft), behavior: 'smooth' });
       }
     }
   }
@@ -1686,4 +1677,6 @@ class DevabhashaApp {
 // Bootstrap on DOM Ready
 document.addEventListener('DOMContentLoaded', () => {
   window.app = new DevabhashaApp();
+  window.DevabhashaApp = window.app;
+  window.DevabhashaInstance = window.app;
 });

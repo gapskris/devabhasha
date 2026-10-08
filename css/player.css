@@ -54,10 +54,11 @@
   width: 50%;
   z-index: 3;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 16px 12px 24px 18px;
+  padding: clamp(14px, 2.5vh, 24px) 16px 24px 20px;
   pointer-events: auto;
+  box-sizing: border-box;
 }
 
 .stage-diagram-container.hidden {
@@ -67,13 +68,13 @@
 .diagram-frame {
   position: relative;
   width: 100%;
-  max-width: 540px;
-  max-height: 92%;
+  max-width: 480px;
+  max-height: calc(100% - 20px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background: rgba(26, 17, 10, 0.92);
+  justify-content: flex-start;
+  background: rgba(26, 17, 10, 0.94);
   border: 1px solid rgba(217, 119, 6, 0.6);
   border-radius: 10px;
   box-shadow: 
@@ -84,6 +85,7 @@
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   animation: fadeIn 0.3s ease-out;
+  box-sizing: border-box;
 }
 
 .diagram-badge {
@@ -97,7 +99,7 @@
   margin-bottom: 10px;
   text-align: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-family: var(--font-sanskrit), serif;
 }
 
 .diagram-img-wrap {
@@ -107,15 +109,16 @@
   justify-content: center;
   overflow: hidden;
   border-radius: 6px;
-  background: #0f0a07;
+  background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.15);
-  max-height: 60vh;
-  width: 100%;
+  max-height: clamp(240px, 40vh, 380px);
+  width: auto;
+  max-width: 100%;
 }
 
 .stage-diagram-img {
   max-width: 100%;
-  max-height: 520px;
+  max-height: clamp(240px, 40vh, 360px);
   object-fit: contain;
   display: block;
   border-radius: 4px;
@@ -180,47 +183,76 @@
   left: 50% !important;
   width: 50% !important;
   right: 0 !important;
-  padding: clamp(14px, 2vh, 22px) 4% 56px 4% !important;
+  padding: clamp(14px, 2.5vh, 24px) 20px 56px 16px !important;
+  box-sizing: border-box;
 }
 
-/* Responsive adjustment for Mobile / Small Screens */
+/* Responsive adjustment for Mobile / Small Screens (Two-Tier Vertical Stack) */
 @media (max-width: 767px) {
   .canvas-stage-wrapper {
     aspect-ratio: auto !important;
-    min-height: 480px;
+    min-height: 480px !important;
     height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
   }
 
+  /* Top tier: Artwork header (Statue/Temple 100% visible, height 180-230px, zero overlap) */
+  .canvas-stage-wrapper:not(.diagram-mode) .stage-canvas-bg {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: clamp(180px, 30vh, 230px) !important;
+    max-height: 240px !important;
+    object-fit: contain !important;
+    object-position: top center !important;
+    background: #140e0a !important;
+    border-bottom: 1px solid var(--border-gold) !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Bottom tier: Text card flows naturally below artwork with full readable width */
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    padding: 14px 12px 48px 12px !important;
+    max-height: none !important;
+    box-sizing: border-box !important;
+  }
+
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper.art-left,
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper.art-right,
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper.art-center {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* Dual-Pane Mode on Mobile (Sequential Vertical Stacking) */
   .canvas-stage-wrapper.diagram-mode {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
     height: auto !important;
     max-height: none !important;
     aspect-ratio: auto !important;
   }
 
   .canvas-stage-wrapper.diagram-mode .stage-diagram-container {
-    position: relative;
-    width: 100%;
-    max-height: 280px;
-    padding: 10px;
-    box-sizing: border-box;
+    position: relative !important;
+    width: 100% !important;
+    max-height: 240px !important;
+    padding: 10px !important;
+    margin-bottom: 8px !important;
+    box-sizing: border-box !important;
   }
 
   .canvas-stage-wrapper.diagram-mode .dialogues-wrapper {
     position: relative !important;
     left: 0 !important;
     width: 100% !important;
-    max-height: 520px;
-    padding: 12px 14px 48px 14px !important;
-    box-sizing: border-box;
-  }
-
-  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper {
-    position: relative !important;
-    max-height: 520px;
-    padding: 12px 14px 48px 14px !important;
-    box-sizing: border-box;
+    max-height: none !important;
+    padding: 8px 12px 48px 12px !important;
+    box-sizing: border-box !important;
   }
 }
 
@@ -253,30 +285,46 @@
   border-radius: 4px;
 }
 
-/* Safe Zone layout for corner illustrations on desktop/tablet */
+/* Balanced safe-zone layout for cards on desktop/tablet (Ashtavadhanam 1-to-1 Parity) */
 @media (min-width: 768px) {
-  /* For chapters with illustrations at left (e.g. Chapter 1, 5, 7) */
-  .dialogues-wrapper.art-left {
-    padding-top: clamp(14px, 2vh, 22px);
-    padding-left: 36%;
-    padding-right: 3.5%;
-    padding-bottom: 56px;
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper {
+    position: absolute !important;
+    inset: 0 !important;
+    padding-top: clamp(16px, 3vh, 30px) !important;
+    padding-bottom: 56px !important;
+    box-sizing: border-box !important;
   }
 
-  /* For chapters with illustrations at right (e.g. Chapter 2, 8, 9, 10) */
-  .dialogues-wrapper.art-right {
-    padding-top: clamp(14px, 2vh, 22px);
-    padding-right: 36%;
-    padding-left: 3.5%;
-    padding-bottom: 56px;
+  /* Art on left (e.g. Chapter 1 Slide 1 Temple, Chapter 1 Slide 6 Shiva-Parvati statue, Chapter 5 Golden Lotus):
+     Leaves left 44% illustration completely uncovered! Text flows strictly in right safe-zone */
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper.art-left {
+    padding-left: 44% !important;
+    padding-right: 4% !important;
   }
 
-  /* For center/subtle watermark chapters */
-  .dialogues-wrapper.art-center {
-    padding-top: clamp(14px, 2vh, 22px);
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-bottom: 56px;
+  /* Art on right (e.g. Chapter 2 Slide 1 Buddha head, Chapter 2 Slide 23 holy book):
+     Leaves right 44% illustration completely uncovered! Text flows strictly in left safe-zone */
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper.art-right {
+    padding-right: 44% !important;
+    padding-left: 4% !important;
+  }
+
+  /* Centered art / frame: Text flows centered with generous margins */
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper.art-center {
+    padding-left: 6% !important;
+    padding-right: 6% !important;
+  }
+
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogue-card {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .canvas-stage-wrapper:not(.diagram-mode) .dialogues-wrapper.art-center .dialogue-card {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
