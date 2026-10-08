@@ -226,7 +226,7 @@ const DEVABHASHA_DATA = {
       "titleIAST": "Bhāṣāṇāṁ Jananī",
       "titleEnglish": "The Mother of Languages",
       "subtitle": "The Science of Sound, Phonetics & Maheshvara Sutras",
-      "canvas": "assets/images/chap2/01.jpg",
+      "canvas": "assets/images/chap2/page01.jpg",
       "totalSections": 23,
       "slides": [
         {

@@ -774,11 +774,6 @@ class DevabhashaApp {
     // Update Stage Header Info
     this.updateHeaderMetaLabels(chapter);
 
-    // Update Canvas Backdrop Image
-    if (this.stageCanvasBg && chapter.canvas) {
-      this.stageCanvasBg.src = chapter.canvas;
-    }
-
     // Configure safe zone illustration layout
     if (this.dialoguesWrapper) {
       this.dialoguesWrapper.classList.remove('art-left', 'art-right', 'art-center');
@@ -1136,13 +1131,17 @@ class DevabhashaApp {
     this.activeSlideIndex = slideIndex;
     const slide = slides[slideIndex];
 
-    // Smooth GPU Canvas Backdrop crossfade
+    // Smooth GPU Canvas Backdrop crossfade with cache-busting
     if (this.stageCanvasBg && slide.canvas) {
-      this.stageCanvasBg.style.opacity = '0.2';
-      setTimeout(() => {
-        this.stageCanvasBg.src = slide.canvas;
-        this.stageCanvasBg.style.opacity = '1';
-      }, 150);
+      const targetSrc = slide.canvas.includes('?v=') ? slide.canvas : `${slide.canvas}?v=1.3.0`;
+      const currentSrc = this.stageCanvasBg.getAttribute('src');
+      if (currentSrc !== targetSrc && currentSrc !== slide.canvas) {
+        this.stageCanvasBg.style.opacity = '0.3';
+        this.stageCanvasBg.onload = () => {
+          this.stageCanvasBg.style.opacity = '1';
+        };
+        this.stageCanvasBg.src = targetSrc;
+      }
     }
 
     // Update Slide Ribbon UI
